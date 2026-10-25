@@ -2,10 +2,10 @@
   "overview": {
     "current_month": "2026-10",
     "last_month": "2026-09",
-    "cutoff_day": 25,
-    "period_label": "25日",
-    "last_month_period": "9月1-24日",
-    "yesterday": "2026-10-24",
+    "cutoff_day": 26,
+    "period_label": "26日",
+    "last_month_period": "9月1-25日",
+    "yesterday": "2026-10-25",
     "departments": [
       {
         "name": "一部",
@@ -13,10 +13,10 @@
         "base_target": 900000,
         "stretch_target": 1130000,
         "actual": 705682.24,
-        "actual_jul": 577446.42,
-        "actual_prev": 577446.42,
+        "actual_jul": 594992.72,
+        "actual_prev": 594992.72,
         "completion": 78.4,
-        "mom_change": 22.2,
+        "mom_change": 18.6,
         "target_ready": true,
         "group_count": 4,
         "person_count": 19,
@@ -46,8 +46,8 @@
             "status": "在职"
           }
         ],
-        "yesterday_actual": 32567.72,
-        "daily_eff": 1714.09,
+        "yesterday_actual": 0.0,
+        "daily_eff": 0.0,
         "monthly_eff": 37141.17
       },
       {
@@ -56,10 +56,10 @@
         "base_target": 970000,
         "stretch_target": 1160000,
         "actual": 621456.67,
-        "actual_jul": 410067.11,
-        "actual_prev": 410067.11,
+        "actual_jul": 420753.61,
+        "actual_prev": 420753.61,
         "completion": 64.1,
-        "mom_change": 51.5,
+        "mom_change": 47.7,
         "target_ready": true,
         "group_count": 5,
         "person_count": 21,
@@ -74,8 +74,8 @@
             "status": "在职"
           }
         ],
-        "yesterday_actual": 34221.6,
-        "daily_eff": 2013.04,
+        "yesterday_actual": 0,
+        "daily_eff": 0.0,
         "monthly_eff": 36556.27
       },
       {
@@ -84,10 +84,10 @@
         "base_target": 270000,
         "stretch_target": 350000,
         "actual": 85827.92,
-        "actual_jul": 130373.33,
-        "actual_prev": 130373.33,
+        "actual_jul": 135088.32,
+        "actual_prev": 135088.32,
         "completion": 31.8,
-        "mom_change": -34.2,
+        "mom_change": -36.5,
         "target_ready": true,
         "group_count": 3,
         "person_count": 11,
@@ -102,8 +102,8 @@
             "status": "在职"
           }
         ],
-        "yesterday_actual": 4440.34,
-        "daily_eff": 888.07,
+        "yesterday_actual": 0.0,
+        "daily_eff": 0.0,
         "monthly_eff": 17165.58
       },
       {
@@ -112,10 +112,10 @@
         "base_target": 470000,
         "stretch_target": 590000,
         "actual": 160741.26,
-        "actual_jul": 152512.03,
-        "actual_prev": 152512.03,
+        "actual_jul": 157455.33,
+        "actual_prev": 157455.33,
         "completion": 34.2,
-        "mom_change": 5.4,
+        "mom_change": 2.1,
         "target_ready": true,
         "group_count": 3,
         "person_count": 12,
@@ -124,8 +124,8 @@
         "trial_count": 3,
         "shigang_count": 0,
         "shigang_list": [],
-        "yesterday_actual": 7178.73,
-        "daily_eff": 797.64,
+        "yesterday_actual": 0.0,
+        "daily_eff": 0.0,
         "monthly_eff": 17860.14
       },
       {
@@ -134,10 +134,10 @@
         "base_target": 480000,
         "stretch_target": 600000,
         "actual": 231303.57,
-        "actual_jul": 258624.7,
-        "actual_prev": 258624.7,
+        "actual_jul": 270656.89,
+        "actual_prev": 270656.89,
         "completion": 48.2,
-        "mom_change": -10.6,
+        "mom_change": -14.5,
         "target_ready": true,
         "group_count": 4,
         "person_count": 9,
@@ -157,8 +157,8 @@
             "status": "在职"
           }
         ],
-        "yesterday_actual": 8092.04,
-        "daily_eff": 899.12,
+        "yesterday_actual": 0.0,
+        "daily_eff": 0.0,
         "monthly_eff": 25700.4
       },
       {
@@ -167,10 +167,10 @@
         "base_target": 160000,
         "stretch_target": 230000,
         "actual": 62791.14,
-        "actual_jul": 19593.0,
-        "actual_prev": 19593.0,
+        "actual_jul": 21630.35,
+        "actual_prev": 21630.35,
         "completion": 39.2,
-        "mom_change": 220.5,
+        "mom_change": 190.3,
         "target_ready": true,
         "group_count": 2,
         "person_count": 7,
@@ -179,8 +179,8 @@
         "trial_count": 4,
         "shigang_count": 0,
         "shigang_list": [],
-        "yesterday_actual": 1808.48,
-        "daily_eff": 258.35,
+        "yesterday_actual": 0.0,
+        "daily_eff": 0.0,
         "monthly_eff": 8970.16
       },
       {
@@ -14960,6 +14960,9 @@
       },
       "2026-10-25": {
         "t": 0.0
+      },
+      "2026-10-26": {
+        "t": 0.0
       }
     },
     "二部": {
@@ -23598,6 +23601,9 @@
           "益生熊维生素": 747.52
         }
       },
+      "2026-10-26": {
+        "t": 0.0
+      },
       "2026-06-21": {
         "t": 9730.93,
         "p": {
@@ -24680,6 +24686,9 @@
         }
       },
       "2026-10-25": {
+        "t": 0.0
+      },
+      "2026-10-26": {
         "t": 0.0
       }
     }
