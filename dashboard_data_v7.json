@@ -20,14 +20,50 @@
         "target_ready": true,
         "group_count": 4,
         "person_count": 19,
-        "staff_count": 0,
-        "formal_count": 0,
-        "trial_count": 0,
-        "shigang_count": 0,
-        "shigang_list": [],
+        "staff_count": 26,
+        "formal_count": 12,
+        "trial_count": 7,
+        "shigang_count": 7,
+        "shigang_list": [
+          {
+            "name": "陈硕佳",
+            "hire_date": "",
+            "status": "在职"
+          },
+          {
+            "name": "张凯玥",
+            "hire_date": "",
+            "status": "在职"
+          },
+          {
+            "name": "高静茹",
+            "hire_date": "",
+            "status": "在职"
+          },
+          {
+            "name": "周雪茹",
+            "hire_date": "",
+            "status": "在职"
+          },
+          {
+            "name": "张晴",
+            "hire_date": "",
+            "status": "在职"
+          },
+          {
+            "name": "丁香",
+            "hire_date": "",
+            "status": "在职"
+          },
+          {
+            "name": "焦斗",
+            "hire_date": "",
+            "status": "在职"
+          }
+        ],
         "yesterday_actual": 39423.15,
-        "daily_eff": 0,
-        "monthly_eff": 0
+        "daily_eff": 2074.9,
+        "monthly_eff": 41045.33
       },
       {
         "name": "二部",
@@ -42,14 +78,25 @@
         "target_ready": true,
         "group_count": 5,
         "person_count": 21,
-        "staff_count": 0,
-        "formal_count": 0,
-        "trial_count": 0,
-        "shigang_count": 0,
-        "shigang_list": [],
+        "staff_count": 19,
+        "formal_count": 12,
+        "trial_count": 5,
+        "shigang_count": 2,
+        "shigang_list": [
+          {
+            "name": "李岳",
+            "hire_date": "",
+            "status": "在职"
+          },
+          {
+            "name": "曹译丹",
+            "hire_date": "",
+            "status": "在职"
+          }
+        ],
         "yesterday_actual": 23174.74,
-        "daily_eff": 0,
-        "monthly_eff": 0
+        "daily_eff": 1363.22,
+        "monthly_eff": 37882.01
       },
       {
         "name": "三部",
@@ -64,14 +111,20 @@
         "target_ready": true,
         "group_count": 3,
         "person_count": 11,
-        "staff_count": 0,
-        "formal_count": 0,
-        "trial_count": 0,
-        "shigang_count": 0,
-        "shigang_list": [],
+        "staff_count": 6,
+        "formal_count": 2,
+        "trial_count": 3,
+        "shigang_count": 1,
+        "shigang_list": [
+          {
+            "name": "田荣娴",
+            "hire_date": "",
+            "status": "在职"
+          }
+        ],
         "yesterday_actual": 1797.99,
-        "daily_eff": 0,
-        "monthly_eff": 0
+        "daily_eff": 359.6,
+        "monthly_eff": 18191.33
       },
       {
         "name": "六部",
@@ -86,14 +139,14 @@
         "target_ready": true,
         "group_count": 3,
         "person_count": 12,
-        "staff_count": 0,
-        "formal_count": 0,
-        "trial_count": 0,
+        "staff_count": 9,
+        "formal_count": 6,
+        "trial_count": 3,
         "shigang_count": 0,
         "shigang_list": [],
         "yesterday_actual": 7741.33,
-        "daily_eff": 0,
-        "monthly_eff": 0
+        "daily_eff": 860.15,
+        "monthly_eff": 19906.7
       },
       {
         "name": "七部",
@@ -108,14 +161,25 @@
         "target_ready": true,
         "group_count": 4,
         "person_count": 9,
-        "staff_count": 0,
-        "formal_count": 0,
-        "trial_count": 0,
-        "shigang_count": 0,
-        "shigang_list": [],
+        "staff_count": 11,
+        "formal_count": 3,
+        "trial_count": 6,
+        "shigang_count": 2,
+        "shigang_list": [
+          {
+            "name": "刘璐璐",
+            "hire_date": "",
+            "status": "在职"
+          },
+          {
+            "name": "肖琳",
+            "hire_date": "",
+            "status": "在职"
+          }
+        ],
         "yesterday_actual": 6754.6,
-        "daily_eff": 0,
-        "monthly_eff": 0
+        "daily_eff": 750.51,
+        "monthly_eff": 28183.05
       },
       {
         "name": "宠元气友组",
@@ -152,11 +216,22 @@
         "target_ready": false,
         "group_count": 1,
         "person_count": 3,
-        "staff_count": 0,
+        "staff_count": 4,
         "formal_count": 0,
-        "trial_count": 0,
-        "shigang_count": 0,
-        "shigang_list": [],
+        "trial_count": 2,
+        "shigang_count": 2,
+        "shigang_list": [
+          {
+            "name": "康冰心",
+            "hire_date": "",
+            "status": "在职"
+          },
+          {
+            "name": "吴师文",
+            "hire_date": "",
+            "status": "在职"
+          }
+        ],
         "yesterday_actual": 0,
         "daily_eff": 0,
         "monthly_eff": 0,
@@ -92716,7 +92791,7 @@
       "name": "高营",
       "type": "核心",
       "url": "https://www.kdocs.cn/l/cpOsLC4Pa9rx",
-      "dept": "昭荣二部",
+      "dept": "二部",
       "matched": false,
       "product": "",
       "person_base": 0,
@@ -92730,15 +92805,15 @@
       "m6": 0,
       "m6_comm": 0,
       "m6_mgmt": 0,
-      "m7": 0,
-      "m7_comm": 0,
-      "m7_mgmt": 0,
-      "m8_tc": 0,
-      "m8_comm_tc": 0,
-      "m9_tc": 0,
-      "m9_comm_tc": 0,
+      "m7": 0.0,
+      "m7_comm": 0.0,
+      "m7_mgmt": 4350.0,
+      "m8_tc": 0.0,
+      "m8_comm_tc": 3818.0,
+      "m9_tc": 0.0,
+      "m9_comm_tc": 1026.0,
       "m9_person_comm_tc": 0,
-      "m9_mgmt_tc": 0,
+      "m9_mgmt_tc": 1026.0,
       "m9_comm_bad": false
     },
     {
@@ -92977,7 +93052,7 @@
       "name": "韩晴",
       "type": "核心",
       "url": "https://www.kdocs.cn/l/cnoTBF46gH9H",
-      "dept": "昱升七部",
+      "dept": "七部",
       "matched": false,
       "product": "",
       "person_base": 0,
@@ -92991,15 +93066,15 @@
       "m6": 0,
       "m6_comm": 0,
       "m6_mgmt": 0,
-      "m7": 0,
-      "m7_comm": 0,
-      "m7_mgmt": 0,
-      "m8_tc": 0,
-      "m8_comm_tc": 0,
-      "m9_tc": 0,
-      "m9_comm_tc": 0,
+      "m7": 271842.18,
+      "m7_comm": 1876.0,
+      "m7_mgmt": 0.0,
+      "m8_tc": 0.0,
+      "m8_comm_tc": 1816.0,
+      "m9_tc": 0.0,
+      "m9_comm_tc": 1838.0,
       "m9_person_comm_tc": 0,
-      "m9_mgmt_tc": 0,
+      "m9_mgmt_tc": 1838.0,
       "m9_comm_bad": false
     },
     {
@@ -93035,7 +93110,7 @@
       "name": "王雪娅",
       "type": "核心",
       "url": "https://www.kdocs.cn/l/ckoTGLjlPevV",
-      "dept": "创晖一部",
+      "dept": "一部",
       "matched": false,
       "product": "",
       "person_base": 0,
@@ -93043,21 +93118,21 @@
       "jul": 0.0,
       "aug": 0.0,
       "sep": 0.0,
-      "m5": 0,
-      "m5_comm": 0,
-      "m5_mgmt": 0,
-      "m6": 0,
-      "m6_comm": 0,
-      "m6_mgmt": 0,
-      "m7": 0,
-      "m7_comm": 0,
-      "m7_mgmt": 0,
-      "m8_tc": 0,
-      "m8_comm_tc": 0,
-      "m9_tc": 0,
-      "m9_comm_tc": 0,
+      "m5": 56508.5,
+      "m5_comm": 1798.9,
+      "m5_mgmt": 180.67,
+      "m6": 10139.77,
+      "m6_comm": 256.1,
+      "m6_mgmt": 0.0,
+      "m7": 0.0,
+      "m7_comm": 0.0,
+      "m7_mgmt": 31946.0,
+      "m8_tc": 0.0,
+      "m8_comm_tc": 15308.0,
+      "m9_tc": 0.0,
+      "m9_comm_tc": 4168.0,
       "m9_person_comm_tc": 0,
-      "m9_mgmt_tc": 0,
+      "m9_mgmt_tc": 4168.0,
       "m9_comm_bad": false
     },
     {
