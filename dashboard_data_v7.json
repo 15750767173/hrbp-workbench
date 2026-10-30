@@ -62856,7 +62856,7 @@
           "net": 0.0,
           "jf": 0.0,
           "group": "百货一组",
-          "n": 46
+          "n": 47
         },
         "马赛赛": {
           "net": 0.0,
@@ -63821,10 +63821,10 @@
   },
   "prod_split_src": {
     "一部": {
-      "file": "_xc_jfdet_yibu.json",
+      "file": "_jf_yibu.json",
       "kind": "detail",
-      "records": 1291,
-      "kept": 205,
+      "records": 1292,
+      "kept": 206,
       "det_person": {
         "张宁宁": 1.7946,
         "张吉祥": 0.0,
