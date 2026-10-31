@@ -78,8 +78,8 @@
         "completion": 36.1,
         "mom_change": -34.2,
         "target_ready": true,
-        "group_count": 3,
-        "person_count": 11,
+        "group_count": 2,
+        "person_count": 7,
         "staff_count": 6,
         "formal_count": 3,
         "trial_count": 3,
@@ -2037,9 +2037,9 @@
       "name": "三部",
       "leader": "潘景丽",
       "month": "8月",
-      "base_target_total": 350000,
-      "stretch_target_total": 480000,
-      "actual_total": 250237.88,
+      "base_target_total": 270000,
+      "stretch_target_total": 360000,
+      "actual_total": 246481.88,
       "groups": [
         {
           "name": "一组",
@@ -2089,31 +2089,6 @@
           "base_target": 120000,
           "stretch_target": 160000,
           "actual": 56655.15
-        },
-        {
-          "name": "三组",
-          "lead_clean_name": "潘景丽",
-          "members": [
-            "潘景丽",
-            "陈源源",
-            "李庆佳",
-            "静雯"
-          ],
-          "products": [
-            {
-              "name": "大健康",
-              "base_target": 80000,
-              "stretch_target": 120000,
-              "actual": 3756.0,
-              "daily_keys": [
-                "姜黄素"
-              ],
-              "actual_jul": 0
-            }
-          ],
-          "base_target": 80000,
-          "stretch_target": 120000,
-          "actual": 0
         }
       ],
       "persons": [
@@ -2345,122 +2320,6 @@
           "sep_net_tc": 0,
           "sep_comm_tc": 0,
           "sep_comm_bad": false
-        },
-        {
-          "name": "潘景丽",
-          "product": "大健康",
-          "group_base": 80000,
-          "group_stretch": 120000,
-          "person_base": 20000,
-          "person_stretch": 30000,
-          "actual": 0,
-          "daily_keys": [],
-          "actual_jul": 0,
-          "jul_net": 0.0,
-          "jul_comm": 1318.0,
-          "product_matched": "",
-          "aug_net_tc": 0.0,
-          "aug_comm_tc": 2001.0,
-          "aug_comm_bad": false,
-          "m5_net": 0,
-          "m5_comm": 0,
-          "m5_mgmt": 0,
-          "m6_net": 0,
-          "m6_comm": 0,
-          "m6_mgmt": 0,
-          "m7_net": 0,
-          "m7_comm": 1318.0,
-          "m7_mgmt": 0,
-          "sep_net_tc": 0,
-          "sep_comm_tc": 0,
-          "sep_comm_bad": false
-        },
-        {
-          "name": "鲁静雯",
-          "product": "大健康",
-          "group_base": 0,
-          "group_stretch": 0,
-          "person_base": 20000,
-          "person_stretch": 30000,
-          "actual": 0,
-          "daily_keys": [],
-          "actual_jul": 0,
-          "jul_net": 0,
-          "jul_comm": 0,
-          "product_matched": "",
-          "aug_net_tc": 0,
-          "aug_comm_tc": 0,
-          "aug_comm_bad": false,
-          "m5_net": 0,
-          "m5_comm": 0,
-          "m5_mgmt": 0,
-          "m6_net": 0,
-          "m6_comm": 0,
-          "m6_mgmt": 0,
-          "m7_net": 0,
-          "m7_comm": 0,
-          "m7_mgmt": 0,
-          "sep_net_tc": 0,
-          "sep_comm_tc": 0,
-          "sep_comm_bad": false
-        },
-        {
-          "name": "李庆佳",
-          "product": "大健康",
-          "group_base": 0,
-          "group_stretch": 0,
-          "person_base": 20000,
-          "person_stretch": 30000,
-          "actual": 0,
-          "daily_keys": [],
-          "actual_jul": 0,
-          "jul_net": 0,
-          "jul_comm": 0,
-          "product_matched": "",
-          "aug_net_tc": 0,
-          "aug_comm_tc": 0,
-          "aug_comm_bad": false,
-          "m5_net": 0,
-          "m5_comm": 0,
-          "m5_mgmt": 0,
-          "m6_net": 0,
-          "m6_comm": 0,
-          "m6_mgmt": 0,
-          "m7_net": 0,
-          "m7_comm": 0,
-          "m7_mgmt": 0,
-          "sep_net_tc": 0,
-          "sep_comm_tc": 0,
-          "sep_comm_bad": false
-        },
-        {
-          "name": "袁文君",
-          "product": "大健康",
-          "group_base": 0,
-          "group_stretch": 0,
-          "person_base": 20000,
-          "person_stretch": 30000,
-          "actual": 0,
-          "daily_keys": [],
-          "actual_jul": 0,
-          "jul_net": 0,
-          "jul_comm": 0,
-          "product_matched": "",
-          "aug_net_tc": 0,
-          "aug_comm_tc": 0,
-          "aug_comm_bad": false,
-          "m5_net": 0,
-          "m5_comm": 0,
-          "m5_mgmt": 0,
-          "m6_net": 0,
-          "m6_comm": 0,
-          "m6_mgmt": 0,
-          "m7_net": 0,
-          "m7_comm": 0,
-          "m7_mgmt": 0,
-          "sep_net_tc": 0,
-          "sep_comm_tc": 0,
-          "sep_comm_bad": false
         }
       ],
       "dept_end_row": null,
@@ -2481,7 +2340,7 @@
       "m6_net_total": 110540.45,
       "m7_net_total": 139452.64,
       "aug_net_total": 228719.27,
-      "aug_comm_person_total": 10525.86,
+      "aug_comm_person_total": 8524.86,
       "sep_net_total": 129035.09,
       "sep_comm_person_total": 4190.57
     },
@@ -7906,9 +7765,9 @@
       "name": "三部",
       "leader": "潘景丽",
       "month": "8月",
-      "base_target_total": 350000,
-      "stretch_target_total": 480000,
-      "actual_total": 250237.88,
+      "base_target_total": 270000,
+      "stretch_target_total": 360000,
+      "actual_total": 246481.88,
       "groups": [
         {
           "name": "一组",
@@ -7958,31 +7817,6 @@
           "base_target": 120000,
           "stretch_target": 160000,
           "actual": 56655.15
-        },
-        {
-          "name": "三组",
-          "lead_clean_name": "潘景丽",
-          "members": [
-            "潘景丽",
-            "陈源源",
-            "李庆佳",
-            "静雯"
-          ],
-          "products": [
-            {
-              "name": "大健康",
-              "base_target": 80000,
-              "stretch_target": 120000,
-              "actual": 3756.0,
-              "daily_keys": [
-                "姜黄素"
-              ],
-              "actual_jul": 0
-            }
-          ],
-          "base_target": 80000,
-          "stretch_target": 120000,
-          "actual": 0
         }
       ],
       "persons": [
@@ -8214,122 +8048,6 @@
           "sep_net_tc": 0,
           "sep_comm_tc": 0,
           "sep_comm_bad": false
-        },
-        {
-          "name": "潘景丽",
-          "product": "大健康",
-          "group_base": 80000,
-          "group_stretch": 120000,
-          "person_base": 20000,
-          "person_stretch": 30000,
-          "actual": 0,
-          "daily_keys": [],
-          "actual_jul": 0,
-          "jul_net": 0.0,
-          "jul_comm": 1318.0,
-          "product_matched": "",
-          "aug_net_tc": 0.0,
-          "aug_comm_tc": 2001.0,
-          "aug_comm_bad": false,
-          "m5_net": 0,
-          "m5_comm": 0,
-          "m5_mgmt": 0,
-          "m6_net": 0,
-          "m6_comm": 0,
-          "m6_mgmt": 0,
-          "m7_net": 0,
-          "m7_comm": 1318.0,
-          "m7_mgmt": 0,
-          "sep_net_tc": 0,
-          "sep_comm_tc": 0,
-          "sep_comm_bad": false
-        },
-        {
-          "name": "鲁静雯",
-          "product": "大健康",
-          "group_base": 0,
-          "group_stretch": 0,
-          "person_base": 20000,
-          "person_stretch": 30000,
-          "actual": 0,
-          "daily_keys": [],
-          "actual_jul": 0,
-          "jul_net": 0,
-          "jul_comm": 0,
-          "product_matched": "",
-          "aug_net_tc": 0,
-          "aug_comm_tc": 0,
-          "aug_comm_bad": false,
-          "m5_net": 0,
-          "m5_comm": 0,
-          "m5_mgmt": 0,
-          "m6_net": 0,
-          "m6_comm": 0,
-          "m6_mgmt": 0,
-          "m7_net": 0,
-          "m7_comm": 0,
-          "m7_mgmt": 0,
-          "sep_net_tc": 0,
-          "sep_comm_tc": 0,
-          "sep_comm_bad": false
-        },
-        {
-          "name": "李庆佳",
-          "product": "大健康",
-          "group_base": 0,
-          "group_stretch": 0,
-          "person_base": 20000,
-          "person_stretch": 30000,
-          "actual": 0,
-          "daily_keys": [],
-          "actual_jul": 0,
-          "jul_net": 0,
-          "jul_comm": 0,
-          "product_matched": "",
-          "aug_net_tc": 0,
-          "aug_comm_tc": 0,
-          "aug_comm_bad": false,
-          "m5_net": 0,
-          "m5_comm": 0,
-          "m5_mgmt": 0,
-          "m6_net": 0,
-          "m6_comm": 0,
-          "m6_mgmt": 0,
-          "m7_net": 0,
-          "m7_comm": 0,
-          "m7_mgmt": 0,
-          "sep_net_tc": 0,
-          "sep_comm_tc": 0,
-          "sep_comm_bad": false
-        },
-        {
-          "name": "袁文君",
-          "product": "大健康",
-          "group_base": 0,
-          "group_stretch": 0,
-          "person_base": 20000,
-          "person_stretch": 30000,
-          "actual": 0,
-          "daily_keys": [],
-          "actual_jul": 0,
-          "jul_net": 0,
-          "jul_comm": 0,
-          "product_matched": "",
-          "aug_net_tc": 0,
-          "aug_comm_tc": 0,
-          "aug_comm_bad": false,
-          "m5_net": 0,
-          "m5_comm": 0,
-          "m5_mgmt": 0,
-          "m6_net": 0,
-          "m6_comm": 0,
-          "m6_mgmt": 0,
-          "m7_net": 0,
-          "m7_comm": 0,
-          "m7_mgmt": 0,
-          "sep_net_tc": 0,
-          "sep_comm_tc": 0,
-          "sep_comm_bad": false
         }
       ],
       "dept_end_row": null,
@@ -8350,7 +8068,7 @@
       "m6_net_total": 110540.45,
       "m7_net_total": 139452.64,
       "aug_net_total": 228719.27,
-      "aug_comm_person_total": 10525.86,
+      "aug_comm_person_total": 8524.86,
       "sep_net_total": 129035.09,
       "sep_comm_person_total": 4190.57
     },
@@ -11512,7 +11230,6 @@
         "幽兔乳化鱼油": 67.9
       },
       "2026-08": {
-        "姜黄素": 3756.0,
         "幽兔乳化鱼油": 17123.629999999997,
         "幽兔仓鼠粮": 896.62,
         "幽兔卵磷脂": 4141.030000000001,
@@ -19369,7 +19086,6 @@
       "2026-08-01": {
         "t": -405.79,
         "p": {
-          "姜黄素": 697.0,
           "幽兔乳化鱼油": -87.0,
           "幽兔仓鼠粮": 77.0,
           "幽兔卵磷脂": 75.6,
@@ -19382,7 +19098,6 @@
       "2026-08-02": {
         "t": 10483.78,
         "p": {
-          "姜黄素": 286.0,
           "幽兔卵磷脂": 523.1,
           "幽兔排毛粉": 461.66,
           "幽兔猫粮": 663.65,
@@ -19393,7 +19108,6 @@
       "2026-08-03": {
         "t": 20624.59,
         "p": {
-          "姜黄素": 572.0,
           "幽兔仓鼠粮": 132.72,
           "幽兔卵磷脂": 486.14,
           "幽兔排毛粉": 229.87,
@@ -19405,7 +19119,6 @@
       "2026-08-04": {
         "t": 9637.59,
         "p": {
-          "姜黄素": 286.0,
           "幽兔仓鼠粮": 37.8,
           "幽兔卵磷脂": 296.52,
           "幽兔排毛粉": 5379.36,
@@ -19427,7 +19140,6 @@
       "2026-08-06": {
         "t": 5742.61,
         "p": {
-          "姜黄素": -7.0,
           "幽兔卵磷脂": 73.9,
           "幽兔排毛粉": 441.65,
           "幽兔猫粮": 1906.47,
@@ -19438,7 +19150,6 @@
       "2026-08-07": {
         "t": 26836.35,
         "p": {
-          "姜黄素": -286.0,
           "幽兔乳化鱼油": 625.0,
           "幽兔仓鼠粮": 89.73,
           "幽兔卵磷脂": 215.82,
@@ -19451,7 +19162,6 @@
       "2026-08-08": {
         "t": 12179.97,
         "p": {
-          "姜黄素": 279.0,
           "幽兔乳化鱼油": 163.0,
           "幽兔仓鼠粮": 37.7,
           "幽兔卵磷脂": 359.42,
@@ -19464,7 +19174,6 @@
       "2026-08-09": {
         "t": 4201.71,
         "p": {
-          "姜黄素": 279.0,
           "幽兔卵磷脂": 72.22,
           "幽兔排毛粉": 64.71,
           "幽兔猫粮": 1490.47,
@@ -19486,7 +19195,6 @@
       "2026-08-11": {
         "t": 9595.12,
         "p": {
-          "姜黄素": 527.0,
           "幽兔乳化鱼油": 4523.15,
           "幽兔卵磷脂": 144.53,
           "幽兔排毛粉": 366.38,
@@ -19518,7 +19226,6 @@
       "2026-08-14": {
         "t": 21686.91,
         "p": {
-          "姜黄素": 814.0,
           "幽兔乳化鱼油": 133.9,
           "幽兔卵磷脂": 511.59,
           "幽兔排毛粉": 432.04,
@@ -19530,7 +19237,6 @@
       "2026-08-15": {
         "t": 23268.05,
         "p": {
-          "姜黄素": 558.0,
           "幽兔乳化鱼油": 133.9,
           "幽兔卵磷脂": 73.9,
           "幽兔排毛粉": 356.6,
@@ -19551,7 +19257,6 @@
       "2026-08-17": {
         "t": 3778.05,
         "p": {
-          "姜黄素": -535.0,
           "幽兔乳化鱼油": 83.4,
           "幽兔排毛粉": -57.2,
           "幽兔猫粮": 1086.36,
@@ -19639,7 +19344,6 @@
       "2026-08-25": {
         "t": 2645.1,
         "p": {
-          "姜黄素": 286.0,
           "幽兔乳化鱼油": 218.9,
           "幽兔排毛粉": -0.729999999999997,
           "幽兔猫粮": 1271.68,
@@ -19650,7 +19354,6 @@
       "2026-08-26": {
         "t": 6657.82,
         "p": {
-          "姜黄素": -286.0,
           "幽兔乳化鱼油": 2457.43,
           "幽兔猫粮": 1903.76,
           "幽兔猫粮试吃": 45.22,
@@ -19660,7 +19363,6 @@
       "2026-08-27": {
         "t": 4626.05,
         "p": {
-          "姜黄素": 286.0,
           "幽兔乳化鱼油": 554.1,
           "幽兔仓鼠粮": 37.8,
           "幽兔卵磷脂": 292.24,
@@ -94547,11 +94249,11 @@
       "name": "潘景丽",
       "type": "核心",
       "url": "https://www.kdocs.cn/l/ctY7Z2tnzHON",
-      "dept": "三部",
-      "matched": true,
-      "product": "大健康",
-      "person_base": 20000,
-      "person_stretch": 30000,
+      "dept": "",
+      "matched": false,
+      "product": "",
+      "person_base": 0,
+      "person_stretch": 0,
       "jul": 0.0,
       "aug": 0.0,
       "sep": 0.0,
@@ -94561,11 +94263,11 @@
       "m6": 0,
       "m6_comm": 0,
       "m6_mgmt": 0,
-      "m7": 0.0,
-      "m7_comm": 1318.0,
-      "m7_mgmt": 0.0,
-      "m8_tc": 0.0,
-      "m8_comm_tc": 2001.0,
+      "m7": 0,
+      "m7_comm": 0,
+      "m7_mgmt": 0,
+      "m8_tc": 0,
+      "m8_comm_tc": 0,
       "m9_tc": 0,
       "m9_comm_tc": 0,
       "m9_person_comm_tc": 0,
