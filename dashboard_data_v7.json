@@ -202,7 +202,8 @@
         "no_daily": true
       }
     ],
-    "data_through_day": 30
+    "data_through_day": 30,
+    "generated_at": "2026-10-31 10:56"
   },
   "targets_8_hist": [
     {
