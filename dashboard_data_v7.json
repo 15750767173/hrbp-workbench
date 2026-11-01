@@ -198,7 +198,7 @@
       }
     ],
     "data_through_day": 31,
-    "generated_at": "2026-11-01 22:00"
+    "generated_at": "2026-11-01 23:45"
   },
   "targets_8_hist": [
     {
@@ -63227,7 +63227,7 @@
           "net": 0.0,
           "jf": 0.0,
           "group": "百货一组",
-          "n": 49
+          "n": 50
         },
         "马赛赛": {
           "net": 0.0,
@@ -64195,7 +64195,7 @@
       "file": "_xc_jfdet_yibu.json",
       "kind": "detail",
       "records": 1318,
-      "kept": 231,
+      "kept": 232,
       "det_person": {
         "张宁宁": 1.7946,
         "张吉祥": 0.0,
