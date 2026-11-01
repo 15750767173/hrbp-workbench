@@ -198,7 +198,7 @@
       }
     ],
     "data_through_day": 31,
-    "generated_at": "2026-11-01 10:15"
+    "generated_at": "2026-11-01 12:30"
   },
   "targets_8_hist": [
     {
@@ -64967,9 +64967,9 @@
     "humingce": {
       "total": 978,
       "by_zaizhi_status": {
-        "优化": 238,
-        "自离": 393,
-        "在职": 347
+        "优化": 241,
+        "自离": 395,
+        "在职": 342
       },
       "by_yiji": {
         "绒光-Elite事业部": 308,
@@ -64987,11 +64987,11 @@
         "总经办": 2
       },
       "by_stage": {
-        "试用期": 473,
+        "试用期": 474,
         "正式员工": 240,
-        "试岗": 265
+        "试岗": 264
       },
-      "zaizhi_count": 347
+      "zaizhi_count": 342
     },
     "zhuanzheng": {
       "total": 163,
@@ -96852,23 +96852,28 @@
   },
   "org_xcheck": {
     "dingtalk_count": 321,
-    "humingce_active_count": 347,
-    "both_count": 308,
-    "dingtalk_only_count": 13,
+    "humingce_active_count": 342,
+    "both_count": 303,
+    "dingtalk_only_count": 18,
     "humingce_only_count": 39,
     "dingtalk_only": [
       "六六",
       "包子",
+      "吴东海",
       "吴琼",
+      "唐贝甜",
       "夏志强",
       "小达",
       "尧婕",
       "张旭辉",
       "李军锋",
+      "梁晨晨",
       "樊红玉",
       "罗祥磊",
       "聂靖汶",
       "肉肉",
+      "胡朋博",
+      "路帅博",
       "魏雪彥"
     ],
     "humingce_only": [
@@ -97017,11 +97022,6 @@
         "name": "周慧慧",
         "dingtalk_top": "绒光_Elite事业部",
         "humingce_top": "绒光-Elite事业部"
-      },
-      {
-        "name": "唐贝甜",
-        "dingtalk_top": "新星训练营",
-        "humingce_top": "双启"
       },
       {
         "name": "孔晓钰",
@@ -97212,6 +97212,11 @@
         "name": "李甜甜",
         "dingtalk_top": "望辰_Crown事业部",
         "humingce_top": "望辰-Crown事业部"
+      },
+      {
+        "name": "李秀琦",
+        "dingtalk_top": "绒光_Elite事业部",
+        "humingce_top": "双启"
       }
     ],
     "dept_mismatch_count": 60,
