@@ -5,7 +5,7 @@
     "cutoff_day": 31,
     "period_label": "31日",
     "last_month_period": "9月1-31日",
-    "yesterday": "2026-10-31",
+    "yesterday": "2026-11-01",
     "departments": [
       {
         "name": "一部",
@@ -41,8 +41,8 @@
             "status": "在职"
           }
         ],
-        "yesterday_actual": 31280.75,
-        "daily_eff": 1421.85,
+        "yesterday_actual": -24.0,
+        "daily_eff": -1.09,
         "monthly_eff": 41218.08
       },
       {
@@ -63,8 +63,8 @@
         "trial_count": 3,
         "shigang_count": 0,
         "shigang_list": [],
-        "yesterday_actual": 17739.95,
-        "daily_eff": 1182.66,
+        "yesterday_actual": 0.0,
+        "daily_eff": 0.0,
         "monthly_eff": 49902.25
       },
       {
@@ -85,8 +85,8 @@
         "trial_count": 3,
         "shigang_count": 0,
         "shigang_list": [],
-        "yesterday_actual": 1657.04,
-        "daily_eff": 276.17,
+        "yesterday_actual": 0.0,
+        "daily_eff": 0.0,
         "monthly_eff": 16739.75
       },
       {
@@ -113,8 +113,8 @@
             "status": "在职"
           }
         ],
-        "yesterday_actual": 5021.26,
-        "daily_eff": 557.92,
+        "yesterday_actual": 0.0,
+        "daily_eff": 0.0,
         "monthly_eff": 23237.21
       },
       {
@@ -141,8 +141,8 @@
             "status": "在职"
           }
         ],
-        "yesterday_actual": 8061.41,
-        "daily_eff": 732.86,
+        "yesterday_actual": 0.0,
+        "daily_eff": 0.0,
         "monthly_eff": 26457.3
       },
       {
@@ -169,8 +169,8 @@
             "status": "在职"
           }
         ],
-        "yesterday_actual": 788.0,
-        "daily_eff": 112.57,
+        "yesterday_actual": 0.0,
+        "daily_eff": 0.0,
         "monthly_eff": 10113.31
       },
       {
@@ -198,7 +198,7 @@
       }
     ],
     "data_through_day": 31,
-    "generated_at": "2026-11-01 23:45"
+    "generated_at": "2026-11-02 02:00"
   },
   "targets_8_hist": [
     {
@@ -24920,7 +24920,7 @@
         "hire_date": "2025/10/13",
         "regular_date": "2025/12/01",
         "enter_date": "2026/06/23",
-        "cycle": 131,
+        "cycle": 132,
         "remark": null,
         "archive": "https://www.kdocs.cn/l/cmxwju14cmR6"
       },
@@ -24931,7 +24931,7 @@
         "hire_date": "2025/12/01",
         "regular_date": "2026/03/01",
         "enter_date": "2026/06/15",
-        "cycle": 139,
+        "cycle": 140,
         "remark": "晋升P3",
         "archive": "https://www.kdocs.cn/l/calHklCbEVuH"
       },
@@ -24942,7 +24942,7 @@
         "hire_date": "2026/03/09",
         "regular_date": "2026/06/01",
         "enter_date": "2026/08/13",
-        "cycle": 80,
+        "cycle": 81,
         "remark": null,
         "archive": "https://www.kdocs.cn/l/ckEQX3ram1mc"
       },
@@ -24953,7 +24953,7 @@
         "hire_date": "2026/05/14",
         "regular_date": "2026/07/01",
         "enter_date": "2026/06/01",
-        "cycle": 153,
+        "cycle": 154,
         "remark": "转正晋升P2",
         "archive": "https://www.kdocs.cn/l/cgjxO0NmcVfM"
       },
@@ -24964,7 +24964,7 @@
         "hire_date": "2026/04/07",
         "regular_date": "2026/07/01",
         "enter_date": "2026/06/24",
-        "cycle": 130,
+        "cycle": 131,
         "remark": null,
         "archive": "https://www.kdocs.cn/l/cqiMDCfLHEm3"
       },
@@ -24975,7 +24975,7 @@
         "hire_date": "2025/01/13",
         "regular_date": "2025/04/01",
         "enter_date": "2026/06/23",
-        "cycle": 131,
+        "cycle": 132,
         "remark": null,
         "archive": "https://www.kdocs.cn/l/cbZne775mKwg"
       },
@@ -24986,7 +24986,7 @@
         "hire_date": "2025/11/24",
         "regular_date": "2026/02/01",
         "enter_date": "2026/04/20",
-        "cycle": 195,
+        "cycle": 196,
         "remark": null,
         "archive": "https://www.kdocs.cn/l/cuN5obvpltDW"
       },
@@ -24997,7 +24997,7 @@
         "hire_date": "2025/12/29",
         "regular_date": "2026/06/01",
         "enter_date": "2026/05/01",
-        "cycle": 184,
+        "cycle": 185,
         "remark": null,
         "archive": "https://www.kdocs.cn/l/csDwcjiyWZ9c"
       },
@@ -25008,7 +25008,7 @@
         "hire_date": "2025/06/16",
         "regular_date": "2025/12/01",
         "enter_date": "2026/06/23",
-        "cycle": 131,
+        "cycle": 132,
         "remark": null,
         "archive": "https://www.kdocs.cn/l/clkFajnw7gEo"
       },
@@ -25019,7 +25019,7 @@
         "hire_date": "2025/12/05",
         "regular_date": "2026/03/01",
         "enter_date": "2026/06/23",
-        "cycle": 131,
+        "cycle": 132,
         "remark": "晋升P3",
         "archive": "https://www.kdocs.cn/l/ckTV3AdHQfXO"
       },
@@ -25030,7 +25030,7 @@
         "hire_date": "2025/04/24",
         "regular_date": "2025/10/01",
         "enter_date": "2026/06/23",
-        "cycle": 131,
+        "cycle": 132,
         "remark": null,
         "archive": "https://www.kdocs.cn/l/cu49qj6ZWqx8"
       },
@@ -25041,7 +25041,7 @@
         "hire_date": "2025/05/15",
         "regular_date": "2025/08/11",
         "enter_date": "2026/06/23",
-        "cycle": 131,
+        "cycle": 132,
         "remark": null,
         "archive": "https://www.kdocs.cn/l/cdPoRVH8LkcT"
       },
@@ -25052,7 +25052,7 @@
         "hire_date": "2025/08/18",
         "regular_date": "2025/12/01",
         "enter_date": "2026/06/23",
-        "cycle": 131,
+        "cycle": 132,
         "remark": null,
         "archive": "https://www.kdocs.cn/l/cobTJqSzOi8B"
       },
@@ -25063,7 +25063,7 @@
         "hire_date": "2025/03/20",
         "regular_date": "2025/05/01",
         "enter_date": "2026/06/20",
-        "cycle": 134,
+        "cycle": 135,
         "remark": null,
         "archive": "https://www.kdocs.cn/l/cgxLRB5Zfrf4"
       },
@@ -25074,7 +25074,7 @@
         "hire_date": "2026/03/17",
         "regular_date": "2026/09/01",
         "enter_date": "2026/05/21",
-        "cycle": 164,
+        "cycle": 165,
         "remark": null,
         "archive": "https://www.kdocs.cn/l/ct8yDSr0b3qD"
       },
@@ -25085,7 +25085,7 @@
         "hire_date": "2025/06/24",
         "regular_date": "2025/08/01",
         "enter_date": "2026/07/02",
-        "cycle": 122,
+        "cycle": 123,
         "remark": null,
         "archive": "https://www.kdocs.cn/l/clCPjz9UJNtQ"
       },
@@ -25096,7 +25096,7 @@
         "hire_date": "2026/05/18",
         "regular_date": "2026/09/01",
         "enter_date": "2026/08/12",
-        "cycle": 81,
+        "cycle": 82,
         "remark": null,
         "archive": "https://www.kdocs.cn/l/ciFjxmmkZRAf"
       },
@@ -25107,7 +25107,7 @@
         "hire_date": "2026/06/12",
         "regular_date": "",
         "enter_date": "2026/08/14",
-        "cycle": 79,
+        "cycle": 80,
         "remark": null,
         "archive": "https://www.kdocs.cn/l/cfUHJvy9IGAC"
       },
@@ -25118,7 +25118,7 @@
         "hire_date": "2026/07/08",
         "regular_date": "2026/10/01",
         "enter_date": "2026/09/08",
-        "cycle": 54,
+        "cycle": 55,
         "remark": null,
         "archive": "https://www.kdocs.cn/l/cuG3gNzntJmO"
       },
@@ -25129,7 +25129,7 @@
         "hire_date": "2026/04/27",
         "regular_date": "2026/09/01",
         "enter_date": "2026/08/13",
-        "cycle": 80,
+        "cycle": 81,
         "remark": null,
         "archive": "https://www.kdocs.cn/l/cli9R4E2NuMo"
       },
@@ -25140,7 +25140,7 @@
         "hire_date": "2026/05/29",
         "regular_date": "2026/09/01",
         "enter_date": "2026/08/15",
-        "cycle": 78,
+        "cycle": 79,
         "remark": null,
         "archive": "https://www.kdocs.cn/l/cfy43BcJN8Es"
       },
@@ -25151,7 +25151,7 @@
         "hire_date": "2026/07/22",
         "regular_date": "",
         "enter_date": "2026/09/08",
-        "cycle": 54,
+        "cycle": 55,
         "remark": null,
         "archive": "https://www.kdocs.cn/l/clvQwoBydhdE"
       },
@@ -25162,7 +25162,7 @@
         "hire_date": "2026/03/02",
         "regular_date": "2026/06/01",
         "enter_date": "2026/09/08",
-        "cycle": 54,
+        "cycle": 55,
         "remark": null,
         "archive": "https://www.kdocs.cn/l/cvow4syfObUc"
       },
@@ -25173,7 +25173,7 @@
         "hire_date": "2026/07/30",
         "regular_date": "",
         "enter_date": "",
-        "cycle": 46327,
+        "cycle": 46328,
         "remark": null,
         "archive": "https://www.kdocs.cn/l/clNzHsNNlPop"
       }
