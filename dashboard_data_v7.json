@@ -198,7 +198,7 @@
       }
     ],
     "data_through_day": 31,
-    "generated_at": "2026-11-01 19:15"
+    "generated_at": "2026-11-01 19:30"
   },
   "targets_8_hist": [
     {
@@ -63221,7 +63221,7 @@
           "net": 0.0,
           "jf": 0.0,
           "group": "百货一组",
-          "n": 52
+          "n": 54
         },
         "张甜静": {
           "net": 0.0,
@@ -64192,10 +64192,10 @@
   },
   "prod_split_src": {
     "一部": {
-      "file": "_xc_jfdet_yibu.json",
+      "file": "_jf_yibu.json",
       "kind": "detail",
-      "records": 1315,
-      "kept": 229,
+      "records": 1318,
+      "kept": 231,
       "det_person": {
         "张宁宁": 1.7946,
         "张吉祥": 0.0,
