@@ -198,7 +198,7 @@
       }
     ],
     "data_through_day": 31,
-    "generated_at": "2026-11-02 13:30"
+    "generated_at": "2026-11-02 13:45"
   },
   "targets_8_hist": [
     {
@@ -64364,7 +64364,7 @@
     "一部": {
       "file": "_jf_yibu.json",
       "kind": "detail",
-      "records": 1363,
+      "records": 1365,
       "kept": 256,
       "det_person": {
         "张宁宁": 1.7946,
