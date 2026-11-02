@@ -198,7 +198,7 @@
       }
     ],
     "data_through_day": 31,
-    "generated_at": "2026-11-02 13:45"
+    "generated_at": "2026-11-02 14:00"
   },
   "targets_8_hist": [
     {
@@ -56516,17 +56516,23 @@
         ],
         "1-5": [
           {
+            "name": "十月组员绩效",
+            "url": "https://www.kdocs.cn/l/cbl3Fzf0xSu0"
+          }
+        ],
+        "1-6": [
+          {
             "name": "HRBP绩效表",
             "url": "https://www.kdocs.cn/l/cfPF3TKqBjEA"
           }
         ],
-        "1-6": [
+        "1-7": [
           {
             "name": "PR代发组每月绩效",
             "url": "https://www.kdocs.cn/l/chTejXDuwTRh"
           }
         ],
-        "1-7": [
+        "1-8": [
           {
             "name": "绩效",
             "url": "https://www.kdocs.cn/l/cfnqhToc7fjH"
@@ -56688,7 +56694,7 @@
         ]
       }
     ],
-    "ziliao_note": "来自BP资料表(sheet118)，共17条资料记录、74个文档链接，每条含多类文档链接",
+    "ziliao_note": "来自BP资料表(sheet118)，共17条资料记录、75个文档链接，每条含多类文档链接",
     "ziliao_categorized": {
       "common": [
         {
@@ -56802,6 +56808,10 @@
         {
           "name": "8月组员绩效",
           "url": "https://www.kdocs.cn/l/cqrP58aiY89K"
+        },
+        {
+          "name": "十月组员绩效",
+          "url": "https://www.kdocs.cn/l/cbl3Fzf0xSu0"
         },
         {
           "name": "HRBP绩效表",
