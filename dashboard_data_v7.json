@@ -198,7 +198,7 @@
       }
     ],
     "data_through_day": 1,
-    "generated_at": "2026-11-02 20:00"
+    "generated_at": "2026-11-02 20:15"
   },
   "targets_8_hist": [
     {
@@ -62312,7 +62312,7 @@
           "net": 0.0,
           "jf": 0.0,
           "group": "二组",
-          "n": 1
+          "n": 2
         }
       },
       "映鹿猫粮试吃": {
@@ -62320,7 +62320,7 @@
           "net": 0.0,
           "jf": 0.0,
           "group": "二组",
-          "n": 1
+          "n": 2
         }
       }
     },
@@ -62497,8 +62497,8 @@
     "六部": {
       "file": "_jf_liubu.json",
       "kind": "detail",
-      "records": 218,
-      "kept": 3,
+      "records": 219,
+      "kept": 4,
       "det_person": {
         "张梦歌": 0.0,
         "于鹏展": 0.0
