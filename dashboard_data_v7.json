@@ -198,7 +198,7 @@
       }
     ],
     "data_through_day": 1,
-    "generated_at": "2026-11-02 20:30"
+    "generated_at": "2026-11-02 20:45"
   },
   "targets_8_hist": [
     {
@@ -62478,7 +62478,7 @@
     "二部": {
       "file": "_jf_erbu.json",
       "kind": "detail",
-      "records": 709,
+      "records": 707,
       "kept": 4,
       "det_person": {
         "冯蔺城": 0.0,
