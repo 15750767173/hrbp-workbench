@@ -203,7 +203,7 @@
       }
     ],
     "data_through_day": 2,
-    "generated_at": "2026-11-03 15:45"
+    "generated_at": "2026-11-03 16:00"
   },
   "targets_8_hist": [
     {
@@ -3343,7 +3343,7 @@
       "month": "8月",
       "base_target_total": 190000,
       "stretch_target_total": 260000,
-      "actual_total": 63405.97,
+      "actual_total": 63563.17,
       "groups": [
         {
           "name": "维生素团队",
@@ -3374,7 +3374,7 @@
               "name": "元气友全价全期鲜肉冻干猫粮",
               "base_target": 70000,
               "stretch_target": 100000,
-              "actual": 4100.81,
+              "actual": 4258.01,
               "daily_keys": [
                 "元气友猫粮"
               ],
@@ -3383,7 +3383,7 @@
           ],
           "base_target": 70000,
           "stretch_target": 100000,
-          "actual": 4100.81
+          "actual": 4258.01
         }
       ],
       "persons": [
@@ -3530,7 +3530,7 @@
           "group_stretch": 100000,
           "person_base": 30000,
           "person_stretch": 40000,
-          "actual": 4100.81,
+          "actual": 4258.01,
           "daily_keys": [
             "元气友猫粮"
           ],
@@ -3561,7 +3561,7 @@
           "group_stretch": 0,
           "person_base": 20000,
           "person_stretch": 30000,
-          "actual": 4100.81,
+          "actual": 4258.01,
           "daily_keys": [
             "元气友猫粮"
           ],
@@ -3592,7 +3592,7 @@
           "group_stretch": 0,
           "person_base": 20000,
           "person_stretch": 30000,
-          "actual": 4100.81,
+          "actual": 4258.01,
           "daily_keys": [
             "元气友猫粮"
           ],
@@ -7913,7 +7913,7 @@
       "month": "8月",
       "base_target_total": 190000,
       "stretch_target_total": 260000,
-      "actual_total": 63405.97,
+      "actual_total": 63563.17,
       "groups": [
         {
           "name": "维生素团队",
@@ -7944,7 +7944,7 @@
               "name": "元气友全价全期鲜肉冻干猫粮",
               "base_target": 70000,
               "stretch_target": 100000,
-              "actual": 4100.81,
+              "actual": 4258.01,
               "daily_keys": [
                 "元气友猫粮"
               ],
@@ -7953,7 +7953,7 @@
           ],
           "base_target": 70000,
           "stretch_target": 100000,
-          "actual": 4100.81
+          "actual": 4258.01
         }
       ],
       "persons": [
@@ -8100,7 +8100,7 @@
           "group_stretch": 100000,
           "person_base": 30000,
           "person_stretch": 40000,
-          "actual": 4100.81,
+          "actual": 4258.01,
           "daily_keys": [
             "元气友猫粮"
           ],
@@ -8131,7 +8131,7 @@
           "group_stretch": 0,
           "person_base": 20000,
           "person_stretch": 30000,
-          "actual": 4100.81,
+          "actual": 4258.01,
           "daily_keys": [
             "元气友猫粮"
           ],
@@ -8162,7 +8162,7 @@
           "group_stretch": 0,
           "person_base": 20000,
           "person_stretch": 30000,
-          "actual": 4100.81,
+          "actual": 4258.01,
           "daily_keys": [
             "元气友猫粮"
           ],
@@ -10479,7 +10479,7 @@
       },
       "2026-08": {
         "元气友维生素": 59305.15999999998,
-        "元气友猫粮": 4100.8099999999995
+        "元气友猫粮": 4258.01
       },
       "2026-09": {
         "元气友维生素": 24443.37,
@@ -23436,9 +23436,9 @@
         }
       },
       "2026-08-12": {
-        "t": 310.0,
+        "t": 467.2,
         "p": {
-          "元气友猫粮": -490.0,
+          "元气友猫粮": -332.8,
           "元气友维生素": 800.0
         }
       },
