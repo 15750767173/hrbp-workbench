@@ -208,7 +208,7 @@
       }
     ],
     "data_through_day": 3,
-    "generated_at": "2026-11-04 21:00"
+    "generated_at": "2026-11-04 21:15"
   },
   "targets_8_hist": [
     {
@@ -79333,7 +79333,7 @@
   },
   "prod_split_src": {
     "一部": {
-      "file": "_jf_yibu.json",
+      "file": "_xc_jfdet_yibu.json",
       "kind": "detail",
       "records": 1382,
       "kept": 3,
