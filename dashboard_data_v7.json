@@ -125,12 +125,12 @@
       {
         "name": "七部",
         "leader": "韩晴",
-        "base_target": 480000,
-        "stretch_target": 600000,
+        "base_target": 490000,
+        "stretch_target": 620000,
         "actual": 22607.62,
         "actual_jul": 26785.56,
         "actual_prev": 26785.56,
-        "completion": 4.7,
+        "completion": 4.6,
         "mom_change": -15.6,
         "target_ready": true,
         "group_count": 4,
@@ -208,7 +208,7 @@
       }
     ],
     "data_through_day": 3,
-    "generated_at": "2026-11-04 21:15"
+    "generated_at": "2026-11-04 21:45"
   },
   "targets_8_hist": [
     {
@@ -4245,7 +4245,7 @@
       "groups": [
         {
           "name": "一组+二组：庄盼盼：56w",
-          "lead_clean_name": "庄盼盼（组长）、马怡琪、甘佳欣、冯蔺城（储备）",
+          "lead_clean_name": "马怡琪、甘佳欣、冯蔺城（储备）",
           "members": [
             "虎太郎冻干猫粮+虎太郎升级款猫粮（新客业绩）+益生菌猫粮",
             "天猫长肉粮",
@@ -4255,8 +4255,8 @@
           "products": [
             {
               "name": "虎太郎冻干猫粮+虎太郎升级款猫粮（新客业绩）+益生菌猫粮",
-              "base_target": 255000,
-              "stretch_target": 290000,
+              "base_target": 250000,
+              "stretch_target": 300000,
               "actual": 0,
               "daily_keys": [],
               "actual_jul": 0
@@ -4271,7 +4271,7 @@
             },
             {
               "name": "虎太郎长肉猫粮",
-              "base_target": 55000,
+              "base_target": 60000,
               "stretch_target": 70000,
               "actual": 0,
               "daily_keys": [],
@@ -4287,12 +4287,12 @@
             }
           ],
           "base_target": 560000,
-          "stretch_target": 660000,
+          "stretch_target": 670000,
           "actual": 0
         },
         {
-          "name": "三组：胡宵雪：20w",
-          "lead_clean_name": "胡宵雪（组长）、王常红（新人）",
+          "name": "三组：胡宵雪：22w",
+          "lead_clean_name": "胡宵雪（组长）、王常红",
           "members": [
             "虎太郎漱口水+虎太郎牙膏",
             "冬马漱口水"
@@ -4300,8 +4300,8 @@
           "products": [
             {
               "name": "虎太郎漱口水+虎太郎牙膏",
-              "base_target": 90000,
-              "stretch_target": 110000,
+              "base_target": 110000,
+              "stretch_target": 130000,
               "actual": 0,
               "daily_keys": [],
               "actual_jul": 0
@@ -4315,12 +4315,12 @@
               "actual_jul": 0
             }
           ],
-          "base_target": 200000,
-          "stretch_target": 240000,
+          "base_target": 220000,
+          "stretch_target": 260000,
           "actual": 0
         },
         {
-          "name": "四组：吴俊豪：21w",
+          "name": "四组：吴俊豪：19w",
           "lead_clean_name": "吴俊豪（组长）、吴若寒、黑钰琪、王小雨",
           "members": [
             "虎太郎乳化鱼油+虎太郎鱼油护毛宝+虎太郎泌尿片",
@@ -4369,37 +4369,12 @@
       ],
       "persons": [
         {
-          "name": "庄盼盼",
-          "product": "虎太郎冻干粮+冻干+升级长肉粮",
-          "group_base": 255000,
-          "group_stretch": 290000,
-          "person_base": 60000,
-          "person_stretch": 70000,
-          "actual": 0,
-          "daily_keys": [],
-          "actual_jul": 0,
-          "jul_net": 0,
-          "jul_comm": 0,
-          "m6_net": 80008.93,
-          "m6_comm": 2262.2,
-          "m6_mgmt": 0,
-          "m7_net": 69866.47,
-          "m7_comm": 2096.0,
-          "m7_mgmt": 2721.59,
-          "aug_net_tc": 80946.33,
-          "aug_comm_tc": 4492.4,
-          "aug_comm_bad": false,
-          "sep_net_tc": 17415.61,
-          "sep_comm_tc": 2554.01,
-          "sep_comm_bad": false
-        },
-        {
           "name": "冯蔺城",
           "product": "虎太郎冻干粮+冻干+升级长肉粮",
-          "group_base": 0,
-          "group_stretch": 0,
-          "person_base": 60000,
-          "person_stretch": 70000,
+          "group_base": 250000,
+          "group_stretch": 300000,
+          "person_base": 70000,
+          "person_stretch": 80000,
           "actual": 0,
           "daily_keys": [],
           "actual_jul": 0,
@@ -4423,8 +4398,8 @@
           "product": "虎太郎冻干粮+冻干+升级长肉粮",
           "group_base": 0,
           "group_stretch": 0,
-          "person_base": 45000,
-          "person_stretch": 50000,
+          "person_base": 50000,
+          "person_stretch": 60000,
           "actual": 0,
           "daily_keys": [],
           "actual_jul": 0,
@@ -4448,8 +4423,8 @@
           "product": "虎太郎冻干粮+冻干+升级长肉粮",
           "group_base": 0,
           "group_stretch": 0,
-          "person_base": 45000,
-          "person_stretch": 50000,
+          "person_base": 50000,
+          "person_stretch": 60000,
           "actual": 0,
           "daily_keys": [],
           "actual_jul": 0,
@@ -4471,9 +4446,9 @@
         {
           "name": "商务",
           "product": "虎太郎冻干粮+冻干+升级长肉粮",
-          "group_base": 155000,
+          "group_base": 160000,
           "group_stretch": 190000,
-          "person_base": 55000,
+          "person_base": 60000,
           "person_stretch": 70000,
           "actual": 0,
           "daily_keys": [],
@@ -4519,7 +4494,7 @@
           "sep_comm_bad": false
         },
         {
-          "name": "邵静芳",
+          "name": "庄盼盼",
           "product": "虎太郎美毛粮+虎太郎品种粮",
           "group_base": 0,
           "group_stretch": 0,
@@ -4530,17 +4505,17 @@
           "actual_jul": 0,
           "jul_net": 0,
           "jul_comm": 0,
-          "m6_net": 0,
-          "m6_comm": 0,
+          "m6_net": 80008.93,
+          "m6_comm": 2262.2,
           "m6_mgmt": 0,
-          "m7_net": 0,
-          "m7_comm": 0,
-          "m7_mgmt": 0,
-          "aug_net_tc": 3158.56,
-          "aug_comm_tc": 94.76,
+          "m7_net": 69866.47,
+          "m7_comm": 2096.0,
+          "m7_mgmt": 2721.59,
+          "aug_net_tc": 80946.33,
+          "aug_comm_tc": 4492.4,
           "aug_comm_bad": false,
-          "sep_net_tc": 124818.21,
-          "sep_comm_tc": 5247.04,
+          "sep_net_tc": 17415.61,
+          "sep_comm_tc": 2554.01,
           "sep_comm_bad": false
         },
         {
@@ -4571,10 +4546,10 @@
         {
           "name": "胡宵雪",
           "product": "虎太郎漱口水+虎太郎牙膏",
-          "group_base": 90000,
-          "group_stretch": 110000,
-          "person_base": 60000,
-          "person_stretch": 70000,
+          "group_base": 110000,
+          "group_stretch": 130000,
+          "person_base": 70000,
+          "person_stretch": 80000,
           "actual": 0,
           "daily_keys": [],
           "actual_jul": 0,
@@ -4598,8 +4573,8 @@
           "product": "虎太郎漱口水+虎太郎牙膏",
           "group_base": 0,
           "group_stretch": 0,
-          "person_base": 30000,
-          "person_stretch": 40000,
+          "person_base": 40000,
+          "person_stretch": 50000,
           "actual": 0,
           "daily_keys": [],
           "actual_jul": 0,
@@ -4671,10 +4646,10 @@
         {
           "name": "吴俊豪",
           "product": "虎太郎乳化鱼油+虎太郎维生素+虎太郎鱼油护毛宝+虎太郎泌尿片",
-          "group_base": 60000,
-          "group_stretch": 70000,
-          "person_base": 60000,
-          "person_stretch": 70000,
+          "group_base": 70000,
+          "group_stretch": 80000,
+          "person_base": 70000,
+          "person_stretch": 80000,
           "actual": 0,
           "daily_keys": [],
           "actual_jul": 0,
@@ -4696,10 +4671,10 @@
         {
           "name": "王小雨",
           "product": "虎太郎化毛片",
-          "group_base": 30000,
-          "group_stretch": 40000,
-          "person_base": 30000,
-          "person_stretch": 40000,
+          "group_base": 0,
+          "group_stretch": 0,
+          "person_base": 40000,
+          "person_stretch": 50000,
           "actual": 0,
           "daily_keys": [],
           "actual_jul": 0,
@@ -4721,8 +4696,8 @@
         {
           "name": "吴若寒",
           "product": "虎太郎维生素+万卡丘维生素",
-          "group_base": 80000,
-          "group_stretch": 100000,
+          "group_base": 50000,
+          "group_stretch": 60000,
           "person_base": 50000,
           "person_stretch": 60000,
           "actual": 0,
@@ -4741,31 +4716,6 @@
           "aug_comm_bad": false,
           "sep_net_tc": 14118.47,
           "sep_comm_tc": 446.34,
-          "sep_comm_bad": false
-        },
-        {
-          "name": "黑钰琪",
-          "product": "虎太郎维生素",
-          "group_base": 0,
-          "group_stretch": 0,
-          "person_base": 30000,
-          "person_stretch": 40000,
-          "actual": 0,
-          "daily_keys": [],
-          "actual_jul": 0,
-          "jul_net": 0,
-          "jul_comm": 0,
-          "m6_net": 0,
-          "m6_comm": 0,
-          "m6_mgmt": 0,
-          "m7_net": 0,
-          "m7_comm": 0,
-          "m7_mgmt": 0,
-          "aug_net_tc": 0,
-          "aug_comm_tc": 0,
-          "aug_comm_bad": false,
-          "sep_net_tc": 3724.69,
-          "sep_comm_tc": 0,
           "sep_comm_bad": false
         }
       ],
@@ -4839,10 +4789,10 @@
       "m6_net_total": 545326.41,
       "m7_net_total": 529845.77,
       "target_ready": true,
-      "aug_net_total": 435338.01,
-      "aug_comm_person_total": 18809.99,
-      "sep_net_total": 314469.74,
-      "sep_comm_person_total": 13637.07
+      "aug_net_total": 432179.45,
+      "aug_comm_person_total": 18715.23,
+      "sep_net_total": 185926.84,
+      "sep_comm_person_total": 8390.03
     },
     {
       "name": "三部",
@@ -4854,7 +4804,7 @@
       "groups": [
         {
           "name": "一组：陈文广：140000",
-          "lead_clean_name": "陈文广、翟文裕、新人",
+          "lead_clean_name": "陈文广、翟文裕、田荣娴",
           "members": [
             "幽兔维生素"
           ],
@@ -4942,6 +4892,31 @@
           "aug_comm_bad": false,
           "sep_net_tc": 31031.66,
           "sep_comm_tc": 775.79,
+          "sep_comm_bad": false
+        },
+        {
+          "name": "田荣娴",
+          "product": "幽兔维生素",
+          "group_base": 0,
+          "group_stretch": 0,
+          "person_base": 30000,
+          "person_stretch": 40000,
+          "actual": 0,
+          "daily_keys": [],
+          "actual_jul": 0,
+          "jul_net": 0,
+          "jul_comm": 0,
+          "m6_net": 0,
+          "m6_comm": 0,
+          "m6_mgmt": 0,
+          "m7_net": 0,
+          "m7_comm": 0,
+          "m7_mgmt": 0,
+          "aug_net_tc": 0,
+          "aug_comm_tc": 0,
+          "aug_comm_bad": false,
+          "sep_net_tc": 0,
+          "sep_comm_tc": 0,
           "sep_comm_bad": false
         },
         {
@@ -5337,8 +5312,8 @@
       "name": "七部",
       "leader": "韩晴",
       "month": "11月",
-      "base_target_total": 480000,
-      "stretch_target_total": 600000,
+      "base_target_total": 490000,
+      "stretch_target_total": 620000,
       "actual_total": 0,
       "groups": [
         {
@@ -5406,10 +5381,10 @@
         {
           "name": "段云洁",
           "product": "桂姨乳鸽猫粮",
-          "group_base": 280000,
+          "group_base": 270000,
           "group_stretch": 340000,
-          "person_base": 70000,
-          "person_stretch": 80000,
+          "person_base": 60000,
+          "person_stretch": 70000,
           "actual": 0,
           "daily_keys": [],
           "actual_jul": 0,
@@ -5433,8 +5408,8 @@
           "product": "桂姨乳鸽猫粮",
           "group_base": 0,
           "group_stretch": 0,
-          "person_base": 50000,
-          "person_stretch": 60000,
+          "person_base": 40000,
+          "person_stretch": 50000,
           "actual": 0,
           "daily_keys": [],
           "actual_jul": 0,
@@ -5479,10 +5454,35 @@
           "sep_comm_bad": false
         },
         {
+          "name": "肖琳",
+          "product": "益生熊猫粮",
+          "group_base": 0,
+          "group_stretch": 0,
+          "person_base": 30000,
+          "person_stretch": 40000,
+          "actual": 0,
+          "daily_keys": [],
+          "actual_jul": 0,
+          "jul_net": 0,
+          "jul_comm": 0,
+          "m6_net": 0,
+          "m6_comm": 0,
+          "m6_mgmt": 0,
+          "m7_net": 0,
+          "m7_comm": 0,
+          "m7_mgmt": 0,
+          "aug_net_tc": 0,
+          "aug_comm_tc": 0,
+          "aug_comm_bad": false,
+          "sep_net_tc": 0,
+          "sep_comm_tc": 0,
+          "sep_comm_bad": false
+        },
+        {
           "name": "李春利",
           "product": "桂姨维生素/桂姨猫粮",
-          "group_base": 130000,
-          "group_stretch": 160000,
+          "group_base": 140000,
+          "group_stretch": 170000,
           "person_base": 80000,
           "person_stretch": 90000,
           "actual": 0,
@@ -5529,12 +5529,12 @@
           "sep_comm_bad": false
         },
         {
-          "name": "刘璐璐",
-          "product": "桂姨维生素/桂姨乳化鱼油",
+          "name": "刘璐璐1",
+          "product": "桂姨维生素/桂姨化毛片",
           "group_base": 0,
           "group_stretch": 0,
-          "person_base": 20000,
-          "person_stretch": 30000,
+          "person_base": 30000,
+          "person_stretch": 40000,
           "actual": 0,
           "daily_keys": [],
           "actual_jul": 0,
@@ -5556,10 +5556,10 @@
         {
           "name": "周慧慧",
           "product": "益生熊维生素",
-          "group_base": 70000,
-          "group_stretch": 100000,
-          "person_base": 40000,
-          "person_stretch": 50000,
+          "group_base": 80000,
+          "group_stretch": 110000,
+          "person_base": 50000,
+          "person_stretch": 60000,
           "actual": 0,
           "daily_keys": [],
           "actual_jul": 0,
@@ -10649,8 +10649,8 @@
         "stretch": 590000.0
       },
       "七部": {
-        "base": 480000.0,
-        "stretch": 600000.0
+        "base": 490000.0,
+        "stretch": 620000.0
       },
       "八部": {
         "base": 0.0,
@@ -10705,8 +10705,8 @@
         "stretch": 590000.0
       },
       "七部": {
-        "base": 480000.0,
-        "stretch": 600000.0
+        "base": 490000.0,
+        "stretch": 620000.0
       },
       "宠元气友组": {
         "base": 210000.0,
