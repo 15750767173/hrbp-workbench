@@ -2,10 +2,10 @@
   "overview": {
     "current_month": "2026-11",
     "last_month": "2026-10",
-    "cutoff_day": 4,
-    "period_label": "4日",
-    "last_month_period": "10月1-3日",
-    "yesterday": "2026-11-03",
+    "cutoff_day": 5,
+    "period_label": "5日",
+    "last_month_period": "10月1-4日",
+    "yesterday": "2026-11-04",
     "departments": [
       {
         "name": "一部",
@@ -13,10 +13,10 @@
         "base_target": 900000,
         "stretch_target": 1130000,
         "actual": 86100.54,
-        "actual_jul": 59935.11,
-        "actual_prev": 59935.11,
+        "actual_jul": 78249.56,
+        "actual_prev": 78249.56,
         "completion": 9.6,
-        "mom_change": 43.7,
+        "mom_change": 10.0,
         "target_ready": true,
         "group_count": 4,
         "person_count": 19,
@@ -46,8 +46,8 @@
             "status": "在职"
           }
         ],
-        "yesterday_actual": 34758.37,
-        "daily_eff": 1655.16,
+        "yesterday_actual": -69.0,
+        "daily_eff": -3.29,
         "monthly_eff": 4100.03
       },
       {
@@ -56,10 +56,10 @@
         "base_target": 970000,
         "stretch_target": 1160000,
         "actual": 50111.96,
-        "actual_jul": 62309.72,
-        "actual_prev": 62309.72,
+        "actual_jul": 76838.52,
+        "actual_prev": 76838.52,
         "completion": 5.2,
-        "mom_change": -19.6,
+        "mom_change": -34.8,
         "target_ready": true,
         "group_count": 5,
         "person_count": 21,
@@ -68,8 +68,8 @@
         "trial_count": 3,
         "shigang_count": 0,
         "shigang_list": [],
-        "yesterday_actual": 18007.29,
-        "daily_eff": 1286.24,
+        "yesterday_actual": -788.3,
+        "daily_eff": -56.31,
         "monthly_eff": 3579.43
       },
       {
@@ -78,10 +78,10 @@
         "base_target": 270000,
         "stretch_target": 350000,
         "actual": 6101.92,
-        "actual_jul": 14488.68,
-        "actual_prev": 14488.68,
+        "actual_jul": 17006.45,
+        "actual_prev": 17006.45,
         "completion": 2.3,
-        "mom_change": -57.9,
+        "mom_change": -64.1,
         "target_ready": true,
         "group_count": 2,
         "person_count": 7,
@@ -90,8 +90,8 @@
         "trial_count": 2,
         "shigang_count": 0,
         "shigang_list": [],
-        "yesterday_actual": 2512.53,
-        "daily_eff": 502.51,
+        "yesterday_actual": 0.0,
+        "daily_eff": 0.0,
         "monthly_eff": 1220.38
       },
       {
@@ -100,10 +100,10 @@
         "base_target": 470000,
         "stretch_target": 590000,
         "actual": 19668.09,
-        "actual_jul": 20075.11,
-        "actual_prev": 20075.11,
+        "actual_jul": 24798.26,
+        "actual_prev": 24798.26,
         "completion": 4.2,
-        "mom_change": -2.0,
+        "mom_change": -20.7,
         "target_ready": true,
         "group_count": 3,
         "person_count": 12,
@@ -118,8 +118,8 @@
             "status": "在职"
           }
         ],
-        "yesterday_actual": 8232.09,
-        "daily_eff": 914.68,
+        "yesterday_actual": 0.0,
+        "daily_eff": 0.0,
         "monthly_eff": 2185.34
       },
       {
@@ -128,10 +128,10 @@
         "base_target": 490000,
         "stretch_target": 620000,
         "actual": 22607.62,
-        "actual_jul": 26785.56,
-        "actual_prev": 26785.56,
+        "actual_jul": 36576.75,
+        "actual_prev": 36576.75,
         "completion": 4.6,
-        "mom_change": -15.6,
+        "mom_change": -38.2,
         "target_ready": true,
         "group_count": 4,
         "person_count": 9,
@@ -151,8 +151,8 @@
             "status": "在职"
           }
         ],
-        "yesterday_actual": 6440.47,
-        "daily_eff": 715.61,
+        "yesterday_actual": 0.0,
+        "daily_eff": 0.0,
         "monthly_eff": 2511.96
       },
       {
@@ -161,10 +161,10 @@
         "base_target": 210000,
         "stretch_target": 250000,
         "actual": 3467.93,
-        "actual_jul": 4705.2,
-        "actual_prev": 4705.2,
+        "actual_jul": 6503.15,
+        "actual_prev": 6503.15,
         "completion": 1.7,
-        "mom_change": -26.3,
+        "mom_change": -46.7,
         "target_ready": true,
         "group_count": 2,
         "person_count": 7,
@@ -179,8 +179,8 @@
             "status": "在职"
           }
         ],
-        "yesterday_actual": 1116.93,
-        "daily_eff": 159.56,
+        "yesterday_actual": 0.0,
+        "daily_eff": 0.0,
         "monthly_eff": 495.42
       },
       {
@@ -208,7 +208,7 @@
       }
     ],
     "data_through_day": 3,
-    "generated_at": "2026-11-04 21:45"
+    "generated_at": "2026-11-05 03:00"
   },
   "targets_8_hist": [
     {
@@ -15226,6 +15226,9 @@
         "p": {
           "元气友缝纫机": -69.0
         }
+      },
+      "2026-11-05": {
+        "t": 0.0
       }
     },
     "二部": {
@@ -22550,6 +22553,9 @@
       },
       "2026-11-04": {
         "t": 0.0
+      },
+      "2026-11-05": {
+        "t": 0.0
       }
     },
     "七部": {
@@ -22955,6 +22961,9 @@
           "益生熊猫粮": 835.94,
           "益生熊维生素": 84.13
         }
+      },
+      "2026-11-05": {
+        "t": 0.0
       },
       "2026-06-10": {
         "t": 13163.59,
@@ -25512,6 +25521,9 @@
       },
       "2026-11-04": {
         "t": 0.0
+      },
+      "2026-11-05": {
+        "t": 0.0
       }
     }
   },
@@ -25524,7 +25536,7 @@
         "hire_date": "2025/10/13",
         "regular_date": "2025/12/01",
         "enter_date": "2026/06/23",
-        "cycle": 134,
+        "cycle": 135,
         "remark": null,
         "archive": "https://www.kdocs.cn/l/cmxwju14cmR6"
       },
@@ -25535,7 +25547,7 @@
         "hire_date": "2025/12/01",
         "regular_date": "2026/03/01",
         "enter_date": "2026/06/15",
-        "cycle": 142,
+        "cycle": 143,
         "remark": "晋升P3",
         "archive": "https://www.kdocs.cn/l/calHklCbEVuH"
       },
@@ -25546,7 +25558,7 @@
         "hire_date": "2026/03/09",
         "regular_date": "2026/06/01",
         "enter_date": "2026/08/13",
-        "cycle": 83,
+        "cycle": 84,
         "remark": null,
         "archive": "https://www.kdocs.cn/l/ckEQX3ram1mc"
       },
@@ -25557,7 +25569,7 @@
         "hire_date": "2026/05/14",
         "regular_date": "2026/07/01",
         "enter_date": "2026/06/01",
-        "cycle": 156,
+        "cycle": 157,
         "remark": "转正晋升P2",
         "archive": "https://www.kdocs.cn/l/cgjxO0NmcVfM"
       },
@@ -25568,7 +25580,7 @@
         "hire_date": "2026/04/07",
         "regular_date": "2026/07/01",
         "enter_date": "2026/06/24",
-        "cycle": 133,
+        "cycle": 134,
         "remark": null,
         "archive": "https://www.kdocs.cn/l/cqiMDCfLHEm3"
       },
@@ -25579,7 +25591,7 @@
         "hire_date": "2025/01/13",
         "regular_date": "2025/04/01",
         "enter_date": "2026/06/23",
-        "cycle": 134,
+        "cycle": 135,
         "remark": null,
         "archive": "https://www.kdocs.cn/l/cbZne775mKwg"
       },
@@ -25590,7 +25602,7 @@
         "hire_date": "2025/11/24",
         "regular_date": "2026/02/01",
         "enter_date": "2026/04/20",
-        "cycle": 198,
+        "cycle": 199,
         "remark": null,
         "archive": "https://www.kdocs.cn/l/cuN5obvpltDW"
       },
@@ -25601,7 +25613,7 @@
         "hire_date": "2025/12/29",
         "regular_date": "2026/06/01",
         "enter_date": "2026/05/01",
-        "cycle": 187,
+        "cycle": 188,
         "remark": null,
         "archive": "https://www.kdocs.cn/l/csDwcjiyWZ9c"
       },
@@ -25612,7 +25624,7 @@
         "hire_date": "2025/06/16",
         "regular_date": "2025/12/01",
         "enter_date": "2026/06/23",
-        "cycle": 134,
+        "cycle": 135,
         "remark": null,
         "archive": "https://www.kdocs.cn/l/clkFajnw7gEo"
       },
@@ -25623,7 +25635,7 @@
         "hire_date": "2025/12/05",
         "regular_date": "2026/03/01",
         "enter_date": "2026/06/23",
-        "cycle": 134,
+        "cycle": 135,
         "remark": "晋升P3",
         "archive": "https://www.kdocs.cn/l/ckTV3AdHQfXO"
       },
@@ -25634,7 +25646,7 @@
         "hire_date": "2025/04/24",
         "regular_date": "2025/10/01",
         "enter_date": "2026/06/23",
-        "cycle": 134,
+        "cycle": 135,
         "remark": null,
         "archive": "https://www.kdocs.cn/l/cu49qj6ZWqx8"
       },
@@ -25645,7 +25657,7 @@
         "hire_date": "2025/05/15",
         "regular_date": "2025/08/11",
         "enter_date": "2026/06/23",
-        "cycle": 134,
+        "cycle": 135,
         "remark": null,
         "archive": "https://www.kdocs.cn/l/cdPoRVH8LkcT"
       },
@@ -25656,7 +25668,7 @@
         "hire_date": "2025/08/18",
         "regular_date": "2025/12/01",
         "enter_date": "2026/06/23",
-        "cycle": 134,
+        "cycle": 135,
         "remark": null,
         "archive": "https://www.kdocs.cn/l/cobTJqSzOi8B"
       },
@@ -25667,7 +25679,7 @@
         "hire_date": "2025/03/20",
         "regular_date": "2025/05/01",
         "enter_date": "2026/06/20",
-        "cycle": 137,
+        "cycle": 138,
         "remark": null,
         "archive": "https://www.kdocs.cn/l/cgxLRB5Zfrf4"
       },
@@ -25678,7 +25690,7 @@
         "hire_date": "2026/03/17",
         "regular_date": "2026/09/01",
         "enter_date": "2026/05/21",
-        "cycle": 167,
+        "cycle": 168,
         "remark": null,
         "archive": "https://www.kdocs.cn/l/ct8yDSr0b3qD"
       },
@@ -25689,7 +25701,7 @@
         "hire_date": "2025/06/24",
         "regular_date": "2025/08/01",
         "enter_date": "2026/07/02",
-        "cycle": 125,
+        "cycle": 126,
         "remark": null,
         "archive": "https://www.kdocs.cn/l/clCPjz9UJNtQ"
       },
@@ -25700,7 +25712,7 @@
         "hire_date": "2026/05/18",
         "regular_date": "2026/09/01",
         "enter_date": "2026/08/12",
-        "cycle": 84,
+        "cycle": 85,
         "remark": null,
         "archive": "https://www.kdocs.cn/l/ciFjxmmkZRAf"
       },
@@ -25711,7 +25723,7 @@
         "hire_date": "2026/06/12",
         "regular_date": "",
         "enter_date": "2026/08/14",
-        "cycle": 82,
+        "cycle": 83,
         "remark": null,
         "archive": "https://www.kdocs.cn/l/cfUHJvy9IGAC"
       },
@@ -25722,7 +25734,7 @@
         "hire_date": "2026/07/08",
         "regular_date": "2026/10/01",
         "enter_date": "2026/09/08",
-        "cycle": 57,
+        "cycle": 58,
         "remark": null,
         "archive": "https://www.kdocs.cn/l/cuG3gNzntJmO"
       },
@@ -25733,7 +25745,7 @@
         "hire_date": "2026/04/27",
         "regular_date": "2026/09/01",
         "enter_date": "2026/08/13",
-        "cycle": 83,
+        "cycle": 84,
         "remark": null,
         "archive": "https://www.kdocs.cn/l/cli9R4E2NuMo"
       },
@@ -25744,7 +25756,7 @@
         "hire_date": "2026/05/29",
         "regular_date": "2026/09/01",
         "enter_date": "2026/08/15",
-        "cycle": 81,
+        "cycle": 82,
         "remark": null,
         "archive": "https://www.kdocs.cn/l/cfy43BcJN8Es"
       },
@@ -25755,7 +25767,7 @@
         "hire_date": "2026/07/22",
         "regular_date": "",
         "enter_date": "2026/09/08",
-        "cycle": 57,
+        "cycle": 58,
         "remark": null,
         "archive": "https://www.kdocs.cn/l/clvQwoBydhdE"
       },
@@ -25766,7 +25778,7 @@
         "hire_date": "2026/03/02",
         "regular_date": "2026/06/01",
         "enter_date": "2026/09/08",
-        "cycle": 57,
+        "cycle": 58,
         "remark": null,
         "archive": "https://www.kdocs.cn/l/cvow4syfObUc"
       },
@@ -25777,7 +25789,7 @@
         "hire_date": "2026/07/30",
         "regular_date": "",
         "enter_date": "",
-        "cycle": 46330,
+        "cycle": 46331,
         "remark": null,
         "archive": "https://www.kdocs.cn/l/clNzHsNNlPop"
       }
@@ -57524,6 +57536,12 @@
             "name": "宠元气友组积分提成",
             "url": "https://www.kdocs.cn/l/cumL8YY0N4Uk"
           }
+        ],
+        "1-7": [
+          {
+            "name": "八部积分提成",
+            "url": "https://www.kdocs.cn/l/cqC5aeL7FJCg"
+          }
         ]
       },
       {
@@ -57913,9 +57931,79 @@
             "url": "https://www.kdocs.cn/l/ckGwIzZFUGZz"
           }
         ]
+      },
+      {
+        "1-1": [
+          {
+            "name": "跨境利润表",
+            "url": "跨境利润表"
+          }
+        ],
+        "1-2": [
+          {
+            "name": "https://www.kdocs.cn/l/ciDT6povf93g",
+            "url": "https://www.kdocs.cn/l/ciDT6povf93g"
+          }
+        ]
+      },
+      {
+        "1-1": [
+          {
+            "name": "新媒体宠物利润表",
+            "url": "新媒体宠物利润表"
+          }
+        ],
+        "1-2": [
+          {
+            "name": "https://www.kdocs.cn/l/ctMZKWF5ifHy",
+            "url": "https://www.kdocs.cn/l/ctMZKWF5ifHy"
+          }
+        ]
+      },
+      {
+        "1-1": [
+          {
+            "name": "新媒体百货利润表",
+            "url": "新媒体百货利润表"
+          }
+        ],
+        "1-2": [
+          {
+            "name": "https://www.kdocs.cn/l/cg6fpZL6MdkS",
+            "url": "https://www.kdocs.cn/l/cg6fpZL6MdkS"
+          }
+        ]
+      },
+      {
+        "1-1": [
+          {
+            "name": "运营复购利润表",
+            "url": "运营复购利润表"
+          }
+        ],
+        "1-2": [
+          {
+            "name": "https://www.kdocs.cn/l/cc5SVWzbmzcl",
+            "url": "https://www.kdocs.cn/l/cc5SVWzbmzcl"
+          }
+        ]
+      },
+      {
+        "1-1": [
+          {
+            "name": "跨境保健品项目报表明细",
+            "url": "跨境保健品项目报表明细"
+          }
+        ],
+        "1-2": [
+          {
+            "name": "https://www.kdocs.cn/l/cu4BXi5ur8wU",
+            "url": "https://www.kdocs.cn/l/cu4BXi5ur8wU"
+          }
+        ]
       }
     ],
-    "ziliao_note": "来自BP资料表(sheet118)，共17条资料记录、76个文档链接，每条含多类文档链接",
+    "ziliao_note": "来自BP资料表(sheet118)，共22条资料记录、87个文档链接，每条含多类文档链接",
     "ziliao_categorized": {
       "common": [
         {
@@ -57941,6 +58029,10 @@
         {
           "name": "超可萌积分统计表",
           "url": "https://www.kdocs.cn/l/cbDqOp4w4R1Y"
+        },
+        {
+          "name": "八部积分提成",
+          "url": "https://www.kdocs.cn/l/cqC5aeL7FJCg"
         },
         {
           "name": "话费",
@@ -58137,6 +58229,46 @@
         {
           "name": "百货",
           "url": "https://www.kdocs.cn/l/ckGwIzZFUGZz"
+        },
+        {
+          "name": "跨境利润表",
+          "url": "跨境利润表"
+        },
+        {
+          "name": "https://www.kdocs.cn/l/ciDT6povf93g",
+          "url": "https://www.kdocs.cn/l/ciDT6povf93g"
+        },
+        {
+          "name": "新媒体宠物利润表",
+          "url": "新媒体宠物利润表"
+        },
+        {
+          "name": "https://www.kdocs.cn/l/ctMZKWF5ifHy",
+          "url": "https://www.kdocs.cn/l/ctMZKWF5ifHy"
+        },
+        {
+          "name": "新媒体百货利润表",
+          "url": "新媒体百货利润表"
+        },
+        {
+          "name": "https://www.kdocs.cn/l/cg6fpZL6MdkS",
+          "url": "https://www.kdocs.cn/l/cg6fpZL6MdkS"
+        },
+        {
+          "name": "运营复购利润表",
+          "url": "运营复购利润表"
+        },
+        {
+          "name": "https://www.kdocs.cn/l/cc5SVWzbmzcl",
+          "url": "https://www.kdocs.cn/l/cc5SVWzbmzcl"
+        },
+        {
+          "name": "跨境保健品项目报表明细",
+          "url": "跨境保健品项目报表明细"
+        },
+        {
+          "name": "https://www.kdocs.cn/l/cu4BXi5ur8wU",
+          "url": "https://www.kdocs.cn/l/cu4BXi5ur8wU"
         }
       ],
       "by_dept": {
