@@ -10,14 +10,14 @@
       {
         "name": "一部",
         "leader": "王雪娅",
-        "base_target": 0,
-        "stretch_target": 0,
+        "base_target": 900000,
+        "stretch_target": 1130000,
         "actual": 86102.04,
         "actual_jul": 59935.11,
         "actual_prev": 59935.11,
-        "completion": null,
+        "completion": 9.6,
         "mom_change": 43.7,
-        "target_ready": false,
+        "target_ready": true,
         "group_count": 4,
         "person_count": 19,
         "staff_count": 25,
@@ -53,14 +53,14 @@
       {
         "name": "二部",
         "leader": "高营",
-        "base_target": 0,
-        "stretch_target": 0,
+        "base_target": 970000,
+        "stretch_target": 1160000,
         "actual": 50119.96,
         "actual_jul": 62309.72,
         "actual_prev": 62309.72,
-        "completion": null,
+        "completion": 5.2,
         "mom_change": -19.6,
-        "target_ready": false,
+        "target_ready": true,
         "group_count": 5,
         "person_count": 21,
         "staff_count": 14,
@@ -75,14 +75,14 @@
       {
         "name": "三部",
         "leader": "高营",
-        "base_target": 0,
-        "stretch_target": 0,
+        "base_target": 270000,
+        "stretch_target": 350000,
         "actual": 6101.92,
         "actual_jul": 14488.68,
         "actual_prev": 14488.68,
-        "completion": null,
+        "completion": 2.3,
         "mom_change": -57.9,
-        "target_ready": false,
+        "target_ready": true,
         "group_count": 2,
         "person_count": 7,
         "staff_count": 5,
@@ -97,14 +97,14 @@
       {
         "name": "六部",
         "leader": "李秀琦",
-        "base_target": 0,
-        "stretch_target": 0,
+        "base_target": 470000,
+        "stretch_target": 590000,
         "actual": 19668.09,
         "actual_jul": 20075.11,
         "actual_prev": 20075.11,
-        "completion": null,
+        "completion": 4.2,
         "mom_change": -2.0,
-        "target_ready": false,
+        "target_ready": true,
         "group_count": 3,
         "person_count": 12,
         "staff_count": 10,
@@ -125,14 +125,14 @@
       {
         "name": "七部",
         "leader": "韩晴",
-        "base_target": 0,
-        "stretch_target": 0,
+        "base_target": 480000,
+        "stretch_target": 600000,
         "actual": 22607.62,
         "actual_jul": 26785.56,
         "actual_prev": 26785.56,
-        "completion": null,
+        "completion": 4.7,
         "mom_change": -15.6,
-        "target_ready": false,
+        "target_ready": true,
         "group_count": 4,
         "person_count": 9,
         "staff_count": 11,
@@ -196,9 +196,9 @@
         "target_ready": false,
         "group_count": 1,
         "person_count": 4,
-        "staff_count": 4,
+        "staff_count": 2,
         "formal_count": 0,
-        "trial_count": 4,
+        "trial_count": 2,
         "shigang_count": 0,
         "shigang_list": [],
         "yesterday_actual": 0,
@@ -208,7 +208,7 @@
       }
     ],
     "data_through_day": 3,
-    "generated_at": "2026-11-04 14:45"
+    "generated_at": "2026-11-04 15:31"
   },
   "targets_8_hist": [
     {
@@ -1217,7 +1217,7 @@
         },
         {
           "name": "B站组",
-          "lead_clean_name": "",
+          "lead_clean_name": "王思妤",
           "members": [
             "王思妤"
           ],
@@ -2953,7 +2953,7 @@
         },
         {
           "name": "三组",
-          "lead_clean_name": "",
+          "lead_clean_name": "王典典",
           "members": [
             "王典典"
           ],
@@ -3640,131 +3640,518 @@
       "name": "一部",
       "leader": "王雪娅",
       "month": "11月",
-      "base_target_total": 0,
-      "stretch_target_total": 0,
+      "base_target_total": 900000,
+      "stretch_target_total": 1130000,
       "actual_total": 0,
       "groups": [
         {
-          "name": "一组",
-          "lead_clean_name": "魏姚鑫",
+          "name": "一组：魏谣鑫：300000",
+          "lead_clean_name": "魏姚鑫（组长）、吴璐阳、朱叶杰、汪燕资",
           "members": [
-            "魏姚鑫",
-            "吴璐阳",
-            "吕梦迪",
-            "朱叶杰",
-            "汪燕资"
+            "uiko磷虾油+维生素+冬马磷虾油+鱼油"
           ],
           "products": [
             {
               "name": "uiko磷虾油+维生素+冬马磷虾油+鱼油",
-              "base_target": 400000,
-              "stretch_target": 450000,
-              "actual": 456621.38,
-              "daily_keys": [
-                "uiko南极磷虾油",
-                "uiko维生素",
-                "冬马维生素",
-                "uiko鱼油",
-                "冬马乳化鱼油"
-              ],
-              "actual_jul": 786979.14
-            }
-          ],
-          "base_target": 400000,
-          "stretch_target": 450000,
-          "actual": 456621.38
-        },
-        {
-          "name": "二组",
-          "lead_clean_name": "杨兰兰",
-          "members": [
-            "杨兰兰",
-            "文富豪",
-            "贾怡凡",
-            "沈雪妮",
-            "宋洋洋",
-            "李泽"
-          ],
-          "products": [
-            {
-              "name": "冬马猫粮、冬马维生素（新品）",
-              "base_target": 340000,
-              "stretch_target": 420000,
-              "actual": 282460.86,
-              "daily_keys": [
-                "冬马猫粮"
-              ],
-              "actual_jul": 17981.97
-            }
-          ],
-          "base_target": 340000,
-          "stretch_target": 420000,
-          "actual": 282460.86
-        },
-        {
-          "name": "三组",
-          "lead_clean_name": "马赛赛",
-          "members": [
-            "马赛赛"
-          ],
-          "products": [
-            {
-              "name": "元气友缝纫机（新品）",
-              "base_target": 80000,
-              "stretch_target": 100000,
-              "actual": 117946.45,
-              "daily_keys": [
-                "元气友缝纫机"
-              ],
-              "actual_jul": 76224.69
-            },
-            {
-              "name": "寻境学习机",
-              "base_target": 50000,
-              "stretch_target": 70000,
-              "actual": 7663.45,
-              "daily_keys": [
-                "学习机"
-              ],
-              "actual_jul": 0
-            }
-          ],
-          "base_target": 130000,
-          "stretch_target": 170000,
-          "actual": 125609.9
-        },
-        {
-          "name": "四组",
-          "lead_clean_name": "蔺姣",
-          "members": [
-            "蔺姣"
-          ],
-          "products": [
-            {
-              "name": "冬马空气净化器",
-              "base_target": 60000,
-              "stretch_target": 70000,
-              "actual": 26563.45,
-              "daily_keys": [
-                "冬马空气净化器"
-              ],
-              "actual_jul": 39604.85
-            },
-            {
-              "name": "冬马乳化磷虾油",
-              "base_target": 50000,
-              "stretch_target": 60000,
+              "base_target": 320000,
+              "stretch_target": 400000,
               "actual": 0,
               "daily_keys": [],
               "actual_jul": 0
             }
           ],
-          "base_target": 110000,
-          "stretch_target": 130000,
-          "actual": 26563.45
+          "base_target": 320000,
+          "stretch_target": 400000,
+          "actual": 0
+        },
+        {
+          "name": "二组：杨兰兰：340000",
+          "lead_clean_name": "杨兰兰（组长）、贾怡凡、沈雪妮",
+          "members": [
+            "冬马猫粮、冬马维生素、满分猫粮（新品）"
+          ],
+          "products": [
+            {
+              "name": "冬马猫粮、冬马维生素、满分猫粮（新品）",
+              "base_target": 340000,
+              "stretch_target": 420000,
+              "actual": 0,
+              "daily_keys": [],
+              "actual_jul": 0
+            }
+          ],
+          "base_target": 340000,
+          "stretch_target": 420000,
+          "actual": 0
+        },
+        {
+          "name": "百货一组：马赛赛：150000",
+          "lead_clean_name": "马赛赛（组长）",
+          "members": [
+            "元气友缝纫机、元气友滑板、巴贝佳孕妇枕"
+          ],
+          "products": [
+            {
+              "name": "元气友缝纫机、元气友滑板、巴贝佳孕妇枕",
+              "base_target": 170000,
+              "stretch_target": 220000,
+              "actual": 0,
+              "daily_keys": [],
+              "actual_jul": 0
+            }
+          ],
+          "base_target": 170000,
+          "stretch_target": 220000,
+          "actual": 0
+        },
+        {
+          "name": "百货二组",
+          "lead_clean_name": "蔺姣",
+          "members": [
+            "BZY理疗仪"
+          ],
+          "products": [
+            {
+              "name": "BZY理疗仪",
+              "base_target": 70000,
+              "stretch_target": 90000,
+              "actual": 0,
+              "daily_keys": [],
+              "actual_jul": 0
+            }
+          ],
+          "base_target": 70000,
+          "stretch_target": 90000,
+          "actual": 0
         }
       ],
-      "persons": [],
+      "persons": [
+        {
+          "name": "魏姚鑫",
+          "product": "uiko磷虾油",
+          "group_base": 320000,
+          "group_stretch": 400000,
+          "person_base": 70000,
+          "person_stretch": 80000,
+          "actual": 0,
+          "daily_keys": [],
+          "actual_jul": 0,
+          "jul_net": 0,
+          "jul_comm": 0,
+          "m6_net": 208624.42,
+          "m6_comm": 9191.2,
+          "m6_mgmt": 0,
+          "m7_net": 250254.36,
+          "m7_comm": 11312.72,
+          "m7_mgmt": 11864.19,
+          "aug_net_tc": 222372.07,
+          "aug_comm_tc": 15029.92,
+          "aug_comm_bad": false,
+          "sep_net_tc": 65117.65,
+          "sep_comm_tc": 5037.32,
+          "sep_comm_bad": false
+        },
+        {
+          "name": "吴璐阳",
+          "product": "uiko维生素",
+          "group_base": 0,
+          "group_stretch": 0,
+          "person_base": 60000,
+          "person_stretch": 70000,
+          "actual": 0,
+          "daily_keys": [],
+          "actual_jul": 0,
+          "jul_net": 0,
+          "jul_comm": 0,
+          "m6_net": 72597.08,
+          "m6_comm": 2471.8,
+          "m6_mgmt": 1076.94,
+          "m7_net": 164945.77,
+          "m7_comm": 7047.3,
+          "m7_mgmt": 0,
+          "aug_net_tc": 61911.89,
+          "aug_comm_tc": 2076.48,
+          "aug_comm_bad": false,
+          "sep_net_tc": 47254.85,
+          "sep_comm_tc": 1490.19,
+          "sep_comm_bad": false
+        },
+        {
+          "name": "王馨毅",
+          "product": "uiko维生素",
+          "group_base": 0,
+          "group_stretch": 0,
+          "person_base": 20000,
+          "person_stretch": 30000,
+          "actual": 0,
+          "daily_keys": [],
+          "actual_jul": 0,
+          "jul_net": 0,
+          "jul_comm": 0,
+          "m6_net": 0,
+          "m6_comm": 0,
+          "m6_mgmt": 0,
+          "m7_net": 0,
+          "m7_comm": 0,
+          "m7_mgmt": 0,
+          "aug_net_tc": 0,
+          "aug_comm_tc": 0,
+          "aug_comm_bad": false,
+          "sep_net_tc": 2465.66,
+          "sep_comm_tc": 73.97,
+          "sep_comm_bad": false
+        },
+        {
+          "name": "李佳星",
+          "product": "uiko维生素",
+          "group_base": 0,
+          "group_stretch": 0,
+          "person_base": 20000,
+          "person_stretch": 30000,
+          "actual": 0,
+          "daily_keys": [],
+          "actual_jul": 0,
+          "jul_net": 0,
+          "jul_comm": 0,
+          "m6_net": 0,
+          "m6_comm": 0,
+          "m6_mgmt": 0,
+          "m7_net": 0,
+          "m7_comm": 0,
+          "m7_mgmt": 0,
+          "aug_net_tc": 0,
+          "aug_comm_tc": 0,
+          "aug_comm_bad": false,
+          "sep_net_tc": 0,
+          "sep_comm_tc": 0,
+          "sep_comm_bad": false
+        },
+        {
+          "name": "朱叶杰",
+          "product": "uiko鱼油",
+          "group_base": 0,
+          "group_stretch": 0,
+          "person_base": 60000,
+          "person_stretch": 80000,
+          "actual": 0,
+          "daily_keys": [],
+          "actual_jul": 0,
+          "jul_net": 0,
+          "jul_comm": 0,
+          "m6_net": 237389.3,
+          "m6_comm": 10629.4,
+          "m6_mgmt": 3548.83,
+          "m7_net": 271717.28,
+          "m7_comm": 12385.9,
+          "m7_mgmt": 0,
+          "aug_net_tc": 149640.71,
+          "aug_comm_tc": 6282.04,
+          "aug_comm_bad": false,
+          "sep_net_tc": 116744.94,
+          "sep_comm_tc": 4637.25,
+          "sep_comm_bad": false
+        },
+        {
+          "name": "汪燕资",
+          "product": "uiko化毛片",
+          "group_base": 0,
+          "group_stretch": 0,
+          "person_base": 40000,
+          "person_stretch": 50000,
+          "actual": 0,
+          "daily_keys": [],
+          "actual_jul": 0,
+          "jul_net": 0,
+          "jul_comm": 0,
+          "m6_net": 252015.26,
+          "m6_comm": 11360.7,
+          "m6_mgmt": 3768.21,
+          "m7_net": 225263.45,
+          "m7_comm": 10063.2,
+          "m7_mgmt": 0,
+          "aug_net_tc": 78804.9,
+          "aug_comm_tc": 2752.2,
+          "aug_comm_bad": false,
+          "sep_net_tc": 22375.45,
+          "sep_comm_tc": 671.26,
+          "sep_comm_bad": false
+        },
+        {
+          "name": "张吉祥",
+          "product": "元气友缝纫机",
+          "group_base": 80000,
+          "group_stretch": 100000,
+          "person_base": 40000,
+          "person_stretch": 50000,
+          "actual": 0,
+          "daily_keys": [],
+          "actual_jul": 0,
+          "jul_net": 0,
+          "jul_comm": 0,
+          "m6_net": 13387.0,
+          "m6_comm": 377.6,
+          "m6_mgmt": 188.79,
+          "m7_net": 24900.73,
+          "m7_comm": 498.01,
+          "m7_mgmt": 0,
+          "aug_net_tc": 43438.73,
+          "aug_comm_tc": 868.77,
+          "aug_comm_bad": false,
+          "sep_net_tc": 28956.41,
+          "sep_comm_tc": 579.13,
+          "sep_comm_bad": false
+        },
+        {
+          "name": "张甜静",
+          "product": "元气友缝纫机",
+          "group_base": 0,
+          "group_stretch": 0,
+          "person_base": 40000,
+          "person_stretch": 50000,
+          "actual": 0,
+          "daily_keys": [],
+          "actual_jul": 0,
+          "jul_net": 0,
+          "jul_comm": 0,
+          "m6_net": 0,
+          "m6_comm": 0,
+          "m6_mgmt": 0,
+          "m7_net": 16259.64,
+          "m7_comm": 325.2,
+          "m7_mgmt": 0,
+          "aug_net_tc": 48693.67,
+          "aug_comm_tc": 973.87,
+          "aug_comm_bad": false,
+          "sep_net_tc": 26589.0,
+          "sep_comm_tc": 531.78,
+          "sep_comm_bad": false
+        },
+        {
+          "name": "赖佳",
+          "product": "巴贝佳孕妇枕",
+          "group_base": 50000,
+          "group_stretch": 70000,
+          "person_base": 20000,
+          "person_stretch": 30000,
+          "actual": 0,
+          "daily_keys": [],
+          "actual_jul": 0,
+          "jul_net": 0,
+          "jul_comm": 0,
+          "m6_net": 0,
+          "m6_comm": 0,
+          "m6_mgmt": 0,
+          "m7_net": 0,
+          "m7_comm": 0,
+          "m7_mgmt": 0,
+          "aug_net_tc": 11704.52,
+          "aug_comm_tc": 234.09,
+          "aug_comm_bad": false,
+          "sep_net_tc": 30175.07,
+          "sep_comm_tc": 603.5,
+          "sep_comm_bad": false
+        },
+        {
+          "name": "马赛赛",
+          "product": "巴贝佳孕妇枕",
+          "group_base": 0,
+          "group_stretch": 0,
+          "person_base": 30000,
+          "person_stretch": 40000,
+          "actual": 0,
+          "daily_keys": [],
+          "actual_jul": 0,
+          "jul_net": 0,
+          "jul_comm": 0,
+          "m6_net": 37896.9,
+          "m6_comm": 1112.9,
+          "m6_mgmt": 0,
+          "m7_net": 15822.73,
+          "m7_comm": 316.5,
+          "m7_mgmt": 840.91,
+          "aug_net_tc": 12892.24,
+          "aug_comm_tc": 2022.0,
+          "aug_comm_bad": false,
+          "sep_net_tc": 7715.68,
+          "sep_comm_tc": 1632.99,
+          "sep_comm_bad": false
+        },
+        {
+          "name": "王硕硕",
+          "product": "元气友滑板",
+          "group_base": 40000,
+          "group_stretch": 50000,
+          "person_base": 40000,
+          "person_stretch": 50000,
+          "actual": 0,
+          "daily_keys": [],
+          "actual_jul": 0,
+          "jul_net": 0,
+          "jul_comm": 0,
+          "m6_net": 0,
+          "m6_comm": 0,
+          "m6_mgmt": 0,
+          "m7_net": 14900.37,
+          "m7_comm": 298.0,
+          "m7_mgmt": 0,
+          "aug_net_tc": 13773.52,
+          "aug_comm_tc": 275.47,
+          "aug_comm_bad": false,
+          "sep_net_tc": 45499.16,
+          "sep_comm_tc": 909.98,
+          "sep_comm_bad": false
+        },
+        {
+          "name": "蔺姣",
+          "product": "BZY理疗仪",
+          "group_base": 0,
+          "group_stretch": 0,
+          "person_base": 30000,
+          "person_stretch": 40000,
+          "actual": 0,
+          "daily_keys": [],
+          "actual_jul": 0,
+          "jul_net": 0,
+          "jul_comm": 0,
+          "m6_net": 72146.4,
+          "m6_comm": 2497.1,
+          "m6_mgmt": 0,
+          "m7_net": 38529.32,
+          "m7_comm": 770.6,
+          "m7_mgmt": 0,
+          "aug_net_tc": 26540.87,
+          "aug_comm_tc": 530.82,
+          "aug_comm_bad": false,
+          "sep_net_tc": 31252.78,
+          "sep_comm_tc": 625.06,
+          "sep_comm_bad": false
+        },
+        {
+          "name": "杨兰兰",
+          "product": "冬马维生素",
+          "group_base": 60000,
+          "group_stretch": 80000,
+          "person_base": 40000,
+          "person_stretch": 50000,
+          "actual": 0,
+          "daily_keys": [],
+          "actual_jul": 0,
+          "jul_net": 0,
+          "jul_comm": 0,
+          "m6_net": 62946.25,
+          "m6_comm": 2007.7,
+          "m6_mgmt": 850.93,
+          "m7_net": 82209.38,
+          "m7_comm": 2698.34,
+          "m7_mgmt": 1515.44,
+          "aug_net_tc": 56848.13,
+          "aug_comm_tc": 2969.59,
+          "aug_comm_bad": false,
+          "sep_net_tc": 29393.5,
+          "sep_comm_tc": 1724.78,
+          "sep_comm_bad": false
+        },
+        {
+          "name": "谢宇辰",
+          "product": "冬马维生素",
+          "group_base": 0,
+          "group_stretch": 0,
+          "person_base": 20000,
+          "person_stretch": 30000,
+          "actual": 0,
+          "daily_keys": [],
+          "actual_jul": 0,
+          "jul_net": 0,
+          "jul_comm": 0,
+          "m6_net": 0,
+          "m6_comm": 0,
+          "m6_mgmt": 0,
+          "m7_net": 0,
+          "m7_comm": 0,
+          "m7_mgmt": 0,
+          "aug_net_tc": 0,
+          "aug_comm_tc": 0,
+          "aug_comm_bad": false,
+          "sep_net_tc": 0,
+          "sep_comm_tc": 0,
+          "sep_comm_bad": false
+        },
+        {
+          "name": "贾怡帆",
+          "product": "冬马猫粮",
+          "group_base": 250000,
+          "group_stretch": 300000,
+          "person_base": 70000,
+          "person_stretch": 80000,
+          "actual": 0,
+          "daily_keys": [],
+          "actual_jul": 0,
+          "jul_net": 0,
+          "jul_comm": 0,
+          "m6_net": 121714.83,
+          "m6_comm": 4654.1,
+          "m6_mgmt": 1201.13,
+          "m7_net": 79690.05,
+          "m7_comm": 4249.64,
+          "m7_mgmt": 0,
+          "aug_net_tc": 126214.08,
+          "aug_comm_tc": 6409.02,
+          "aug_comm_bad": false,
+          "sep_net_tc": 106951.69,
+          "sep_comm_tc": 4793.45,
+          "sep_comm_bad": false
+        },
+        {
+          "name": "沈雪妮",
+          "product": "冬马猫粮",
+          "group_base": 0,
+          "group_stretch": 0,
+          "person_base": 50000,
+          "person_stretch": 60000,
+          "actual": 0,
+          "daily_keys": [],
+          "actual_jul": 0,
+          "jul_net": 0,
+          "jul_comm": 0,
+          "m6_net": 120712.05,
+          "m6_comm": 4687.1,
+          "m6_mgmt": 1786.66,
+          "m7_net": 95468.45,
+          "m7_comm": 3583.48,
+          "m7_mgmt": 0,
+          "aug_net_tc": 80332.79,
+          "aug_comm_tc": 2850.88,
+          "aug_comm_bad": false,
+          "sep_net_tc": 43518.85,
+          "sep_comm_tc": 1315.03,
+          "sep_comm_bad": false
+        },
+        {
+          "name": "复购业绩",
+          "product": "冬马猫粮",
+          "group_base": 0,
+          "group_stretch": 0,
+          "person_base": 60000,
+          "person_stretch": 70000,
+          "actual": 0,
+          "daily_keys": [],
+          "actual_jul": 0,
+          "jul_net": 0,
+          "jul_comm": 0,
+          "m6_net": 0,
+          "m6_comm": 0,
+          "m6_mgmt": 0,
+          "m7_net": 0,
+          "m7_comm": 0,
+          "m7_mgmt": 0,
+          "aug_net_tc": 0,
+          "aug_comm_tc": 0,
+          "aug_comm_bad": false,
+          "sep_net_tc": 0,
+          "sep_comm_tc": 0,
+          "sep_comm_bad": false
+        }
+      ],
       "dept_end_row": null,
       "unmatched_products": [
         {
@@ -3840,46 +4227,39 @@
       "jul_net_total": 1352645.56,
       "jul_comm_total": 101236.37,
       "m5_net_total": 1171946.88,
-      "m6_net_total": 0,
-      "m7_net_total": 0,
-      "target_ready": false,
-      "aug_net_total": 0,
-      "aug_comm_person_total": 0,
-      "sep_net_total": 0,
-      "sep_comm_person_total": 0
+      "m6_net_total": 1199429.49,
+      "m7_net_total": 1279961.53,
+      "target_ready": true,
+      "aug_net_total": 933168.12,
+      "aug_comm_person_total": 43275.15,
+      "sep_net_total": 604010.69,
+      "sep_comm_person_total": 24625.69
     },
     {
       "name": "二部",
       "leader": "高营",
       "month": "11月",
-      "base_target_total": 0,
-      "stretch_target_total": 0,
+      "base_target_total": 970000,
+      "stretch_target_total": 1160000,
       "actual_total": 0,
       "groups": [
         {
-          "name": "一组",
-          "lead_clean_name": "庄盼盼",
+          "name": "一组+二组：庄盼盼：56w",
+          "lead_clean_name": "庄盼盼（组长）、马怡琪、甘佳欣、冯蔺城（储备）",
           "members": [
-            "庄盼盼",
-            "孟大蒙",
-            "马怡琪",
-            "肖潇",
-            "甘佳欣"
+            "虎太郎冻干猫粮+虎太郎升级款猫粮（新客业绩）+益生菌猫粮",
+            "天猫长肉粮",
+            "虎太郎长肉猫粮",
+            "虎太郎美毛粮+品种粮"
           ],
           "products": [
             {
               "name": "虎太郎冻干猫粮+虎太郎升级款猫粮（新客业绩）+益生菌猫粮",
-              "base_target": 220000,
-              "stretch_target": 260000,
-              "actual": 293636.72,
-              "daily_keys": [
-                "优小可猫粮",
-                "虎太郎夹心猫粮",
-                "虎太郎生骨肉猫粮",
-                "优小可猫粮试吃",
-                "虎太郎益生菌猫粮"
-              ],
-              "actual_jul": 7490.42
+              "base_target": 255000,
+              "stretch_target": 290000,
+              "actual": 0,
+              "daily_keys": [],
+              "actual_jul": 0
             },
             {
               "name": "天猫长肉粮",
@@ -3891,146 +4271,504 @@
             },
             {
               "name": "虎太郎长肉猫粮",
-              "base_target": 50000,
-              "stretch_target": 60000,
+              "base_target": 55000,
+              "stretch_target": 70000,
               "actual": 0,
               "daily_keys": [],
-              "actual_jul": 7490.42
+              "actual_jul": 0
             },
             {
-              "name": "虎太郎维生素",
-              "base_target": 90000,
-              "stretch_target": 110000,
-              "actual": 66128.78,
-              "daily_keys": [
-                "虎太郎维生素"
-              ],
-              "actual_jul": 90792.17
-            }
-          ],
-          "base_target": 460000,
-          "stretch_target": 550000,
-          "actual": 359765.5
-        },
-        {
-          "name": "二组",
-          "lead_clean_name": "李紫怡",
-          "members": [
-            "李紫怡",
-            "郭世慧",
-            "新"
-          ],
-          "products": [
-            {
-              "name": "虎太郎美毛粮、优小可鱼油",
-              "base_target": 140000,
-              "stretch_target": 170000,
-              "actual": 19355.51,
-              "daily_keys": [
-                "虎太郎美毛猫粮150g",
-                "优小可乳化鱼油",
-                "虎太郎乳化鱼油",
-                "虎太郎鱼油护毛宝"
-              ],
+              "name": "虎太郎美毛粮+品种粮",
+              "base_target": 150000,
+              "stretch_target": 180000,
+              "actual": 0,
+              "daily_keys": [],
               "actual_jul": 0
             }
           ],
-          "base_target": 140000,
-          "stretch_target": 170000,
-          "actual": 19355.51
+          "base_target": 560000,
+          "stretch_target": 660000,
+          "actual": 0
         },
         {
-          "name": "三组",
-          "lead_clean_name": "胡宵雪",
+          "name": "三组：胡宵雪：20w",
+          "lead_clean_name": "胡宵雪（组长）、王常红（新人）",
           "members": [
-            "胡宵雪"
+            "虎太郎漱口水+虎太郎牙膏",
+            "冬马漱口水"
           ],
           "products": [
             {
-              "name": "虎太郎漱口水",
-              "base_target": 70000,
-              "stretch_target": 80000,
-              "actual": 57268.97,
-              "daily_keys": [
-                "虎太郎漱口水"
-              ],
-              "actual_jul": 80760.95
-            },
-            {
-              "name": "虎太郎牙膏",
-              "base_target": 40000,
-              "stretch_target": 50000,
-              "actual": 6272.55,
-              "daily_keys": [
-                "虎太郎牙膏"
-              ],
-              "actual_jul": 5514.01
+              "name": "虎太郎漱口水+虎太郎牙膏",
+              "base_target": 90000,
+              "stretch_target": 110000,
+              "actual": 0,
+              "daily_keys": [],
+              "actual_jul": 0
             },
             {
               "name": "冬马漱口水",
               "base_target": 110000,
               "stretch_target": 130000,
-              "actual": 100520.2,
-              "daily_keys": [
-                "冬马漱口水"
-              ],
-              "actual_jul": 127418.85
-            }
-          ],
-          "base_target": 220000,
-          "stretch_target": 260000,
-          "actual": 164061.72
-        },
-        {
-          "name": "四组",
-          "lead_clean_name": "吴俊豪",
-          "members": [
-            "吴俊豪",
-            "李佳音",
-            "吴若寒",
-            "赵寒冰",
-            "王小雨"
-          ],
-          "products": [
-            {
-              "name": "虎太郎乳化鱼油+虎太郎维生素+虎太郎化毛片+泌尿片",
-              "base_target": 220000,
-              "stretch_target": 260000,
-              "actual": 38920.77,
-              "daily_keys": [
-                "万卡丘维生素",
-                "虎太郎化毛片",
-                "虎太郎泌尿片"
-              ],
-              "actual_jul": 791.57
-            }
-          ],
-          "base_target": 220000,
-          "stretch_target": 260000,
-          "actual": 38920.77
-        },
-        {
-          "name": "B站组",
-          "lead_clean_name": "",
-          "members": [
-            "王思妤"
-          ],
-          "products": [
-            {
-              "name": "虎太郎维生素/鱼油（b站）",
-              "base_target": 30000,
-              "stretch_target": 40000,
               "actual": 0,
               "daily_keys": [],
-              "actual_jul": 791.57
+              "actual_jul": 0
             }
           ],
-          "base_target": 30000,
-          "stretch_target": 40000,
+          "base_target": 200000,
+          "stretch_target": 240000,
+          "actual": 0
+        },
+        {
+          "name": "四组：吴俊豪：21w",
+          "lead_clean_name": "吴俊豪（组长）、吴若寒、黑钰琪、王小雨",
+          "members": [
+            "虎太郎乳化鱼油+虎太郎鱼油护毛宝+虎太郎泌尿片",
+            "虎太郎化毛片",
+            "虎太郎维生素+万卡丘维生素"
+          ],
+          "products": [
+            {
+              "name": "虎太郎乳化鱼油+虎太郎鱼油护毛宝+虎太郎泌尿片",
+              "base_target": 60000,
+              "stretch_target": 70000,
+              "actual": 0,
+              "daily_keys": [
+                "虎太郎乳化鱼油",
+                "虎太郎鱼油护毛宝",
+                "虎太郎泌尿片"
+              ],
+              "actual_jul": 0
+            },
+            {
+              "name": "虎太郎化毛片",
+              "base_target": 70000,
+              "stretch_target": 90000,
+              "actual": 0,
+              "daily_keys": [
+                "虎太郎化毛片"
+              ],
+              "actual_jul": 0
+            },
+            {
+              "name": "虎太郎维生素+万卡丘维生素",
+              "base_target": 80000,
+              "stretch_target": 100000,
+              "actual": 0,
+              "daily_keys": [
+                "虎太郎维生素",
+                "万卡丘维生素"
+              ],
+              "actual_jul": 0
+            }
+          ],
+          "base_target": 210000,
+          "stretch_target": 260000,
           "actual": 0
         }
       ],
-      "persons": [],
+      "persons": [
+        {
+          "name": "庄盼盼",
+          "product": "虎太郎冻干粮+冻干+升级长肉粮",
+          "group_base": 255000,
+          "group_stretch": 290000,
+          "person_base": 60000,
+          "person_stretch": 70000,
+          "actual": 0,
+          "daily_keys": [],
+          "actual_jul": 0,
+          "jul_net": 0,
+          "jul_comm": 0,
+          "m6_net": 80008.93,
+          "m6_comm": 2262.2,
+          "m6_mgmt": 0,
+          "m7_net": 69866.47,
+          "m7_comm": 2096.0,
+          "m7_mgmt": 2721.59,
+          "aug_net_tc": 80946.33,
+          "aug_comm_tc": 4492.4,
+          "aug_comm_bad": false,
+          "sep_net_tc": 17415.61,
+          "sep_comm_tc": 2554.01,
+          "sep_comm_bad": false
+        },
+        {
+          "name": "冯蔺城",
+          "product": "虎太郎冻干粮+冻干+升级长肉粮",
+          "group_base": 0,
+          "group_stretch": 0,
+          "person_base": 60000,
+          "person_stretch": 70000,
+          "actual": 0,
+          "daily_keys": [],
+          "actual_jul": 0,
+          "jul_net": 0,
+          "jul_comm": 0,
+          "m6_net": 53792.54,
+          "m6_comm": 1690.4,
+          "m6_mgmt": 261.3,
+          "m7_net": 0,
+          "m7_comm": 0,
+          "m7_mgmt": 0,
+          "aug_net_tc": 0,
+          "aug_comm_tc": 0,
+          "aug_comm_bad": false,
+          "sep_net_tc": 55658.31,
+          "sep_comm_tc": 1826.33,
+          "sep_comm_bad": false
+        },
+        {
+          "name": "马怡琪",
+          "product": "虎太郎冻干粮+冻干+升级长肉粮",
+          "group_base": 0,
+          "group_stretch": 0,
+          "person_base": 45000,
+          "person_stretch": 50000,
+          "actual": 0,
+          "daily_keys": [],
+          "actual_jul": 0,
+          "jul_net": 0,
+          "jul_comm": 0,
+          "m6_net": 30738.6,
+          "m6_comm": 876.2,
+          "m6_mgmt": 438.08,
+          "m7_net": 56748.6,
+          "m7_comm": 1869.94,
+          "m7_mgmt": 0,
+          "aug_net_tc": 25379.5,
+          "aug_comm_tc": 761.39,
+          "aug_comm_bad": false,
+          "sep_net_tc": 1568.13,
+          "sep_comm_tc": 47.04,
+          "sep_comm_bad": false
+        },
+        {
+          "name": "甘佳欣",
+          "product": "虎太郎冻干粮+冻干+升级长肉粮",
+          "group_base": 0,
+          "group_stretch": 0,
+          "person_base": 45000,
+          "person_stretch": 50000,
+          "actual": 0,
+          "daily_keys": [],
+          "actual_jul": 0,
+          "jul_net": 0,
+          "jul_comm": 0,
+          "m6_net": 8119.24,
+          "m6_comm": 197.6,
+          "m6_mgmt": 98.79,
+          "m7_net": 61245.77,
+          "m7_comm": 2049.83,
+          "m7_mgmt": 0,
+          "aug_net_tc": 67315.78,
+          "aug_comm_tc": 2292.63,
+          "aug_comm_bad": false,
+          "sep_net_tc": 3469.3,
+          "sep_comm_tc": 104.08,
+          "sep_comm_bad": false
+        },
+        {
+          "name": "商务",
+          "product": "虎太郎冻干粮+冻干+升级长肉粮",
+          "group_base": 155000,
+          "group_stretch": 190000,
+          "person_base": 55000,
+          "person_stretch": 70000,
+          "actual": 0,
+          "daily_keys": [],
+          "actual_jul": 0,
+          "jul_net": 0,
+          "jul_comm": 0,
+          "m6_net": 0,
+          "m6_comm": 0,
+          "m6_mgmt": 0,
+          "m7_net": 0,
+          "m7_comm": 0,
+          "m7_mgmt": 0,
+          "aug_net_tc": 0,
+          "aug_comm_tc": 0,
+          "aug_comm_bad": false,
+          "sep_net_tc": 0,
+          "sep_comm_tc": 0,
+          "sep_comm_bad": false
+        },
+        {
+          "name": "天猫复购",
+          "product": "虎太郎冻干粮+冻干+升级长肉粮",
+          "group_base": 0,
+          "group_stretch": 0,
+          "person_base": 100000,
+          "person_stretch": 120000,
+          "actual": 0,
+          "daily_keys": [],
+          "actual_jul": 0,
+          "jul_net": 0,
+          "jul_comm": 0,
+          "m6_net": 0,
+          "m6_comm": 0,
+          "m6_mgmt": 0,
+          "m7_net": 0,
+          "m7_comm": 0,
+          "m7_mgmt": 0,
+          "aug_net_tc": 0,
+          "aug_comm_tc": 0,
+          "aug_comm_bad": false,
+          "sep_net_tc": 0,
+          "sep_comm_tc": 0,
+          "sep_comm_bad": false
+        },
+        {
+          "name": "邵静芳",
+          "product": "虎太郎美毛粮+虎太郎品种粮",
+          "group_base": 0,
+          "group_stretch": 0,
+          "person_base": 70000,
+          "person_stretch": 80000,
+          "actual": 0,
+          "daily_keys": [],
+          "actual_jul": 0,
+          "jul_net": 0,
+          "jul_comm": 0,
+          "m6_net": 0,
+          "m6_comm": 0,
+          "m6_mgmt": 0,
+          "m7_net": 0,
+          "m7_comm": 0,
+          "m7_mgmt": 0,
+          "aug_net_tc": 3158.56,
+          "aug_comm_tc": 94.76,
+          "aug_comm_bad": false,
+          "sep_net_tc": 124818.21,
+          "sep_comm_tc": 5247.04,
+          "sep_comm_bad": false
+        },
+        {
+          "name": "孟大蒙",
+          "product": "虎太郎美毛粮+虎太郎品种粮",
+          "group_base": 0,
+          "group_stretch": 0,
+          "person_base": 50000,
+          "person_stretch": 60000,
+          "actual": 0,
+          "daily_keys": [],
+          "actual_jul": 0,
+          "jul_net": 0,
+          "jul_comm": 0,
+          "m6_net": 50718.68,
+          "m6_comm": 1567.4,
+          "m6_mgmt": 737.78,
+          "m7_net": 22360.52,
+          "m7_comm": 670.82,
+          "m7_mgmt": 0,
+          "aug_net_tc": 13650.47,
+          "aug_comm_tc": 409.51,
+          "aug_comm_bad": false,
+          "sep_net_tc": 20613.03,
+          "sep_comm_tc": 618.39,
+          "sep_comm_bad": false
+        },
+        {
+          "name": "胡宵雪",
+          "product": "虎太郎漱口水+虎太郎牙膏",
+          "group_base": 90000,
+          "group_stretch": 110000,
+          "person_base": 60000,
+          "person_stretch": 70000,
+          "actual": 0,
+          "daily_keys": [],
+          "actual_jul": 0,
+          "jul_net": 0,
+          "jul_comm": 0,
+          "m6_net": 83352.7,
+          "m6_comm": 2881.9,
+          "m6_mgmt": 0,
+          "m7_net": 79662.3,
+          "m7_comm": 2588.2,
+          "m7_mgmt": 1911.27,
+          "aug_net_tc": 60596.9,
+          "aug_comm_tc": 3407.56,
+          "aug_comm_bad": false,
+          "sep_net_tc": 14232.55,
+          "sep_comm_tc": 994.17,
+          "sep_comm_bad": false
+        },
+        {
+          "name": "王常红",
+          "product": "虎太郎漱口水+虎太郎牙膏",
+          "group_base": 0,
+          "group_stretch": 0,
+          "person_base": 30000,
+          "person_stretch": 40000,
+          "actual": 0,
+          "daily_keys": [],
+          "actual_jul": 0,
+          "jul_net": 0,
+          "jul_comm": 0,
+          "m6_net": 0,
+          "m6_comm": 0,
+          "m6_mgmt": 0,
+          "m7_net": 0,
+          "m7_comm": 0,
+          "m7_mgmt": 0,
+          "aug_net_tc": 0,
+          "aug_comm_tc": 0,
+          "aug_comm_bad": false,
+          "sep_net_tc": 4025.56,
+          "sep_comm_tc": 100.64,
+          "sep_comm_bad": false
+        },
+        {
+          "name": "张颖柯",
+          "product": "冬马漱口水",
+          "group_base": 110000,
+          "group_stretch": 130000,
+          "person_base": 60000,
+          "person_stretch": 70000,
+          "actual": 0,
+          "daily_keys": [],
+          "actual_jul": 0,
+          "jul_net": 0,
+          "jul_comm": 0,
+          "m6_net": 50297.41,
+          "m6_comm": 1506.7,
+          "m6_mgmt": 731.46,
+          "m7_net": 25686.38,
+          "m7_comm": 642.2,
+          "m7_mgmt": 0,
+          "aug_net_tc": 79264.57,
+          "aug_comm_tc": 2574.26,
+          "aug_comm_bad": false,
+          "sep_net_tc": 33593.8,
+          "sep_comm_tc": 839.85,
+          "sep_comm_bad": false
+        },
+        {
+          "name": "许晓宁",
+          "product": "冬马漱口水",
+          "group_base": 0,
+          "group_stretch": 0,
+          "person_base": 50000,
+          "person_stretch": 60000,
+          "actual": 0,
+          "daily_keys": [],
+          "actual_jul": 0,
+          "jul_net": 0,
+          "jul_comm": 0,
+          "m6_net": 45267.66,
+          "m6_comm": 1349.4,
+          "m6_mgmt": 656.02,
+          "m7_net": 101731.47,
+          "m7_comm": 3777.92,
+          "m7_mgmt": 0,
+          "aug_net_tc": 19846.67,
+          "aug_comm_tc": 496.17,
+          "aug_comm_bad": false,
+          "sep_net_tc": 8963.48,
+          "sep_comm_tc": 0,
+          "sep_comm_bad": false
+        },
+        {
+          "name": "吴俊豪",
+          "product": "虎太郎乳化鱼油+虎太郎维生素+虎太郎鱼油护毛宝+虎太郎泌尿片",
+          "group_base": 60000,
+          "group_stretch": 70000,
+          "person_base": 60000,
+          "person_stretch": 70000,
+          "actual": 0,
+          "daily_keys": [],
+          "actual_jul": 0,
+          "jul_net": 0,
+          "jul_comm": 0,
+          "m6_net": 84513.09,
+          "m6_comm": 2552.8,
+          "m6_mgmt": 0,
+          "m7_net": 61398.0,
+          "m7_comm": 1956.4,
+          "m7_mgmt": 1069.65,
+          "aug_net_tc": 21364.72,
+          "aug_comm_tc": 2168.15,
+          "aug_comm_bad": false,
+          "sep_net_tc": 7711.31,
+          "sep_comm_tc": 859.18,
+          "sep_comm_bad": false
+        },
+        {
+          "name": "王小雨",
+          "product": "虎太郎化毛片",
+          "group_base": 30000,
+          "group_stretch": 40000,
+          "person_base": 30000,
+          "person_stretch": 40000,
+          "actual": 0,
+          "daily_keys": [],
+          "actual_jul": 0,
+          "jul_net": 0,
+          "jul_comm": 0,
+          "m6_net": 0,
+          "m6_comm": 0,
+          "m6_mgmt": 0,
+          "m7_net": 0,
+          "m7_comm": 0,
+          "m7_mgmt": 0,
+          "aug_net_tc": 985.42,
+          "aug_comm_tc": 0,
+          "aug_comm_bad": false,
+          "sep_net_tc": 4557.29,
+          "sep_comm_tc": 0,
+          "sep_comm_bad": false
+        },
+        {
+          "name": "吴若寒",
+          "product": "虎太郎维生素+万卡丘维生素",
+          "group_base": 80000,
+          "group_stretch": 100000,
+          "person_base": 50000,
+          "person_stretch": 60000,
+          "actual": 0,
+          "daily_keys": [],
+          "actual_jul": 0,
+          "jul_net": 0,
+          "jul_comm": 0,
+          "m6_net": 58517.56,
+          "m6_comm": 1794.5,
+          "m6_mgmt": 854.76,
+          "m7_net": 51146.26,
+          "m7_comm": 1645.9,
+          "m7_mgmt": 0,
+          "aug_net_tc": 62829.09,
+          "aug_comm_tc": 2113.16,
+          "aug_comm_bad": false,
+          "sep_net_tc": 14118.47,
+          "sep_comm_tc": 446.34,
+          "sep_comm_bad": false
+        },
+        {
+          "name": "黑钰琪",
+          "product": "虎太郎维生素",
+          "group_base": 0,
+          "group_stretch": 0,
+          "person_base": 30000,
+          "person_stretch": 40000,
+          "actual": 0,
+          "daily_keys": [],
+          "actual_jul": 0,
+          "jul_net": 0,
+          "jul_comm": 0,
+          "m6_net": 0,
+          "m6_comm": 0,
+          "m6_mgmt": 0,
+          "m7_net": 0,
+          "m7_comm": 0,
+          "m7_mgmt": 0,
+          "aug_net_tc": 0,
+          "aug_comm_tc": 0,
+          "aug_comm_bad": false,
+          "sep_net_tc": 3724.69,
+          "sep_comm_tc": 0,
+          "sep_comm_bad": false
+        }
+      ],
       "dept_end_row": null,
       "unmatched_products": [
         {
@@ -4098,73 +4836,165 @@
       "jul_net_total": 635103.25,
       "jul_comm_total": 29942.51,
       "m5_net_total": 948500.69,
-      "m6_net_total": 0,
-      "m7_net_total": 0,
-      "target_ready": false,
-      "aug_net_total": 0,
-      "aug_comm_person_total": 0,
-      "sep_net_total": 0,
-      "sep_comm_person_total": 0
+      "m6_net_total": 545326.41,
+      "m7_net_total": 529845.77,
+      "target_ready": true,
+      "aug_net_total": 435338.01,
+      "aug_comm_person_total": 18809.99,
+      "sep_net_total": 314469.74,
+      "sep_comm_person_total": 13637.07
     },
     {
       "name": "三部",
       "leader": "高营",
       "month": "11月",
-      "base_target_total": 0,
-      "stretch_target_total": 0,
+      "base_target_total": 270000,
+      "stretch_target_total": 350000,
       "actual_total": 0,
       "groups": [
         {
-          "name": "一组",
-          "lead_clean_name": "陈文广",
+          "name": "一组：陈文广：140000",
+          "lead_clean_name": "陈文广、翟文裕、新人",
           "members": [
-            "陈文广",
-            "李振宇",
-            "新人"
+            "幽兔维生素"
           ],
           "products": [
             {
-              "name": "幽兔维生素+幽兔化毛卵磷脂",
+              "name": "幽兔维生素",
               "base_target": 150000,
-              "stretch_target": 200000,
-              "actual": 171806.48,
-              "daily_keys": [
-                "幽兔维生素",
-                "幽兔卵磷脂"
-              ],
-              "actual_jul": 83928.51
+              "stretch_target": 190000,
+              "actual": 0,
+              "daily_keys": [],
+              "actual_jul": 0
             }
           ],
           "base_target": 150000,
-          "stretch_target": 200000,
-          "actual": 171806.48
+          "stretch_target": 190000,
+          "actual": 0
         },
         {
-          "name": "二组",
-          "lead_clean_name": "张楠楠",
+          "name": "二组：张楠楠：110000",
+          "lead_clean_name": "张楠楠、史梦棋",
           "members": [
-            "张楠楠",
-            "新人"
+            "幽兔猫粮、幽兔排毛益生菌"
           ],
           "products": [
             {
-              "name": "幽兔猫粮、排毛益生菌",
+              "name": "幽兔猫粮、幽兔排毛益生菌",
               "base_target": 120000,
               "stretch_target": 160000,
-              "actual": 56655.15,
-              "daily_keys": [
-                "幽兔猫粮",
-                "幽兔排毛粉"
-              ],
-              "actual_jul": 55104.88
+              "actual": 0,
+              "daily_keys": [],
+              "actual_jul": 0
             }
           ],
           "base_target": 120000,
           "stretch_target": 160000,
-          "actual": 56655.15
+          "actual": 0
         }
       ],
-      "persons": [],
+      "persons": [
+        {
+          "name": "陈文广",
+          "product": "幽兔维生素",
+          "group_base": 150000,
+          "group_stretch": 190000,
+          "person_base": 80000,
+          "person_stretch": 90000,
+          "actual": 0,
+          "daily_keys": [],
+          "actual_jul": 0,
+          "jul_net": 0,
+          "jul_comm": 0,
+          "m6_net": 62065.74,
+          "m6_comm": 1686.2,
+          "m6_mgmt": 0,
+          "m7_net": 46480.24,
+          "m7_comm": 1648.67,
+          "m7_mgmt": 0,
+          "aug_net_tc": 140788.24,
+          "aug_comm_tc": 5776.82,
+          "aug_comm_bad": false,
+          "sep_net_tc": 71449.23,
+          "sep_comm_tc": 2611.04,
+          "sep_comm_bad": false
+        },
+        {
+          "name": "翟文裕",
+          "product": "幽兔维生素",
+          "group_base": 0,
+          "group_stretch": 0,
+          "person_base": 40000,
+          "person_stretch": 50000,
+          "actual": 0,
+          "daily_keys": [],
+          "actual_jul": 0,
+          "jul_net": 0,
+          "jul_comm": 0,
+          "m6_net": 0,
+          "m6_comm": 0,
+          "m6_mgmt": 0,
+          "m7_net": 13173.06,
+          "m7_comm": 395.2,
+          "m7_mgmt": 0,
+          "aug_net_tc": 24134.66,
+          "aug_comm_tc": 603.37,
+          "aug_comm_bad": false,
+          "sep_net_tc": 31031.66,
+          "sep_comm_tc": 775.79,
+          "sep_comm_bad": false
+        },
+        {
+          "name": "张楠楠",
+          "product": "幽兔猫粮",
+          "group_base": 90000,
+          "group_stretch": 120000,
+          "person_base": 50000,
+          "person_stretch": 60000,
+          "actual": 0,
+          "daily_keys": [],
+          "actual_jul": 0,
+          "jul_net": 0,
+          "jul_comm": 0,
+          "m6_net": 33967.63,
+          "m6_comm": 850.7,
+          "m6_mgmt": 0,
+          "m7_net": 57118.45,
+          "m7_comm": 1750.51,
+          "m7_mgmt": 0,
+          "aug_net_tc": 40719.6,
+          "aug_comm_tc": 1452.36,
+          "aug_comm_bad": false,
+          "sep_net_tc": 25864.45,
+          "sep_comm_tc": 783.05,
+          "sep_comm_bad": false
+        },
+        {
+          "name": "史梦棋",
+          "product": "幽兔猫粮",
+          "group_base": 0,
+          "group_stretch": 0,
+          "person_base": 40000,
+          "person_stretch": 50000,
+          "actual": 0,
+          "daily_keys": [],
+          "actual_jul": 0,
+          "jul_net": 0,
+          "jul_comm": 0,
+          "m6_net": 14507.08,
+          "m6_comm": 301.2,
+          "m6_mgmt": 60.24,
+          "m7_net": 6099.49,
+          "m7_comm": 0,
+          "m7_mgmt": 0,
+          "aug_net_tc": 1739.6,
+          "aug_comm_tc": 52.19,
+          "aug_comm_bad": false,
+          "sep_net_tc": 689.75,
+          "sep_comm_tc": 20.69,
+          "sep_comm_bad": false
+        }
+      ],
       "dept_end_row": null,
       "unmatched_products": [
         {
@@ -4180,108 +5010,290 @@
       "jul_net_total": 161588.47,
       "jul_comm_total": 6273.88,
       "m5_net_total": 186109.41,
-      "m6_net_total": 0,
-      "m7_net_total": 0,
-      "target_ready": false,
-      "aug_net_total": 0,
-      "aug_comm_person_total": 0,
-      "sep_net_total": 0,
-      "sep_comm_person_total": 0
+      "m6_net_total": 110540.45,
+      "m7_net_total": 122871.24,
+      "target_ready": true,
+      "aug_net_total": 207382.1,
+      "aug_comm_person_total": 7884.74,
+      "sep_net_total": 129035.09,
+      "sep_comm_person_total": 4190.57
     },
     {
       "name": "六部",
       "leader": "李秀琦",
       "month": "11月",
-      "base_target_total": 0,
-      "stretch_target_total": 0,
+      "base_target_total": 470000,
+      "stretch_target_total": 590000,
       "actual_total": 0,
       "groups": [
         {
-          "name": "一组",
-          "lead_clean_name": "李晓乐",
+          "name": "一组：李晓乐：240000",
+          "lead_clean_name": "李晓乐（组长）、张梦歌、黄丽雯、赵梦瑶、董戈",
           "members": [
-            "李晓乐",
-            "张梦歌",
-            "陈蕊",
-            "冯东平"
+            "映鹿乳化鱼油+映鹿维生素"
           ],
           "products": [
             {
-              "name": "映鹿奶昔鱼油+映鹿维生素",
-              "base_target": 160000,
-              "stretch_target": 210000,
-              "actual": 121130.53,
-              "daily_keys": [
-                "映鹿乳化鱼油",
-                "映鹿维生素"
-              ],
+              "name": "映鹿乳化鱼油+映鹿维生素",
+              "base_target": 240000,
+              "stretch_target": 300000,
+              "actual": 0,
+              "daily_keys": [],
               "actual_jul": 0
-            },
-            {
-              "name": "映鹿辅酶+映鹿软骨素+bzy光疗仪",
-              "base_target": 70000,
-              "stretch_target": 90000,
-              "actual": 3170.85,
-              "daily_keys": [
-                "映鹿辅酶",
-                "映鹿软骨素"
-              ],
-              "actual_jul": 19662.05
             }
           ],
-          "base_target": 230000,
+          "base_target": 240000,
           "stretch_target": 300000,
-          "actual": 124301.38
+          "actual": 0
         },
         {
-          "name": "二组",
-          "lead_clean_name": "于鹏展",
+          "name": "二组：张楠：230000",
+          "lead_clean_name": "张楠（组长）、于鹏展、庾云龙、陈书慧",
           "members": [
-            "于鹏展",
-            "庾云龙",
-            "陈书慧"
+            "映鹿猫粮"
           ],
           "products": [
             {
               "name": "映鹿猫粮",
-              "base_target": 150000,
-              "stretch_target": 200000,
-              "actual": 156217.99,
-              "daily_keys": [
-                "映鹿猫粮"
-              ],
-              "actual_jul": 251166.81
+              "base_target": 230000,
+              "stretch_target": 290000,
+              "actual": 0,
+              "daily_keys": [],
+              "actual_jul": 0
             }
           ],
-          "base_target": 150000,
-          "stretch_target": 200000,
-          "actual": 156217.99
-        },
-        {
-          "name": "二组(张楠)",
-          "lead_clean_name": "张楠",
-          "members": [
-            "张楠",
-            "林源月"
-          ],
-          "products": [
-            {
-              "name": "元气友陆冲板",
-              "base_target": 90000,
-              "stretch_target": 120000,
-              "actual": 21908.79,
-              "daily_keys": [
-                "元气友滑板"
-              ],
-              "actual_jul": 52792.76
-            }
-          ],
-          "base_target": 90000,
-          "stretch_target": 120000,
-          "actual": 21908.79
+          "base_target": 230000,
+          "stretch_target": 290000,
+          "actual": 0
         }
       ],
-      "persons": [],
+      "persons": [
+        {
+          "name": "李晓乐",
+          "product": "映鹿乳化鱼油+映鹿维生素",
+          "group_base": 240000,
+          "group_stretch": 300000,
+          "person_base": 60000,
+          "person_stretch": 70000,
+          "actual": 0,
+          "daily_keys": [],
+          "actual_jul": 0,
+          "jul_net": 0,
+          "jul_comm": 0,
+          "m6_net": 34850.6,
+          "m6_comm": 1022.5,
+          "m6_mgmt": 0,
+          "m7_net": 74678.46,
+          "m7_comm": 2519.8,
+          "m7_mgmt": 986.17,
+          "aug_net_tc": 33675.76,
+          "aug_comm_tc": 2487.67,
+          "aug_comm_bad": false,
+          "sep_net_tc": 33955.44,
+          "sep_comm_tc": 334.7,
+          "sep_comm_bad": true
+        },
+        {
+          "name": "张梦歌",
+          "product": "映鹿乳化鱼油+映鹿维生素",
+          "group_base": 0,
+          "group_stretch": 0,
+          "person_base": 40000,
+          "person_stretch": 50000,
+          "actual": 0,
+          "daily_keys": [],
+          "actual_jul": 0,
+          "jul_net": 0,
+          "jul_comm": 0,
+          "m6_net": 36567.64,
+          "m6_comm": 1074.0,
+          "m6_mgmt": 537.0,
+          "m7_net": 42374.16,
+          "m7_comm": 1271.22,
+          "m7_mgmt": 0,
+          "aug_net_tc": 71431.75,
+          "aug_comm_tc": 2032.91,
+          "aug_comm_bad": false,
+          "sep_net_tc": 0,
+          "sep_comm_tc": 0,
+          "sep_comm_bad": false
+        },
+        {
+          "name": "黄丽雯",
+          "product": "映鹿乳化鱼油+映鹿维生素",
+          "group_base": 0,
+          "group_stretch": 0,
+          "person_base": 35000,
+          "person_stretch": 45000,
+          "actual": 0,
+          "daily_keys": [],
+          "actual_jul": 0,
+          "jul_net": 0,
+          "jul_comm": 0,
+          "m6_net": 0,
+          "m6_comm": 0,
+          "m6_mgmt": 0,
+          "m7_net": 0,
+          "m7_comm": 0,
+          "m7_mgmt": 0,
+          "aug_net_tc": 0,
+          "aug_comm_tc": 0,
+          "aug_comm_bad": false,
+          "sep_net_tc": 3456.24,
+          "sep_comm_tc": 103.7,
+          "sep_comm_bad": true
+        },
+        {
+          "name": "赵梦瑶",
+          "product": "映鹿乳化鱼油+映鹿维生素",
+          "group_base": 0,
+          "group_stretch": 0,
+          "person_base": 40000,
+          "person_stretch": 50000,
+          "actual": 0,
+          "daily_keys": [],
+          "actual_jul": 0,
+          "jul_net": 0,
+          "jul_comm": 0,
+          "m6_net": 9298.81,
+          "m6_comm": 0,
+          "m6_mgmt": 127.97,
+          "m7_net": 5499.1,
+          "m7_comm": 165.0,
+          "m7_mgmt": 0,
+          "aug_net_tc": 6812.67,
+          "aug_comm_tc": 154.38,
+          "aug_comm_bad": false,
+          "sep_net_tc": 6454.45,
+          "sep_comm_tc": 193.6,
+          "sep_comm_bad": true
+        },
+        {
+          "name": "董戈",
+          "product": "映鹿乳化鱼油+映鹿维生素",
+          "group_base": 0,
+          "group_stretch": 0,
+          "person_base": 30000,
+          "person_stretch": 40000,
+          "actual": 0,
+          "daily_keys": [],
+          "actual_jul": 0,
+          "jul_net": 0,
+          "jul_comm": 0,
+          "m6_net": 0,
+          "m6_comm": 0,
+          "m6_mgmt": 0,
+          "m7_net": 0,
+          "m7_comm": 0,
+          "m7_mgmt": 0,
+          "aug_net_tc": 0,
+          "aug_comm_tc": 0,
+          "aug_comm_bad": false,
+          "sep_net_tc": 0,
+          "sep_comm_tc": 0,
+          "sep_comm_bad": false
+        },
+        {
+          "name": "于鹏展",
+          "product": "映鹿猫粮",
+          "group_base": 230000,
+          "group_stretch": 290000,
+          "person_base": 55000,
+          "person_stretch": 65000,
+          "actual": 0,
+          "daily_keys": [],
+          "actual_jul": 0,
+          "jul_net": 0,
+          "jul_comm": 0,
+          "m6_net": 122367.95,
+          "m6_comm": 4880.0,
+          "m6_mgmt": 1824.01,
+          "m7_net": 120334.64,
+          "m7_comm": 4925.56,
+          "m7_mgmt": 0,
+          "aug_net_tc": 33989.99,
+          "aug_comm_tc": 1171.01,
+          "aug_comm_bad": false,
+          "sep_net_tc": 22875.45,
+          "sep_comm_tc": 751.19,
+          "sep_comm_bad": false
+        },
+        {
+          "name": "庾云龙",
+          "product": "映鹿猫粮",
+          "group_base": 0,
+          "group_stretch": 0,
+          "person_base": 45000,
+          "person_stretch": 60000,
+          "actual": 0,
+          "daily_keys": [],
+          "actual_jul": 0,
+          "jul_net": 0,
+          "jul_comm": 0,
+          "m6_net": 39956.88,
+          "m6_comm": 1175.7,
+          "m6_mgmt": 587.85,
+          "m7_net": 21294.51,
+          "m7_comm": 638.84,
+          "m7_mgmt": 0,
+          "aug_net_tc": 27709.75,
+          "aug_comm_tc": 831.29,
+          "aug_comm_bad": false,
+          "sep_net_tc": 20864.61,
+          "sep_comm_tc": 625.94,
+          "sep_comm_bad": false
+        },
+        {
+          "name": "陈书慧",
+          "product": "映鹿猫粮",
+          "group_base": 0,
+          "group_stretch": 0,
+          "person_base": 30000,
+          "person_stretch": 45000,
+          "actual": 0,
+          "daily_keys": [],
+          "actual_jul": 0,
+          "jul_net": 0,
+          "jul_comm": 0,
+          "m6_net": 11181.25,
+          "m6_comm": 0,
+          "m6_mgmt": 167.72,
+          "m7_net": 21766.41,
+          "m7_comm": 653.0,
+          "m7_mgmt": 0,
+          "aug_net_tc": 30262.83,
+          "aug_comm_tc": 907.88,
+          "aug_comm_bad": false,
+          "sep_net_tc": 12985.12,
+          "sep_comm_tc": 389.55,
+          "sep_comm_bad": false
+        },
+        {
+          "name": "张楠",
+          "product": "映鹿猫粮",
+          "group_base": 0,
+          "group_stretch": 0,
+          "person_base": 70000,
+          "person_stretch": 80000,
+          "actual": 0,
+          "daily_keys": [],
+          "actual_jul": 0,
+          "jul_net": 0,
+          "jul_comm": 0,
+          "m6_net": 84318.16,
+          "m6_comm": 1948.46,
+          "m6_mgmt": 0,
+          "m7_net": 60046.36,
+          "m7_comm": 1422.13,
+          "m7_mgmt": 2660.17,
+          "aug_net_tc": 46004.18,
+          "aug_comm_tc": 2536.55,
+          "aug_comm_bad": false,
+          "sep_net_tc": 22386.89,
+          "sep_comm_tc": 1959.55,
+          "sep_comm_bad": false
+        }
+      ],
       "dept_end_row": null,
       "unmatched_products": [
         {
@@ -4313,122 +5325,260 @@
       "jul_net_total": 405714.73,
       "jul_comm_total": 21028.3,
       "m5_net_total": 591436.63,
-      "m6_net_total": 0,
-      "m7_net_total": 0,
-      "target_ready": false,
-      "aug_net_total": 0,
-      "aug_comm_person_total": 0,
-      "sep_net_total": 0,
-      "sep_comm_person_total": 0
+      "m6_net_total": 338541.29,
+      "m7_net_total": 345993.64,
+      "target_ready": true,
+      "aug_net_total": 249886.93,
+      "aug_comm_person_total": 10121.69,
+      "sep_net_total": 122978.2,
+      "sep_comm_person_total": 4358.23
     },
     {
       "name": "七部",
       "leader": "韩晴",
       "month": "11月",
-      "base_target_total": 0,
-      "stretch_target_total": 0,
+      "base_target_total": 480000,
+      "stretch_target_total": 600000,
       "actual_total": 0,
       "groups": [
         {
-          "name": "一组",
-          "lead_clean_name": "段云洁",
+          "name": "一组：桂姨乳鸽粮/桂姨猫粮/益生熊猫粮",
+          "lead_clean_name": "段云洁（储备）、李依晨、朱萌萌、新人1、新人2",
           "members": [
-            "段云洁",
-            "韦向前",
-            "李依晨"
+            "桂姨乳鸽粮+桂姨猫粮+益生熊猫粮"
           ],
           "products": [
             {
-              "name": "桂姨乳鸽粮",
-              "base_target": 150000,
-              "stretch_target": 180000,
-              "actual": 264407.72,
-              "daily_keys": [
-                "桂姨烘焙猫粮",
-                "桂姨烘焙猫粮试吃",
-                "桂姨膨化猫粮",
-                "桂姨膨化猫粮试吃"
-              ],
-              "actual_jul": 126495.76
+              "name": "桂姨乳鸽粮+桂姨猫粮+益生熊猫粮",
+              "base_target": 280000,
+              "stretch_target": 340000,
+              "actual": 0,
+              "daily_keys": [],
+              "actual_jul": 0
             }
           ],
-          "base_target": 150000,
-          "stretch_target": 180000,
-          "actual": 264407.72
+          "base_target": 280000,
+          "stretch_target": 340000,
+          "actual": 0
         },
         {
-          "name": "二组",
-          "lead_clean_name": "李春利",
+          "name": "二组：桂姨猫粮+桂姨维生素：13w",
+          "lead_clean_name": "李春利（储备）、闫柳洋",
           "members": [
-            "李春利",
-            "宋一鸣",
-            "李春利",
-            "王淼淼",
-            "王诗琪+新人1"
+            "桂姨猫粮+桂姨维生素"
           ],
           "products": [
             {
               "name": "桂姨猫粮+桂姨维生素",
-              "base_target": 150000,
-              "stretch_target": 190000,
-              "actual": 57547.91,
-              "daily_keys": [
-                "益生熊猫粮",
-                "桂姨维生素"
-              ],
-              "actual_jul": 5403.38
+              "base_target": 130000,
+              "stretch_target": 160000,
+              "actual": 0,
+              "daily_keys": [],
+              "actual_jul": 0
             }
           ],
-          "base_target": 150000,
-          "stretch_target": 190000,
-          "actual": 57547.91
+          "base_target": 130000,
+          "stretch_target": 160000,
+          "actual": 0
         },
         {
-          "name": "三组",
-          "lead_clean_name": "",
+          "name": "三组：益生熊维生素",
+          "lead_clean_name": "周慧慧（储备）、新人1",
           "members": [
-            "王典典"
+            "益生熊维生素"
           ],
           "products": [
             {
-              "name": "桂姨化毛片",
-              "base_target": 40000,
-              "stretch_target": 50000,
-              "actual": 758.8,
-              "daily_keys": [
-                "桂姨化毛片"
-              ],
-              "actual_jul": 903.12
+              "name": "益生熊维生素",
+              "base_target": 70000,
+              "stretch_target": 100000,
+              "actual": 0,
+              "daily_keys": [],
+              "actual_jul": 0
             }
           ],
-          "base_target": 40000,
-          "stretch_target": 50000,
-          "actual": 758.8
-        },
-        {
-          "name": "三组(新人组长1)",
-          "lead_clean_name": "新人组长1",
-          "members": [
-            "新人组长1"
-          ],
-          "products": [
-            {
-              "name": "桂姨维生素/桂姨化毛片",
-              "base_target": 50000,
-              "stretch_target": 60000,
-              "actual": -171.0,
-              "daily_keys": [
-                "益生熊维生素"
-              ],
-              "actual_jul": 5403.38
-            }
-          ],
-          "base_target": 50000,
-          "stretch_target": 60000,
-          "actual": -171.0
+          "base_target": 70000,
+          "stretch_target": 100000,
+          "actual": 0
         }
       ],
-      "persons": [],
+      "persons": [
+        {
+          "name": "段云洁",
+          "product": "桂姨乳鸽猫粮",
+          "group_base": 280000,
+          "group_stretch": 340000,
+          "person_base": 70000,
+          "person_stretch": 80000,
+          "actual": 0,
+          "daily_keys": [],
+          "actual_jul": 0,
+          "jul_net": 0,
+          "jul_comm": 0,
+          "m6_net": 41962.27,
+          "m6_comm": 1224.9,
+          "m6_mgmt": 0,
+          "m7_net": 16427.27,
+          "m7_comm": 2318.69,
+          "m7_mgmt": 0,
+          "aug_net_tc": 27699.36,
+          "aug_comm_tc": 2610.56,
+          "aug_comm_bad": false,
+          "sep_net_tc": 67890.93,
+          "sep_comm_tc": 3372.02,
+          "sep_comm_bad": false
+        },
+        {
+          "name": "李依晨",
+          "product": "桂姨乳鸽猫粮",
+          "group_base": 0,
+          "group_stretch": 0,
+          "person_base": 50000,
+          "person_stretch": 60000,
+          "actual": 0,
+          "daily_keys": [],
+          "actual_jul": 0,
+          "jul_net": 0,
+          "jul_comm": 0,
+          "m6_net": 0,
+          "m6_comm": 0,
+          "m6_mgmt": 0,
+          "m7_net": 0,
+          "m7_comm": 0,
+          "m7_mgmt": 0,
+          "aug_net_tc": 32254.1,
+          "aug_comm_tc": 967.62,
+          "aug_comm_bad": false,
+          "sep_net_tc": 32021.67,
+          "sep_comm_tc": 960.65,
+          "sep_comm_bad": false
+        },
+        {
+          "name": "朱萌萌",
+          "product": "益生熊猫粮",
+          "group_base": 0,
+          "group_stretch": 0,
+          "person_base": 40000,
+          "person_stretch": 50000,
+          "actual": 0,
+          "daily_keys": [],
+          "actual_jul": 0,
+          "jul_net": 0,
+          "jul_comm": 0,
+          "m6_net": 0,
+          "m6_comm": 0,
+          "m6_mgmt": 0,
+          "m7_net": 0,
+          "m7_comm": 0,
+          "m7_mgmt": 0,
+          "aug_net_tc": 0,
+          "aug_comm_tc": 0,
+          "aug_comm_bad": false,
+          "sep_net_tc": 1372.37,
+          "sep_comm_tc": 41.17,
+          "sep_comm_bad": false
+        },
+        {
+          "name": "李春利",
+          "product": "桂姨维生素/桂姨猫粮",
+          "group_base": 130000,
+          "group_stretch": 160000,
+          "person_base": 80000,
+          "person_stretch": 90000,
+          "actual": 0,
+          "daily_keys": [],
+          "actual_jul": 0,
+          "jul_net": 0,
+          "jul_comm": 0,
+          "m6_net": 101967.88,
+          "m6_comm": 3831.4,
+          "m6_mgmt": 1019.68,
+          "m7_net": 94026.41,
+          "m7_comm": 3200.94,
+          "m7_mgmt": 0,
+          "aug_net_tc": 60143.68,
+          "aug_comm_tc": 2206.78,
+          "aug_comm_bad": false,
+          "sep_net_tc": 63401.94,
+          "sep_comm_tc": 2230.09,
+          "sep_comm_bad": false
+        },
+        {
+          "name": "闫柳洋",
+          "product": "桂姨维生素",
+          "group_base": 0,
+          "group_stretch": 0,
+          "person_base": 30000,
+          "person_stretch": 40000,
+          "actual": 0,
+          "daily_keys": [],
+          "actual_jul": 0,
+          "jul_net": 0,
+          "jul_comm": 0,
+          "m6_net": 0,
+          "m6_comm": 0,
+          "m6_mgmt": 0,
+          "m7_net": 0,
+          "m7_comm": 0,
+          "m7_mgmt": 0,
+          "aug_net_tc": 4404.42,
+          "aug_comm_tc": 132.13,
+          "aug_comm_bad": false,
+          "sep_net_tc": 11888.47,
+          "sep_comm_tc": 356.65,
+          "sep_comm_bad": false
+        },
+        {
+          "name": "刘璐璐",
+          "product": "桂姨维生素/桂姨乳化鱼油",
+          "group_base": 0,
+          "group_stretch": 0,
+          "person_base": 20000,
+          "person_stretch": 30000,
+          "actual": 0,
+          "daily_keys": [],
+          "actual_jul": 0,
+          "jul_net": 0,
+          "jul_comm": 0,
+          "m6_net": 0,
+          "m6_comm": 0,
+          "m6_mgmt": 0,
+          "m7_net": 0,
+          "m7_comm": 0,
+          "m7_mgmt": 0,
+          "aug_net_tc": 0,
+          "aug_comm_tc": 0,
+          "aug_comm_bad": false,
+          "sep_net_tc": 0,
+          "sep_comm_tc": 0,
+          "sep_comm_bad": false
+        },
+        {
+          "name": "周慧慧",
+          "product": "益生熊维生素",
+          "group_base": 70000,
+          "group_stretch": 100000,
+          "person_base": 40000,
+          "person_stretch": 50000,
+          "actual": 0,
+          "daily_keys": [],
+          "actual_jul": 0,
+          "jul_net": 0,
+          "jul_comm": 0,
+          "m6_net": 0,
+          "m6_comm": 0,
+          "m6_mgmt": 0,
+          "m7_net": 0,
+          "m7_comm": 0,
+          "m7_mgmt": 0,
+          "aug_net_tc": 0,
+          "aug_comm_tc": 0,
+          "aug_comm_bad": false,
+          "sep_net_tc": 29352.85,
+          "sep_comm_tc": 880.6,
+          "sep_comm_bad": false
+        }
+      ],
       "dept_end_row": null,
       "unmatched_products": [
         {
@@ -4464,13 +5614,13 @@
       "jul_net_total": 204985.54,
       "jul_comm_total": 10357.25,
       "m5_net_total": 271006.52,
-      "m6_net_total": 0,
-      "m7_net_total": 0,
-      "target_ready": false,
-      "aug_net_total": 0,
-      "aug_comm_person_total": 0,
-      "sep_net_total": 0,
-      "sep_comm_person_total": 0
+      "m6_net_total": 143930.15,
+      "m7_net_total": 110453.68,
+      "target_ready": true,
+      "aug_net_total": 124501.56,
+      "aug_comm_person_total": 5917.09,
+      "sep_net_total": 205928.23,
+      "sep_comm_person_total": 7841.18
     },
     {
       "name": "宠元气友组",
@@ -4733,27 +5883,6 @@
           "name": "黑钰琪",
           "product": "优小可夹心猫粮",
           "group": "宠物一组",
-          "person_base": 0,
-          "person_stretch": 0,
-          "actual": 0,
-          "daily_keys": [],
-          "m6_net": 0,
-          "m6_comm": 0,
-          "m6_mgmt": 0,
-          "m7_net": 0,
-          "m7_comm": 0,
-          "m7_mgmt": 0,
-          "aug_net_tc": 0,
-          "aug_comm_tc": 0,
-          "aug_comm_bad": false,
-          "sep_net_tc": 0,
-          "sep_comm_tc": 0,
-          "sep_comm_bad": false
-        },
-        {
-          "name": "康冰心",
-          "product": "优小可辅酶",
-          "group": "宠物二组",
           "person_base": 0,
           "person_stretch": 0,
           "actual": 0,
@@ -5787,7 +6916,7 @@
         },
         {
           "name": "B站组",
-          "lead_clean_name": "",
+          "lead_clean_name": "王思妤",
           "members": [
             "王思妤"
           ],
@@ -7523,7 +8652,7 @@
         },
         {
           "name": "三组",
-          "lead_clean_name": "",
+          "lead_clean_name": "王典典",
           "members": [
             "王典典"
           ],
@@ -9504,24 +10633,28 @@
     },
     "2026-09": {
       "一部": {
-        "base": 880000.0,
-        "stretch": 1080000.0
-      },
-      "二部": {
-        "base": 930000.0,
+        "base": 900000.0,
         "stretch": 1130000.0
       },
+      "二部": {
+        "base": 970000.0,
+        "stretch": 1160000.0
+      },
       "三部": {
-        "base": 255000.0,
-        "stretch": 370000.0
+        "base": 270000.0,
+        "stretch": 330000.0
       },
       "六部": {
-        "base": 430000.0,
-        "stretch": 540000.0
+        "base": 470000.0,
+        "stretch": 590000.0
       },
       "七部": {
-        "base": 400000.0,
-        "stretch": 500000.0
+        "base": 480000.0,
+        "stretch": 600000.0
+      },
+      "八部": {
+        "base": 0.0,
+        "stretch": 0.0
       },
       "宠元气友组": {
         "base": 190000.0,
@@ -9556,24 +10689,24 @@
     },
     "2026-11": {
       "一部": {
-        "base": 0.0,
-        "stretch": 0.0
+        "base": 900000.0,
+        "stretch": 1130000.0
       },
       "二部": {
-        "base": 0.0,
-        "stretch": 0.0
+        "base": 970000.0,
+        "stretch": 1160000.0
       },
       "三部": {
-        "base": 0.0,
-        "stretch": 0.0
+        "base": 270000.0,
+        "stretch": 350000.0
       },
       "六部": {
-        "base": 0.0,
-        "stretch": 0.0
+        "base": 470000.0,
+        "stretch": 590000.0
       },
       "七部": {
-        "base": 0.0,
-        "stretch": 0.0
+        "base": 480000.0,
+        "stretch": 600000.0
       },
       "宠元气友组": {
         "base": 210000.0,
@@ -33343,7 +34476,7 @@
         "created": "2026/11/02 19:29:48",
         "deadline": "2026/11/02 19:00:00",
         "done": "2026/11/02",
-        "progress": null,
+        "progress": "已完成",
         "interviewee": null,
         "record": null
       },
@@ -33403,7 +34536,7 @@
         "record": null
       },
       {
-        "task": "抽奖兑换（干湿纸巾、现金）",
+        "task": "抽奖兑换（干湿纸巾、现金、奶茶咖啡）",
         "owner": "罗思会",
         "creator": "罗思会",
         "created": "2026/11/03 11:55:34",
@@ -33437,12 +34570,12 @@
       },
       {
         "task": "双启黑五大促激励方案最终版确认",
-        "owner": null,
+        "owner": "朱思雨",
         "creator": "朱思雨",
         "created": "2026/11/03 16:17:34",
         "deadline": "2026/11/03 19:00:00",
         "done": "",
-        "progress": null,
+        "progress": "已完成",
         "interviewee": null,
         "record": null
       },
@@ -33502,26 +34635,59 @@
         "record": null
       },
       {
-        "task": "星辰四部主管张彩霞面谈",
+        "task": "星辰四部主管张彩霞试岗期面谈",
         "owner": "罗思会",
         "creator": "罗思会",
         "created": "2026/11/03 19:12:15",
         "deadline": "",
-        "done": "",
-        "progress": null,
+        "done": "2026/11/04",
+        "progress": "已完成",
         "interviewee": null,
         "record": null
       },
       {
-        "task": null,
-        "owner": null,
-        "creator": null,
+        "task": "电商运营部牛晨凯离职面谈（优化）",
+        "owner": "朱思雨",
+        "creator": "朱思雨",
         "created": "2026/11/03 19:28:45",
+        "deadline": "2026/11/03 19:09:00",
+        "done": "2026/11/03",
+        "progress": "已完成",
+        "interviewee": "牛晨凯",
+        "record": "*人事沟通*\n\n# 新员工试岗沟通纪要\n\n> 入职适应反馈与试岗终止通知\n\n【试岗评估】 【离职交接】 【新人反馈】\n\n**议题数**: 3 | **听记时长**: 10分钟\n\n---\n\n1. **入职适应访谈**\n   > 了解员工入职两天来的工作感受、平台操作难点及对带教的反馈。\n2. **试岗结果通知**\n   > 指出打字速度与话术问题，告知因适配度低终止试岗合作。\n3. **交接与结算**\n   > 收集改进建议，安排物品交接，确认薪资发放时间及签署文件。\n\n---\n\n## 🔍 入职适应访谈\n\n🕒 18:57 – 19:01\n\n> 了解员工入职两天来的工作感受、平台操作难点及对带教的反馈。\n\n> - 新员工**朱思雨**入职第二天，整体适应进度正常，具备家电类客服经验。\n> - 主要难点在于对**京东、抖音**等多平台后台操作及界面布局不熟悉，带教人重点指导了沟通话术的委婉性。\n> - 员工对带教人的耐心与细心表示认可，目前对公司环境及氛围暂无具体建议。\n\n### 工作适应与背景\n\n1. **入职进度与经验**\n\n   - 今天是入职**第二天**，整体适应进度正常，已开始正常上手工作。\n   - 此前有从事过**家电类**客服工作，主要在**拼多多**平台任职，因此对基础客服流程较为熟悉。\n\n2. **操作难点与挑战**\n\n   - 由于之前未接触过**京东、抖音**等平台，对这些平台的后台操作感到陌生。\n   - 具体困难包括不清楚功能按钮位置、后台入口以及聊天记录窗口等界面元素的具体位置。\n\n### 带教反馈与指导\n\n1. **带教内容与方式**\n\n   - 带教人为**组长**，主要安排员工接手店铺并进行独立操作，随后回顾操作中存在的问题。\n   - 在任务执行说明上，带教人会针对话术修改等具体问题提供清晰指引。\n\n2. **核心指导建议**\n\n   - 带教人频繁强调沟通表达需更加**委婉**，建议在交流中留有**余地**，避免过于生硬。\n\n3. **员工评价**\n\n   - 员工认为带教人非常**耐心**且解答**细心**，对目前的带教安排和公司环境表示满意。\n   - 鉴于入职仅两天，了解尚不全面，目前对公司文化、氛围及管理方面暂无具体建议。\n\n---\n\n## 🔍 试岗结果通知\n\n🕒 19:01 – 19:03\n\n> 指出打字速度与话术问题，告知因适配度低终止试岗合作。\n\n> - 因**打字速度**跟不上岗位要求，且**回复话术**过于直接、与公司理念不匹配，判定岗位适配度低。\n> - 尽管认可候选人具备客服经验及优秀个人能力，但为避免影响其长期发展，决定**终止试岗合作**。\n> - 合作截止至**今日**，公司本着对双方负责的态度，希望不耽误候选人寻找更合适的发展平台。\n\n### 试岗不合格原因\n\n1. **技能硬性指标不足**\n\n   - 在跟进工作过程中发现，候选人的**打字速度**无法跟上当前岗位的实际要求。\n\n2. **沟通风格不匹配**\n\n   - 回复的**话术**相对来说比较直接，与公司目前希望的话术风格及发展理念不够匹配。\n\n### 综合评估与决策\n\n1. **个人能力认可**\n\n   - 认可候选人此前有过**客服方面**的工作经验，说明其个人能力相对较强且优秀。\n\n2. **终止合作决定**\n\n   - 鉴于长期发展适配度较难，为避免影响候选人在岗位上拿到结果，本着对承租方（候选人）负责的理念，决定将试岗期合作截止到**今天**。\n   - 作为 **BP**（人力资源业务合作伙伴），对人员考核有明确要求，每个岗位都有整体的适配度标准，若勉强继续可能会限制个人的发展空间。\n\n### 后续沟通与建议\n\n1. **候选人反馈征询**\n\n   - 询问候选人对此结果的想法或疑问，候选人表示主要听从公司安排。\n\n2. **改进建议征集**\n\n   - 主管对结果表示遗憾，但强调客观情况无法改变。\n   - 邀请候选人提出关于公司如何改进**新人适应度**的建议，以帮助未来新人更好地融入。\n\n---\n\n## 🔍 交接与结算\n\n🕒 19:03 – 19:08\n\n> 收集改进建议，安排物品交接，确认薪资发放时间及签署文件。\n\n> - 员工反馈沟通顺畅，建议完善**产品手册**以提升岗位适配度。\n> - 完成物品交接后，需签署结算单确认**2天试岗薪资共100元**。\n> - 薪资将于**2026年12月16日**前发放至登记银行卡，并保留主管联系方式以便后续核对。\n\n### 工作反馈与建议\n\n1. **沟通与管理评价**\n\n   - 员工表示在沟通和管理方面**没有负面建议**，认为组长及同事沟通**蛮有耐心**，解答问题及时。\n\n2. **产品培训优化建议**\n\n   - 员工指出入职后缺乏系统的产品熟悉手册，目前主要靠**自行查询文档**了解多种多样的产品型号及功能。\n   - 建议公司**完善产品手册**，提供更细致的产品讲解，以提升新员工对岗位的适配度。\n   - 管理方表示接受该建议，后续将对文档进行**优化完善**。\n\n### 交接与结算流程\n\n1. **物品与工作交接**\n\n   - 员工下午直接回去进行交接，将账号及其他物品移交给**代教人**。\n   - 经确认，员工手中**没有电梯卡**，无需归还。\n   - 交接完成后即可正常下班。\n\n2. **结算单签署规范**\n\n   - 员工需在结算单乙方位置填写**姓名**和**身份证号**，并在指定位置**按手印**。\n   - 日期填写为当天：**2026年11月3日**（员工实际入职时间为昨天）。\n   - **金额栏无需填写**，由公司内部核算。\n\n3. **薪资结算详情**\n\n   - 试岗期薪资标准为**50元/天**，两天共计**100元**。\n   - 薪资发放截止日期为**2026年12月16日**前（通常于12月15日发放）。\n   - 薪资将通过入职时登记的**银行卡**进行发放。\n\n4. **后续联系事项**\n\n   - 提醒员工**不要删除**带教人或主管的微信，以便后续核对信息。\n   - 如有任何问题，可随时通过微信进行沟通。\n\n---\n\n*内容由 钉钉AI听记 生成*\n\n\n\n（以下由自动化整理）\n【待办】\n- 新员工：在单据乙方位置填写姓名、身份证号并按手印，日期写2026年11月3日\n- 新员工：下午回去进行工作交接，将账号等物品交给带教人"
+      },
+      {
+        "task": "参与望辰周会",
+        "owner": "罗思会",
+        "creator": "罗思会",
+        "created": "2026/11/04 09:34:00",
         "deadline": "",
         "done": "",
-        "progress": null,
+        "progress": "已完成",
         "interviewee": null,
         "record": null
+      },
+      {
+        "task": "星辰三部组长尤芮芮试岗期面案",
+        "owner": "罗思会",
+        "creator": "罗思会",
+        "created": "2026/11/04 09:35:07",
+        "deadline": "",
+        "done": "2026/11/04",
+        "progress": "已完成",
+        "interviewee": null,
+        "record": null
+      },
+      {
+        "task": "双启王嘉瑞离职面谈（优化）",
+        "owner": "朱思雨",
+        "creator": "朱思雨",
+        "created": "2026/11/04 14:48:19",
+        "deadline": "2026/11/03 18:49:00",
+        "done": "2026/11/03",
+        "progress": "已完成",
+        "interviewee": "王嘉瑞",
+        "record": "*人事面谈*\n\n# 新员工试岗终止面谈\n\n> 入职4天因岗位适配度不足终止合作\n\n【试岗评估】 【离职办理】 【薪资结算】\n\n**议题数**: 3 | **听记时长**: 10分钟\n\n---\n\n1. **工作适应反馈**\n   > 员工反馈找素材难，实际工作与面试承诺有偏差，但整体适应尚可。\n2. **终止合作通知**\n   > 因岗位适配度不高，公司决定终止试岗合作，员工表示接受。\n3. **离职手续办理**\n   > 确认薪资发放时间为12月16日，安排账号及电梯卡交接。\n\n---\n\n## 🔍 工作适应反馈\n\n🕒 18:37 – 18:42\n\n> 员工反馈找素材难，实际工作与面试承诺有偏差，但整体适应尚可。\n\n> - 入职4天员工反馈整体适应良好，但在**找素材**环节遇到困难，且实际工作内容与面试承诺存在偏差。\n> - 目前每日剪辑视频约**20-30个**，已开始发布视频，对带教节奏和沟通方式基本接受。\n\n### 工作适应与难点\n\n1. **上手情况**\n\n   - **剪视频**相对容易，主要需注意细节排版。\n   - **找素材**较为困难，原因是抖音等平台搜到的素材重复率高，且大部分不可用。\n\n2. **解决策略**\n\n   - 尝试扩大搜索范围，换用**小红书**、**快手**等多平台搜索可用素材。\n\n### 带教与沟通反馈\n\n1. **带教节奏与指导**\n\n   - 原计划第四天教授AI做视频，但目前主管仍要求先自行找素材剪辑练手。\n   - 带教回复消息有时较慢，偶尔需主动追问，但整体节奏适应尚可。\n   - 目前暂无未解决的疑问点。\n\n### 预期偏差与工作量\n\n1. **工作内容偏差**\n\n   - 面试时人事告知有AI辅助及现有素材库，无需自行寻找；实际入职后发现仍需自己找素材，存在一定偏差。\n   - 员工表示目前接受度尚可，认为可能是前期练手需要。\n\n2. **当前工作量**\n\n   - 每日剪辑视频约**20-30个**。\n   - 昨日刚开始发布视频，今日要求发布**3篇**。\n\n### 过往经历与适配度\n\n1. **过往背景**\n\n   - 此前从事国内**大健康**产品视频制作，因个人兴趣转向宠物跨境平台。\n   - 工作内容类似，整体适配度良好。\n\n### 当前环节洞察\n\n1. **环节要点**\n\n   - 员工入职4天，核心痛点在于**素材获取难**及**预期管理偏差**（素材库 vs 自寻）。\n   - 工作产出方面，日均剪辑**20-30个**视频，已启动发布流程。\n   - 带教互动中，员工表现出一定的主动性（多平台搜索、主动追问），对节奏适应良好。\n\n2. **值得关注**\n\n   - 需关注素材重复率高对后续视频流量及创作效率的影响。\n   - 建议明确AI工具及素材库的具体介入时间，以缓解员工对“承诺偏差”的顾虑。\n\n---\n\n## 🔍 终止合作通知\n\n🕒 18:42 – 18:44\n\n> 因岗位适配度不高，公司决定终止试岗合作，员工表示接受。\n\n> - 因岗位适配度不高，公司决定终止试岗合作。\n> - 候选人表示接受该结果，并反馈带教回复不及时及座位距离较远等客观影响因素。\n\n### 终止合作沟通\n\n1. **终止原因说明**\n\n   - 面试官指出候选人整体适应匹配下来**有点跟不上岗位要求**。\n   - 为避免浪费双方时间，本着负责态度决定**终止市场合作**。\n   - 肯定候选人在**保健品行业**的长期经验与优秀能力，但强调目前**岗位适配度不是很高**。\n\n2. **候选人反馈与影响因素**\n\n   - 候选人表示对结果**还能接受**。\n   - 提及刚来公司时，若带教未及时回复信息，会存在**不知道怎么去解决**的情况。\n   - 指出带教平均回复时长有时在**10分钟以内**，有时为**半个小时到一个小时**。\n   - 确认与带教人坐的距离**相对会远一点**。\n\n3. **后续处理与共识**\n\n   - 面试官表示已了解情况，后续会对带教响应及座位问题进行**整改**。\n   - 上级对评定结果表示遗憾，但出于职责考虑，认为长期发展若拿不到结果会影响候选人时间。\n   - 候选人最终确认**没问题**，接受终止合作决定。\n\n---\n\n## 🔍 离职手续办理\n\n🕒 18:44 – 18:48\n\n> 确认薪资发放时间为12月16日，安排账号及电梯卡交接。\n\n> - 当前切片为试岗结束后的离职手续办理环节，确认**12月16日**为薪资发放参考时间，并安排账号及电梯卡交接。\n> - 双方就薪资一次性发放事宜进行沟通，表示将尽量协调在**11月15日**统一结算，候选人配合完成签字及物品归还。\n\n### 薪资结算与发放\n\n1. **薪资核算标准**\n\n   - 前三天试岗薪资按**50元/天**核算，之后按照试岗期约定薪资标准执行。\n   - 薪资核算依据为**工作日**时间。\n\n2. **发放时间与协调**\n\n   - 常规发薪日为每月15号，本次沟通中提及下个月**12月16日**作为发放时间节点。\n   - 针对11月份薪资，面试官表示会尽量与薪酬部门沟通，争取在**11月15日**一次性发放；若无法协调则分批处理。\n   - 候选人对分批发放可能带来的麻烦表示理解，并同意配合后续沟通结果。\n\n### 手续办理与交接\n\n1. **文件签署要求**\n\n   - 需在乙方位置签署姓名，日期填写为**2026年11月3日**。\n   - 关于发放时间的条款，初步填写为**11月16日之前**，具体视沟通结果而定。\n\n2. **物品与账号交接**\n\n   - 需向主管交接手机账号等权限信息。\n   - 确认持有电梯卡，并要求当场交接给主管。\n\n### 后续行动项\n\n1. **① 薪资发放协调**\n\n   - **负责人**：公司方（面试官）\n   - **跟进内容**：与总部薪酬部门沟通，争取将11月薪资在11月15日一次性发放\n\n2. **② 物品交接**\n\n   - **涉及候选人**：候选人\n   - **跟进内容**：向主管交接电梯卡及手机账号权限\n\n---\n\n*内容由 钉钉AI听记 生成*\n\n\n\n（以下由自动化整理）\n【待办】\n- 佳瑞：跟主管交接手机账号和电梯卡\n- 佳瑞：签署文件，写上名字和2026年11月3日日期\n- 佳瑞：明天不用来上班"
       }
     ],
     "miantan": [
@@ -35976,7 +37142,7 @@
       {
         "name": "黑钰棋",
         "dept": "和煦八部",
-        "status": "在职",
+        "status": "优化",
         "stage": "试用期",
         "age": 23,
         "level": "P1",
@@ -36504,7 +37670,7 @@
       {
         "name": "黑钰棋",
         "dept": "和煦八部",
-        "status": "在职",
+        "status": "优化",
         "stage": "试用期",
         "age": 23,
         "level": "P1",
@@ -38809,7 +39975,7 @@
         "name": "王冲",
         "dept": "扶摇直上组",
         "status": "在职",
-        "stage": "试岗",
+        "stage": "试用期",
         "age": 22,
         "level": "P1",
         "type": "试岗期面谈",
@@ -38933,7 +40099,7 @@
         "age": 25,
         "level": "P1",
         "type": "离职面谈（优化）",
-        "interviewer": "许志远",
+        "interviewer": "朱思雨",
         "record": "*人事沟通*\n\n# 新员工试岗沟通纪要\n\n> 入职适应反馈与试岗终止通知\n\n【试岗评估】 【离职交接】 【新人反馈】\n\n**议题数**: 3 | **听记时长**: 10分钟\n\n---\n\n1. **入职适应访谈**\n   > 了解员工入职两天来的工作感受、平台操作难点及对带教的反馈。\n2. **试岗结果通知**\n   > 指出打字速度与话术问题，告知因适配度低终止试岗合作。\n3. **交接与结算**\n   > 收集改进建议，安排物品交接，确认薪资发放时间及签署文件。\n\n---\n\n## 🔍 入职适应访谈\n\n🕒 18:57 – 19:01\n\n> 了解员工入职两天来的工作感受、平台操作难点及对带教的反馈。\n\n> - 新员工**朱思雨**入职第二天，整体适应进度正常，具备家电类客服经验。\n> - 主要难点在于对**京东、抖音**等多平台后台操作及界面布局不熟悉，带教人重点指导了沟通话术的委婉性。\n> - 员工对带教人的耐心与细心表示认可，目前对公司环境及氛围暂无具体建议。\n\n### 工作适应与背景\n\n1. **入职进度与经验**\n\n   - 今天是入职**第二天**，整体适应进度正常，已开始正常上手工作。\n   - 此前有从事过**家电类**客服工作，主要在**拼多多**平台任职，因此对基础客服流程较为熟悉。\n\n2. **操作难点与挑战**\n\n   - 由于之前未接触过**京东、抖音**等平台，对这些平台的后台操作感到陌生。\n   - 具体困难包括不清楚功能按钮位置、后台入口以及聊天记录窗口等界面元素的具体位置。\n\n### 带教反馈与指导\n\n1. **带教内容与方式**\n\n   - 带教人为**组长**，主要安排员工接手店铺并进行独立操作，随后回顾操作中存在的问题。\n   - 在任务执行说明上，带教人会针对话术修改等具体问题提供清晰指引。\n\n2. **核心指导建议**\n\n   - 带教人频繁强调沟通表达需更加**委婉**，建议在交流中留有**余地**，避免过于生硬。\n\n3. **员工评价**\n\n   - 员工认为带教人非常**耐心**且解答**细心**，对目前的带教安排和公司环境表示满意。\n   - 鉴于入职仅两天，了解尚不全面，目前对公司文化、氛围及管理方面暂无具体建议。\n\n---\n\n## 🔍 试岗结果通知\n\n🕒 19:01 – 19:03\n\n> 指出打字速度与话术问题，告知因适配度低终止试岗合作。\n\n> - 因**打字速度**跟不上岗位要求，且**回复话术**过于直接、与公司理念不匹配，判定岗位适配度低。\n> - 尽管认可候选人具备客服经验及优秀个人能力，但为避免影响其长期发展，决定**终止试岗合作**。\n> - 合作截止至**今日**，公司本着对双方负责的态度，希望不耽误候选人寻找更合适的发展平台。\n\n### 试岗不合格原因\n\n1. **技能硬性指标不足**\n\n   - 在跟进工作过程中发现，候选人的**打字速度**无法跟上当前岗位的实际要求。\n\n2. **沟通风格不匹配**\n\n   - 回复的**话术**相对来说比较直接，与公司目前希望的话术风格及发展理念不够匹配。\n\n### 综合评估与决策\n\n1. **个人能力认可**\n\n   - 认可候选人此前有过**客服方面**的工作经验，说明其个人能力相对较强且优秀。\n\n2. **终止合作决定**\n\n   - 鉴于长期发展适配度较难，为避免影响候选人在岗位上拿到结果，本着对承租方（候选人）负责的理念，决定将试岗期合作截止到**今天**。\n   - 作为 **BP**（人力资源业务合作伙伴），对人员考核有明确要求，每个岗位都有整体的适配度标准，若勉强继续可能会限制个人的发展空间。\n\n### 后续沟通与建议\n\n1. **候选人反馈征询**\n\n   - 询问候选人对此结果的想法或疑问，候选人表示主要听从公司安排。\n\n2. **改进建议征集**\n\n   - 主管对结果表示遗憾，但强调客观情况无法改变。\n   - 邀请候选人提出关于公司如何改进**新人适应度**的建议，以帮助未来新人更好地融入。\n\n---\n\n## 🔍 交接与结算\n\n🕒 19:03 – 19:08\n\n> 收集改进建议，安排物品交接，确认薪资发放时间及签署文件。\n\n> - 员工反馈沟通顺畅，建议完善**产品手册**以提升岗位适配度。\n> - 完成物品交接后，需签署结算单确认**2天试岗薪资共100元**。\n> - 薪资将于**2026年12月16日**前发放至登记银行卡，并保留主管联系方式以便后续核对。\n\n### 工作反馈与建议\n\n1. **沟通与管理评价**\n\n   - 员工表示在沟通和管理方面**没有负面建议**，认为组长及同事沟通**蛮有耐心**，解答问题及时。\n\n2. **产品培训优化建议**\n\n   - 员工指出入职后缺乏系统的产品熟悉手册，目前主要靠**自行查询文档**了解多种多样的产品型号及功能。\n   - 建议公司**完善产品手册**，提供更细致的产品讲解，以提升新员工对岗位的适配度。\n   - 管理方表示接受该建议，后续将对文档进行**优化完善**。\n\n### 交接与结算流程\n\n1. **物品与工作交接**\n\n   - 员工下午直接回去进行交接，将账号及其他物品移交给**代教人**。\n   - 经确认，员工手中**没有电梯卡**，无需归还。\n   - 交接完成后即可正常下班。\n\n2. **结算单签署规范**\n\n   - 员工需在结算单乙方位置填写**姓名**和**身份证号**，并在指定位置**按手印**。\n   - 日期填写为当天：**2026年11月3日**（员工实际入职时间为昨天）。\n   - **金额栏无需填写**，由公司内部核算。\n\n3. **薪资结算详情**\n\n   - 试岗期薪资标准为**50元/天**，两天共计**100元**。\n   - 薪资发放截止日期为**2026年12月16日**前（通常于12月15日发放）。\n   - 薪资将通过入职时登记的**银行卡**进行发放。\n\n4. **后续联系事项**\n\n   - 提醒员工**不要删除**带教人或主管的微信，以便后续核对信息。\n   - 如有任何问题，可随时通过微信进行沟通。\n\n---\n\n*内容由 钉钉AI听记 生成*\n\n\n\n（以下由自动化整理）\n【待办】\n- 新员工：在单据乙方位置填写姓名、身份证号并按手印，日期写2026年11月3日\n- 新员工：下午回去进行工作交接，将账号等物品交给带教人",
         "date": ""
       },
@@ -38945,8 +40111,32 @@
         "age": 26,
         "level": "P1",
         "type": "离职面谈（优化）",
-        "interviewer": "许志远",
+        "interviewer": "朱思雨",
         "record": "*人事面谈*\n\n# 新员工试岗终止面谈\n\n> 入职4天因岗位适配度不足终止合作\n\n【试岗评估】 【离职办理】 【薪资结算】\n\n**议题数**: 3 | **听记时长**: 10分钟\n\n---\n\n1. **工作适应反馈**\n   > 员工反馈找素材难，实际工作与面试承诺有偏差，但整体适应尚可。\n2. **终止合作通知**\n   > 因岗位适配度不高，公司决定终止试岗合作，员工表示接受。\n3. **离职手续办理**\n   > 确认薪资发放时间为12月16日，安排账号及电梯卡交接。\n\n---\n\n## 🔍 工作适应反馈\n\n🕒 18:37 – 18:42\n\n> 员工反馈找素材难，实际工作与面试承诺有偏差，但整体适应尚可。\n\n> - 入职4天员工反馈整体适应良好，但在**找素材**环节遇到困难，且实际工作内容与面试承诺存在偏差。\n> - 目前每日剪辑视频约**20-30个**，已开始发布视频，对带教节奏和沟通方式基本接受。\n\n### 工作适应与难点\n\n1. **上手情况**\n\n   - **剪视频**相对容易，主要需注意细节排版。\n   - **找素材**较为困难，原因是抖音等平台搜到的素材重复率高，且大部分不可用。\n\n2. **解决策略**\n\n   - 尝试扩大搜索范围，换用**小红书**、**快手**等多平台搜索可用素材。\n\n### 带教与沟通反馈\n\n1. **带教节奏与指导**\n\n   - 原计划第四天教授AI做视频，但目前主管仍要求先自行找素材剪辑练手。\n   - 带教回复消息有时较慢，偶尔需主动追问，但整体节奏适应尚可。\n   - 目前暂无未解决的疑问点。\n\n### 预期偏差与工作量\n\n1. **工作内容偏差**\n\n   - 面试时人事告知有AI辅助及现有素材库，无需自行寻找；实际入职后发现仍需自己找素材，存在一定偏差。\n   - 员工表示目前接受度尚可，认为可能是前期练手需要。\n\n2. **当前工作量**\n\n   - 每日剪辑视频约**20-30个**。\n   - 昨日刚开始发布视频，今日要求发布**3篇**。\n\n### 过往经历与适配度\n\n1. **过往背景**\n\n   - 此前从事国内**大健康**产品视频制作，因个人兴趣转向宠物跨境平台。\n   - 工作内容类似，整体适配度良好。\n\n### 当前环节洞察\n\n1. **环节要点**\n\n   - 员工入职4天，核心痛点在于**素材获取难**及**预期管理偏差**（素材库 vs 自寻）。\n   - 工作产出方面，日均剪辑**20-30个**视频，已启动发布流程。\n   - 带教互动中，员工表现出一定的主动性（多平台搜索、主动追问），对节奏适应良好。\n\n2. **值得关注**\n\n   - 需关注素材重复率高对后续视频流量及创作效率的影响。\n   - 建议明确AI工具及素材库的具体介入时间，以缓解员工对“承诺偏差”的顾虑。\n\n---\n\n## 🔍 终止合作通知\n\n🕒 18:42 – 18:44\n\n> 因岗位适配度不高，公司决定终止试岗合作，员工表示接受。\n\n> - 因岗位适配度不高，公司决定终止试岗合作。\n> - 候选人表示接受该结果，并反馈带教回复不及时及座位距离较远等客观影响因素。\n\n### 终止合作沟通\n\n1. **终止原因说明**\n\n   - 面试官指出候选人整体适应匹配下来**有点跟不上岗位要求**。\n   - 为避免浪费双方时间，本着负责态度决定**终止市场合作**。\n   - 肯定候选人在**保健品行业**的长期经验与优秀能力，但强调目前**岗位适配度不是很高**。\n\n2. **候选人反馈与影响因素**\n\n   - 候选人表示对结果**还能接受**。\n   - 提及刚来公司时，若带教未及时回复信息，会存在**不知道怎么去解决**的情况。\n   - 指出带教平均回复时长有时在**10分钟以内**，有时为**半个小时到一个小时**。\n   - 确认与带教人坐的距离**相对会远一点**。\n\n3. **后续处理与共识**\n\n   - 面试官表示已了解情况，后续会对带教响应及座位问题进行**整改**。\n   - 上级对评定结果表示遗憾，但出于职责考虑，认为长期发展若拿不到结果会影响候选人时间。\n   - 候选人最终确认**没问题**，接受终止合作决定。\n\n---\n\n## 🔍 离职手续办理\n\n🕒 18:44 – 18:48\n\n> 确认薪资发放时间为12月16日，安排账号及电梯卡交接。\n\n> - 当前切片为试岗结束后的离职手续办理环节，确认**12月16日**为薪资发放参考时间，并安排账号及电梯卡交接。\n> - 双方就薪资一次性发放事宜进行沟通，表示将尽量协调在**11月15日**统一结算，候选人配合完成签字及物品归还。\n\n### 薪资结算与发放\n\n1. **薪资核算标准**\n\n   - 前三天试岗薪资按**50元/天**核算，之后按照试岗期约定薪资标准执行。\n   - 薪资核算依据为**工作日**时间。\n\n2. **发放时间与协调**\n\n   - 常规发薪日为每月15号，本次沟通中提及下个月**12月16日**作为发放时间节点。\n   - 针对11月份薪资，面试官表示会尽量与薪酬部门沟通，争取在**11月15日**一次性发放；若无法协调则分批处理。\n   - 候选人对分批发放可能带来的麻烦表示理解，并同意配合后续沟通结果。\n\n### 手续办理与交接\n\n1. **文件签署要求**\n\n   - 需在乙方位置签署姓名，日期填写为**2026年11月3日**。\n   - 关于发放时间的条款，初步填写为**11月16日之前**，具体视沟通结果而定。\n\n2. **物品与账号交接**\n\n   - 需向主管交接手机账号等权限信息。\n   - 确认持有电梯卡，并要求当场交接给主管。\n\n### 后续行动项\n\n1. **① 薪资发放协调**\n\n   - **负责人**：公司方（面试官）\n   - **跟进内容**：与总部薪酬部门沟通，争取将11月薪资在11月15日一次性发放\n\n2. **② 物品交接**\n\n   - **涉及候选人**：候选人\n   - **跟进内容**：向主管交接电梯卡及手机账号权限\n\n---\n\n*内容由 钉钉AI听记 生成*\n\n\n\n（以下由自动化整理）\n【待办】\n- 佳瑞：跟主管交接手机账号和电梯卡\n- 佳瑞：签署文件，写上名字和2026年11月3日日期\n- 佳瑞：明天不用来上班",
+        "date": ""
+      },
+      {
+        "name": "张彩霞",
+        "dept": "星辰一部",
+        "status": "在职",
+        "stage": "试岗",
+        "age": 23,
+        "level": "M2",
+        "type": "试岗期面谈",
+        "interviewer": "罗思会",
+        "record": "*人事面谈*\n\n# 新媒体主管试岗转正沟通\n\n> 确认试用期目标、薪资结构及团队规划\n\n【转正沟通】 【绩效管理】 【团队建设】\n\n**会议日期**: 2026-11-04 | **议题数**: 4 | **听记时长**: 23分钟\n\n---\n\n1. **前员工情况反馈**\n   > HR反馈离职员工文博工作量未达标及沟通问题，新任主管解释原因并确认已告知工作要求。\n2. **团队现状与挑战**\n   > 主管汇报团队人员结构、保健品推广难点及找号痛点，评价带教人并讨论招聘薪资问题。\n3. **转正目标与签约**\n   > 确认通过试岗，解读试用期考核指标（人效、爆文），签署目标责任书及薪资确认单。\n4. **薪资规则与支持**\n   > 明确个人及团队提成比例，讨论爆文积分规则的统一难点，确认后续资源对接安排。\n\n---\n\n## 🔍 前员工情况反馈\n\n🕒 11:08 – 11:12\n\n> HR反馈离职员工文博工作量未达标及沟通问题，新任主管解释原因并确认已告知工作要求。\n\n> - **HR（发言人1）**反馈前员工**文博**存在工作量未达标及沟通不清的问题，首日写4篇，次日目标8篇仅完成4篇且自称“没听清”。\n> - 新任主管（**发言人2**）解释已明确告知试用期首周目标为**8篇**，适应后调整为**12-15篇**，并确认入职时已传达该要求。\n> - 双方就岗位职级（**P2**）与产出效率不匹配达成共识，主管指出文博进度存在问题。\n\n### 离职员工文博工作表现反馈\n\n1. **工作量未达标事实**\n\n   - **HR**指出文博第一天写了**4篇**小篇，第二天、第三天任务量为**8篇**。\n   - **主管**补充说明：第二天实际只完成了**4篇**，尽管早上明确要求是8篇，且文博自己在登记表上写的目标也是**8篇**。\n   - 当被问及为何未完成时，文博声称“**没听清**”，但主管表示中间曾询问是否有问题，对方回答没有。\n\n2. **岗位要求与沟通情况**\n\n   - **主管**强调文博定级为**P2**，通常要求有一年以上经验，但其进度和表现存在明显问题。\n   - 关于后续固定工作量，**HR**确认标准是每天**6大篇**加找**2个素人**代发。\n   - **主管**澄清已在面试及入职时明确告知：前期第一周适应期写**8篇**，适应节奏后正常工作量为**12-15篇**。\n\n### 新任主管入职沟通\n\n1. **BP角色介绍与关怀**\n\n   - **HR**自我介绍为公司**BP**，负责百货及望城事业部，角色定位为深入业务、与团队共进退。\n   - BP职责涵盖业绩目标、试岗、试用期、转正、晋升以及工作生活中的各类问题支持。\n   - **HR**询问新任主管近期感受，因主管也是新人，旨在了解其适应情况。\n\n---\n\n## 🔍 团队现状与挑战\n\n🕒 11:12 – 11:20\n\n> 主管汇报团队人员结构、保健品推广难点及找号痛点，评价带教人并讨论招聘薪资问题。\n\n> - **发言人 2**作为新人主管接手保健品推广团队，目前面临**违规率高**与**找号难**的核心业务痛点。\n> - 招聘端遭遇瓶颈，候选人因**P1/P2薪资仅差500元**且整体偏低而拒绝Offer，急需成熟PR支持。\n> - 团队全员为新入职员工，座位分散影响氛围；经评估**发言人 2**试岗通过，带教人**雨欣**评价其能力与态度均佳。\n\n### 团队结构与人员现状\n\n1. **人员规划与分组**\n\n   - 团队分为**批量组**（3名小伙伴）和**种草组**（1名组长+1名组员）。\n   - 目前团队成员均为新人，入职时间最长者为**10月20日**入职的**圆梦**，整体团队尚处于磨合期。\n\n2. **办公座位与氛围**\n\n   - 由于人数少且座位分散（**发言人 2**对面仅2个位置，其他成员分布在后排或另一排），导致团队日常交流较少，氛围尚未完全融合。\n   - 未来随着人员扩充，计划再次调整座位以增强团队凝聚力。\n\n### 业务痛点与运营策略\n\n1. **保健品推广难点**\n\n   - 相比百货类商品，保健品涉及功效宣传，**违规率较高**，易出现封号问题。\n   - 团队当前最大的卡点是**找号困难**，缺乏成熟的PR团队支持，导致编辑无法专心产出内容。\n\n2. **阶段性运营重心**\n\n   - **发言人 2**刚接手后未急于大量铺量，而是先培养团队**找号能力**。\n   - 基于淘宝端已有的基础数据，后续重心将优先放在**五红粉**产品上，酸枣仁产品则随团队搭建逐步推进。\n\n### 招聘挑战与薪资反馈\n\n1. **Offer流失原因**\n\n   - 面试通过率较高，但候选人接Offer后入职率低，核心原因是觉得**薪资偏低**。\n   - **P1与P2级薪资仅相差500元**，对于稍有经验的候选人缺乏吸引力，而经验不足者又被评估为能力稍弱。\n\n2. **PR招聘困境**\n\n   - 急需招聘一名成熟的PR以提供新方法和思路，但临近年底，尤其是**素人PR**极难招聘。\n   - 招聘部门压力较大，全公司范围内普遍存在招聘难、不好看的情况。\n\n### 带教评估与试岗结论\n\n1. **带教人评价**\n\n   - **发言人 2**由**雨欣**直接带教，评价其**能力强**、管理风格合适且耐心，虽因工作繁忙沟通时间有限，但整体体验良好。\n\n2. **试岗结果**\n\n   - 经与**雨欣**沟通，其对**发言人 2**的工作能力、态度等各方面评价均为OK，确认**试岗通过**。\n\n---\n\n## 🔍 转正目标与签约\n\n🕒 11:20 – 11:26\n\n> 确认通过试岗，解读试用期考核指标（人效、爆文），签署目标责任书及薪资确认单。\n\n> - **发言人 2**顺利通过七天试岗，正式进入为期三个月的试用期。\n> - 转正核心指标明确为小组人效达到 **3.5**（对应业绩约 **80万**）及产出 **5-8篇** 爆文，公司平均转正周期为 **2个月**，达标即次月转正。\n> - 双方签署《目标责任书》与《薪资确认单》，确认职位为新媒体推广主管，隶属星辰四部（望城Pro事业部），考核期自 **2026年10月28日** 至 **2027年1月27日**。\n\n### 试岗结果与团队现状\n\n1. **试岗通过确认**\n\n   - **发言人 1** 反馈已与 **雨欣** 沟通过去一周情况，评价 **工作能力** 与 **工作态度** 均表现良好，确认通过七天试岗。\n   - 招聘端目前压力较大，团队编辑岗位仍在持续招聘中。\n\n### 试用期考核指标解读\n\n1. **硬性业绩指标**\n\n   - 核心指标包括：当月小组人效达到 **3.5**（即业绩约 **80万**）以及产出 **5-8篇** 爆文。\n   - **发言人 1** 指出两者具有强关联性，若人效达标，通常能自然带动爆文数量，二者需综合完成。\n\n2. **转正周期与机制**\n\n   - 法定试用期为 **3个月**，但公司平均转正周期为 **2个月**。\n   - 政策明确“不卡转正”，只要完成上述指标，次月即可办理转正手续。\n\n3. **软性素质考核**\n\n   - 除硬性指标外，剩余 **20%-30%** 的考核权重涵盖工作态度、执行力等软性素质，逻辑与常规绩效考核一致。\n\n### 文件签署与信息确认\n\n1. **目标责任书签署**\n\n   - 签署日期为 **2026年11月4日**。\n   - 确认职位：**新媒体推广主管**；部门：**星辰四部**；所属大事业部：**望城Pro事业部**。\n   - 考核周期明确为 **2026年10月28日** 至 **2027年1月27日**，共计 **3个月**。\n\n2. **薪资确认单核对**\n\n   - **发言人 2** 核对薪资信息与身份证号，确认与招聘时沟通内容一致。\n   - 双方完成电子签名及日期按压操作。\n\n### 后续工作规划\n\n1. **团队管理方向**\n\n   - **发言人 1** 肯定 **发言人 2** 对团队及人员规划思路清晰。\n   - 下一步重点是将规划落地，带领团队整体达成既定目标。\n\n---\n\n## 🔍 薪资规则与支持\n\n🕒 11:26 – 11:31\n\n> 明确个人及团队提成比例，讨论爆文积分规则的统一难点，确认后续资源对接安排。\n\n> - 明确**主管个人提成1.2%**及**团队整体提成1%**的薪资规则，基数为扣除退款、刷单及推广费用后的净业绩。\n> - 爆文积分规则因品类（如吉他、人体工学椅等）差异大且标准不一，目前难以统一，新入职员工需通过**雨欣**获取具体品类的详细规则表。\n> - 确认公司具备账号对接平台资源，后续将由雨欣协助完成账号对接及具体业务规则的深度对齐。\n\n### 薪资结构与提成规则\n\n1. **提成比例与计算基数**\n\n   - **主管个人提成**：若亲自撰写产品内容，可获得该单品业绩 **1.2%** 的提成。\n   - **团队管理提成**：基于整个团队的总业绩，主管可获得 **1%** 的团队提成，无特定业绩门槛限制。\n   - **净业绩定义**：提成计算基数需扣除**退款**、**刷单**以及**推广费用**（含话费、网费等），确保基于真实净利润核算。\n\n### 爆文积分规则与资源支持\n\n1. **积分规则的统一难点**\n\n   - 望城事业部涵盖**四个部门**，涉及吉他、人体工学椅等多种品类，不同品类的笔记形式与爆文标准差异巨大。\n   - 以当前新品为例，规则按视频类型划分（如单推、抠图等），例如浏览量达 **10万** 可能对应特定积分，但具体细则复杂且仍在优化中。\n   - **发言人 1** 坦言目前积分规则难以全品类统一，正在探索如何让新员工能“一目了然”地理解预期，目前仍需依赖专人讲解。\n\n2. **后续对接与支持安排**\n\n   - **资源对接**：公司设有专门的找号平台，目前**发言人 2** 尚未对接，后续将由 **雨欣** 协助完成账号及相关资源的对接工作。\n   - **规则澄清**：针对组员关注的爆文标准，**雨欣** 将提供具体的积分表并进行详细解读；若未主动联系，建议**发言人 2** 主动询问以确保准确传递给组员。\n\n---\n\n*内容由 钉钉AI听记 生成*",
+        "date": ""
+      },
+      {
+        "name": "尤芮芮",
+        "dept": "星辰一部",
+        "status": "在职",
+        "stage": "试岗",
+        "age": 26,
+        "level": "M1",
+        "type": "试岗期面谈",
+        "interviewer": "罗思会",
+        "record": "*人事面谈*\n\n# 尤芮芮试岗期面谈\n\n> 通过试岗进入试用期，明确工作指标与规划\n\n【试岗评估】 【试用期目标】 【工作规划】\n\n**议题数**: 4 | **听记时长**: 20分钟\n\n---\n\n1. **岗位介绍与工作回顾**\n   > 介绍BP角色，回顾首周笔记产出情况，指出找素人难点并建议更换账号。\n2. **业务规划与新任务**\n   > 讨论大路灯品类推广策略，新增口播视频任务，明确组长带教职责。\n3. **试用期目标与薪资**\n   > 确认通过试岗，签署试用期目标责任书，解释转正指标、薪资构成及提成规则。\n4. **反馈支持与结束**\n   > 询问带教反馈与支持需求，赠送试岗通过礼品，结束面谈。\n\n---\n\n## 🔍 岗位介绍与工作回顾\n\n🕒 11:45 – 11:52\n\n> 介绍BP角色，回顾首周笔记产出情况，指出找素人难点并建议更换账号。\n\n> - **发言人 1**（BP）向新员工介绍岗位职责，明确其隶属于**望城事业部新城三部**，并说明BP在试用期、转正及日常沟通中的支持角色。\n> - 回顾首周工作，员工负责**大路灯**品类笔记撰写，昨日产出**8条**（含**4篇种草**、**2个空测**等），整体表现获认可；但指出当前核心难点在于**找素人**缺乏经验与资源。\n> - 明确后续工作标准为每日**6大篇**笔记加**2个素人**；针对员工使用个人账号联系素人的风险，建议更换为**公司备用机**及**企业微信/小号**操作，以规避封号风险。\n\n### 岗位角色与部门归属\n\n1. **组织架构定位**\n\n   - 员工所属大部门为**望城事业部**，具体归属于**新城三部**。\n   - **BP**（业务合作伙伴）角色涵盖试岗期、试用期、转正、晋升等全流程管理，以及工作与生活中的问题沟通支持。\n\n2. **带教关系**\n\n   - 当前由**毛静轩**（静轩）担任代教老师。\n   - 员工可与代教或BP随时沟通工作中遇到的问题或单纯闲聊。\n\n### 首周工作复盘\n\n1. **笔记产出情况**\n\n   - 负责品类为**大路灯**，员工反馈写笔记本身无困难。\n   - 昨日共计产出**8条**内容，结构包括**4篇种草**、**2个空测**及其他类型（如素人笔记）。\n   - BP对目前的工作速度和产出质量表示满意，认为符合入职初期的预期。\n\n2. **核心痛点：找素人**\n\n   - 员工此前无寻找素人经验，初期感到困难，经指导后已知晓方法。\n   - 昨日成功找到**2个**素人并发出笔记需求，今日计划寻找**3个**，但私信尚未收到回复。\n   - 主要障碍在于手中无私域资源，需花费时间从头积累，且缺乏“人推人”的裂变基础。\n\n### 工作标准与风险提示\n\n1. **后续工作量标准**\n\n   - 望城事业部统一规则：每日需完成**6大篇**笔记。\n   - 每日需额外寻找**2个**素人进行合作。\n   - 单个素人通常发布**1条**笔记，若数据表现好可追加**1条**。\n\n2. **账号安全风险与建议**\n\n   - **风险现状**：员工目前使用个人抖音号和主微信号联系素人，频繁打招呼存在极高的封号风险。\n   - **改进建议**：强烈建议停止使用个人大号，改用**公司备用机**（静轩处有提供）登录抖音，并使用**企业微信**或新建小号添加素人微信，以保护个人资产安全。\n\n---\n\n## 🔍 业务规划与新任务\n\n🕒 11:52 – 11:57\n\n> 讨论大路灯品类推广策略，新增口播视频任务，明确组长带教职责。\n\n> - **发言人 2**作为组长接手**大路灯**品类推广，目前面临素人资源匮乏的挑战，需自行寻找对应人群进行裂变。\n> - 内容策略上，前期侧重**真实痛点笔记**与**大字报引流**，后期转向**实测测评类**内容；今日新增**口播视频**任务，需出镜拍摄。\n> - **发言人 1**明确组长职责包含**带教考核**，建议向事业部内口播表现优秀的**子怡**学习，并强调口播数据直接关联**提成收益**。\n\n### 大路灯品类推广策略\n\n1. **素人资源拓展**\n\n   - **发言人 2**表示目前手中没有素人资源，需要花时间寻找对应人群。\n   - 计划借鉴私域**裂变**模式，通过“人推人”的方式获取资源。\n   - **发言人 1**指出前期需克服资源困难，后续有资源后操作会相对简单。\n\n2. **内容创作规划**\n\n   - **前期策略**：撰写**真实痛点类型**笔记，以及偏**大字报**风格的钓鱼引流内容。\n   - **后期策略**：在有销量的情况下，着重撰写**实测测评类**笔记以进行回流转化。\n   - **当前执行**：今日正在撰写真实痛点笔记及大字报内容。\n\n### 口播视频新任务\n\n1. **任务详情与要求**\n\n   - 今日新增任务包括：**1篇抠测**、**2篇种草**、**1篇素人**内容及**1个口播视频**。\n   - 口播视频要求**出镜**展示，**发言人 2**此前仅做过产品展示类视频，未做过口播。\n   - **发言人 1**鼓励尝试，指出新城三部此前口播较少，现在目标是提升口播比例，因其**数据表现较好**。\n\n2. **激励与对标学习**\n\n   - 口播数据好将带动业绩提升，进而增加个人**提成收入**。\n   - 建议向望城事业部口播做得较好的**子怡**学习，其镜头表现力强且**非常有感染力**。\n   - 后续可安排召集会议，向**子怡**请教视频拍摄及镜头表现技巧。\n\n### 组长职责与团队融入\n\n1. **组长带教责任**\n\n   - **发言人 1**明确**发言人 2**的组长岗位除写品外，还承担**带教**及其他管理职责。\n   - 大路灯品类后续由**发言人 2**负责，包括人员配置及团队代教，这部分工作有相应的**考核责任**。\n\n2. **团队协作现状**\n\n   - **发言人 2**目前主要认识**静轩**和**梦蝶**，工位位于静轩斜后方，沟通便利。\n   - 今日已与隔壁同事对接版型，该同事负责**平衡车**（小孩骑的车）品类，负责人疑似为**亚楠**。\n   - **发言人 1**提醒遇到问题及时与**静轩**沟通，并确认了周围同事的职责分工。\n\n---\n\n## 🔍 试用期目标与薪资\n\n🕒 11:57 – 12:05\n\n> 确认通过试岗，签署试用期目标责任书，解释转正指标、薪资构成及提成规则。\n\n> - **发言人 1**确认**发言人 2**通过试岗期，正式进入为期**3个月**的试用期，职位为**新媒体编辑组长**。\n> - 转正核心指标明确：达成**3万**人效（业绩）即可次月转正，公司平均转正周期约为**2个月**。\n> - 薪资结构澄清：**4200元**为包含加班、住房及全勤补贴在内的固定底薪，提成按团队积分比例分配，与爆文产出强相关。\n\n### 试用期目标与转正机制\n\n1. **考核周期与岗位信息**\n\n   - 签署《试用期目标责任书》，职位确认为**新媒体编辑组长**。\n   - 考核周期为**2026年10月26日**至**2027年1月25日**，共计**3个月**。\n   - 签署日期定为**2026年11月4日**，需核对身份证号并按指印确认。\n\n2. **转正标准与周期**\n\n   - 转正硬性指标：人效（业绩）达到**3万**即可立即启动转正流程。\n   - 公司整体平均转正周期在**2个月**左右，若指标达成不卡转正时间。\n   - **发言人 1**强调公司对转正持开放态度，重点在于业绩指标的达成情况。\n\n### 薪资构成与提成规则\n\n1. **固定薪资拆解**\n\n   - **发言人 2**质疑基本工资显示为**4200元**，**发言人 1**解释此为固定薪资总额。\n   - 该金额由基本工资、加班补贴、住房补贴及全勤奖合并构成，并非仅指基础底薪。\n   - 除请假可能扣除全勤外，其他部分为固定发放，可简单理解为标准底薪。\n\n2. **业绩提成分配逻辑**\n\n   - 提成基于团队整体业绩，按个人**积分比例**进行划分，而非仅看出单。\n   - 积分获取与**爆文**强相关：产出一篇爆文可获得较高积分。\n   - 无爆文员工也可通过维护评论、发文量等日常运营工作获取少量积分，但权重低于爆文。\n   - 最终个人提成 = （个人积分 / 团队总积分）× 品类总业绩。\n\n### 其他事项与支持需求\n\n1. **报文标准与资源支持**\n\n   - 关于报文标准，因笔记类型不同而存在差异，达标时带教人**静轩**会进行具体解释和积分计算说明。\n   - **发言人 1**询问是否需要额外资源支持以助顺利转正，**发言人 2**表示目前暂无特殊需求。\n   - 双方确认对带教人**静轩**的指导工作及整体入职流程无异议。\n\n---\n\n## 🔍 反馈支持与结束\n\n🕒 12:05 – 12:06\n\n> 询问带教反馈与支持需求，赠送试岗通过礼品，结束面谈。\n\n> - **晋轩**目前对带教暂无具体反馈，自认能胜任笔记撰写与找版工作，但在对接素人方面存在顾虑。\n> - 带教计划调整为优先解决**找素人**难点，其他事项暂无问题。\n> - 公司赠送**试岗通过礼品**以示鼓励，期待顺利转正，面谈结束。\n\n### 带教反馈与能力评估\n\n1. **当前反馈状态**\n\n   - **晋轩**表示刚入职，带教老师目前未提出具体意见或反馈。\n\n2. **自我能力评估**\n\n   - 自信能够独立指导他人进行**笔记撰写**、**找版**及**找爆版**等工作。\n   - 但在协助处理**素人**相关事务时感到信心不足，认为这是目前的短板。\n\n### 后续支持与面谈收尾\n\n1. **带教重点调整**\n\n   - 针对**晋轩**的顾虑，确定下一步带教重点是帮助其解决**如何找素人**的问题。\n   - 确认除该难点外，无其他问题或困难。\n\n2. **激励与结束**\n\n   - 公司向通过试岗的员工赠送**小礼品**，表达对顺利转正或提前转正的期待。\n   - 确认无其他议题后，结束面谈并安排返回工作岗位。\n\n---\n\n*内容由 钉钉AI听记 生成*",
         "date": ""
       }
     ],
@@ -46267,7 +47457,7 @@
         "dept1": "绒光-Elite事业部",
         "dept2": "和煦八部",
         "dept3": "宠物一组",
-        "status": "在职",
+        "status": "优化",
         "stage": "试用期",
         "hire_date": ""
       },
@@ -47897,7 +49087,7 @@
         "dept1": "绒光-Elite事业部",
         "dept2": "和煦八部",
         "dept3": "宠物一组",
-        "status": "在职",
+        "status": "自离",
         "stage": "试用期",
         "hire_date": ""
       },
@@ -47936,7 +49126,7 @@
         "nick": "爆葵",
         "dept1": "绒光-Elite事业部",
         "dept2": "创晖一部",
-        "dept3": null,
+        "dept3": "宠物二组",
         "status": "在职",
         "stage": "试用期",
         "hire_date": ""
@@ -48026,7 +49216,7 @@
         "nick": "爆糕",
         "dept1": "绒光-Elite事业部",
         "dept2": "创晖一部",
-        "dept3": null,
+        "dept3": "宠物二组",
         "status": "在职",
         "stage": "试用期",
         "hire_date": ""
@@ -48113,10 +49303,10 @@
       },
       {
         "name": "康豫盈",
-        "nick": null,
+        "nick": "栀栀",
         "dept1": "组织效能中心",
         "dept2": "人资部",
-        "dept3": null,
+        "dept3": "捞才吖",
         "status": "在职",
         "stage": "试用期",
         "hire_date": ""
@@ -48213,12 +49403,12 @@
       },
       {
         "name": "王冲",
-        "nick": null,
+        "nick": "江夏",
         "dept1": "双启",
         "dept2": "扶摇直上组",
         "dept3": null,
         "status": "在职",
-        "stage": "试岗",
+        "stage": "试用期",
         "hire_date": ""
       },
       {
@@ -48263,12 +49453,12 @@
       },
       {
         "name": "杨璟",
-        "nick": null,
+        "nick": "捞面",
         "dept1": "渠道运营部",
         "dept2": "商务部",
-        "dept3": null,
+        "dept3": "商务组",
         "status": "在职",
-        "stage": "试岗",
+        "stage": "试用期",
         "hire_date": ""
       },
       {
@@ -48303,12 +49493,12 @@
       },
       {
         "name": "苏苗苗",
-        "nick": null,
+        "nick": "木檀",
         "dept1": "组织效能中心",
         "dept2": "人资部",
-        "dept3": null,
+        "dept3": "伯乐之家",
         "status": "在职",
-        "stage": "试岗",
+        "stage": "试用期",
         "hire_date": ""
       },
       {
@@ -48947,7 +50137,7 @@
         "dept1": "合作团队",
         "dept2": "红禧",
         "dept3": null,
-        "status": "在职",
+        "status": "自离",
         "stage": "试岗",
         "hire_date": ""
       },
@@ -48995,7 +50185,7 @@
         "name": "侯自豪",
         "nick": null,
         "dept1": "合作团队",
-        "dept2": "私域运营部",
+        "dept2": "直播运营部",
         "dept3": null,
         "status": "在职",
         "stage": "试岗",
@@ -49017,7 +50207,7 @@
         "dept1": "合作团队",
         "dept2": "超可萌",
         "dept3": null,
-        "status": "在职",
+        "status": "自离",
         "stage": "试岗",
         "hire_date": ""
       }
@@ -49025,12 +50215,39 @@
     "zaizhi_note": "XMT在职人员sheet4（前500条，超过500条时需分页补拉）",
     "shigang": [
       {
+        "name": "郝珊珊",
+        "post": "行政专员",
+        "chushi": "是",
+        "fushi": "是",
+        "offer": "",
+        "days": 0,
+        "time": "2026/11/04"
+      },
+      {
+        "name": "邓可可",
+        "post": "新媒体推广主管",
+        "chushi": "是",
+        "fushi": "是",
+        "offer": "",
+        "days": 0,
+        "time": "2026/11/04"
+      },
+      {
+        "name": "宗梦涵",
+        "post": "新媒体编辑",
+        "chushi": "是",
+        "fushi": "是",
+        "offer": "",
+        "days": 0,
+        "time": "2026/11/04"
+      },
+      {
         "name": "王宇宸",
         "post": "新媒体编辑",
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 0,
+        "days": 1,
         "time": "2026/11/03"
       },
       {
@@ -49048,7 +50265,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": -1,
+        "days": 0,
         "time": "2026/11/03"
       },
       {
@@ -49056,8 +50273,8 @@
         "post": "新媒体编辑",
         "chushi": "是",
         "fushi": "是",
-        "offer": "未发",
-        "days": 0,
+        "offer": "已接",
+        "days": -1,
         "time": "2026/11/03"
       },
       {
@@ -49075,7 +50292,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": -1,
+        "days": 0,
         "time": "2026/11/03"
       },
       {
@@ -49111,7 +50328,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": -1,
+        "days": 0,
         "time": "2026/11/03"
       },
       {
@@ -49147,7 +50364,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": -2,
+        "days": -1,
         "time": "2026/11/03"
       },
       {
@@ -49156,7 +50373,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": -2,
+        "days": -1,
         "time": "2026/11/03"
       },
       {
@@ -49174,7 +50391,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": -1,
+        "days": 0,
         "time": "2026/11/03"
       },
       {
@@ -49183,7 +50400,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": -1,
+        "days": 0,
         "time": "2026/11/03"
       },
       {
@@ -49210,7 +50427,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 0,
+        "days": 1,
         "time": "2026/11/03"
       },
       {
@@ -49232,12 +50449,21 @@
         "time": "2026/11/03"
       },
       {
+        "name": "潘其洋",
+        "post": "新媒体编辑",
+        "chushi": "是",
+        "fushi": "是",
+        "offer": "",
+        "days": 0,
+        "time": "2026/11/03"
+      },
+      {
         "name": "王德晓",
         "post": "新媒体编辑",
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 2,
+        "days": 3,
         "time": "2026/11/02"
       },
       {
@@ -49255,7 +50481,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 0,
+        "days": 1,
         "time": "2026/11/02"
       },
       {
@@ -49264,7 +50490,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 1,
+        "days": 2,
         "time": "2026/11/02"
       },
       {
@@ -49273,7 +50499,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 1,
+        "days": 2,
         "time": "2026/11/02"
       },
       {
@@ -49282,7 +50508,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 0,
+        "days": 1,
         "time": "2026/11/02"
       },
       {
@@ -49300,7 +50526,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 0,
+        "days": 1,
         "time": "2026/11/02"
       },
       {
@@ -49309,7 +50535,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 0,
+        "days": 1,
         "time": "2026/11/02"
       },
       {
@@ -49318,7 +50544,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": -5,
+        "days": -4,
         "time": "2026/11/02"
       },
       {
@@ -49354,7 +50580,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 0,
+        "days": 1,
         "time": "2026/11/02"
       },
       {
@@ -49363,7 +50589,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 1,
+        "days": 2,
         "time": "2026/11/02"
       },
       {
@@ -49372,7 +50598,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 0,
+        "days": 1,
         "time": "2026/11/02"
       },
       {
@@ -49381,7 +50607,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 0,
+        "days": 1,
         "time": "2026/11/02"
       },
       {
@@ -49399,7 +50625,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": -1,
+        "days": 0,
         "time": "2026/11/02"
       },
       {
@@ -49408,7 +50634,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 0,
+        "days": 1,
         "time": "2026/11/02"
       },
       {
@@ -49417,7 +50643,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 0,
+        "days": 1,
         "time": "2026/11/02"
       },
       {
@@ -49435,7 +50661,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 1,
+        "days": 2,
         "time": "2026/11/02"
       },
       {
@@ -49480,7 +50706,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 1,
+        "days": 2,
         "time": "2026/11/02"
       },
       {
@@ -49498,7 +50724,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": -1,
+        "days": 0,
         "time": "2026/11/02"
       },
       {
@@ -49516,7 +50742,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 2,
+        "days": 3,
         "time": "2026/10/31"
       },
       {
@@ -49534,7 +50760,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 2,
+        "days": 3,
         "time": "2026/10/30"
       },
       {
@@ -49543,7 +50769,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 2,
+        "days": 3,
         "time": "2026/10/30"
       },
       {
@@ -49561,7 +50787,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 1,
+        "days": 2,
         "time": "2026/10/30"
       },
       {
@@ -49570,7 +50796,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 2,
+        "days": 3,
         "time": "2026/10/30"
       },
       {
@@ -49597,7 +50823,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 0,
+        "days": 1,
         "time": "2026/10/30"
       },
       {
@@ -49606,7 +50832,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 2,
+        "days": 3,
         "time": "2026/10/30"
       },
       {
@@ -49642,7 +50868,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 2,
+        "days": 3,
         "time": "2026/10/30"
       },
       {
@@ -49651,7 +50877,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 2,
+        "days": 3,
         "time": "2026/10/30"
       },
       {
@@ -49669,7 +50895,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 2,
+        "days": 3,
         "time": "2026/10/30"
       },
       {
@@ -49677,8 +50903,8 @@
         "post": "法务专员",
         "chushi": "是",
         "fushi": "是",
-        "offer": "",
-        "days": 0,
+        "offer": "已接",
+        "days": -4,
         "time": "2026/10/30"
       },
       {
@@ -49705,7 +50931,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 2,
+        "days": 3,
         "time": "2026/10/29"
       },
       {
@@ -49714,7 +50940,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 5,
+        "days": 6,
         "time": "2026/10/29"
       },
       {
@@ -49732,7 +50958,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 4,
+        "days": 5,
         "time": "2026/10/29"
       },
       {
@@ -49741,7 +50967,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 2,
+        "days": 3,
         "time": "2026/10/29"
       },
       {
@@ -49750,7 +50976,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 5,
+        "days": 6,
         "time": "2026/10/29"
       },
       {
@@ -49759,7 +50985,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 5,
+        "days": 6,
         "time": "2026/10/29"
       },
       {
@@ -49777,7 +51003,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 5,
+        "days": 6,
         "time": "2026/10/29"
       },
       {
@@ -49804,7 +51030,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 4,
+        "days": 5,
         "time": "2026/10/29"
       },
       {
@@ -49840,7 +51066,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 2,
+        "days": 3,
         "time": "2026/10/29"
       },
       {
@@ -49858,7 +51084,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 5,
+        "days": 6,
         "time": "2026/10/29"
       },
       {
@@ -49876,7 +51102,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 2,
+        "days": 3,
         "time": "2026/10/29"
       },
       {
@@ -49894,7 +51120,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 2,
+        "days": 3,
         "time": "2026/10/29"
       },
       {
@@ -49912,7 +51138,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 4,
+        "days": 5,
         "time": "2026/10/29"
       },
       {
@@ -49930,7 +51156,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 6,
+        "days": 7,
         "time": "2026/10/28"
       },
       {
@@ -49939,7 +51165,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 5,
+        "days": 6,
         "time": "2026/10/28"
       },
       {
@@ -49948,7 +51174,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 5,
+        "days": 6,
         "time": "2026/10/28"
       },
       {
@@ -49966,7 +51192,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 2,
+        "days": 3,
         "time": "2026/10/28"
       },
       {
@@ -49993,7 +51219,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 5,
+        "days": 6,
         "time": "2026/10/28"
       },
       {
@@ -50002,7 +51228,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 6,
+        "days": 7,
         "time": "2026/10/28"
       },
       {
@@ -50029,7 +51255,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 6,
+        "days": 7,
         "time": "2026/10/28"
       },
       {
@@ -50065,7 +51291,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": -2,
+        "days": -1,
         "time": "2026/10/28"
       },
       {
@@ -50083,7 +51309,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 5,
+        "days": 6,
         "time": "2026/10/28"
       },
       {
@@ -50092,7 +51318,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 5,
+        "days": 6,
         "time": "2026/10/28"
       },
       {
@@ -50128,7 +51354,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 2,
+        "days": 3,
         "time": "2026/10/27"
       },
       {
@@ -50155,7 +51381,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 7,
+        "days": 8,
         "time": "2026/10/27"
       },
       {
@@ -50173,7 +51399,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 2,
+        "days": 3,
         "time": "2026/10/27"
       },
       {
@@ -50200,7 +51426,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 5,
+        "days": 6,
         "time": "2026/10/27"
       },
       {
@@ -50281,7 +51507,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": -2,
+        "days": -1,
         "time": "2026/10/27"
       },
       {
@@ -50308,7 +51534,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 7,
+        "days": 8,
         "time": "2026/10/26"
       },
       {
@@ -50344,7 +51570,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 5,
+        "days": 6,
         "time": "2026/10/26"
       },
       {
@@ -50353,7 +51579,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 7,
+        "days": 8,
         "time": "2026/10/26"
       },
       {
@@ -50362,7 +51588,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 7,
+        "days": 8,
         "time": "2026/10/26"
       },
       {
@@ -50371,7 +51597,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 7,
+        "days": 8,
         "time": "2026/10/26"
       },
       {
@@ -50416,7 +51642,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 7,
+        "days": 8,
         "time": "2026/10/26"
       },
       {
@@ -50470,7 +51696,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 9,
+        "days": 10,
         "time": "2026/10/24"
       },
       {
@@ -50569,7 +51795,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 9,
+        "days": 10,
         "time": "2026/10/24"
       },
       {
@@ -50614,7 +51840,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 9,
+        "days": 10,
         "time": "2026/10/24"
       },
       {
@@ -50659,7 +51885,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 5,
+        "days": 6,
         "time": "2026/10/24"
       },
       {
@@ -50668,7 +51894,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 9,
+        "days": 10,
         "time": "2026/10/23"
       },
       {
@@ -50677,7 +51903,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 9,
+        "days": 10,
         "time": "2026/10/23"
       },
       {
@@ -50695,7 +51921,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 9,
+        "days": 10,
         "time": "2026/10/23"
       },
       {
@@ -50704,7 +51930,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 8,
+        "days": 9,
         "time": "2026/10/23"
       },
       {
@@ -50758,7 +51984,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 11,
+        "days": 12,
         "time": "2026/10/23"
       },
       {
@@ -50767,7 +51993,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 9,
+        "days": 10,
         "time": "2026/10/23"
       },
       {
@@ -50776,7 +52002,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 7,
+        "days": 8,
         "time": "2026/10/23"
       },
       {
@@ -50794,7 +52020,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 9,
+        "days": 10,
         "time": "2026/10/23"
       },
       {
@@ -50812,7 +52038,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 9,
+        "days": 10,
         "time": "2026/10/23"
       },
       {
@@ -50821,7 +52047,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 9,
+        "days": 10,
         "time": "2026/10/23"
       },
       {
@@ -50839,7 +52065,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 9,
+        "days": 10,
         "time": "2026/10/23"
       },
       {
@@ -50866,7 +52092,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 7,
+        "days": 8,
         "time": "2026/10/23"
       },
       {
@@ -50875,7 +52101,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 9,
+        "days": 10,
         "time": "2026/10/23"
       },
       {
@@ -50902,7 +52128,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 9,
+        "days": 10,
         "time": "2026/10/22"
       },
       {
@@ -50911,7 +52137,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 11,
+        "days": 12,
         "time": "2026/10/22"
       },
       {
@@ -50920,7 +52146,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 9,
+        "days": 10,
         "time": "2026/10/22"
       },
       {
@@ -50938,7 +52164,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 11,
+        "days": 12,
         "time": "2026/10/22"
       },
       {
@@ -50974,7 +52200,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 11,
+        "days": 12,
         "time": "2026/10/22"
       },
       {
@@ -50983,7 +52209,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 12,
+        "days": 13,
         "time": "2026/10/22"
       },
       {
@@ -51100,7 +52326,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 12,
+        "days": 13,
         "time": "2026/10/21"
       },
       {
@@ -51136,7 +52362,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 13,
+        "days": 14,
         "time": "2026/10/21"
       },
       {
@@ -51145,7 +52371,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 13,
+        "days": 14,
         "time": "2026/10/21"
       },
       {
@@ -51172,7 +52398,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 12,
+        "days": 13,
         "time": "2026/10/21"
       },
       {
@@ -51181,7 +52407,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 9,
+        "days": 10,
         "time": "2026/10/21"
       },
       {
@@ -51244,7 +52470,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 13,
+        "days": 14,
         "time": "2026/10/21"
       },
       {
@@ -51253,7 +52479,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 13,
+        "days": 14,
         "time": "2026/10/21"
       },
       {
@@ -51280,7 +52506,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 14,
+        "days": 15,
         "time": "2026/10/20"
       },
       {
@@ -51307,7 +52533,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 12,
+        "days": 13,
         "time": "2026/10/20"
       },
       {
@@ -51316,7 +52542,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 13,
+        "days": 14,
         "time": "2026/10/20"
       },
       {
@@ -51334,7 +52560,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 14,
+        "days": 15,
         "time": "2026/10/20"
       },
       {
@@ -51343,7 +52569,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 9,
+        "days": 10,
         "time": "2026/10/20"
       },
       {
@@ -51370,7 +52596,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 9,
+        "days": 10,
         "time": "2026/10/20"
       },
       {
@@ -51397,7 +52623,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 13,
+        "days": 14,
         "time": "2026/10/20"
       },
       {
@@ -51406,7 +52632,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 12,
+        "days": 13,
         "time": "2026/10/20"
       },
       {
@@ -51415,7 +52641,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 12,
+        "days": 13,
         "time": "2026/10/20"
       },
       {
@@ -51424,7 +52650,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 12,
+        "days": 13,
         "time": "2026/10/20"
       },
       {
@@ -51433,7 +52659,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 13,
+        "days": 14,
         "time": "2026/10/20"
       },
       {
@@ -51451,7 +52677,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 13,
+        "days": 14,
         "time": "2026/10/20"
       },
       {
@@ -51469,7 +52695,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 16,
+        "days": 17,
         "time": "2026/10/19"
       },
       {
@@ -51478,7 +52704,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 15,
+        "days": 16,
         "time": "2026/10/19"
       },
       {
@@ -51550,7 +52776,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 9,
+        "days": 10,
         "time": "2026/10/19"
       },
       {
@@ -51559,7 +52785,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 13,
+        "days": 14,
         "time": "2026/10/19"
       },
       {
@@ -51586,7 +52812,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 12,
+        "days": 13,
         "time": "2026/10/19"
       },
       {
@@ -51595,7 +52821,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 14,
+        "days": 15,
         "time": "2026/10/19"
       },
       {
@@ -51685,7 +52911,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 14,
+        "days": 15,
         "time": "2026/10/17"
       },
       {
@@ -51703,7 +52929,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 16,
+        "days": 17,
         "time": "2026/10/17"
       },
       {
@@ -51721,7 +52947,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 16,
+        "days": 17,
         "time": "2026/10/17"
       },
       {
@@ -51757,7 +52983,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 16,
+        "days": 17,
         "time": "2026/10/16"
       },
       {
@@ -51775,7 +53001,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 16,
+        "days": 17,
         "time": "2026/10/16"
       },
       {
@@ -51802,7 +53028,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 2,
+        "days": 3,
         "time": "2026/10/16"
       },
       {
@@ -51811,7 +53037,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 15,
+        "days": 16,
         "time": "2026/10/16"
       },
       {
@@ -51829,7 +53055,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 13,
+        "days": 14,
         "time": "2026/10/16"
       },
       {
@@ -51847,7 +53073,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 16,
+        "days": 17,
         "time": "2026/10/16"
       },
       {
@@ -51874,7 +53100,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 16,
+        "days": 17,
         "time": "2026/10/15"
       },
       {
@@ -51901,7 +53127,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 16,
+        "days": 17,
         "time": "2026/10/15"
       },
       {
@@ -51910,7 +53136,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 18,
+        "days": 19,
         "time": "2026/10/15"
       },
       {
@@ -51937,7 +53163,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 18,
+        "days": 19,
         "time": "2026/10/15"
       },
       {
@@ -51946,7 +53172,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 16,
+        "days": 17,
         "time": "2026/10/15"
       },
       {
@@ -51964,7 +53190,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 16,
+        "days": 17,
         "time": "2026/10/15"
       },
       {
@@ -52009,7 +53235,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 7,
+        "days": 8,
         "time": "2026/10/15"
       },
       {
@@ -52054,7 +53280,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 19,
+        "days": 20,
         "time": "2026/10/14"
       },
       {
@@ -52099,7 +53325,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 16,
+        "days": 17,
         "time": "2026/10/14"
       },
       {
@@ -52153,7 +53379,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 20,
+        "days": 21,
         "time": "2026/10/14"
       },
       {
@@ -52216,7 +53442,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 19,
+        "days": 20,
         "time": "2026/10/13"
       },
       {
@@ -52243,7 +53469,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 21,
+        "days": 22,
         "time": "2026/10/13"
       },
       {
@@ -52279,7 +53505,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 19,
+        "days": 20,
         "time": "2026/10/13"
       },
       {
@@ -52297,7 +53523,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 19,
+        "days": 20,
         "time": "2026/10/13"
       },
       {
@@ -52315,7 +53541,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 19,
+        "days": 20,
         "time": "2026/10/13"
       },
       {
@@ -52324,7 +53550,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 21,
+        "days": 22,
         "time": "2026/10/13"
       },
       {
@@ -52396,7 +53622,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 22,
+        "days": 23,
         "time": "2026/10/12"
       },
       {
@@ -52414,7 +53640,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 20,
+        "days": 21,
         "time": "2026/10/12"
       },
       {
@@ -52459,7 +53685,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 23,
+        "days": 24,
         "time": "2026/10/10"
       },
       {
@@ -52477,7 +53703,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 22,
+        "days": 23,
         "time": "2026/10/10"
       },
       {
@@ -52513,7 +53739,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 21,
+        "days": 22,
         "time": "2026/10/10"
       },
       {
@@ -52522,7 +53748,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 21,
+        "days": 22,
         "time": "2026/10/10"
       },
       {
@@ -52549,7 +53775,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 9,
+        "days": 10,
         "time": "2026/10/10"
       },
       {
@@ -52567,7 +53793,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 23,
+        "days": 24,
         "time": "2026/10/09"
       },
       {
@@ -52576,7 +53802,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 16,
+        "days": 17,
         "time": "2026/10/09"
       },
       {
@@ -52585,7 +53811,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 23,
+        "days": 24,
         "time": "2026/10/09"
       },
       {
@@ -52630,7 +53856,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 21,
+        "days": 22,
         "time": "2026/10/09"
       },
       {
@@ -52648,7 +53874,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 23,
+        "days": 24,
         "time": "2026/10/09"
       },
       {
@@ -52657,7 +53883,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 23,
+        "days": 24,
         "time": "2026/10/09"
       },
       {
@@ -52666,7 +53892,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 21,
+        "days": 22,
         "time": "2026/10/09"
       },
       {
@@ -52675,7 +53901,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 23,
+        "days": 24,
         "time": "2026/10/09"
       },
       {
@@ -52684,7 +53910,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 23,
+        "days": 24,
         "time": "2026/10/09"
       },
       {
@@ -52711,7 +53937,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 23,
+        "days": 24,
         "time": "2026/10/09"
       },
       {
@@ -52720,7 +53946,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 22,
+        "days": 23,
         "time": "2026/10/09"
       },
       {
@@ -52774,7 +54000,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 23,
+        "days": 24,
         "time": "2026/10/09"
       },
       {
@@ -52810,7 +54036,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 23,
+        "days": 24,
         "time": "2026/10/08"
       },
       {
@@ -52837,7 +54063,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 26,
+        "days": 27,
         "time": "2026/10/08"
       },
       {
@@ -52855,7 +54081,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 23,
+        "days": 24,
         "time": "2026/10/08"
       },
       {
@@ -52864,7 +54090,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 23,
+        "days": 24,
         "time": "2026/10/08"
       },
       {
@@ -52891,7 +54117,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 23,
+        "days": 24,
         "time": "2026/10/08"
       },
       {
@@ -52909,7 +54135,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 26,
+        "days": 27,
         "time": "2026/10/08"
       },
       {
@@ -52918,7 +54144,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 23,
+        "days": 24,
         "time": "2026/10/08"
       },
       {
@@ -52945,7 +54171,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 23,
+        "days": 24,
         "time": "2026/10/08"
       },
       {
@@ -52990,7 +54216,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 26,
+        "days": 27,
         "time": "2026/10/07"
       },
       {
@@ -52999,7 +54225,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 23,
+        "days": 24,
         "time": "2026/10/07"
       },
       {
@@ -53008,7 +54234,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 21,
+        "days": 22,
         "time": "2026/10/06"
       },
       {
@@ -53017,7 +54243,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 29,
+        "days": 30,
         "time": "2026/09/30"
       },
       {
@@ -53053,7 +54279,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 29,
+        "days": 30,
         "time": "2026/09/29"
       },
       {
@@ -53062,7 +54288,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 28,
+        "days": 29,
         "time": "2026/09/28"
       },
       {
@@ -53107,7 +54333,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 27,
+        "days": 28,
         "time": "2026/09/28"
       },
       {
@@ -53170,7 +54396,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 29,
+        "days": 30,
         "time": "2026/09/23"
       },
       {
@@ -53179,7 +54405,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 29,
+        "days": 30,
         "time": "2026/09/23"
       },
       {
@@ -53197,7 +54423,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 29,
+        "days": 30,
         "time": "2026/09/23"
       },
       {
@@ -53206,7 +54432,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 29,
+        "days": 30,
         "time": "2026/09/23"
       },
       {
@@ -53215,7 +54441,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 29,
+        "days": 30,
         "time": "2026/09/23"
       },
       {
@@ -53287,7 +54513,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 43,
+        "days": 44,
         "time": "2026/09/21"
       },
       {
@@ -53296,7 +54522,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 38,
+        "days": 39,
         "time": "2026/09/21"
       },
       {
@@ -53305,7 +54531,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 29,
+        "days": 30,
         "time": "2026/09/21"
       },
       {
@@ -53332,7 +54558,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 38,
+        "days": 39,
         "time": "2026/09/21"
       },
       {
@@ -53413,7 +54639,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 44,
+        "days": 45,
         "time": "2026/09/19"
       },
       {
@@ -53431,7 +54657,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 44,
+        "days": 45,
         "time": "2026/09/19"
       },
       {
@@ -53512,7 +54738,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 46,
+        "days": 47,
         "time": "2026/09/18"
       },
       {
@@ -53548,7 +54774,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 27,
+        "days": 28,
         "time": "2026/09/17"
       },
       {
@@ -53611,7 +54837,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 44,
+        "days": 45,
         "time": "2026/09/17"
       },
       {
@@ -53647,7 +54873,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 47,
+        "days": 48,
         "time": "2026/09/17"
       },
       {
@@ -53674,7 +54900,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 29,
+        "days": 30,
         "time": "2026/09/17"
       },
       {
@@ -53728,7 +54954,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 37,
+        "days": 38,
         "time": "2026/09/17"
       },
       {
@@ -53737,7 +54963,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 44,
+        "days": 45,
         "time": "2026/09/17"
       },
       {
@@ -53746,7 +54972,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 42,
+        "days": 43,
         "time": "2026/09/17"
       },
       {
@@ -53773,7 +54999,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 44,
+        "days": 45,
         "time": "2026/09/16"
       },
       {
@@ -53791,7 +55017,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 27,
+        "days": 28,
         "time": "2026/09/16"
       },
       {
@@ -53800,7 +55026,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 47,
+        "days": 48,
         "time": "2026/09/16"
       },
       {
@@ -53890,7 +55116,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 44,
+        "days": 45,
         "time": "2026/09/15"
       },
       {
@@ -53908,7 +55134,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 44,
+        "days": 45,
         "time": "2026/09/15"
       },
       {
@@ -53917,7 +55143,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 49,
+        "days": 50,
         "time": "2026/09/15"
       },
       {
@@ -53989,7 +55215,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 48,
+        "days": 49,
         "time": "2026/09/15"
       },
       {
@@ -54025,7 +55251,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 50,
+        "days": 51,
         "time": "2026/09/14"
       },
       {
@@ -54034,7 +55260,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 49,
+        "days": 50,
         "time": "2026/09/14"
       },
       {
@@ -54079,7 +55305,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 49,
+        "days": 50,
         "time": "2026/09/14"
       },
       {
@@ -54097,7 +55323,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 47,
+        "days": 48,
         "time": "2026/09/14"
       },
       {
@@ -54106,7 +55332,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 43,
+        "days": 44,
         "time": "2026/09/14"
       },
       {
@@ -54151,7 +55377,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 49,
+        "days": 50,
         "time": "2026/09/12"
       },
       {
@@ -54196,7 +55422,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 51,
+        "days": 52,
         "time": "2026/09/12"
       },
       {
@@ -54214,7 +55440,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 48,
+        "days": 49,
         "time": "2026/09/12"
       },
       {
@@ -54250,7 +55476,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 51,
+        "days": 52,
         "time": "2026/09/11"
       },
       {
@@ -54268,7 +55494,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 50,
+        "days": 51,
         "time": "2026/09/11"
       },
       {
@@ -54304,7 +55530,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 51,
+        "days": 52,
         "time": "2026/09/11"
       },
       {
@@ -54394,7 +55620,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 51,
+        "days": 52,
         "time": "2026/09/10"
       },
       {
@@ -54403,7 +55629,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 51,
+        "days": 52,
         "time": "2026/09/10"
       },
       {
@@ -54412,7 +55638,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 51,
+        "days": 52,
         "time": "2026/09/10"
       },
       {
@@ -54466,7 +55692,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 55,
+        "days": 56,
         "time": "2026/09/09"
       },
       {
@@ -54502,7 +55728,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 51,
+        "days": 52,
         "time": "2026/09/09"
       },
       {
@@ -54520,7 +55746,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 54,
+        "days": 55,
         "time": "2026/09/09"
       },
       {
@@ -54637,7 +55863,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 56,
+        "days": 57,
         "time": "2026/09/08"
       },
       {
@@ -54646,7 +55872,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 51,
+        "days": 52,
         "time": "2026/09/08"
       },
       {
@@ -54682,7 +55908,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 56,
+        "days": 57,
         "time": "2026/09/08"
       },
       {
@@ -54709,7 +55935,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 56,
+        "days": 57,
         "time": "2026/09/08"
       },
       {
@@ -54727,7 +55953,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 51,
+        "days": 52,
         "time": "2026/09/07"
       },
       {
@@ -54736,7 +55962,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 56,
+        "days": 57,
         "time": "2026/09/07"
       },
       {
@@ -54808,7 +56034,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 56,
+        "days": 57,
         "time": "2026/09/07"
       },
       {
@@ -54871,7 +56097,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 57,
+        "days": 58,
         "time": "2026/09/07"
       },
       {
@@ -54880,7 +56106,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 51,
+        "days": 52,
         "time": "2026/09/07"
       },
       {
@@ -54889,7 +56115,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 47,
+        "days": 48,
         "time": "2026/09/05"
       },
       {
@@ -54979,7 +56205,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 58,
+        "days": 59,
         "time": "2026/09/04"
       },
       {
@@ -55006,7 +56232,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 58,
+        "days": 59,
         "time": "2026/09/04"
       },
       {
@@ -55015,7 +56241,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 58,
+        "days": 59,
         "time": "2026/09/04"
       },
       {
@@ -55051,7 +56277,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 58,
+        "days": 59,
         "time": "2026/09/04"
       },
       {
@@ -55060,7 +56286,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 56,
+        "days": 57,
         "time": "2026/09/04"
       },
       {
@@ -55096,7 +56322,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 58,
+        "days": 59,
         "time": "2026/09/03"
       },
       {
@@ -55105,7 +56331,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 61,
+        "days": 62,
         "time": "2026/09/03"
       },
       {
@@ -55123,7 +56349,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 58,
+        "days": 59,
         "time": "2026/09/03"
       },
       {
@@ -55159,7 +56385,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 58,
+        "days": 59,
         "time": "2026/09/03"
       },
       {
@@ -55168,7 +56394,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 58,
+        "days": 59,
         "time": "2026/09/03"
       },
       {
@@ -55177,7 +56403,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 58,
+        "days": 59,
         "time": "2026/09/03"
       },
       {
@@ -55249,7 +56475,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 58,
+        "days": 59,
         "time": "2026/09/03"
       },
       {
@@ -55312,7 +56538,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 61,
+        "days": 62,
         "time": "2026/09/02"
       },
       {
@@ -55321,7 +56547,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 61,
+        "days": 62,
         "time": "2026/09/02"
       },
       {
@@ -55330,7 +56556,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 57,
+        "days": 58,
         "time": "2026/09/02"
       },
       {
@@ -55366,7 +56592,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 58,
+        "days": 59,
         "time": "2026/09/02"
       },
       {
@@ -55375,7 +56601,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 58,
+        "days": 59,
         "time": "2026/09/02"
       },
       {
@@ -55402,7 +56628,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 58,
+        "days": 59,
         "time": "2026/09/02"
       },
       {
@@ -55438,7 +56664,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 62,
+        "days": 63,
         "time": "2026/09/01"
       },
       {
@@ -55456,7 +56682,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 62,
+        "days": 63,
         "time": "2026/09/01"
       },
       {
@@ -55483,7 +56709,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 58,
+        "days": 59,
         "time": "2026/09/01"
       },
       {
@@ -55582,7 +56808,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 64,
+        "days": 65,
         "time": "2026/08/31"
       },
       {
@@ -55645,7 +56871,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 61,
+        "days": 62,
         "time": "2026/08/31"
       },
       {
@@ -55681,7 +56907,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 65,
+        "days": 66,
         "time": "2026/08/29"
       },
       {
@@ -55717,7 +56943,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 64,
+        "days": 65,
         "time": "2026/08/29"
       },
       {
@@ -55735,7 +56961,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 65,
+        "days": 66,
         "time": "2026/08/29"
       },
       {
@@ -55780,7 +57006,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 64,
+        "days": 65,
         "time": "2026/08/28"
       },
       {
@@ -55789,7 +57015,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 65,
+        "days": 66,
         "time": "2026/08/28"
       },
       {
@@ -55798,7 +57024,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 65,
+        "days": 66,
         "time": "2026/08/28"
       },
       {
@@ -55834,7 +57060,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 65,
+        "days": 66,
         "time": "2026/08/28"
       },
       {
@@ -55852,7 +57078,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 64,
+        "days": 65,
         "time": "2026/08/28"
       },
       {
@@ -55870,7 +57096,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 65,
+        "days": 66,
         "time": "2026/08/28"
       },
       {
@@ -56041,7 +57267,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 68,
+        "days": 69,
         "time": "2026/08/26"
       },
       {
@@ -56059,7 +57285,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 69,
+        "days": 70,
         "time": "2026/08/26"
       },
       {
@@ -56158,7 +57384,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 70,
+        "days": 71,
         "time": "2026/08/25"
       },
       {
@@ -56187,42 +57413,6 @@
         "offer": "",
         "days": 0,
         "time": "2026/08/25"
-      },
-      {
-        "name": "王巳垚",
-        "post": "新媒体编辑组长",
-        "chushi": "是",
-        "fushi": "是",
-        "offer": "未接",
-        "days": 0,
-        "time": "2026/08/24"
-      },
-      {
-        "name": "聂姗",
-        "post": "新媒体编辑",
-        "chushi": "是",
-        "fushi": "是",
-        "offer": "已接",
-        "days": 70,
-        "time": "2026/08/24"
-      },
-      {
-        "name": "刘书铭",
-        "post": "新媒体编辑",
-        "chushi": "是",
-        "fushi": "否",
-        "offer": "",
-        "days": 0,
-        "time": "2026/08/24"
-      },
-      {
-        "name": "王常红",
-        "post": "新媒体编辑",
-        "chushi": "是",
-        "fushi": "是",
-        "offer": "已接",
-        "days": 68,
-        "time": "2026/08/24"
       }
     ],
     "shigang_note": "来源：sheet153 招聘数据表派生（sheet3「面试+试岗」已从文档移除）",
@@ -58119,15 +59309,15 @@
         },
         {
           "name": "康豫盈",
-          "nick": null,
+          "nick": "栀栀",
           "stage": "试用期",
           "hire_date": "",
           "status": "在职"
         },
         {
           "name": "苏苗苗",
-          "nick": null,
-          "stage": "试岗",
+          "nick": "木檀",
+          "stage": "试用期",
           "hire_date": "",
           "status": "在职"
         },
@@ -58154,8 +59344,8 @@
         }
       ],
       "counts": {
-        "试岗": 3,
-        "试用期": 13,
+        "试岗": 2,
+        "试用期": 14,
         "正式员工": 11,
         "其他": 0
       }
@@ -59075,8 +60265,8 @@
         },
         {
           "name": "王冲",
-          "nick": null,
-          "stage": "试岗",
+          "nick": "江夏",
+          "stage": "试用期",
           "hire_date": "",
           "status": "在职"
         },
@@ -59089,8 +60279,8 @@
         }
       ],
       "counts": {
-        "试岗": 2,
-        "试用期": 6,
+        "试岗": 1,
+        "试用期": 7,
         "正式员工": 1,
         "其他": 0
       }
@@ -59138,17 +60328,10 @@
           "stage": "试用期",
           "hire_date": "",
           "status": "在职"
-        },
-        {
-          "name": "侯自豪",
-          "nick": null,
-          "stage": "试岗",
-          "hire_date": "",
-          "status": "在职"
         }
       ],
       "counts": {
-        "试岗": 1,
+        "试岗": 0,
         "试用期": 2,
         "正式员工": 4,
         "其他": 0
@@ -59361,17 +60544,10 @@
           "stage": "试岗",
           "hire_date": "",
           "status": "在职"
-        },
-        {
-          "name": "周艺蕊",
-          "nick": null,
-          "stage": "试岗",
-          "hire_date": "",
-          "status": "在职"
         }
       ],
       "counts": {
-        "试岗": 2,
+        "试岗": 1,
         "试用期": 0,
         "正式员工": 3,
         "其他": 0
@@ -59676,44 +60852,6 @@
         "其他": 0
       }
     },
-    "和煦八部": {
-      "persons": [
-        {
-          "name": "黑钰棋",
-          "nick": "虎栩",
-          "stage": "试用期",
-          "hire_date": "",
-          "status": "在职"
-        },
-        {
-          "name": "孙雅莉",
-          "nick": "众生",
-          "stage": "试用期",
-          "hire_date": "",
-          "status": "在职"
-        },
-        {
-          "name": "王静01",
-          "nick": "众朔",
-          "stage": "试用期",
-          "hire_date": "",
-          "status": "在职"
-        },
-        {
-          "name": "康冰心",
-          "nick": "众心",
-          "stage": "试用期",
-          "hire_date": "",
-          "status": "在职"
-        }
-      ],
-      "counts": {
-        "试岗": 0,
-        "试用期": 4,
-        "正式员工": 0,
-        "其他": 0
-      }
-    },
     "盛视": {
       "persons": [
         {
@@ -59759,6 +60897,30 @@
         "其他": 0
       }
     },
+    "和煦八部": {
+      "persons": [
+        {
+          "name": "孙雅莉",
+          "nick": "众生",
+          "stage": "试用期",
+          "hire_date": "",
+          "status": "在职"
+        },
+        {
+          "name": "王静01",
+          "nick": "众朔",
+          "stage": "试用期",
+          "hire_date": "",
+          "status": "在职"
+        }
+      ],
+      "counts": {
+        "试岗": 0,
+        "试用期": 2,
+        "正式员工": 0,
+        "其他": 0
+      }
+    },
     "商务部": {
       "persons": [
         {
@@ -59770,8 +60932,8 @@
         },
         {
           "name": "杨璟",
-          "nick": null,
-          "stage": "试岗",
+          "nick": "捞面",
+          "stage": "试用期",
           "hire_date": "",
           "status": "在职"
         },
@@ -59784,8 +60946,8 @@
         }
       ],
       "counts": {
-        "试岗": 2,
-        "试用期": 1,
+        "试岗": 1,
+        "试用期": 2,
         "正式员工": 0,
         "其他": 0
       }
@@ -59929,9 +61091,19 @@
           "stage": "试用期",
           "hire_date": "",
           "status": "在职"
-        },
+        }
+      ],
+      "counts": {
+        "试岗": 0,
+        "试用期": 8,
+        "正式员工": 0,
+        "其他": 0
+      }
+    },
+    "直播运营部": {
+      "persons": [
         {
-          "name": "梁孟华",
+          "name": "侯自豪",
           "nick": null,
           "stage": "试岗",
           "hire_date": "",
@@ -59940,7 +61112,7 @@
       ],
       "counts": {
         "试岗": 1,
-        "试用期": 8,
+        "试用期": 0,
         "正式员工": 0,
         "其他": 0
       }
@@ -79513,7 +80685,7 @@
       {
         "sid": 222,
         "name": "架构对应表",
-        "count": 67,
+        "count": 68,
         "note": "全公司组织架构（编码/名称/等级/归属BG/审批主管/部门性质）"
       },
       {
@@ -89063,6 +90235,15 @@
         "nature": "业务",
         "owner": "",
         "remark": ""
+      },
+      {
+        "code": "ZHB055",
+        "name": "直播运营部",
+        "level": "二级机构",
+        "bg": "",
+        "nature": "",
+        "owner": "",
+        "remark": ""
       }
     ],
     "post": [
@@ -89501,7 +90682,7 @@
       "219": 217,
       "220": 36,
       "221": 36,
-      "222": 67,
+      "222": 68,
       "223": 61
     }
   },
@@ -89510,17 +90691,17 @@
       {
         "name": "王乐乐",
         "userId": "282431573129066955",
-        "top": "渠道运营部",
+        "top": "绒光_Elite事业部",
         "tops": [
-          "渠道运营部",
+          "绒光_Elite事业部",
           "创新项目部",
-          "绒光_Elite事业部"
+          "渠道运营部"
         ],
         "depts": [
-          "星灿_Luck部",
-          "曦跃_Win部",
+          "绒光_Elite事业部",
           "盈光_Elite事业部",
-          "绒光_Elite事业部"
+          "曦跃_Win部",
+          "星灿_Luck部"
         ],
         "master": "马欢",
         "labels": [
@@ -89536,8 +90717,8 @@
           "电商运营部"
         ],
         "depts": [
-          "电商一组",
-          "电商运营部"
+          "电商运营部",
+          "电商一组"
         ],
         "master": "马欢",
         "labels": [
@@ -89578,20 +90759,6 @@
         "admin": true
       },
       {
-        "name": "牛晨凯",
-        "userId": "17935847573139557",
-        "top": "新星训练营",
-        "tops": [
-          "新星训练营"
-        ],
-        "depts": [
-          "新星训练营"
-        ],
-        "master": "柴冠华",
-        "labels": [],
-        "admin": false
-      },
-      {
         "name": "杜子昂",
         "userId": "17929798572585892",
         "top": "新星训练营",
@@ -89620,20 +90787,6 @@
         "admin": false
       },
       {
-        "name": "田瑜鑫",
-        "userId": "17934117859442086",
-        "top": "新星训练营",
-        "tops": [
-          "新星训练营"
-        ],
-        "depts": [
-          "新星训练营"
-        ],
-        "master": "柴冠华",
-        "labels": [],
-        "admin": false
-      },
-      {
         "name": "王似玉",
         "userId": "17931529182628964",
         "top": "新星训练营",
@@ -89648,20 +90801,6 @@
         "admin": false
       },
       {
-        "name": "梁孟华",
-        "userId": "17936717768482220",
-        "top": "新星训练营",
-        "tops": [
-          "新星训练营"
-        ],
-        "depts": [
-          "新星训练营"
-        ],
-        "master": "单志军",
-        "labels": [],
-        "admin": false
-      },
-      {
         "name": "许雯慧",
         "userId": "17935844673963446",
         "top": "新星训练营",
@@ -89672,6 +90811,20 @@
           "新星训练营"
         ],
         "master": "王雨馨",
+        "labels": [],
+        "admin": false
+      },
+      {
+        "name": "狄晨格",
+        "userId": "17937576169856790",
+        "top": "新星训练营",
+        "tops": [
+          "新星训练营"
+        ],
+        "depts": [
+          "新星训练营"
+        ],
+        "master": "单志军",
         "labels": [],
         "admin": false
       },
@@ -89753,20 +90906,6 @@
         "admin": false
       },
       {
-        "name": "周艺蕊",
-        "userId": "17935843760434313",
-        "top": "新星训练营",
-        "tops": [
-          "新星训练营"
-        ],
-        "depts": [
-          "新星训练营"
-        ],
-        "master": "梁静",
-        "labels": [],
-        "admin": false
-      },
-      {
         "name": "张旭辉",
         "userId": "141054595224247900",
         "top": "",
@@ -89817,10 +90956,10 @@
           "渠道运营部"
         ],
         "depts": [
-          "望辰_Crown事业部",
-          "商务部",
+          "星辰一部",
           "星辰四部",
-          "星辰一部"
+          "望辰_Crown事业部",
+          "商务部"
         ],
         "master": "马欢",
         "labels": [
@@ -89857,6 +90996,20 @@
         "admin": false
       },
       {
+        "name": "李钰渊",
+        "userId": "17937572171971211",
+        "top": "新星训练营",
+        "tops": [
+          "新星训练营"
+        ],
+        "depts": [
+          "新星训练营"
+        ],
+        "master": "李梦杰",
+        "labels": [],
+        "admin": false
+      },
+      {
         "name": "程大明",
         "userId": "014000464530758162",
         "top": "太乙品牌运营中心",
@@ -89864,8 +91017,8 @@
           "太乙品牌运营中心"
         ],
         "depts": [
-          "太乙电商组",
-          "太乙品牌运营中心"
+          "太乙品牌运营中心",
+          "太乙电商组"
         ],
         "master": "",
         "labels": [
@@ -89935,6 +91088,20 @@
         "admin": false
       },
       {
+        "name": "王晓书",
+        "userId": "17937571028236993",
+        "top": "新星训练营",
+        "tops": [
+          "新星训练营"
+        ],
+        "depts": [
+          "新星训练营"
+        ],
+        "master": "高营",
+        "labels": [],
+        "admin": false
+      },
+      {
         "name": "丁香",
         "userId": "17929799220866415",
         "top": "新星训练营",
@@ -89945,6 +91112,20 @@
           "新星训练营"
         ],
         "master": "王雪娅",
+        "labels": [],
+        "admin": false
+      },
+      {
+        "name": "王宇宸",
+        "userId": "17937573493076499",
+        "top": "新星训练营",
+        "tops": [
+          "新星训练营"
+        ],
+        "depts": [
+          "新星训练营"
+        ],
+        "master": "韩晴",
         "labels": [],
         "admin": false
       },
@@ -89963,6 +91144,24 @@
         "admin": false
       },
       {
+        "name": "杨蓓蕾",
+        "userId": "02206949614026527859",
+        "top": "组织效能中心",
+        "tops": [
+          "组织效能中心",
+          "新星训练营"
+        ],
+        "depts": [
+          "HRBP组",
+          "新星训练营"
+        ],
+        "master": "许志远",
+        "labels": [
+          "主管理员"
+        ],
+        "admin": true
+      },
+      {
         "name": "焦斗",
         "userId": "17929802433906278",
         "top": "新星训练营",
@@ -89977,6 +91176,20 @@
         "admin": false
       },
       {
+        "name": "王梦雪",
+        "userId": "1793757009155125",
+        "top": "新星训练营",
+        "tops": [
+          "新星训练营"
+        ],
+        "depts": [
+          "新星训练营"
+        ],
+        "master": "王乐乐",
+        "labels": [],
+        "admin": false
+      },
+      {
         "name": "周从进",
         "userId": "17917699305609149",
         "top": "新星训练营",
@@ -89987,20 +91200,6 @@
           "新星训练营"
         ],
         "master": "李秀琦",
-        "labels": [],
-        "admin": false
-      },
-      {
-        "name": "苏苗苗",
-        "userId": "17929806511662301",
-        "top": "新星训练营",
-        "tops": [
-          "新星训练营"
-        ],
-        "depts": [
-          "新星训练营"
-        ],
-        "master": "胡家硕",
         "labels": [],
         "admin": false
       },
@@ -90063,20 +91262,6 @@
         "admin": false
       },
       {
-        "name": "王嘉瑞",
-        "userId": "17933256040874264",
-        "top": "新星训练营",
-        "tops": [
-          "新星训练营"
-        ],
-        "depts": [
-          "新星训练营"
-        ],
-        "master": "李秀琦",
-        "labels": [],
-        "admin": false
-      },
-      {
         "name": "林梦",
         "userId": "17933262786434049",
         "top": "新星训练营",
@@ -90105,20 +91290,6 @@
         "admin": false
       },
       {
-        "name": "杨璟",
-        "userId": "17929797766537398",
-        "top": "新星训练营",
-        "tops": [
-          "新星训练营"
-        ],
-        "depts": [
-          "新星训练营"
-        ],
-        "master": "王雨馨",
-        "labels": [],
-        "admin": false
-      },
-      {
         "name": "高营",
         "userId": "29661017231262669",
         "top": "绒光_Elite事业部",
@@ -90128,13 +91299,27 @@
         ],
         "depts": [
           "昭荣二部",
-          "盛视",
-          "慧晟三部"
+          "慧晟三部",
+          "盛视"
         ],
         "master": "王乐乐",
         "labels": [
           "主管"
         ],
+        "admin": false
+      },
+      {
+        "name": "王景元",
+        "userId": "1793758446558791",
+        "top": "新星训练营",
+        "tops": [
+          "新星训练营"
+        ],
+        "depts": [
+          "新星训练营"
+        ],
+        "master": "王乐乐",
+        "labels": [],
         "admin": false
       },
       {
@@ -90176,6 +91361,20 @@
           "新星训练营"
         ],
         "master": "葛华阳",
+        "labels": [],
+        "admin": false
+      },
+      {
+        "name": "张明杰",
+        "userId": "17937573034867368",
+        "top": "新星训练营",
+        "tops": [
+          "新星训练营"
+        ],
+        "depts": [
+          "新星训练营"
+        ],
+        "master": "李然",
         "labels": [],
         "admin": false
       },
@@ -90250,8 +91449,8 @@
         "admin": false
       },
       {
-        "name": "王冲",
-        "userId": "17928067836447465",
+        "name": "侯双双",
+        "userId": "17937570913153554",
         "top": "新星训练营",
         "tops": [
           "新星训练营"
@@ -90259,7 +91458,7 @@
         "depts": [
           "新星训练营"
         ],
-        "master": "李然",
+        "master": "王雨馨",
         "labels": [],
         "admin": false
       },
@@ -90288,20 +91487,6 @@
           "新星训练营"
         ],
         "master": "柴冠华",
-        "labels": [],
-        "admin": false
-      },
-      {
-        "name": "高静茹",
-        "userId": "1792633933457736",
-        "top": "新星训练营",
-        "tops": [
-          "新星训练营"
-        ],
-        "depts": [
-          "新星训练营"
-        ],
-        "master": "王雪娅",
         "labels": [],
         "admin": false
       },
@@ -90366,6 +91551,25 @@
         "admin": true
       },
       {
+        "name": "李秀琦",
+        "userId": "303709484526410548",
+        "top": "双启",
+        "tops": [
+          "双启",
+          "绒光_Elite事业部"
+        ],
+        "depts": [
+          "业绩第一组",
+          "晗盛六部",
+          "一组"
+        ],
+        "master": "吴自齐",
+        "labels": [
+          "主管"
+        ],
+        "admin": false
+      },
+      {
         "name": "赵世钰",
         "userId": "17926339748399056",
         "top": "新星训练营",
@@ -90378,38 +91582,6 @@
         "master": "柴冠华",
         "labels": [],
         "admin": false
-      },
-      {
-        "name": "郭文博",
-        "userId": "17933256723669213",
-        "top": "新星训练营",
-        "tops": [
-          "新星训练营"
-        ],
-        "depts": [
-          "新星训练营"
-        ],
-        "master": "王雨馨",
-        "labels": [],
-        "admin": false
-      },
-      {
-        "name": "杨蓓蕾",
-        "userId": "02206949614026527859",
-        "top": "组织效能中心",
-        "tops": [
-          "组织效能中心",
-          "新星训练营"
-        ],
-        "depts": [
-          "HRBP组",
-          "新星训练营"
-        ],
-        "master": "许志远",
-        "labels": [
-          "主管理员"
-        ],
-        "admin": true
       },
       {
         "name": "郜晗淇",
@@ -90458,6 +91630,20 @@
         "admin": false
       },
       {
+        "name": "于文华",
+        "userId": "17926339381973643",
+        "top": "电商运营部",
+        "tops": [
+          "电商运营部"
+        ],
+        "depts": [
+          "电商客服组"
+        ],
+        "master": "柴冠华",
+        "labels": [],
+        "admin": false
+      },
+      {
         "name": "张果丰",
         "userId": "01224342351724244532",
         "top": "电商运营部",
@@ -90468,6 +91654,20 @@
           "电商客服组"
         ],
         "master": "柴冠华",
+        "labels": [],
+        "admin": false
+      },
+      {
+        "name": "刘韬",
+        "userId": "17937572229636134",
+        "top": "新星训练营",
+        "tops": [
+          "新星训练营"
+        ],
+        "depts": [
+          "新星训练营"
+        ],
+        "master": "胡帅",
         "labels": [],
         "admin": false
       },
@@ -90494,20 +91694,6 @@
         ],
         "depts": [
           "电商客服组"
-        ],
-        "master": "柴冠华",
-        "labels": [],
-        "admin": false
-      },
-      {
-        "name": "王俊懿",
-        "userId": "17934118191735407",
-        "top": "新星训练营",
-        "tops": [
-          "新星训练营"
-        ],
-        "depts": [
-          "新星训练营"
         ],
         "master": "柴冠华",
         "labels": [],
@@ -90607,8 +91793,8 @@
           "望辰_Crown事业部"
         ],
         "depts": [
-          "星辰二部",
-          "一组"
+          "一组",
+          "星辰二部"
         ],
         "master": "王雨馨",
         "labels": [
@@ -90627,6 +91813,20 @@
           "新星训练营"
         ],
         "master": "罗祥磊",
+        "labels": [],
+        "admin": false
+      },
+      {
+        "name": "赵妮娜",
+        "userId": "03664815010135535459",
+        "top": "电商运营部",
+        "tops": [
+          "电商运营部"
+        ],
+        "depts": [
+          "电商客服组"
+        ],
+        "master": "柴冠华",
         "labels": [],
         "admin": false
       },
@@ -90787,25 +91987,6 @@
         "admin": false
       },
       {
-        "name": "李秀琦",
-        "userId": "303709484526410548",
-        "top": "双启",
-        "tops": [
-          "双启",
-          "绒光_Elite事业部"
-        ],
-        "depts": [
-          "业绩第一组",
-          "一组",
-          "晗盛六部"
-        ],
-        "master": "吴自齐",
-        "labels": [
-          "主管"
-        ],
-        "admin": false
-      },
-      {
         "name": "柴冠华",
         "userId": "6628035426243234",
         "top": "电商运营部",
@@ -90892,20 +92073,6 @@
           "推广引流组"
         ],
         "master": "罗祥磊",
-        "labels": [],
-        "admin": false
-      },
-      {
-        "name": "于文华",
-        "userId": "17926339381973643",
-        "top": "电商运营部",
-        "tops": [
-          "电商运营部"
-        ],
-        "depts": [
-          "电商客服组"
-        ],
-        "master": "柴冠华",
         "labels": [],
         "admin": false
       },
@@ -91022,16 +92189,16 @@
         "admin": false
       },
       {
-        "name": "赵妮娜",
-        "userId": "03664815010135535459",
-        "top": "电商运营部",
+        "name": "杨晨佳",
+        "userId": "02562631394726272627",
+        "top": "太乙品牌运营中心",
         "tops": [
-          "电商运营部"
+          "太乙品牌运营中心"
         ],
         "depts": [
-          "电商客服组"
+          "太乙电商组"
         ],
-        "master": "柴冠华",
+        "master": "赵娜",
         "labels": [],
         "admin": false
       },
@@ -91102,6 +92269,20 @@
           "太乙电商组"
         ],
         "master": "赵娜",
+        "labels": [],
+        "admin": false
+      },
+      {
+        "name": "马琰",
+        "userId": "04641729021255236",
+        "top": "供应链管理中心",
+        "tops": [
+          "供应链管理中心"
+        ],
+        "depts": [
+          "产品部"
+        ],
+        "master": "葛华阳",
         "labels": [],
         "admin": false
       },
@@ -91418,20 +92599,6 @@
         "admin": false
       },
       {
-        "name": "杨晨佳",
-        "userId": "02562631394726272627",
-        "top": "太乙品牌运营中心",
-        "tops": [
-          "太乙品牌运营中心"
-        ],
-        "depts": [
-          "太乙电商组"
-        ],
-        "master": "赵娜",
-        "labels": [],
-        "admin": false
-      },
-      {
         "name": "赵梦瑶01",
         "userId": "251230636435660997",
         "top": "组织效能中心",
@@ -91442,6 +92609,20 @@
           "财务组"
         ],
         "master": "郭家杞",
+        "labels": [],
+        "admin": false
+      },
+      {
+        "name": "郑芷若",
+        "userId": "331935432436698015",
+        "top": "太乙品牌运营中心",
+        "tops": [
+          "太乙品牌运营中心"
+        ],
+        "depts": [
+          "太乙电商组"
+        ],
+        "master": "赵娜",
         "labels": [],
         "admin": false
       },
@@ -91498,20 +92679,6 @@
           "太乙电商组"
         ],
         "master": "赵娜",
-        "labels": [],
-        "admin": false
-      },
-      {
-        "name": "马琰",
-        "userId": "04641729021255236",
-        "top": "供应链管理中心",
-        "tops": [
-          "供应链管理中心"
-        ],
-        "depts": [
-          "产品部"
-        ],
-        "master": "葛华阳",
         "labels": [],
         "admin": false
       },
@@ -91666,6 +92833,20 @@
           "太乙电商组"
         ],
         "master": "赵娜",
+        "labels": [],
+        "admin": false
+      },
+      {
+        "name": "李想02",
+        "userId": "022025662237811705383",
+        "top": "供应链管理中心",
+        "tops": [
+          "供应链管理中心"
+        ],
+        "depts": [
+          "产品部"
+        ],
+        "master": "葛华阳",
         "labels": [],
         "admin": false
       },
@@ -91840,6 +93021,20 @@
         "admin": false
       },
       {
+        "name": "张义伟",
+        "userId": "233308225824043798",
+        "top": "双启",
+        "tops": [
+          "双启"
+        ],
+        "depts": [
+          "扶摇直上组"
+        ],
+        "master": "李然",
+        "labels": [],
+        "admin": false
+      },
+      {
         "name": "尚晓静",
         "userId": "04030359172723509248",
         "top": "太乙品牌运营中心",
@@ -91878,20 +93073,6 @@
           "扶摇直上组"
         ],
         "master": "李然",
-        "labels": [],
-        "admin": false
-      },
-      {
-        "name": "郑芷若",
-        "userId": "331935432436698015",
-        "top": "太乙品牌运营中心",
-        "tops": [
-          "太乙品牌运营中心"
-        ],
-        "depts": [
-          "太乙电商组"
-        ],
-        "master": "赵娜",
         "labels": [],
         "admin": false
       },
@@ -92059,6 +93240,22 @@
         "admin": false
       },
       {
+        "name": "刘安定",
+        "userId": "251610134720946249",
+        "top": "双启",
+        "tops": [
+          "双启"
+        ],
+        "depts": [
+          "亿百万组"
+        ],
+        "master": "吴自齐",
+        "labels": [
+          "主管"
+        ],
+        "admin": false
+      },
+      {
         "name": "郭恩熙",
         "userId": "01383659054936448253",
         "top": "太乙品牌运营中心",
@@ -92069,20 +93266,6 @@
           "太乙电商组"
         ],
         "master": "赵娜",
-        "labels": [],
-        "admin": false
-      },
-      {
-        "name": "李想02",
-        "userId": "022025662237811705383",
-        "top": "供应链管理中心",
-        "tops": [
-          "供应链管理中心"
-        ],
-        "depts": [
-          "产品部"
-        ],
-        "master": "葛华阳",
         "labels": [],
         "admin": false
       },
@@ -92241,20 +93424,6 @@
         "admin": false
       },
       {
-        "name": "张义伟",
-        "userId": "233308225824043798",
-        "top": "双启",
-        "tops": [
-          "双启"
-        ],
-        "depts": [
-          "扶摇直上组"
-        ],
-        "master": "李然",
-        "labels": [],
-        "admin": false
-      },
-      {
         "name": "杨兰兰",
         "userId": "344624533926106728",
         "top": "绒光_Elite事业部",
@@ -92395,6 +93564,20 @@
         "admin": false
       },
       {
+        "name": "王冲",
+        "userId": "17928067836447465",
+        "top": "双启",
+        "tops": [
+          "双启"
+        ],
+        "depts": [
+          "扶摇直上组"
+        ],
+        "master": "李然",
+        "labels": [],
+        "admin": false
+      },
+      {
         "name": "汪燕姿",
         "userId": "01564666356027598004",
         "top": "绒光_Elite事业部",
@@ -92425,6 +93608,20 @@
       {
         "name": "贾怡凡",
         "userId": "281840021435531678",
+        "top": "绒光_Elite事业部",
+        "tops": [
+          "绒光_Elite事业部"
+        ],
+        "depts": [
+          "宠物二组"
+        ],
+        "master": "王雪娅",
+        "labels": [],
+        "admin": false
+      },
+      {
+        "name": "高静茹",
+        "userId": "1792633933457736",
         "top": "绒光_Elite事业部",
         "tops": [
           "绒光_Elite事业部"
@@ -92476,22 +93673,6 @@
         ],
         "master": "王雪娅",
         "labels": [],
-        "admin": false
-      },
-      {
-        "name": "刘安定",
-        "userId": "251610134720946249",
-        "top": "双启",
-        "tops": [
-          "双启"
-        ],
-        "depts": [
-          "亿百万组"
-        ],
-        "master": "吴自齐",
-        "labels": [
-          "主管"
-        ],
         "admin": false
       },
       {
@@ -93974,6 +95155,20 @@
         "admin": false
       },
       {
+        "name": "杨璟",
+        "userId": "17929797766537398",
+        "top": "渠道运营部",
+        "tops": [
+          "渠道运营部"
+        ],
+        "depts": [
+          "商务组"
+        ],
+        "master": "王雨馨",
+        "labels": [],
+        "admin": false
+      },
+      {
         "name": "刘孜",
         "userId": "040139473041674884",
         "top": "双启",
@@ -95021,12 +96216,12 @@
       }
     ],
     "stat": {
-      "user_count": 329,
+      "user_count": 330,
       "dept_count": 100,
       "level1_count": 10,
       "role_count": 26,
       "admin_count": 9,
-      "with_master": 320,
+      "with_master": 321,
       "no_master_count": 9,
       "no_master": [
         "马欢",
@@ -95040,10 +96235,10 @@
         "尧婕"
       ],
       "by_top": {
-        "绒光_Elite事业部": 66,
-        "新星训练营": 55,
+        "绒光_Elite事业部": 68,
+        "新星训练营": 53,
         "望辰_Crown事业部": 36,
-        "双启": 35,
+        "双启": 36,
         "创新项目部": 33,
         "组织效能中心": 31,
         "电商运营部": 27,
@@ -95058,7 +96253,7 @@
         "主管理员": 3
       }
     },
-    "src": "钉钉通讯录（全公司在职 329 人 / 100 部门 / 26 角色）"
+    "src": "钉钉通讯录（全公司在职 330 人 / 100 部门 / 26 角色）"
   },
   "recruit_demand": {
     "rows": [
@@ -95109,7 +96304,7 @@
         "post": "",
         "level": "P3—M0",
         "need": 1.0,
-        "interview": 1.0,
+        "interview": 3.0,
         "offer": 1.0,
         "arrive": 1.0,
         "status": "已完成",
@@ -96549,7 +97744,7 @@
         "post": "行政专员",
         "level": "",
         "need": 1.0,
-        "interview": 8.0,
+        "interview": 9.0,
         "offer": 1.0,
         "arrive": 1.0,
         "status": "已完成",
@@ -96560,7 +97755,7 @@
         "deadline": "2026/08/31",
         "salary": "4-5",
         "progress": 1.0,
-        "pass": 2.0
+        "pass": 3.0
       },
       {
         "no": "ZH2608076",
@@ -102090,7 +103285,7 @@
         "level": "P2-M2",
         "need": 1.0,
         "interview": 5.0,
-        "offer": 0.0,
+        "offer": 1.0,
         "arrive": 0.0,
         "status": "未完成",
         "urgency": "s",
@@ -104109,8 +105304,8 @@
         "post": "新媒体编辑组长",
         "level": "M1",
         "need": 1.0,
-        "interview": 1.0,
-        "offer": 1.0,
+        "interview": 0.0,
+        "offer": 0.0,
         "arrive": 0.0,
         "status": "终止",
         "urgency": "c",
@@ -104120,7 +105315,7 @@
         "deadline": "2026/10/31",
         "salary": "4500-5000",
         "progress": 0.0,
-        "pass": 1.0
+        "pass": 0.0
       },
       {
         "no": "ZH2610101",
@@ -105649,9 +106844,9 @@
         "post": "新媒体编辑",
         "level": "p1-p3",
         "need": 1.0,
-        "interview": 13.0,
-        "offer": 1.0,
-        "arrive": 1.0,
+        "interview": 4.0,
+        "offer": 0.0,
+        "arrive": 0.0,
         "status": "",
         "urgency": "a",
         "import": "一类",
@@ -105659,8 +106854,8 @@
         "apply": "2026/10/27",
         "deadline": "2026/11/30",
         "salary": "4000-4500",
-        "progress": 1.0,
-        "pass": 2.0
+        "progress": 0.0,
+        "pass": 1.0
       },
       {
         "no": "ZH2610190",
@@ -105851,15 +107046,15 @@
         "need": 1.0,
         "interview": 2.0,
         "offer": 2.0,
-        "arrive": 0.0,
-        "status": "",
+        "arrive": 1.0,
+        "status": "已完成",
         "urgency": "s",
         "import": "一类",
         "owner": "王潇萱",
         "apply": "2026/10/27",
         "deadline": "2026/11/30",
         "salary": "4000",
-        "progress": 0.0,
+        "progress": 1.0,
         "pass": 2.0
       },
       {
@@ -105891,7 +107086,7 @@
         "need": 1.0,
         "interview": 1.0,
         "offer": 1.0,
-        "arrive": 0.0,
+        "arrive": 1.0,
         "status": "",
         "urgency": "b",
         "import": "一类",
@@ -105899,7 +107094,7 @@
         "apply": "2026/10/27",
         "deadline": "2026/11/30",
         "salary": "4000-4500",
-        "progress": 0.0,
+        "progress": 1.0,
         "pass": 1.0
       },
       {
@@ -105989,7 +107184,7 @@
         "post": "新媒体编辑",
         "level": "P1-P3",
         "need": 1.0,
-        "interview": 0.0,
+        "interview": 2.0,
         "offer": 0.0,
         "arrive": 0.0,
         "status": "",
@@ -106000,7 +107195,7 @@
         "deadline": "2026/11/30",
         "salary": "4000-4500",
         "progress": 0.0,
-        "pass": 0.0
+        "pass": 1.0
       },
       {
         "no": "ZH2611068",
@@ -106071,15 +107266,15 @@
         "need": 1.0,
         "interview": 1.0,
         "offer": 1.0,
-        "arrive": 0.0,
-        "status": "",
+        "arrive": 1.0,
+        "status": "已完成",
         "urgency": "a",
         "import": "一类",
         "owner": "高秋慧",
         "apply": "2026/10/27",
         "deadline": "2026/11/30",
         "salary": "4000",
-        "progress": 0.0,
+        "progress": 1.0,
         "pass": 1.0
       },
       {
@@ -106231,15 +107426,15 @@
         "need": 1.0,
         "interview": 2.0,
         "offer": 2.0,
-        "arrive": 0.0,
-        "status": "",
+        "arrive": 1.0,
+        "status": "已完成",
         "urgency": "a",
         "import": "一类",
         "owner": "毛淑慧",
         "apply": "2026/10/27",
         "deadline": "2026/11/30",
         "salary": "4000-4500",
-        "progress": 0.0,
+        "progress": 1.0,
         "pass": 2.0
       },
       {
@@ -106449,7 +107644,7 @@
         "post": "新媒体编辑",
         "level": "p1-p3",
         "need": 1.0,
-        "interview": 1.0,
+        "interview": 2.0,
         "offer": 0.0,
         "arrive": 0.0,
         "status": "",
@@ -106689,7 +107884,7 @@
         "post": "新媒体推广主管",
         "level": "M2",
         "need": 1.0,
-        "interview": 0.0,
+        "interview": 1.0,
         "offer": 0.0,
         "arrive": 0.0,
         "status": "",
@@ -106700,7 +107895,7 @@
         "deadline": "2026/11/30",
         "salary": "6000-10000",
         "progress": 0.0,
-        "pass": 0.0
+        "pass": 1.0
       },
       {
         "no": "ZH2611011",
@@ -106971,7 +108166,7 @@
         "need": 1.0,
         "interview": 1.0,
         "offer": 1.0,
-        "arrive": 0.0,
+        "arrive": 1.0,
         "status": "",
         "urgency": "a",
         "import": "一类",
@@ -106979,7 +108174,7 @@
         "apply": "2026/10/27",
         "deadline": "2026/11/30",
         "salary": "4000-4500",
-        "progress": 0.0,
+        "progress": 1.0,
         "pass": 1.0
       },
       {
@@ -107109,7 +108304,7 @@
         "post": "新媒体编辑",
         "level": "P1-P3",
         "need": 1.0,
-        "interview": 0.0,
+        "interview": 1.0,
         "offer": 0.0,
         "arrive": 0.0,
         "status": "",
@@ -107120,7 +108315,7 @@
         "deadline": "2026/11/30",
         "salary": "4000-4500",
         "progress": 0.0,
-        "pass": 0.0
+        "pass": 1.0
       },
       {
         "no": "ZH2611103",
@@ -107411,15 +108606,15 @@
         "need": 1.0,
         "interview": 2.0,
         "offer": 1.0,
-        "arrive": 0.0,
-        "status": "",
+        "arrive": 1.0,
+        "status": "已完成",
         "urgency": "a",
         "import": "一类",
         "owner": "盛琦雅",
         "apply": "2026/10/27",
         "deadline": "2026/11/30",
         "salary": "4000-4500",
-        "progress": 0.0,
+        "progress": 1.0,
         "pass": 1.0
       },
       {
@@ -108231,15 +109426,15 @@
         "need": 1.0,
         "interview": 2.0,
         "offer": 1.0,
-        "arrive": 0.0,
-        "status": "",
+        "arrive": 1.0,
+        "status": "已完成",
         "urgency": "b",
         "import": "一类",
         "owner": "康豫盈",
         "apply": "2026/10/28",
         "deadline": "2026/11/30",
         "salary": "4000-5000",
-        "progress": 0.0,
+        "progress": 1.0,
         "pass": 1.0
       },
       {
@@ -108371,15 +109566,15 @@
         "need": 1.0,
         "interview": 2.0,
         "offer": 2.0,
-        "arrive": 0.0,
-        "status": "",
+        "arrive": 1.0,
+        "status": "已完成",
         "urgency": "a",
         "import": "一类",
         "owner": "刘晓颖",
         "apply": "2026/10/28",
         "deadline": "2026/11/30",
         "salary": "4000-5000",
-        "progress": 0.0,
+        "progress": 1.0,
         "pass": 2.0
       },
       {
@@ -109050,7 +110245,7 @@
         "level": "P1",
         "need": 1.0,
         "interview": 3.0,
-        "offer": 2.0,
+        "offer": 3.0,
         "arrive": 0.0,
         "status": "",
         "urgency": "s",
@@ -109109,7 +110304,7 @@
         "post": "新媒体编辑组长",
         "level": "M1",
         "need": 1.0,
-        "interview": 0.0,
+        "interview": 1.0,
         "offer": 0.0,
         "arrive": 0.0,
         "status": "",
@@ -109269,9 +110464,9 @@
         "post": "新媒体编辑",
         "level": "p2-p3",
         "need": 1.0,
-        "interview": 1.0,
-        "offer": 1.0,
-        "arrive": 0.0,
+        "interview": 4.0,
+        "offer": 2.0,
+        "arrive": 1.0,
         "status": "",
         "urgency": "a",
         "import": "一类",
@@ -109279,8 +110474,8 @@
         "apply": "2026/10/26",
         "deadline": "2026/11/15",
         "salary": "4000-5000",
-        "progress": 0.0,
-        "pass": 1.0
+        "progress": 1.0,
+        "pass": 3.0
       },
       {
         "no": "ZH2611016",
@@ -109389,8 +110584,8 @@
         "post": "新媒体编辑",
         "level": "P1",
         "need": 1.0,
-        "interview": 0.0,
-        "offer": 0.0,
+        "interview": 1.0,
+        "offer": 1.0,
         "arrive": 0.0,
         "status": "",
         "urgency": "b",
@@ -109400,7 +110595,7 @@
         "deadline": "2026/11/30",
         "salary": "4000-5000",
         "progress": 0.0,
-        "pass": 0.0
+        "pass": 1.0
       },
       {
         "no": "ZH2611175",
@@ -109549,7 +110744,7 @@
         "post": "新媒体编辑",
         "level": "p2-p3",
         "need": 1.0,
-        "interview": 3.0,
+        "interview": 9.0,
         "offer": 1.0,
         "arrive": 0.0,
         "status": "",
@@ -109560,7 +110755,7 @@
         "deadline": "2026/11/08",
         "salary": "4000-5000",
         "progress": 0.0,
-        "pass": 2.0
+        "pass": 1.0
       },
       {
         "no": "ZH2611209",
@@ -109691,15 +110886,15 @@
         "need": 1.0,
         "interview": 1.0,
         "offer": 1.0,
-        "arrive": 0.0,
-        "status": "",
+        "arrive": 1.0,
+        "status": "已完成",
         "urgency": "a",
         "import": "二类",
         "owner": "晋素敏",
         "apply": "2026/10/26",
         "deadline": "2026/11/08",
         "salary": "5000-6000",
-        "progress": 0.0,
+        "progress": 1.0,
         "pass": 1.0
       },
       {
@@ -110452,7 +111647,7 @@
         "interview": 1.0,
         "offer": 1.0,
         "arrive": 1.0,
-        "status": "",
+        "status": "已完成",
         "urgency": "b",
         "import": "一类",
         "owner": "盛琦雅",
@@ -110581,18 +111776,58 @@
         "salary": "4000-5000",
         "progress": 0.0,
         "pass": 0.0
+      },
+      {
+        "no": "ZH2611242",
+        "top": "电商运营部",
+        "dept": "电商客服组",
+        "post": "电商客服",
+        "level": "",
+        "need": 1.0,
+        "interview": 0.0,
+        "offer": 0.0,
+        "arrive": 0.0,
+        "status": "",
+        "urgency": "a",
+        "import": "一类",
+        "owner": "李盼",
+        "apply": "2026/11/03",
+        "deadline": "2026/11/08",
+        "salary": "",
+        "progress": 0.0,
+        "pass": 0.0
+      },
+      {
+        "no": "",
+        "top": "",
+        "dept": "",
+        "post": "",
+        "level": "",
+        "need": 0.0,
+        "interview": 0.0,
+        "offer": 0.0,
+        "arrive": 0.0,
+        "status": "",
+        "urgency": "",
+        "import": "",
+        "owner": "李彦鹏",
+        "apply": "",
+        "deadline": "",
+        "salary": "",
+        "progress": 0.0,
+        "pass": 0.0
       }
     ],
     "stat": {
-      "total": 776,
-      "need_total": 776.0,
-      "interview_total": 1419.0,
-      "offer_total": 589.0,
-      "arrive_total": 428.0,
-      "gap": 348.0,
-      "fill_rate": 55.15,
+      "total": 778,
+      "need_total": 777.0,
+      "interview_total": 1428.0,
+      "offer_total": 591.0,
+      "arrive_total": 437.0,
+      "gap": 340.0,
+      "fill_rate": 56.24,
       "by_status": {
-        "已完成": 429,
+        "已完成": 437,
         "终止": 52,
         "未完成": 44
       },
@@ -110600,26 +111835,26 @@
         "双启": {
           "cnt": 186,
           "need": 186.0,
-          "arrive": 88.0
+          "arrive": 90.0
         },
         "绒光-Elite事业部": {
           "cnt": 168,
           "need": 168.0,
-          "arrive": 98.0
+          "arrive": 99.0
         },
         "望辰-Crown事业部": {
           "cnt": 132,
           "need": 132.0,
-          "arrive": 62.0
+          "arrive": 64.0
         },
         "创新项目部": {
           "cnt": 93,
           "need": 93.0,
-          "arrive": 58.0
+          "arrive": 59.0
         },
         "电商运营部": {
-          "cnt": 46,
-          "need": 46.0,
+          "cnt": 47,
+          "need": 47.0,
           "arrive": 32.0
         },
         "组织效能中心": {
@@ -110635,12 +111870,12 @@
         "合作团队": {
           "cnt": 24,
           "need": 24.0,
-          "arrive": 10.0
+          "arrive": 11.0
         },
         "渠道运营部": {
           "cnt": 18,
           "need": 18.0,
-          "arrive": 5.0
+          "arrive": 7.0
         },
         "供应链管理中心": {
           "cnt": 14,
@@ -110653,20 +111888,20 @@
           "arrive": 3.0
         },
         "(未填)": {
-          "cnt": 2,
+          "cnt": 3,
           "need": 2.0,
           "arrive": 2.0
         }
       }
     },
-    "src": "招聘需求进度表（sheet149）共 776 条需求"
+    "src": "招聘需求进度表（sheet149）共 778 条需求"
   },
   "recruit_funnel": {
     "stat": {
-      "total": 4955,
+      "total": 4965,
       "by_source": {
-        "BOSS": 4468,
-        "(未填)": 249,
+        "BOSS": 4476,
+        "(未填)": 251,
         "内推": 103,
         "海鸥": 60,
         "转介绍": 52,
@@ -110676,13 +111911,13 @@
         "猎聘": 1
       },
       "by_stage": {
-        "已发offer未到岗": 1832,
-        "其他/未推进": 1693,
+        "已发offer未到岗": 1833,
+        "其他/未推进": 1699,
         "过初试": 1028,
-        "过复试": 402
+        "过复试": 405
       },
       "interview_months": {
-        "1900年01月": 239,
+        "1900年01月": 240,
         "2025年04月": 242,
         "2025年05月": 249,
         "2025年06月": 199,
@@ -110702,7 +111937,7 @@
         "2026年08月": 456,
         "2026年09月": 334,
         "2026年10月": 555,
-        "2026年11月": 72
+        "2026年11月": 81
       },
       "arrive_months": {
         "2025年04月": 39,
@@ -110724,7 +111959,7 @@
         "2026年08月": 185,
         "2026年09月": 144,
         "2026年10月": 208,
-        "2026年11月": 51
+        "2026年11月": 53
       },
       "leave_months": {
         "2025年10月": 20,
@@ -110737,7 +111972,7 @@
         "2025年8月": 29,
         "2025年9月": 16,
         "2026年10月": 84,
-        "2026年11月": 8,
+        "2026年11月": 12,
         "2026年1月": 21,
         "2026年2月": 8,
         "2026年3月": 48,
@@ -110753,10 +111988,10 @@
         "李雪芹": 1375,
         "盛琦雅": 1176,
         "张帅涛": 1000,
-        "柴鑫雅": 503,
+        "柴鑫雅": 505,
         "杨蓓蕾": 460,
         "霍怡彤": 377,
-        "刘晓颖": 372,
+        "刘晓颖": 373,
         "原桠栋": 315,
         "李盼盼": 255,
         "李彦鹏": 220,
@@ -111408,39 +112643,41 @@
         "month": "2025年05月"
       }
     ],
-    "src": "招聘数据表（sheet153）共 4955 条候选人记录"
+    "src": "招聘数据表（sheet153）共 4965 条候选人记录"
   },
   "org_xcheck": {
-    "dingtalk_count": 329,
+    "dingtalk_count": 330,
     "humingce_active_count": 353,
-    "both_count": 304,
-    "dingtalk_only_count": 25,
-    "humingce_only_count": 49,
+    "both_count": 303,
+    "dingtalk_only_count": 27,
+    "humingce_only_count": 50,
     "dingtalk_only": [
+      "侯双双",
       "六六",
       "冯鹏妍",
+      "刘韬",
       "包子",
       "吴琼",
-      "周艺蕊",
       "夏志强",
       "小达",
       "尧婕",
       "张旭辉",
+      "张明杰",
       "李佳音",
       "李军锋",
+      "李钰渊",
       "杜莹莹",
       "杨淑焕",
-      "梁孟华",
       "樊红玉",
-      "牛晨凯",
-      "王俊懿",
-      "王嘉瑞",
-      "田瑜鑫",
+      "狄晨格",
+      "王宇宸",
+      "王晓书",
+      "王景元",
+      "王梦雪",
       "罗祥磊",
       "肉肉",
       "范锦宇",
       "贾贤泉",
-      "郭文博",
       "魏雪彥"
     ],
     "humingce_only": [
@@ -111483,6 +112720,7 @@
       "盛琦雅",
       "祝华祎",
       "苏建辉",
+      "苏苗苗",
       "袁秋月",
       "赵志强01",
       "邢耀元",
