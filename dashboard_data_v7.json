@@ -214,7 +214,7 @@
       }
     ],
     "data_through_day": 4,
-    "generated_at": "2026-11-05 12:45"
+    "generated_at": "2026-11-05 13:30"
   },
   "targets_8_hist": [
     {
@@ -80453,33 +80453,33 @@
   },
   "hmc_ext": {
     "humingce": {
-      "total": 1007,
+      "total": 1021,
       "by_zaizhi_status": {
-        "优化": 250,
-        "自离": 404,
-        "在职": 353
+        "优化": 253,
+        "自离": 409,
+        "在职": 359
       },
       "by_yiji": {
-        "绒光-Elite事业部": 310,
-        "双启": 118,
-        "望辰-Crown事业部": 101,
-        "合作团队": 81,
-        "创新项目部": 77,
+        "绒光-Elite事业部": 314,
+        "双启": 123,
+        "望辰-Crown事业部": 102,
+        "合作团队": 82,
+        "创新项目部": 78,
         "电商运营部": 76,
         "组织效能中心": 74,
         "太乙品牌运营中心": 67,
         "其他架构": 52,
-        "渠道运营部": 24,
+        "渠道运营部": 26,
         "供应链管理中心": 21,
         "未填": 4,
         "总经办": 2
       },
       "by_stage": {
-        "试用期": 483,
+        "试用期": 494,
         "正式员工": 240,
-        "试岗": 284
+        "试岗": 287
       },
-      "zaizhi_count": 353
+      "zaizhi_count": 359
     },
     "zhuanzheng": {
       "total": 163,
@@ -113109,34 +113109,31 @@
   },
   "org_xcheck": {
     "dingtalk_count": 326,
-    "humingce_active_count": 353,
-    "both_count": 302,
-    "dingtalk_only_count": 24,
-    "humingce_only_count": 51,
+    "humingce_active_count": 359,
+    "both_count": 305,
+    "dingtalk_only_count": 21,
+    "humingce_only_count": 54,
     "dingtalk_only": [
-      "侯双双",
       "六六",
-      "刘韬",
       "包子",
       "吴琼",
       "夏志强",
       "小达",
       "尧婕",
+      "康冰心",
       "张旭辉",
-      "张明杰",
       "李佳音",
       "李军锋",
       "杜莹莹",
       "杨淑焕",
+      "梁茹萍",
       "樊红玉",
       "狄晨格",
-      "王宇宸",
-      "王晓书",
       "王景元",
-      "王梦雪",
       "罗祥磊",
       "肉肉",
       "贾贤泉",
+      "高静茹",
       "魏雪彥"
     ],
     "humingce_only": [
@@ -113153,21 +113150,24 @@
       "孟小蒙",
       "尧太和",
       "康豫盈",
-      "张博文",
       "张嘉玥",
       "张圆圆",
       "张帅豪",
+      "张政",
+      "张晓阳",
       "张珂",
       "徐子溪",
       "晋素敏",
       "李彦鹏",
       "李想01",
+      "李泽",
       "李海英",
       "李盼盼",
       "李耀斌",
       "李超奇",
       "李雨桐",
       "李雪灵",
+      "杨晶晶",
       "杨菲菲",
       "柴鑫雅",
       "楚孟奇",
@@ -113185,12 +113185,12 @@
       "邢耀元",
       "邸文铎",
       "霍怡彤",
+      "韦向前",
       "高博",
       "高秋慧",
       "魏子涵",
       "魏留宾",
-      "魏雪彦",
-      "黑钰棋"
+      "魏雪彦"
     ],
     "dept_mismatch": [
       {
@@ -113239,6 +113239,11 @@
         "humingce_top": "创新项目部"
       },
       {
+        "name": "侯双双",
+        "dingtalk_top": "新星训练营",
+        "humingce_top": "望辰-Crown事业部"
+      },
+      {
         "name": "冯文露",
         "dingtalk_top": "望辰_Crown事业部",
         "humingce_top": "望辰-Crown事业部"
@@ -113267,6 +113272,11 @@
         "name": "刘璐璐",
         "dingtalk_top": "绒光_Elite事业部",
         "humingce_top": "绒光-Elite事业部"
+      },
+      {
+        "name": "刘韬",
+        "dingtalk_top": "新星训练营",
+        "humingce_top": "渠道运营部"
       },
       {
         "name": "单雨欣",
@@ -113364,11 +113374,6 @@
         "humingce_top": "绒光-Elite事业部"
       },
       {
-        "name": "康冰心",
-        "dingtalk_top": "绒光_Elite事业部",
-        "humingce_top": "绒光-Elite事业部"
-      },
-      {
         "name": "庾云龙",
         "dingtalk_top": "绒光_Elite事业部",
         "humingce_top": "绒光-Elite事业部"
@@ -113397,6 +113402,11 @@
         "name": "张文慧",
         "dingtalk_top": "望辰_Crown事业部",
         "humingce_top": "望辰-Crown事业部"
+      },
+      {
+        "name": "张明杰",
+        "dingtalk_top": "新星训练营",
+        "humingce_top": "双启"
       },
       {
         "name": "张梦歌",
@@ -113482,16 +113492,6 @@
         "name": "李亦君",
         "dingtalk_top": "新星训练营",
         "humingce_top": "创新项目部"
-      },
-      {
-        "name": "李佳怡",
-        "dingtalk_top": "新星训练营",
-        "humingce_top": "双启"
-      },
-      {
-        "name": "李佳星",
-        "dingtalk_top": "绒光_Elite事业部",
-        "humingce_top": "绒光-Elite事业部"
       }
     ],
     "dept_mismatch_count": 60,
