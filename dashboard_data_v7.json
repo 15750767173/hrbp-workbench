@@ -224,7 +224,7 @@
       }
     ],
     "data_through_day": 5,
-    "generated_at": "2026-11-06 19:15",
+    "generated_at": "2026-11-06 19:45",
     "expect_day": 5,
     "dept_last_day": {
       "一部": 6,
@@ -80783,7 +80783,7 @@
     "一部": {
       "file": "_xc_jfdet_yibu.json",
       "kind": "detail",
-      "records": 1391,
+      "records": 1392,
       "kept": 11,
       "det_person": {
         "张甜静": 0.0,
