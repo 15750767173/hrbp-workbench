@@ -224,7 +224,7 @@
       }
     ],
     "data_through_day": 5,
-    "generated_at": "2026-11-06 19:45",
+    "generated_at": "2026-11-06 22:45",
     "expect_day": 5,
     "dept_last_day": {
       "一部": 6,
@@ -5401,14 +5401,14 @@
           "products": [
             {
               "name": "桂姨乳鸽粮+桂姨猫粮+益生熊猫粮",
-              "base_target": 280000,
+              "base_target": 270000,
               "stretch_target": 340000,
               "actual": 0,
               "daily_keys": [],
               "actual_jul": 0
             }
           ],
-          "base_target": 280000,
+          "base_target": 270000,
           "stretch_target": 340000,
           "actual": 0
         },
@@ -5421,15 +5421,15 @@
           "products": [
             {
               "name": "桂姨猫粮+桂姨维生素",
-              "base_target": 130000,
-              "stretch_target": 160000,
+              "base_target": 140000,
+              "stretch_target": 170000,
               "actual": 0,
               "daily_keys": [],
               "actual_jul": 0
             }
           ],
-          "base_target": 130000,
-          "stretch_target": 160000,
+          "base_target": 140000,
+          "stretch_target": 170000,
           "actual": 0
         },
         {
@@ -5441,15 +5441,24 @@
           "products": [
             {
               "name": "益生熊维生素",
-              "base_target": 70000,
-              "stretch_target": 100000,
+              "base_target": 80000,
+              "stretch_target": 110000,
               "actual": 0,
               "daily_keys": [],
               "actual_jul": 0
             }
           ],
-          "base_target": 70000,
-          "stretch_target": 100000,
+          "base_target": 80000,
+          "stretch_target": 110000,
+          "actual": 0
+        },
+        {
+          "name": "总目标",
+          "lead_clean_name": "",
+          "members": [],
+          "products": [],
+          "base_target": 490000,
+          "stretch_target": 620000,
           "actual": 0
         }
       ],
@@ -5677,6 +5686,31 @@
           "aug_comm_bad": false,
           "sep_net_tc": 29352.85,
           "sep_comm_tc": 880.6,
+          "sep_comm_bad": false
+        },
+        {
+          "name": "王岩岩",
+          "product": "益生熊维生素",
+          "group_base": 0,
+          "group_stretch": 0,
+          "person_base": 20000,
+          "person_stretch": 30000,
+          "actual": 0,
+          "daily_keys": [],
+          "actual_jul": 0,
+          "jul_net": 0,
+          "jul_comm": 0,
+          "m6_net": 0,
+          "m6_comm": 0,
+          "m6_mgmt": 0,
+          "m7_net": 0,
+          "m7_comm": 0,
+          "m7_mgmt": 0,
+          "aug_net_tc": 0,
+          "aug_comm_tc": 0,
+          "aug_comm_bad": false,
+          "sep_net_tc": 0,
+          "sep_comm_tc": 0,
           "sep_comm_bad": false
         }
       ],
