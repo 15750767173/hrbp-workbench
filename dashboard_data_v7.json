@@ -224,7 +224,17 @@
       }
     ],
     "data_through_day": 5,
-    "generated_at": "2026-11-06 17:45"
+    "generated_at": "2026-11-06 17:53",
+    "expect_day": 5,
+    "dept_last_day": {
+      "一部": 6,
+      "二部": 6,
+      "三部": 5,
+      "六部": 5,
+      "七部": 5,
+      "宠元气友组": 5
+    },
+    "pending_depts": []
   },
   "targets_8_hist": [
     {
