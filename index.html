@@ -226,7 +226,7 @@ th,td{padding:5px 6px;}
 <div class="container" id="mainContent" style="display:none;">
 <div class="header">
 <h1>众辉宠物中心 · 个人经营工作台</h1>
-<div class="date">数据版本 v7.5 · 数据源：金山多维表（daily业绩+目标拆解+HRBP资料） · <span id="dataTime">最后更新：--</span><span id="buildStamp" style="margin-left:10px;color:#94a3b8;" title="页面内置数据快照时间">· 快照 2026-11-07 19:13</span> · <span id="dataCut" style="font-weight:600;"></span> · <span id="liveTag" style="color:#059669;font-weight:600;">● 自动跟随中</span></div>
+<div class="date">数据版本 v7.5 · 数据源：金山多维表（daily业绩+目标拆解+HRBP资料） · <span id="dataTime">最后更新：--</span><span id="buildStamp" style="margin-left:10px;color:#94a3b8;" title="页面内置数据快照时间">· 快照 2026-11-07 19:32</span> · <span id="dataCut" style="font-weight:600;"></span> · <span id="liveTag" style="color:#059669;font-weight:600;">● 自动跟随中</span></div>
 </div>
 <div class="range-bar">
 <label>统计区间：</label>
@@ -1007,7 +1007,7 @@ ${_rdy?`<div class="stat-row"><span>基础目标</span><span class="val">${fmtW(
   const tcHStaff=usableH.reduce((s,d)=>s+tcH[d.name].persons.filter(p=>p.position!=='主管').length,0);
   html+='<div class="section-title">9月净业绩与提成汇总（6部门提成计算表 · 权威口径）</div>';
   html+='<div style="font-size:11px;color:#888;margin-bottom:6px;">个人净业绩=提成表「实际完成」列，并与产品明细区「个人净业绩」列逐人核对100%一致 · 主管事业绩为团队/部门口径不计入（管理提成单列；组长/储备组长/带教的管理提成计入）· 六部9月表有5人「员工区个人提成」列未填（=0），已按产品明细区累计修正（行内标「按明细修正」）· 数据源：6部门提成计算表9月工作表，取数时间'+((DATA._tc9_taken)||'2026-10-09')+'</div>';
-  html+='<div class="scroll-x"><table><thead><tr><th>部门</th><th class="text-center">覆盖人数</th><th class="text-right">9月净业绩(万)</th><th class="text-right">提成合计(元)</th><th class="text-center">管理提成合计(元)<br><span style="font-weight:400;font-size:10px;color:#999">含主管+组长</span></th><th class="text-center">状态</th></tr></thead><tbody>';
+  html+='<div class="scroll-x"><table><thead><tr><th>部门</th><th class="text-center">覆盖人数</th><th class="text-right">9月净业绩(万)</th><th class="text-right">提成合计(元)<br><span style="font-weight:400;font-size:10px;color:#999">表内「激励合计」= 提成+奖金</span></th><th class="text-center">其中：管理提成(元)<br><span style="font-weight:400;font-size:10px;color:#999">主管+组长，已含在左列</span></th><th class="text-center">状态</th></tr></thead><tbody>';
   DEPTS.forEach(d=>{
     const t=tcH[d.name];
     if(!t)return;
@@ -1027,7 +1027,7 @@ ${_rdy?`<div class="stat-row"><span>基础目标</span><span class="val">${fmtW(
   const tcOStaff=usableO.reduce((s,d)=>s+tcO[d.name].persons.filter(p=>p.position!=='主管').length,0);
   html+='<div class="section-title">10月净业绩与提成汇总（6部门提成计算表 · 刚收官）</div>';
   html+='<div style="font-size:11px;color:#888;margin-bottom:6px;">口径同 9 月：个人净业绩=提成表「实际完成」列，并与产品明细区「个人净业绩」逐人交叉核对 · 主管行「实际完成」为团队口径不计入（管理提成单列）· 数据源：6部门提成计算表「10月」工作表，取数时间 2026-11-07</div>';
-  html+='<div class="scroll-x"><table><thead><tr><th>部门</th><th class="text-center">覆盖人数</th><th class="text-right">10月净业绩(万)</th><th class="text-right">提成合计(元)</th><th class="text-center">管理提成合计(元)<br><span style="font-weight:400;font-size:10px;color:#999">含主管+组长</span></th><th class="text-center">状态</th></tr></thead><tbody>';
+  html+='<div class="scroll-x"><table><thead><tr><th>部门</th><th class="text-center">覆盖人数</th><th class="text-right">10月净业绩(万)</th><th class="text-right">提成合计(元)<br><span style="font-weight:400;font-size:10px;color:#999">表内「激励合计」= 提成+奖金</span></th><th class="text-center">其中：管理提成(元)<br><span style="font-weight:400;font-size:10px;color:#999">主管+组长，已含在左列</span></th><th class="text-center">状态</th></tr></thead><tbody>';
   DEPTS.forEach(d=>{
     const t=tcO[d.name];
     if(!t)return;
