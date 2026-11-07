@@ -219,7 +219,7 @@
       }
     ],
     "data_through_day": 6,
-    "generated_at": "2026-11-07 13:45",
+    "generated_at": "2026-11-07 14:00",
     "expect_day": 6,
     "dept_last_day": {
       "一部": 6,
@@ -81775,9 +81775,9 @@
     "humingce": {
       "total": 1030,
       "by_zaizhi_status": {
-        "优化": 253,
-        "自离": 411,
-        "在职": 366
+        "优化": 258,
+        "自离": 414,
+        "在职": 358
       },
       "by_yiji": {
         "绒光-Elite事业部": 317,
@@ -81795,11 +81795,11 @@
         "总经办": 2
       },
       "by_stage": {
-        "试用期": 494,
+        "试用期": 499,
         "正式员工": 240,
-        "试岗": 296
+        "试岗": 291
       },
-      "zaizhi_count": 366
+      "zaizhi_count": 358
     },
     "zhuanzheng": {
       "total": 163,
@@ -93081,7 +93081,7 @@
         "fields": 25
       }
     ],
-    "time": "2026-11-07 13:45:09",
+    "time": "2026-11-07 14:00:13",
     "total": 40,
     "ok": 40,
     "bad": [],
@@ -128599,24 +128599,29 @@
   },
   "org_xcheck": {
     "dingtalk_count": 328,
-    "humingce_active_count": 365,
-    "both_count": 314,
-    "dingtalk_only_count": 14,
-    "humingce_only_count": 51,
+    "humingce_active_count": 358,
+    "both_count": 309,
+    "dingtalk_only_count": 19,
+    "humingce_only_count": 49,
     "dingtalk_only": [
+      "丁香",
       "六六",
       "包子",
       "吴琼",
       "夏志强",
       "小达",
       "尧婕",
+      "张政",
       "张旭辉",
       "李军锋",
       "杜莹莹",
       "樊红玉",
-      "王小雨01",
+      "王梦文",
       "罗祥磊",
       "肉肉",
+      "肖琳",
+      "赵志硕",
+      "赵晨露",
       "魏雪彥"
     ],
     "humingce_only": [
@@ -128654,7 +128659,6 @@
       "毛淑慧",
       "熊鹰",
       "王佑",
-      "王梦雪",
       "王潇萱",
       "盛琦雅",
       "祝华祎",
@@ -128662,7 +128666,6 @@
       "苏苗苗",
       "袁秋月",
       "赵志强01",
-      "赵梦飞",
       "邢耀元",
       "邸文铎",
       "霍怡彤",
@@ -128673,11 +128676,6 @@
       "魏雪彦"
     ],
     "dept_mismatch": [
-      {
-        "name": "丁香",
-        "dingtalk_top": "新星训练营",
-        "humingce_top": "绒光-Elite事业部"
-      },
       {
         "name": "万靖怡",
         "dingtalk_top": "望辰_Crown事业部",
@@ -128879,11 +128877,6 @@
         "humingce_top": "组织效能中心"
       },
       {
-        "name": "张政",
-        "dingtalk_top": "新星训练营",
-        "humingce_top": "双启"
-      },
-      {
         "name": "张文慧",
         "dingtalk_top": "望辰_Crown事业部",
         "humingce_top": "望辰-Crown事业部"
@@ -128970,6 +128963,16 @@
       },
       {
         "name": "朱萌萌",
+        "dingtalk_top": "绒光_Elite事业部",
+        "humingce_top": "绒光-Elite事业部"
+      },
+      {
+        "name": "李佳星",
+        "dingtalk_top": "绒光_Elite事业部",
+        "humingce_top": "绒光-Elite事业部"
+      },
+      {
+        "name": "李依晨",
         "dingtalk_top": "绒光_Elite事业部",
         "humingce_top": "绒光-Elite事业部"
       }
