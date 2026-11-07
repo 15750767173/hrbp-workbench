@@ -219,7 +219,7 @@
       }
     ],
     "data_through_day": 6,
-    "generated_at": "2026-11-07 15:15",
+    "generated_at": "2026-11-07 15:30",
     "expect_day": 6,
     "dept_last_day": {
       "一部": 6,
@@ -59125,6 +59125,14 @@
         ]
       },
       {
+        "1-2": [
+          {
+            "name": "跨保业绩统计表",
+            "url": "https://www.kdocs.cn/l/cj1qhlhlQA7B"
+          }
+        ]
+      },
+      {
         "1-1": [
           {
             "name": "内容表",
@@ -59223,7 +59231,7 @@
         ]
       }
     ],
-    "ziliao_note": "来自BP资料表(sheet118)，共22条资料记录、87个文档链接，每条含多类文档链接",
+    "ziliao_note": "来自BP资料表(sheet118)，共23条资料记录、88个文档链接，每条含多类文档链接",
     "ziliao_categorized": {
       "common": [
         {
@@ -59437,6 +59445,10 @@
         {
           "name": "二季度奖金方案",
           "url": "https://www.kdocs.cn/l/cpHZLQHfVLuA"
+        },
+        {
+          "name": "跨保业绩统计表",
+          "url": "https://www.kdocs.cn/l/cj1qhlhlQA7B"
         },
         {
           "name": "内容表",
@@ -92754,7 +92766,7 @@
       {
         "id": 153,
         "name": "招聘数据表",
-        "expected": 5085,
+        "expected": 5086,
         "local": 5083,
         "state": "正常",
         "file": "_hr_ziliao153.json",
@@ -93064,7 +93076,7 @@
       {
         "id": 228,
         "name": "招聘数据表(2)",
-        "expected": 5085,
+        "expected": 5086,
         "local": 5085,
         "state": "正常",
         "file": "_ex_228.json",
@@ -93082,12 +93094,12 @@
         "fields": 25
       }
     ],
-    "time": "2026-11-07 15:15:06",
+    "time": "2026-11-07 15:30:08",
     "total": 40,
     "ok": 40,
     "bad": [],
     "bad_names": [],
-    "records_total": 20389,
+    "records_total": 20391,
     "by_cat": {
       "HR流程": 2,
       "产品人员": 2,
