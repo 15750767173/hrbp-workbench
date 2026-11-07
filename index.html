@@ -226,7 +226,7 @@ th,td{padding:5px 6px;}
 <div class="container" id="mainContent" style="display:none;">
 <div class="header">
 <h1>众辉宠物中心 · 个人经营工作台</h1>
-<div class="date">数据版本 v7.5 · 数据源：金山多维表（daily业绩+目标拆解+HRBP资料） · <span id="dataTime">最后更新：--</span><span id="buildStamp" style="margin-left:10px;color:#94a3b8;" title="页面内置数据快照时间">· 快照 2026-11-07 19:32</span> · <span id="dataCut" style="font-weight:600;"></span> · <span id="liveTag" style="color:#059669;font-weight:600;">● 自动跟随中</span></div>
+<div class="date">数据版本 v7.5 · 数据源：金山多维表（daily业绩+目标拆解+HRBP资料） · <span id="dataTime">最后更新：--</span><span id="buildStamp" style="margin-left:10px;color:#94a3b8;" title="页面内置数据快照时间">· 快照 2026-11-07 19:35</span> · <span id="dataCut" style="font-weight:600;"></span> · <span id="liveTag" style="color:#059669;font-weight:600;">● 自动跟随中</span></div>
 </div>
 <div class="range-bar">
 <label>统计区间：</label>
@@ -1048,15 +1048,15 @@ ${_rdy?`<div class="stat-row"><span>基础目标</span><span class="val">${fmtW(
     html+=`<button class="top-mbtn" data-m="${x.m}" onclick="topMonth(${x.m})" style="margin-right:8px;padding:5px 16px;border-radius:6px;cursor:pointer;font-size:13px;border:1px solid ${on?'var(--c-accent)':'#ddd'};background:${on?'var(--c-accent)':'#fff'};color:${on?'#fff':'#555'}">${x.lb}</button>`;});
   html+='</div>';
   TMS.forEach(x=>{
-    let arr=[];
-    DEPTS.forEach(d=>{const t=x.src[d.name];if(t&&t.persons)t.persons.forEach(p=>{if(p.position!=='主管'&&((p.net||0)>0||(p.commission||0)>0))arr.push({dept:d.name,name:p.name,net:p.net||0,commission:p.commission||0,bad:p.comm_bad});});});
+    let arr=[], allN=0;
+    DEPTS.forEach(d=>{const t=x.src[d.name];if(t&&t.persons)t.persons.forEach(p=>{if(p.position!=='主管'){allN++;if((p.net||0)>0||(p.commission||0)>0)arr.push({dept:d.name,name:p.name,net:p.net||0,commission:p.commission||0,bad:p.comm_bad});}});});
     html+=`<div id="topM${x.m}" style="display:${x.m===10?'block':'none'}">`;
     if(!arr.length){html+='<div style="color:#999;font-size:12px;padding:8px 0">该月提成表未就绪</div></div>';return;}
     arr.sort((a,b)=>b.commission-a.commission);
     const bc=arr.slice(0,10);
     const bn=[...arr].sort((a,b)=>b.net-a.net).slice(0,10);
     const netSum=arr.reduce((s,p)=>s+p.net,0), commSum=arr.reduce((s,p)=>s+p.commission,0);
-    html+=`<div style="font-size:12px;color:#888;margin-bottom:8px">共 <b>${arr.length}</b> 人 · ${x.lb}净业绩合计 <b style="color:var(--c-info)">${fmtW(netSum)}</b> 万 · 提成合计 <b style="color:var(--c-accent)">${Math.round(commSum).toLocaleString()}</b> 元</div>`;
+    html+=`<div style="font-size:12px;color:#888;margin-bottom:8px">参与排名 <b>${arr.length}</b> 人（部门覆盖 ${allN} 人，其余 ${allN-arr.length} 人当月净业绩与提成均为 0，不列入）· ${x.lb}净业绩合计 <b style="color:var(--c-info)">${fmtW(netSum)}</b> 万 · 提成合计 <b style="color:var(--c-accent)">${Math.round(commSum).toLocaleString()}</b> 元</div>`;
     html+='<div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;">';
     html+='<div><div style="font-weight:600;font-size:13px;margin-bottom:8px;color:var(--c-accent)">🏆 按提成(元) TOP10</div>';
     html+=`<div class="scroll-x"><table><thead><tr><th>排名</th><th>部门</th><th>姓名</th><th class="text-right">${x.lb}净业绩(万)</th><th class="text-right">${x.lb}提成(元)</th></tr></thead><tbody>`;
