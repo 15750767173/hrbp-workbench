@@ -208,7 +208,7 @@
       }
     ],
     "data_through_day": 6,
-    "generated_at": "2026-11-07 17:01",
+    "generated_at": "2026-11-07 17:15",
     "expect_day": 6,
     "dept_last_day": {
       "一部": 6,
@@ -93164,7 +93164,7 @@
       {
         "id": 153,
         "name": "招聘数据表",
-        "expected": 5094,
+        "expected": 5098,
         "local": 5094,
         "state": "正常",
         "file": "_hr_ziliao153.json",
@@ -93474,7 +93474,7 @@
       {
         "id": 228,
         "name": "招聘数据表(2)",
-        "expected": 5094,
+        "expected": 5098,
         "local": 5088,
         "state": "正常",
         "file": "_ex_228.json",
@@ -93492,12 +93492,12 @@
         "fields": 25
       }
     ],
-    "time": "2026-11-07 17:00:17",
+    "time": "2026-11-07 17:15:06",
     "total": 40,
     "ok": 40,
     "bad": [],
     "bad_names": [],
-    "records_total": 20331,
+    "records_total": 20339,
     "by_cat": {
       "HR流程": 2,
       "产品人员": 2,
