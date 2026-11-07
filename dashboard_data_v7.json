@@ -12,7 +12,7 @@
         "leader": "王雪娅",
         "base_target": 860000,
         "stretch_target": 1060000,
-        "actual": 156828.51,
+        "actual": 156821.01,
         "actual_jul": 126853.7,
         "actual_prev": 126853.7,
         "completion": 18.2,
@@ -41,9 +41,9 @@
             "status": "在职"
           }
         ],
-        "yesterday_actual": 21961.68,
-        "daily_eff": 1045.79,
-        "monthly_eff": 7468.02
+        "yesterday_actual": 21954.18,
+        "daily_eff": 1045.44,
+        "monthly_eff": 7467.67
       },
       {
         "name": "二部",
@@ -208,7 +208,7 @@
       }
     ],
     "data_through_day": 6,
-    "generated_at": "2026-11-07 18:30",
+    "generated_at": "2026-11-07 19:13",
     "expect_day": 6,
     "dept_last_day": {
       "一部": 7,
@@ -11192,7 +11192,7 @@
         "uiko猫粮": 4520.85,
         "uiko维生素": 45081.909999999996,
         "元气友滑板": 14023.61,
-        "元气友缝纫机": 38411.49,
+        "元气友缝纫机": 38375.99,
         "冬马D生物素": 142.10000000000002,
         "冬马猫条": 58.349999999999994,
         "冬马猫粮": 33979.100000000006,
@@ -11598,14 +11598,14 @@
         "虎太郎升级猫粮试吃": 212.22,
         "虎太郎夹心猫粮": 11188.36,
         "虎太郎夹心试吃": 1077.76,
-        "虎太郎排毛晶球三角酥": -511.50000000000284,
+        "虎太郎排毛晶球三角酥": 535.14,
         "虎太郎漱口水": 6856.64,
         "虎太郎猫条": 301.88,
         "虎太郎猫饭": 55.61,
-        "虎太郎生骨肉猫粮": 44703.64,
+        "虎太郎生骨肉猫粮": 44523.64,
         "虎太郎生骨肉试吃": 1794.98,
         "虎太郎磷虾油": -21.61999999999999,
-        "虎太郎维生素": 4493.590000000002,
+        "虎太郎维生素": 4493.589999999998,
         "优小可猫粮试吃": 1009.0,
         "虎太郎猫砂": 126.6,
         "虎太郎美毛猫粮150g": -28.16,
@@ -15373,7 +15373,7 @@
         }
       },
       "2026-11-06": {
-        "t": 21961.68,
+        "t": 21954.18,
         "p": {
           "bzy理疗仪": 496.0,
           "uiko便携装试吃": 25.4,
@@ -15385,7 +15385,7 @@
           "uiko维生素": 3686.88,
           "uiko鱼油": 134.3,
           "元气友滑板": 2885.93,
-          "元气友缝纫机": 5767.64,
+          "元气友缝纫机": 5760.14,
           "冬马洁牙粉": 93.67,
           "冬马猫粮": 5267.51,
           "冬马空气净化器": 504.73,
@@ -15395,9 +15395,9 @@
         }
       },
       "2026-11-07": {
-        "t": -32.0,
+        "t": -60.0,
         "p": {
-          "元气友缝纫机": -32.0
+          "元气友缝纫机": -60.0
         }
       }
     },
@@ -19273,11 +19273,11 @@
         }
       },
       "2026-11-07": {
-        "t": -2055.6,
+        "t": -1188.96,
         "p": {
           "冬马漱口水": -6.0,
-          "虎太郎排毛晶球三角酥": -1046.6400000000028,
-          "虎太郎维生素": -1002.9599999999974
+          "虎太郎生骨肉猫粮": -180.0,
+          "虎太郎维生素": -1002.96
         }
       },
       "2026-11-05": {
@@ -64075,7 +64075,7 @@
       "dept": "一部",
       "usable": true,
       "total_net": 613195.77,
-      "total_comm": 59303.56,
+      "total_comm": 30251.78,
       "persons": [
         {
           "name": "王雪娅",
@@ -64335,7 +64335,7 @@
       "dept": "二部",
       "usable": true,
       "total_net": 338654.29,
-      "total_comm": 30777.22,
+      "total_comm": 15388.61,
       "persons": [
         {
           "name": "高营",
@@ -64547,7 +64547,7 @@
       "dept": "三部",
       "usable": true,
       "total_net": 129770.07,
-      "total_comm": 8469.25,
+      "total_comm": 4234.63,
       "persons": [
         {
           "name": "高营",
@@ -64639,7 +64639,7 @@
       "dept": "六部",
       "usable": true,
       "total_net": 125652.16,
-      "total_comm": 8795.39,
+      "total_comm": 4684.46,
       "persons": [
         {
           "name": "李秀琦",
@@ -64767,7 +64767,7 @@
       "dept": "七部",
       "usable": true,
       "total_net": 259500.82,
-      "total_comm": 23050.64,
+      "total_comm": 11700.32,
       "persons": [
         {
           "name": "韩晴",
@@ -64883,7 +64883,7 @@
       "dept": "宠元气友组",
       "usable": true,
       "total_net": 25549.15,
-      "total_comm": 2550.19,
+      "total_comm": 1275.1,
       "persons": [
         {
           "name": "陈华锋",
@@ -64978,6 +64978,920 @@
           "commission": 14.73,
           "comm_raw": 14.73,
           "incentive": 14.73,
+          "comm_bad": false,
+          "cross_ok": true
+        }
+      ]
+    }
+  },
+  "ticheng_10m": {
+    "一部": {
+      "dept": "一部",
+      "usable": true,
+      "total_net": 818864.63,
+      "total_comm": 46910.73,
+      "persons": [
+        {
+          "name": "王雪娅",
+          "position": "主管",
+          "net": 0.0,
+          "comm": 0,
+          "mgmt_comm": 10116.0,
+          "commission": 10116.0,
+          "comm_raw": 10116.0,
+          "incentive": 11116.0,
+          "comm_bad": false,
+          "cross_ok": null
+        },
+        {
+          "name": "魏谣鑫",
+          "position": "组长",
+          "net": 118643.07,
+          "comm": 4732.15,
+          "mgmt_comm": 3567.11,
+          "commission": 8299.26,
+          "comm_raw": 8299.27,
+          "incentive": 8899.27,
+          "comm_bad": false,
+          "cross_ok": true
+        },
+        {
+          "name": "马赛赛",
+          "position": "组长",
+          "net": 16240.24,
+          "comm": 324.8,
+          "mgmt_comm": 3618.85,
+          "commission": 3943.65,
+          "comm_raw": 3943.65,
+          "incentive": 4043.65,
+          "comm_bad": false,
+          "cross_ok": true
+        },
+        {
+          "name": "杨兰兰",
+          "position": "组长",
+          "net": 34370.36,
+          "comm": 1031.11,
+          "mgmt_comm": 885.66,
+          "commission": 1916.77,
+          "comm_raw": 1916.77,
+          "incentive": 1916.77,
+          "comm_bad": false,
+          "cross_ok": true
+        },
+        {
+          "name": "杜荣",
+          "position": "",
+          "net": 0,
+          "comm": 0,
+          "mgmt_comm": 0,
+          "commission": 0,
+          "comm_raw": 0,
+          "incentive": 0,
+          "comm_bad": false,
+          "cross_ok": true
+        },
+        {
+          "name": "文富豪",
+          "position": "",
+          "net": 0,
+          "comm": 0,
+          "mgmt_comm": 0,
+          "commission": 0,
+          "comm_raw": 0,
+          "incentive": 0,
+          "comm_bad": false,
+          "cross_ok": true
+        },
+        {
+          "name": "贾怡凡",
+          "position": "",
+          "net": 81872.66,
+          "comm": 2893.63,
+          "mgmt_comm": 567.72,
+          "commission": 3461.35,
+          "comm_raw": 3461.36,
+          "incentive": 3861.36,
+          "comm_bad": false,
+          "cross_ok": true
+        },
+        {
+          "name": "沈雪妮",
+          "position": "",
+          "net": 42663.13,
+          "comm": 1281.51,
+          "mgmt_comm": 0,
+          "commission": 1281.51,
+          "comm_raw": 1281.51,
+          "incentive": 1481.51,
+          "comm_bad": false,
+          "cross_ok": true
+        },
+        {
+          "name": "吴璐阳",
+          "position": "",
+          "net": 34265.68,
+          "comm": 1027.97,
+          "mgmt_comm": 64.38,
+          "commission": 1092.35,
+          "comm_raw": 1092.35,
+          "incentive": 1092.35,
+          "comm_bad": false,
+          "cross_ok": true
+        },
+        {
+          "name": "朱叶杰",
+          "position": "",
+          "net": 151992.26,
+          "comm": 6399.61,
+          "mgmt_comm": 57.02,
+          "commission": 6456.63,
+          "comm_raw": 6456.64,
+          "incentive": 7056.64,
+          "comm_bad": false,
+          "cross_ok": true
+        },
+        {
+          "name": "汪燕姿",
+          "position": "",
+          "net": 29405.34,
+          "comm": 882.16,
+          "mgmt_comm": 0,
+          "commission": 882.16,
+          "comm_raw": 882.16,
+          "incentive": 882.16,
+          "comm_bad": false,
+          "cross_ok": true
+        },
+        {
+          "name": "李泽",
+          "position": "",
+          "net": 0,
+          "comm": 0,
+          "mgmt_comm": 0,
+          "commission": 0,
+          "comm_raw": 0,
+          "incentive": 0,
+          "comm_bad": false,
+          "cross_ok": true
+        },
+        {
+          "name": "张吉祥",
+          "position": "",
+          "net": 47819.84,
+          "comm": 956.4,
+          "mgmt_comm": 0,
+          "commission": 956.4,
+          "comm_raw": 956.4,
+          "incentive": 1056.4,
+          "comm_bad": false,
+          "cross_ok": true
+        },
+        {
+          "name": "蔺姣",
+          "position": "",
+          "net": 55330.08,
+          "comm": 1106.6,
+          "mgmt_comm": 0,
+          "commission": 1106.6,
+          "comm_raw": 1106.6,
+          "incentive": 1106.6,
+          "comm_bad": false,
+          "cross_ok": true
+        },
+        {
+          "name": "张甜静",
+          "position": "",
+          "net": 51980.82,
+          "comm": 1039.62,
+          "mgmt_comm": 0,
+          "commission": 1039.62,
+          "comm_raw": 1039.62,
+          "incentive": 1239.62,
+          "comm_bad": false,
+          "cross_ok": true
+        },
+        {
+          "name": "王硕硕",
+          "position": "",
+          "net": 58078.51,
+          "comm": 1161.57,
+          "mgmt_comm": 0,
+          "commission": 1161.57,
+          "comm_raw": 1161.57,
+          "incentive": 1361.57,
+          "comm_bad": false,
+          "cross_ok": true
+        },
+        {
+          "name": "谢雨辰",
+          "position": "",
+          "net": 14257.8,
+          "comm": 427.73,
+          "mgmt_comm": 0,
+          "commission": 427.73,
+          "comm_raw": 427.73,
+          "incentive": 427.73,
+          "comm_bad": false,
+          "cross_ok": true
+        },
+        {
+          "name": "李佳星",
+          "position": "",
+          "net": 11404.8,
+          "comm": 0,
+          "mgmt_comm": 0,
+          "commission": 0,
+          "comm_raw": 0,
+          "incentive": 50.0,
+          "comm_bad": false,
+          "cross_ok": true
+        },
+        {
+          "name": "赖佳",
+          "position": "",
+          "net": 50735.95,
+          "comm": 1014.72,
+          "mgmt_comm": 0,
+          "commission": 1014.72,
+          "comm_raw": 1014.72,
+          "incentive": 1064.72,
+          "comm_bad": false,
+          "cross_ok": true
+        },
+        {
+          "name": "王馨毅",
+          "position": "",
+          "net": 12876.76,
+          "comm": 0,
+          "mgmt_comm": 0,
+          "commission": 0,
+          "comm_raw": 0,
+          "incentive": 50.0,
+          "comm_bad": false,
+          "cross_ok": true
+        },
+        {
+          "name": "杜莹莹",
+          "position": "",
+          "net": 5344.77,
+          "comm": 106.9,
+          "mgmt_comm": 0,
+          "commission": 106.9,
+          "comm_raw": 106.9,
+          "incentive": 106.9,
+          "comm_bad": false,
+          "cross_ok": true
+        },
+        {
+          "name": "闫诗佳",
+          "position": "",
+          "net": 988.53,
+          "comm": 29.66,
+          "mgmt_comm": 0,
+          "commission": 29.66,
+          "comm_raw": 29.66,
+          "incentive": 79.66,
+          "comm_bad": false,
+          "cross_ok": true
+        },
+        {
+          "name": "陈硕佳",
+          "position": "",
+          "net": 594.03,
+          "comm": 17.82,
+          "mgmt_comm": 0,
+          "commission": 17.82,
+          "comm_raw": 17.82,
+          "incentive": 17.82,
+          "comm_bad": false,
+          "cross_ok": true
+        }
+      ]
+    },
+    "二部": {
+      "dept": "二部",
+      "usable": true,
+      "total_net": 612936.77,
+      "total_comm": 30132.65,
+      "persons": [
+        {
+          "name": "高营",
+          "position": "主管",
+          "net": 0.0,
+          "comm": 0,
+          "mgmt_comm": 0,
+          "commission": 0,
+          "comm_raw": 0,
+          "incentive": 3704.0,
+          "comm_bad": false,
+          "cross_ok": null
+        },
+        {
+          "name": "庄盼盼",
+          "position": "组长",
+          "net": 39393.36,
+          "comm": 1181.8,
+          "mgmt_comm": 1926.26,
+          "commission": 3108.06,
+          "comm_raw": 3108.06,
+          "incentive": 3108.06,
+          "comm_bad": false,
+          "cross_ok": true
+        },
+        {
+          "name": "邵静芳",
+          "position": "",
+          "net": 60397.82,
+          "comm": 2015.91,
+          "mgmt_comm": 213.22,
+          "commission": 2229.13,
+          "comm_raw": 2229.13,
+          "incentive": 2229.13,
+          "comm_bad": false,
+          "cross_ok": true
+        },
+        {
+          "name": "孟大蒙",
+          "position": "",
+          "net": 21321.95,
+          "comm": 639.66,
+          "mgmt_comm": 0,
+          "commission": 639.66,
+          "comm_raw": 639.66,
+          "incentive": 639.66,
+          "comm_bad": false,
+          "cross_ok": true
+        },
+        {
+          "name": "冯蔺城",
+          "position": "储备组长",
+          "net": 86866.28,
+          "comm": 3143.31,
+          "mgmt_comm": 86.91,
+          "commission": 3230.22,
+          "comm_raw": 3230.22,
+          "incentive": 3530.22,
+          "comm_bad": false,
+          "cross_ok": true
+        },
+        {
+          "name": "胡宵雪",
+          "position": "组长",
+          "net": 50400.28,
+          "comm": 1564.01,
+          "mgmt_comm": 2761.66,
+          "commission": 4325.67,
+          "comm_raw": 4325.67,
+          "incentive": 4425.67,
+          "comm_bad": false,
+          "cross_ok": true
+        },
+        {
+          "name": "王常红",
+          "position": "",
+          "net": 71861.55,
+          "comm": 2315.15,
+          "mgmt_comm": 0,
+          "commission": 2315.15,
+          "comm_raw": 2315.15,
+          "incentive": 2465.15,
+          "comm_bad": false,
+          "cross_ok": true
+        },
+        {
+          "name": "张颖柯",
+          "position": "",
+          "net": 71880.3,
+          "comm": 2315.81,
+          "mgmt_comm": 0,
+          "commission": 2315.81,
+          "comm_raw": 2315.81,
+          "incentive": 2615.81,
+          "comm_bad": false,
+          "cross_ok": true
+        },
+        {
+          "name": "郭世慧",
+          "position": "",
+          "net": 8690.89,
+          "comm": 260.73,
+          "mgmt_comm": 0,
+          "commission": 260.73,
+          "comm_raw": 260.73,
+          "incentive": 260.73,
+          "comm_bad": false,
+          "cross_ok": true
+        },
+        {
+          "name": "许晓宁",
+          "position": "",
+          "net": 40369.03,
+          "comm": 1212.92,
+          "mgmt_comm": 0,
+          "commission": 1212.92,
+          "comm_raw": 1212.92,
+          "incentive": 1212.92,
+          "comm_bad": false,
+          "cross_ok": true
+        },
+        {
+          "name": "李佳音",
+          "position": "",
+          "net": 13788.32,
+          "comm": 413.65,
+          "mgmt_comm": 0,
+          "commission": 413.65,
+          "comm_raw": 413.65,
+          "incentive": 413.65,
+          "comm_bad": false,
+          "cross_ok": true
+        },
+        {
+          "name": "吴俊豪",
+          "position": "组长",
+          "net": 18199.1,
+          "comm": 504.07,
+          "mgmt_comm": 1006.52,
+          "commission": 1510.59,
+          "comm_raw": 1510.59,
+          "incentive": 1510.59,
+          "comm_bad": false,
+          "cross_ok": true
+        },
+        {
+          "name": "马怡琪",
+          "position": "",
+          "net": 52402.88,
+          "comm": 1696.12,
+          "mgmt_comm": 0,
+          "commission": 1696.12,
+          "comm_raw": 1696.12,
+          "incentive": 1696.12,
+          "comm_bad": false,
+          "cross_ok": true
+        },
+        {
+          "name": "吴若寒",
+          "position": "",
+          "net": 32573.82,
+          "comm": 977.21,
+          "mgmt_comm": 0,
+          "commission": 977.21,
+          "comm_raw": 977.21,
+          "incentive": 977.21,
+          "comm_bad": false,
+          "cross_ok": true
+        },
+        {
+          "name": "甘佳欣",
+          "position": "",
+          "net": 16922.37,
+          "comm": 507.67,
+          "mgmt_comm": 0,
+          "commission": 507.67,
+          "comm_raw": 507.67,
+          "incentive": 507.67,
+          "comm_bad": false,
+          "cross_ok": true
+        },
+        {
+          "name": "王小雨",
+          "position": "",
+          "net": 27868.82,
+          "comm": 836.06,
+          "mgmt_comm": 0,
+          "commission": 836.06,
+          "comm_raw": 836.06,
+          "incentive": 836.06,
+          "comm_bad": false,
+          "cross_ok": true
+        },
+        {
+          "name": "黑钰棋",
+          "position": "",
+          "net": 0,
+          "comm": 0,
+          "mgmt_comm": 0,
+          "commission": 0,
+          "comm_raw": 0,
+          "incentive": 0,
+          "comm_bad": false,
+          "cross_ok": true
+        }
+      ]
+    },
+    "三部": {
+      "dept": "三部",
+      "usable": true,
+      "total_net": 84697.91,
+      "total_comm": 2495.23,
+      "persons": [
+        {
+          "name": "高营",
+          "position": "主管",
+          "net": 0.0,
+          "comm": 0,
+          "mgmt_comm": 0,
+          "commission": 0,
+          "comm_raw": 0,
+          "incentive": 0,
+          "comm_bad": false,
+          "cross_ok": null
+        },
+        {
+          "name": "张楠楠",
+          "position": "",
+          "net": 27649.34,
+          "comm": 689.39,
+          "mgmt_comm": 5.85,
+          "commission": 695.24,
+          "comm_raw": 695.24,
+          "incentive": 695.24,
+          "comm_bad": false,
+          "cross_ok": true
+        },
+        {
+          "name": "陈文广",
+          "position": "",
+          "net": 19085.5,
+          "comm": 477.14,
+          "mgmt_comm": 367.92,
+          "commission": 845.06,
+          "comm_raw": 845.06,
+          "incentive": 845.06,
+          "comm_bad": false,
+          "cross_ok": true
+        },
+        {
+          "name": "史梦棋",
+          "position": "",
+          "net": 1170.88,
+          "comm": 35.13,
+          "mgmt_comm": 0,
+          "commission": 35.13,
+          "comm_raw": 35.13,
+          "incentive": 35.13,
+          "comm_bad": false,
+          "cross_ok": true
+        },
+        {
+          "name": "翟文裕",
+          "position": "",
+          "net": 36792.19,
+          "comm": 919.8,
+          "mgmt_comm": 0,
+          "commission": 919.8,
+          "comm_raw": 919.8,
+          "incentive": 919.8,
+          "comm_bad": false,
+          "cross_ok": true
+        },
+        {
+          "name": "贾贤泉",
+          "position": "",
+          "net": 0,
+          "comm": 0,
+          "mgmt_comm": 0,
+          "commission": 0,
+          "comm_raw": 0,
+          "incentive": 0,
+          "comm_bad": false,
+          "cross_ok": true
+        }
+      ]
+    },
+    "六部": {
+      "dept": "六部",
+      "usable": true,
+      "total_net": 142241.32,
+      "total_comm": 5459.06,
+      "persons": [
+        {
+          "name": "李秀琦",
+          "position": "主管",
+          "net": 0.0,
+          "comm": 0,
+          "mgmt_comm": 0,
+          "commission": 0,
+          "comm_raw": 0,
+          "incentive": 0,
+          "comm_bad": false,
+          "cross_ok": null
+        },
+        {
+          "name": "李晓乐",
+          "position": "组长",
+          "net": 6630.63,
+          "comm": 0,
+          "mgmt_comm": 565.15,
+          "commission": 565.15,
+          "comm_raw": 565.15,
+          "incentive": 565.15,
+          "comm_bad": false,
+          "cross_ok": true
+        },
+        {
+          "name": "于鹏展",
+          "position": "",
+          "net": 20429.62,
+          "comm": 612.89,
+          "mgmt_comm": 205.79,
+          "commission": 818.68,
+          "comm_raw": 818.68,
+          "incentive": 818.68,
+          "comm_bad": false,
+          "cross_ok": true
+        },
+        {
+          "name": "黄丽雯",
+          "position": "",
+          "net": 1925.8,
+          "comm": 0,
+          "mgmt_comm": 0,
+          "commission": 0,
+          "comm_raw": 0,
+          "incentive": 0,
+          "comm_bad": false,
+          "cross_ok": true
+        },
+        {
+          "name": "赵梦瑶",
+          "position": "",
+          "net": 6300.16,
+          "comm": 0,
+          "mgmt_comm": 0,
+          "commission": 0,
+          "comm_raw": 0,
+          "incentive": 0,
+          "comm_bad": false,
+          "cross_ok": true
+        },
+        {
+          "name": "张楠",
+          "position": "组长",
+          "net": 30672.56,
+          "comm": 920.18,
+          "mgmt_comm": 854.98,
+          "commission": 1775.16,
+          "comm_raw": 1775.16,
+          "incentive": 1775.16,
+          "comm_bad": false,
+          "cross_ok": true
+        },
+        {
+          "name": "庾云龙",
+          "position": "",
+          "net": 9130.51,
+          "comm": 273.92,
+          "mgmt_comm": 0,
+          "commission": 273.92,
+          "comm_raw": 273.92,
+          "incentive": 273.92,
+          "comm_bad": false,
+          "cross_ok": true
+        },
+        {
+          "name": "方赛雅",
+          "position": "",
+          "net": 0,
+          "comm": 0,
+          "mgmt_comm": 0,
+          "commission": 0,
+          "comm_raw": 0,
+          "incentive": 0,
+          "comm_bad": false,
+          "cross_ok": true
+        },
+        {
+          "name": "陈书慧",
+          "position": "",
+          "net": 41158.13,
+          "comm": 1246.33,
+          "mgmt_comm": 0,
+          "commission": 1246.33,
+          "comm_raw": 1246.33,
+          "incentive": 1246.33,
+          "comm_bad": false,
+          "cross_ok": true
+        },
+        {
+          "name": "陈蕊",
+          "position": "",
+          "net": 0,
+          "comm": 0,
+          "mgmt_comm": 0,
+          "commission": 0,
+          "comm_raw": 0,
+          "incentive": 0,
+          "comm_bad": false,
+          "cross_ok": true
+        },
+        {
+          "name": "张梦歌",
+          "position": "",
+          "net": 25993.91,
+          "comm": 779.82,
+          "mgmt_comm": 0,
+          "commission": 779.82,
+          "comm_raw": 779.82,
+          "incentive": 779.82,
+          "comm_bad": false,
+          "cross_ok": true
+        }
+      ]
+    },
+    "七部": {
+      "dept": "七部",
+      "usable": true,
+      "total_net": 222172.34,
+      "total_comm": 9062.34,
+      "persons": [
+        {
+          "name": "韩晴",
+          "position": "主管",
+          "net": 0.0,
+          "comm": 0,
+          "mgmt_comm": 0,
+          "commission": 0,
+          "comm_raw": 0,
+          "incentive": 453.0,
+          "comm_bad": false,
+          "cross_ok": null
+        },
+        {
+          "name": "李春利",
+          "position": "",
+          "net": 76361.11,
+          "comm": 2460.9,
+          "mgmt_comm": 96.0,
+          "commission": 2556.9,
+          "comm_raw": 2556.89,
+          "incentive": 2706.89,
+          "comm_bad": false,
+          "cross_ok": true
+        },
+        {
+          "name": "闫柳洋",
+          "position": "",
+          "net": 9599.55,
+          "comm": 287.99,
+          "mgmt_comm": 0,
+          "commission": 287.99,
+          "comm_raw": 287.99,
+          "incentive": 287.99,
+          "comm_bad": false,
+          "cross_ok": true
+        },
+        {
+          "name": "段云洁",
+          "position": "",
+          "net": 76856.68,
+          "comm": 2413.66,
+          "mgmt_comm": 1044.07,
+          "commission": 3457.73,
+          "comm_raw": 3457.73,
+          "incentive": 3807.73,
+          "comm_bad": false,
+          "cross_ok": true
+        },
+        {
+          "name": "李依晨",
+          "position": "",
+          "net": 42605.2,
+          "comm": 1304.21,
+          "mgmt_comm": 0,
+          "commission": 1304.21,
+          "comm_raw": 1304.21,
+          "incentive": 1304.21,
+          "comm_bad": false,
+          "cross_ok": true
+        },
+        {
+          "name": "韦向前",
+          "position": "",
+          "net": 0,
+          "comm": 0,
+          "mgmt_comm": 0,
+          "commission": 0,
+          "comm_raw": 0,
+          "incentive": 0,
+          "comm_bad": false,
+          "cross_ok": true
+        },
+        {
+          "name": "朱萌萌",
+          "position": "",
+          "net": 9590.74,
+          "comm": 287.72,
+          "mgmt_comm": 0,
+          "commission": 287.72,
+          "comm_raw": 287.72,
+          "incentive": 287.72,
+          "comm_bad": false,
+          "cross_ok": true
+        },
+        {
+          "name": "周慧慧",
+          "position": "",
+          "net": 7159.06,
+          "comm": 214.8,
+          "mgmt_comm": 0,
+          "commission": 214.8,
+          "comm_raw": 214.8,
+          "incentive": 214.8,
+          "comm_bad": false,
+          "cross_ok": true
+        }
+      ]
+    },
+    "宠元气友组": {
+      "dept": "宠元气友组",
+      "usable": true,
+      "total_net": 66358.38,
+      "total_comm": 3632.01,
+      "persons": [
+        {
+          "name": "陈华锋",
+          "position": "主管",
+          "net": 0.0,
+          "comm": 0,
+          "mgmt_comm": 667.98,
+          "commission": 667.98,
+          "comm_raw": 667.98,
+          "incentive": 667.98,
+          "comm_bad": false,
+          "cross_ok": null
+        },
+        {
+          "name": "张东帅",
+          "position": "",
+          "net": 3025.35,
+          "comm": 90.76,
+          "mgmt_comm": 0,
+          "commission": 90.76,
+          "comm_raw": 90.76,
+          "incentive": 90.76,
+          "comm_bad": false,
+          "cross_ok": true
+        },
+        {
+          "name": "鲁起飞",
+          "position": "",
+          "net": 5862.38,
+          "comm": 175.9,
+          "mgmt_comm": 605.88,
+          "commission": 781.78,
+          "comm_raw": 781.78,
+          "incentive": 781.78,
+          "comm_bad": false,
+          "cross_ok": true
+        },
+        {
+          "name": "谢梦丹",
+          "position": "",
+          "net": 57287.24,
+          "comm": 1891.49,
+          "mgmt_comm": 0,
+          "commission": 1891.49,
+          "comm_raw": 1891.49,
+          "incentive": 2091.49,
+          "comm_bad": false,
+          "cross_ok": true
+        },
+        {
+          "name": "李浩勇",
+          "position": "",
+          "net": 183.41,
+          "comm": 0,
+          "mgmt_comm": 0,
+          "commission": 0,
+          "comm_raw": 0,
+          "incentive": 0,
+          "comm_bad": false,
+          "cross_ok": true
+        },
+        {
+          "name": "殷嘉蕾",
+          "position": "",
+          "net": 0,
+          "comm": 0,
+          "mgmt_comm": 0,
+          "commission": 0,
+          "comm_raw": 0,
+          "incentive": 0,
+          "comm_bad": false,
+          "cross_ok": true
+        },
+        {
+          "name": "高诗雅",
+          "position": "",
+          "net": 0,
+          "comm": 0,
+          "mgmt_comm": 0,
+          "commission": 0,
+          "comm_raw": 0,
+          "incentive": 0,
           "comm_bad": false,
           "cross_ok": true
         }
@@ -81479,9 +82393,9 @@
   },
   "prod_split_src": {
     "一部": {
-      "file": "_xc_jfdet_yibu.json",
+      "file": "_jf_yibu.json",
       "kind": "detail",
-      "records": 1397,
+      "records": 1399,
       "kept": 14,
       "det_person": {
         "张甜静": 0.0,
@@ -89036,9 +89950,9 @@
           }
         },
         "2026-11-07": {
-          "net": -519.3,
+          "net": -621.0,
           "p": {
-            "YRKL宝宝餐椅": -119.69999999999999,
+            "YRKL宝宝餐椅": -221.4,
             "蓝理苹果味气泡酒": -399.6
           }
         }
@@ -89303,7 +90217,7 @@
           "days": 31
         },
         "2026-11": {
-          "net": 701277.01,
+          "net": 701175.31,
           "gross": 443605.57,
           "days": 7
         }
@@ -93122,7 +94036,7 @@
       {
         "id": 133,
         "name": "核心人才",
-        "expected": 25,
+        "expected": 24,
         "local": 24,
         "state": "正常",
         "file": "_hr_hexin.json",
@@ -93132,7 +94046,7 @@
       {
         "id": 134,
         "name": "BP工作进度表",
-        "expected": 824,
+        "expected": 825,
         "local": 824,
         "state": "正常",
         "file": "_hr_bp.json",
@@ -93142,7 +94056,7 @@
       {
         "id": 137,
         "name": "面谈记录表",
-        "expected": 471,
+        "expected": 470,
         "local": 471,
         "state": "正常",
         "file": "_hr_miantan.json",
@@ -93172,7 +94086,7 @@
       {
         "id": 153,
         "name": "招聘数据表",
-        "expected": 5105,
+        "expected": 5106,
         "local": 5094,
         "state": "正常",
         "file": "_hr_ziliao153.json",
@@ -93202,7 +94116,7 @@
       {
         "id": 187,
         "name": "一部积分表",
-        "expected": 1397,
+        "expected": 1399,
         "local": 1397,
         "state": "正常",
         "file": "_xc_jfdet_yibu.json",
@@ -93482,8 +94396,8 @@
       {
         "id": 228,
         "name": "招聘数据表(2)",
-        "expected": 5105,
-        "local": 5088,
+        "expected": 5106,
+        "local": 5106,
         "state": "正常",
         "file": "_ex_228.json",
         "cat": "招聘",
@@ -93493,19 +94407,19 @@
         "id": 229,
         "name": "需求总表",
         "expected": 741,
-        "local": 739,
+        "local": 741,
         "state": "正常",
         "file": "_ex_229.json",
         "cat": "招聘",
         "fields": 25
       }
     ],
-    "time": "2026-11-07 18:30:08",
+    "time": "2026-11-07 19:13:02",
     "total": 40,
     "ok": 40,
     "bad": [],
     "bad_names": [],
-    "records_total": 20399,
+    "records_total": 20402,
     "by_cat": {
       "HR流程": 2,
       "产品人员": 2,
@@ -113106,10 +114020,10 @@
   },
   "recruit_funnel": {
     "stat": {
-      "total": 5088,
+      "total": 5106,
       "by_source": {
-        "BOSS": 4566,
-        "(未填)": 281,
+        "BOSS": 4581,
+        "(未填)": 284,
         "内推": 103,
         "海鸥": 60,
         "转介绍": 55,
@@ -113119,13 +114033,13 @@
         "猎聘": 1
       },
       "by_stage": {
-        "已发offer未到岗": 1857,
-        "其他/未推进": 1756,
-        "过初试": 1054,
-        "过复试": 421
+        "已发offer未到岗": 1867,
+        "其他/未推进": 1763,
+        "过初试": 1056,
+        "过复试": 420
       },
       "interview_months": {
-        "1900年01月": 272,
+        "1900年01月": 275,
         "2025年04月": 242,
         "2025年05月": 249,
         "2025年06月": 199,
@@ -113145,7 +114059,7 @@
         "2026年08月": 456,
         "2026年09月": 334,
         "2026年10月": 555,
-        "2026年11月": 172
+        "2026年11月": 187
       },
       "arrive_months": {
         "2025年04月": 39,
@@ -113167,7 +114081,7 @@
         "2026年08月": 185,
         "2026年09月": 144,
         "2026年10月": 208,
-        "2026年11月": 79
+        "2026年11月": 86
       },
       "leave_months": {
         "2025年10月": 20,
@@ -113194,19 +114108,19 @@
       "top_inviter": {
         "王佑": 1670,
         "李雪芹": 1375,
-        "盛琦雅": 1184,
+        "盛琦雅": 1186,
         "张帅涛": 1000,
         "柴鑫雅": 512,
         "杨蓓蕾": 460,
-        "霍怡彤": 385,
+        "霍怡彤": 389,
         "刘晓颖": 381,
-        "原桠栋": 329,
+        "原桠栋": 331,
         "李盼盼": 255,
         "李彦鹏": 221,
         "严美淇": 167,
         "总部": 123,
-        "内推": 120,
-        "高秋慧": 113
+        "高秋慧": 121,
+        "内推": 120
       }
     },
     "offer_not_arrived": [
@@ -113851,7 +114765,7 @@
         "month": "2025年05月"
       }
     ],
-    "src": "招聘数据表（sheet228）共 5088 条候选人记录"
+    "src": "招聘数据表（sheet228）共 5106 条候选人记录"
   },
   "recruit_ledger": {
     "rows": [
@@ -123792,7 +124706,7 @@
         "hr": ""
       },
       {
-        "code": "ZH2611201",
+        "code": "ZH2611010",
         "arch": "ZHB011",
         "top": "望辰-Crown事业部",
         "dept": "星辰二部",
@@ -123828,7 +124742,7 @@
         "hr": ""
       },
       {
-        "code": "ZH2611202",
+        "code": "ZH2611128",
         "arch": "ZHB052",
         "top": "望辰-Crown事业部",
         "dept": "星辰四部",
@@ -123846,7 +124760,7 @@
         "hr": ""
       },
       {
-        "code": "ZH2611203",
+        "code": "ZH2611126",
         "arch": "ZHB052",
         "top": "望辰-Crown事业部",
         "dept": "星辰四部",
@@ -123864,7 +124778,7 @@
         "hr": ""
       },
       {
-        "code": "ZH2611204",
+        "code": "ZH2611125",
         "arch": "ZHB052",
         "top": "望辰-Crown事业部",
         "dept": "星辰四部",
@@ -123954,7 +124868,7 @@
         "hr": ""
       },
       {
-        "code": "ZH2611205",
+        "code": "ZH2611124",
         "arch": "ZHB052",
         "top": "望辰-Crown事业部",
         "dept": "星辰四部",
@@ -123972,7 +124886,7 @@
         "hr": ""
       },
       {
-        "code": "ZH2611206",
+        "code": "ZH2611122",
         "arch": "ZHB052",
         "top": "望辰-Crown事业部",
         "dept": "星辰四部",
@@ -123990,7 +124904,7 @@
         "hr": ""
       },
       {
-        "code": "ZH2611207",
+        "code": "ZH2611121",
         "arch": "ZHB052",
         "top": "望辰-Crown事业部",
         "dept": "星辰四部",
@@ -124026,7 +124940,7 @@
         "hr": ""
       },
       {
-        "code": "ZH2611208",
+        "code": "ZH2611120",
         "arch": "ZHB052",
         "top": "望辰-Crown事业部",
         "dept": "星辰四部",
@@ -124044,7 +124958,7 @@
         "hr": ""
       },
       {
-        "code": "ZH2611209",
+        "code": "ZH2611119",
         "arch": "ZHB052",
         "top": "望辰-Crown事业部",
         "dept": "星辰四部",
@@ -124062,7 +124976,7 @@
         "hr": ""
       },
       {
-        "code": "ZH2611210",
+        "code": "ZH2611118",
         "arch": "ZHB052",
         "top": "望辰-Crown事业部",
         "dept": "星辰四部",
@@ -126222,7 +127136,7 @@
         "hr": ""
       },
       {
-        "code": "ZH2611211",
+        "code": "ZH2611117",
         "arch": "ZHB024",
         "top": "电商运营部",
         "dept": "电商客服组",
@@ -126240,7 +127154,7 @@
         "hr": ""
       },
       {
-        "code": "ZH2611212",
+        "code": "ZH2611116",
         "arch": "ZHB024",
         "top": "电商运营部",
         "dept": "电商客服组",
@@ -126258,7 +127172,7 @@
         "hr": ""
       },
       {
-        "code": "ZH2611213",
+        "code": "ZH2611115",
         "arch": "ZHB024",
         "top": "电商运营部",
         "dept": "电商客服组",
@@ -126276,7 +127190,7 @@
         "hr": ""
       },
       {
-        "code": "ZH2611214",
+        "code": "ZH2611113",
         "arch": "ZHB024",
         "top": "电商运营部",
         "dept": "电商客服组",
@@ -126294,7 +127208,7 @@
         "hr": ""
       },
       {
-        "code": "ZH2611215",
+        "code": "ZH2611112",
         "arch": "ZHB024",
         "top": "电商运营部",
         "dept": "电商客服组",
@@ -126312,7 +127226,7 @@
         "hr": ""
       },
       {
-        "code": "ZH2611216",
+        "code": "ZH2611111",
         "arch": "ZHB024",
         "top": "电商运营部",
         "dept": "电商客服组",
@@ -126330,7 +127244,7 @@
         "hr": ""
       },
       {
-        "code": "ZH2611217",
+        "code": "ZH2611105",
         "arch": "ZHB024",
         "top": "电商运营部",
         "dept": "电商客服组",
@@ -126348,7 +127262,7 @@
         "hr": ""
       },
       {
-        "code": "ZH2611218",
+        "code": "ZH2611104",
         "arch": "ZHB024",
         "top": "电商运营部",
         "dept": "电商客服组",
@@ -126366,7 +127280,7 @@
         "hr": ""
       },
       {
-        "code": "ZH2611219",
+        "code": "ZH2611102",
         "arch": "ZHB015",
         "top": "创新项目部",
         "dept": "推广引流组",
@@ -126384,7 +127298,7 @@
         "hr": ""
       },
       {
-        "code": "ZH2611220",
+        "code": "ZH2611094",
         "arch": "ZHB010",
         "top": "望辰-Crown事业部",
         "dept": "星辰一部",
@@ -126402,7 +127316,7 @@
         "hr": ""
       },
       {
-        "code": "ZH2611221",
+        "code": "ZH2611093",
         "arch": "ZHB031",
         "top": "供应链管理中心",
         "dept": "品牌部",
@@ -126420,7 +127334,7 @@
         "hr": ""
       },
       {
-        "code": "ZH2611222",
+        "code": "ZH2611092",
         "arch": "ZHB020",
         "top": "双启",
         "dept": "TK直播组",
@@ -126438,7 +127352,7 @@
         "hr": ""
       },
       {
-        "code": "ZH2611224",
+        "code": "ZH2611090",
         "arch": "ZHB027",
         "top": "组织效能中心",
         "dept": "技术组",
@@ -126456,7 +127370,7 @@
         "hr": ""
       },
       {
-        "code": "ZH2611223",
+        "code": "ZH2611091",
         "arch": "ZHB010",
         "top": "望辰-Crown事业部",
         "dept": "星辰一部",
@@ -126474,7 +127388,7 @@
         "hr": ""
       },
       {
-        "code": "ZH2611229",
+        "code": "ZH2611052",
         "arch": "ZHB010",
         "top": "望辰-Crown事业部",
         "dept": "星辰一部",
@@ -126492,7 +127406,7 @@
         "hr": ""
       },
       {
-        "code": "ZH2611232",
+        "code": "ZH2611056",
         "arch": "ZHB011",
         "top": "望辰-Crown事业部",
         "dept": "星辰二部",
@@ -126510,7 +127424,7 @@
         "hr": ""
       },
       {
-        "code": "ZH2611233",
+        "code": "ZH2611053",
         "arch": "ZHB011",
         "top": "望辰-Crown事业部",
         "dept": "星辰二部",
@@ -126528,7 +127442,7 @@
         "hr": ""
       },
       {
-        "code": "ZH2611234",
+        "code": "ZH2611049",
         "arch": "ZHB011",
         "top": "望辰-Crown事业部",
         "dept": "星辰二部",
@@ -126546,7 +127460,7 @@
         "hr": ""
       },
       {
-        "code": "ZH2611230",
+        "code": "ZH2611051",
         "arch": "ZHB010",
         "top": "望辰-Crown事业部",
         "dept": "星辰一部",
@@ -126564,7 +127478,7 @@
         "hr": ""
       },
       {
-        "code": "ZH2611231",
+        "code": "ZH2611050",
         "arch": "ZHB010",
         "top": "望辰-Crown事业部",
         "dept": "星辰一部",
@@ -126582,7 +127496,7 @@
         "hr": ""
       },
       {
-        "code": "ZH2611228",
+        "code": "ZH2611083",
         "arch": "ZHB008",
         "top": "绒光-Elite事业部",
         "dept": "和煦八部",
@@ -126636,7 +127550,7 @@
         "hr": ""
       },
       {
-        "code": "ZH2611236",
+        "code": "ZH2611043",
         "arch": "ZHB007",
         "top": "渠道运营部",
         "dept": "星灿-Luck部",
@@ -126654,7 +127568,7 @@
         "hr": ""
       },
       {
-        "code": "ZH2611235",
+        "code": "ZH2611044",
         "arch": "ZHB048",
         "top": "合作团队",
         "dept": "私域运营部",
@@ -126672,7 +127586,7 @@
         "hr": ""
       },
       {
-        "code": "ZH2611237",
+        "code": "ZH2611041",
         "arch": "ZHB007",
         "top": "渠道运营部",
         "dept": "星灿-Luck部",
@@ -126690,7 +127604,7 @@
         "hr": ""
       },
       {
-        "code": "ZH2611238",
+        "code": "ZH2611011",
         "arch": "ZHB007",
         "top": "渠道运营部",
         "dept": "星灿-Luck部",
@@ -126708,7 +127622,7 @@
         "hr": ""
       },
       {
-        "code": "ZH2611239",
+        "code": "ZH2611009",
         "arch": "ZHB007",
         "top": "渠道运营部",
         "dept": "星灿-Luck部",
@@ -126726,7 +127640,7 @@
         "hr": ""
       },
       {
-        "code": "ZH2611240",
+        "code": "ZH2611007",
         "arch": "ZHB007",
         "top": "渠道运营部",
         "dept": "星灿-Luck部",
@@ -126744,7 +127658,7 @@
         "hr": ""
       },
       {
-        "code": "ZH2611241",
+        "code": "ZH2611002",
         "arch": "ZHB007",
         "top": "渠道运营部",
         "dept": "星灿-Luck部",
@@ -126762,7 +127676,7 @@
         "hr": ""
       },
       {
-        "code": "ZH2611242",
+        "code": "ZH2611001",
         "arch": "ZHB024",
         "top": "电商运营部",
         "dept": "电商客服组",
@@ -126780,7 +127694,7 @@
         "hr": ""
       },
       {
-        "code": "",
+        "code": "ZH2611205",
         "arch": "ZHB031",
         "top": "供应链管理中心",
         "dept": "品牌部",
@@ -126793,7 +127707,7 @@
         "rest": "三单一双",
         "salary": "6000-7000",
         "apply": "2026/11/06",
-        "deadline": "2026/11/08",
+        "deadline": "2026/11/30",
         "hrbp": "",
         "hr": ""
       },
@@ -127032,7 +127946,7 @@
         "hr": ""
       },
       {
-        "code": "ZH2611227",
+        "code": "ZH2611084",
         "arch": "ZHB009",
         "top": "绒光-Elite事业部",
         "dept": "旭阳九部",
@@ -127086,13 +128000,13 @@
         "hr": ""
       },
       {
-        "code": "",
-        "arch": "",
+        "code": "ZH2611201",
+        "arch": "ZHB005",
         "top": "绒光-Elite事业部",
-        "dept": "",
+        "dept": "昱升七部",
         "post": "新媒体编辑",
         "level": "",
-        "num": 0.0,
+        "num": 1.0,
         "month": "2026年11月",
         "urg": "b",
         "worktime": "",
@@ -127104,13 +128018,13 @@
         "hr": ""
       },
       {
-        "code": "",
-        "arch": "",
+        "code": "ZH2611202",
+        "arch": "ZHB005",
         "top": "绒光-Elite事业部",
-        "dept": "",
+        "dept": "昱升七部",
         "post": "新媒体编辑",
         "level": "",
-        "num": 0.0,
+        "num": 1.0,
         "month": "2026年11月",
         "urg": "b",
         "worktime": "",
@@ -127122,13 +128036,13 @@
         "hr": ""
       },
       {
-        "code": "",
-        "arch": "",
-        "top": "绒光-Elite事业部",
-        "dept": "",
+        "code": "ZH2611203",
+        "arch": "ZHB013",
+        "top": "创新项目部",
+        "dept": "盈光-Elite事业部",
         "post": "新媒体编辑",
         "level": "",
-        "num": 0.0,
+        "num": 1.0,
         "month": "2026年11月",
         "urg": "b",
         "worktime": "",
@@ -127140,27 +128054,63 @@
         "hr": ""
       },
       {
-        "code": "",
-        "arch": "",
-        "top": "绒光-Elite事业部",
-        "dept": "",
+        "code": "ZH2611204",
+        "arch": "ZHB013",
+        "top": "创新项目部",
+        "dept": "盈光-Elite事业部",
         "post": "新媒体编辑",
         "level": "",
-        "num": 0.0,
+        "num": 1.0,
         "month": "2026年11月",
         "urg": "b",
         "worktime": "",
         "rest": "",
         "salary": "4500-5000",
         "apply": "2026/11/06",
+        "deadline": "2026/11/30",
+        "hrbp": "",
+        "hr": ""
+      },
+      {
+        "code": "ZH2611206",
+        "arch": "ZHB010",
+        "top": "望辰-Crown事业部",
+        "dept": "星辰一部",
+        "post": "新媒体编辑",
+        "level": "p1",
+        "num": 1.0,
+        "month": "2026年11月",
+        "urg": "b",
+        "worktime": "9:30-12:30/14:00-19:00",
+        "rest": "单双轮休",
+        "salary": "4000-5000",
+        "apply": "2026/11/07",
+        "deadline": "2026/11/30",
+        "hrbp": "",
+        "hr": ""
+      },
+      {
+        "code": "ZH2611207",
+        "arch": "ZHB006",
+        "top": "渠道运营部",
+        "dept": "曦跃-Win部",
+        "post": "商务专员",
+        "level": "P1-P3",
+        "num": 1.0,
+        "month": "2026年11月",
+        "urg": "b",
+        "worktime": "9:30-12:30/14:00-19:00",
+        "rest": "三单一双+1天奖励假",
+        "salary": "4000-5000",
+        "apply": "2026/11/02",
         "deadline": "2026/11/30",
         "hrbp": "",
         "hr": ""
       }
     ],
     "stat": {
-      "total": 739,
-      "num_total": 735.0,
+      "total": 741,
+      "num_total": 741.0,
       "by_month": {
         "2026年08月": {
           "cnt": 151,
@@ -127175,8 +128125,8 @@
           "num": 192.0
         },
         "2026年11月": {
-          "cnt": 205,
-          "num": 201.0
+          "cnt": 207,
+          "num": 207.0
         }
       },
       "by_dept": {
@@ -127189,8 +128139,8 @@
           "num": 61.0
         },
         "星辰一部": {
-          "cnt": 50,
-          "num": 50.0
+          "cnt": 51,
+          "num": 51.0
         },
         "太乙电商组": {
           "cnt": 44,
@@ -127213,20 +128163,20 @@
           "num": 34.0
         },
         "盈光-Elite事业部": {
-          "cnt": 31,
-          "num": 31.0
+          "cnt": 33,
+          "num": 33.0
         },
         "元启": {
+          "cnt": 30,
+          "num": 30.0
+        },
+        "昱升七部": {
           "cnt": 30,
           "num": 30.0
         },
         "星辰三部": {
           "cnt": 30,
           "num": 30.0
-        },
-        "昱升七部": {
-          "cnt": 28,
-          "num": 28.0
         },
         "昭荣二部": {
           "cnt": 25,
@@ -127273,7 +128223,7 @@
           "num": 9.0
         },
         "(未填)": {
-          "cnt": 12,
+          "cnt": 8,
           "num": 8.0
         },
         "TK直播组": {
@@ -127288,13 +128238,13 @@
           "cnt": 7,
           "num": 7.0
         },
-        "旭阳九部": {
+        "曦跃-Win部": {
           "cnt": 6,
           "num": 6.0
         },
-        "曦跃-Win部": {
-          "cnt": 5,
-          "num": 5.0
+        "旭阳九部": {
+          "cnt": 6,
+          "num": 6.0
         },
         "财务组": {
           "cnt": 5,
@@ -127352,7 +128302,7 @@
       "hrbp_approved": 521,
       "hr_approved": 516
     },
-    "src": "需求总表（sheet229）共 739 条需求台账"
+    "src": "需求总表（sheet229）共 741 条需求台账"
   },
   "org_xcheck": {
     "dingtalk_count": 325,
