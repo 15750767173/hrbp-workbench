@@ -2,10 +2,10 @@
   "overview": {
     "current_month": "2026-11",
     "last_month": "2026-10",
-    "cutoff_day": 7,
-    "period_label": "7日",
-    "last_month_period": "10月1-6日",
-    "yesterday": "2026-11-06",
+    "cutoff_day": 8,
+    "period_label": "8日",
+    "last_month_period": "10月1-7日",
+    "yesterday": "2026-11-07",
     "departments": [
       {
         "name": "一部",
@@ -13,10 +13,10 @@
         "base_target": 860000,
         "stretch_target": 1060000,
         "actual": 156821.01,
-        "actual_jul": 126853.7,
-        "actual_prev": 126853.7,
+        "actual_jul": 157254.43,
+        "actual_prev": 157254.43,
         "completion": 18.2,
-        "mom_change": 23.6,
+        "mom_change": -0.3,
         "target_ready": true,
         "group_count": 4,
         "person_count": 19,
@@ -41,8 +41,8 @@
             "status": "在职"
           }
         ],
-        "yesterday_actual": 21954.18,
-        "daily_eff": 1045.44,
+        "yesterday_actual": -60.0,
+        "daily_eff": -2.86,
         "monthly_eff": 7467.67
       },
       {
@@ -51,10 +51,10 @@
         "base_target": 970000,
         "stretch_target": 1160000,
         "actual": 121889.0,
-        "actual_jul": 108879.98,
-        "actual_prev": 108879.98,
+        "actual_jul": 127071.46,
+        "actual_prev": 127071.46,
         "completion": 12.6,
-        "mom_change": 11.9,
+        "mom_change": -4.1,
         "target_ready": true,
         "group_count": 5,
         "person_count": 21,
@@ -69,8 +69,8 @@
             "status": "在职"
           }
         ],
-        "yesterday_actual": 20425.39,
-        "daily_eff": 1458.96,
+        "yesterday_actual": -1188.96,
+        "daily_eff": -84.93,
         "monthly_eff": 8706.36
       },
       {
@@ -79,10 +79,10 @@
         "base_target": 270000,
         "stretch_target": 350000,
         "actual": 12232.85,
-        "actual_jul": 27652.75,
-        "actual_prev": 27652.75,
+        "actual_jul": 30600.7,
+        "actual_prev": 30600.7,
         "completion": 4.5,
-        "mom_change": -55.8,
+        "mom_change": -60.0,
         "target_ready": true,
         "group_count": 2,
         "person_count": 7,
@@ -91,8 +91,8 @@
         "trial_count": 2,
         "shigang_count": 0,
         "shigang_list": [],
-        "yesterday_actual": 2381.58,
-        "daily_eff": 476.32,
+        "yesterday_actual": -1.5,
+        "daily_eff": -0.3,
         "monthly_eff": 2446.57
       },
       {
@@ -101,10 +101,10 @@
         "base_target": 470000,
         "stretch_target": 590000,
         "actual": 38303.06,
-        "actual_jul": 34328.63,
-        "actual_prev": 34328.63,
+        "actual_jul": 41780.74,
+        "actual_prev": 41780.74,
         "completion": 8.1,
-        "mom_change": 11.6,
+        "mom_change": -8.3,
         "target_ready": true,
         "group_count": 3,
         "person_count": 12,
@@ -113,8 +113,8 @@
         "trial_count": 4,
         "shigang_count": 0,
         "shigang_list": [],
-        "yesterday_actual": 7315.33,
-        "daily_eff": 731.53,
+        "yesterday_actual": 0.0,
+        "daily_eff": 0.0,
         "monthly_eff": 3830.31
       },
       {
@@ -123,10 +123,10 @@
         "base_target": 490000,
         "stretch_target": 620000,
         "actual": 54747.43,
-        "actual_jul": 56456.14,
-        "actual_prev": 56456.14,
+        "actual_jul": 65142.13,
+        "actual_prev": 65142.13,
         "completion": 11.2,
-        "mom_change": -3.0,
+        "mom_change": -16.0,
         "target_ready": true,
         "group_count": 4,
         "person_count": 9,
@@ -151,8 +151,8 @@
             "status": "在职"
           }
         ],
-        "yesterday_actual": 9670.04,
-        "daily_eff": 1074.45,
+        "yesterday_actual": 0.0,
+        "daily_eff": 0.0,
         "monthly_eff": 6083.05
       },
       {
@@ -161,10 +161,10 @@
         "base_target": 210000,
         "stretch_target": 250000,
         "actual": 7589.99,
-        "actual_jul": 8286.05,
-        "actual_prev": 8286.05,
+        "actual_jul": 9663.75,
+        "actual_prev": 9663.75,
         "completion": 3.6,
-        "mom_change": -8.4,
+        "mom_change": -21.5,
         "target_ready": true,
         "group_count": 2,
         "person_count": 7,
@@ -179,8 +179,8 @@
             "status": "在职"
           }
         ],
-        "yesterday_actual": 1449.0,
-        "daily_eff": 207.0,
+        "yesterday_actual": 0.0,
+        "daily_eff": 0.0,
         "monthly_eff": 1084.28
       },
       {
@@ -208,8 +208,8 @@
       }
     ],
     "data_through_day": 6,
-    "generated_at": "2026-11-07 21:00",
-    "expect_day": 6,
+    "generated_at": "2026-11-08 03:45",
+    "expect_day": 7,
     "dept_last_day": {
       "一部": 7,
       "二部": 7,
@@ -218,7 +218,11 @@
       "七部": 6,
       "宠元气友组": 6
     },
-    "pending_depts": []
+    "pending_depts": [
+      "六部",
+      "七部",
+      "宠元气友组"
+    ]
   },
   "targets_8_hist": [
     {
@@ -15399,6 +15403,9 @@
         "p": {
           "元气友缝纫机": -60.0
         }
+      },
+      "2026-11-08": {
+        "t": 0.0
       }
     },
     "二部": {
@@ -19327,6 +19334,9 @@
           "虎太郎英短猫粮": 108.94,
           "虎太郎软骨素": 222.28
         }
+      },
+      "2026-11-08": {
+        "t": 0.0
       }
     },
     "三部": {
@@ -22852,6 +22862,9 @@
       },
       "2026-11-07": {
         "t": 0.0
+      },
+      "2026-11-08": {
+        "t": 0.0
       }
     },
     "七部": {
@@ -23403,6 +23416,9 @@
           "桂姨膨化猫粮试吃": 121.1,
           "益生熊猫粮": 252.48
         }
+      },
+      "2026-11-08": {
+        "t": 0.0
       },
       "2026-06-08": {
         "t": 10448.59,
@@ -25878,6 +25894,9 @@
       },
       "2026-11-07": {
         "t": 0.0
+      },
+      "2026-11-08": {
+        "t": 0.0
       }
     }
   },
@@ -25990,7 +26009,7 @@
         "regular_date": "2026/03/01",
         "enter_date": "2026/06/23",
         "cycle": 137,
-        "remark": "晋升P3",
+        "remark": "晋升P3\n2026.11.7变回潜力",
         "archive": "https://www.kdocs.cn/l/ckTV3AdHQfXO"
       },
       {
@@ -26190,6 +26209,17 @@
         "cycle": 0,
         "remark": null,
         "archive": ""
+      },
+      {
+        "name": "王常红",
+        "dept": "昭荣二部",
+        "level": "P1",
+        "hire_date": "2026/08/28",
+        "regular_date": "",
+        "enter_date": "2026/11/07",
+        "cycle": 0,
+        "remark": null,
+        "archive": ""
       }
     ],
     "hexin": [
@@ -26252,16 +26282,6 @@
         "days": null,
         "remark": null,
         "archive": "https://www.kdocs.cn/l/csUuS4ADAXS3"
-      },
-      {
-        "name": "潘景丽",
-        "dept": "慧晟三部",
-        "level": "M2",
-        "hire_date": "2025/04/28",
-        "regular_date": "2025/09/01",
-        "days": null,
-        "remark": null,
-        "archive": "https://www.kdocs.cn/l/ctY7Z2tnzHON"
       },
       {
         "name": "付一鸣",
@@ -26432,6 +26452,16 @@
         "days": null,
         "remark": null,
         "archive": ""
+      },
+      {
+        "name": "冯蔺城",
+        "dept": "昭荣二部",
+        "level": "M1",
+        "hire_date": "2024/11/09",
+        "regular_date": "2024/12/04",
+        "days": null,
+        "remark": null,
+        "archive": ""
       }
     ],
     "talent_map": {
@@ -26547,6 +26577,10 @@
         "type": "潜力",
         "url": ""
       },
+      "王常红": {
+        "type": "潜力",
+        "url": ""
+      },
       "贾怡凡": {
         "type": "核心",
         "url": "https://www.kdocs.cn/l/ceL9D200xLRo"
@@ -26570,10 +26604,6 @@
       "胡宵雪": {
         "type": "核心",
         "url": "https://www.kdocs.cn/l/csUuS4ADAXS3"
-      },
-      "潘景丽": {
-        "type": "核心",
-        "url": "https://www.kdocs.cn/l/ctY7Z2tnzHON"
       },
       "付一鸣": {
         "type": "核心",
@@ -26632,6 +26662,10 @@
         "url": ""
       },
       "时露": {
+        "type": "核心",
+        "url": ""
+      },
+      "冯蔺城": {
         "type": "核心",
         "url": ""
       },
@@ -94027,7 +94061,7 @@
         "id": 132,
         "name": "潜力人才",
         "expected": 29,
-        "local": 28,
+        "local": 29,
         "state": "正常",
         "file": "_hr_qianli.json",
         "cat": "人才",
@@ -94414,7 +94448,7 @@
         "fields": 25
       }
     ],
-    "time": "2026-11-07 21:00:09",
+    "time": "2026-11-08 03:45:09",
     "total": 40,
     "ok": 40,
     "bad": [],
@@ -129498,6 +129532,35 @@
       "m9_comm_bad": false
     },
     {
+      "name": "王常红",
+      "type": "潜力",
+      "url": "",
+      "dept": "二部",
+      "matched": true,
+      "product": "虎太郎漱口水+虎太郎牙膏",
+      "person_base": 30000,
+      "person_stretch": 40000,
+      "jul": 0.0,
+      "aug": 0.0,
+      "sep": 0.0,
+      "m5": 0,
+      "m5_comm": 0,
+      "m5_mgmt": 0,
+      "m6": 0,
+      "m6_comm": 0,
+      "m6_mgmt": 0,
+      "m7": 0,
+      "m7_comm": 0,
+      "m7_mgmt": 0,
+      "m8_tc": 0,
+      "m8_comm_tc": 0,
+      "m9_tc": 4025.56,
+      "m9_comm_tc": 100.64,
+      "m9_person_comm_tc": 100.64,
+      "m9_mgmt_tc": 0,
+      "m9_comm_bad": false
+    },
+    {
       "name": "贾怡凡",
       "type": "核心",
       "url": "https://www.kdocs.cn/l/ceL9D200xLRo",
@@ -129669,35 +129732,6 @@
       "m9_comm_tc": 994.17,
       "m9_person_comm_tc": 355.81,
       "m9_mgmt_tc": 638.36,
-      "m9_comm_bad": false
-    },
-    {
-      "name": "潘景丽",
-      "type": "核心",
-      "url": "https://www.kdocs.cn/l/ctY7Z2tnzHON",
-      "dept": "",
-      "matched": false,
-      "product": "",
-      "person_base": 0,
-      "person_stretch": 0,
-      "jul": 0.0,
-      "aug": 0.0,
-      "sep": 0.0,
-      "m5": 0,
-      "m5_comm": 0,
-      "m5_mgmt": 0,
-      "m6": 0,
-      "m6_comm": 0,
-      "m6_mgmt": 0,
-      "m7": 0,
-      "m7_comm": 0,
-      "m7_mgmt": 0,
-      "m8_tc": 0,
-      "m8_comm_tc": 0,
-      "m9_tc": 0,
-      "m9_comm_tc": 0,
-      "m9_person_comm_tc": 0,
-      "m9_mgmt_tc": 0,
       "m9_comm_bad": false
     },
     {
@@ -130132,6 +130166,35 @@
       "m9_tc": 0,
       "m9_comm_tc": 0,
       "m9_person_comm_tc": 0,
+      "m9_mgmt_tc": 0,
+      "m9_comm_bad": false
+    },
+    {
+      "name": "冯蔺城",
+      "type": "核心",
+      "url": "",
+      "dept": "二部",
+      "matched": true,
+      "product": "虎太郎冻干粮+冻干+升级长肉粮+益生菌猫粮",
+      "person_base": 50000,
+      "person_stretch": 60000,
+      "jul": 0.0,
+      "aug": 0.0,
+      "sep": 0.0,
+      "m5": 61484.35,
+      "m5_comm": 1987.6,
+      "m5_mgmt": 298.45,
+      "m6": 53792.54,
+      "m6_comm": 1690.4,
+      "m6_mgmt": 261.3,
+      "m7": 0,
+      "m7_comm": 0,
+      "m7_mgmt": 0,
+      "m8_tc": 0,
+      "m8_comm_tc": 0,
+      "m9_tc": 55658.31,
+      "m9_comm_tc": 1826.33,
+      "m9_person_comm_tc": 1826.33,
       "m9_mgmt_tc": 0,
       "m9_comm_bad": false
     },
