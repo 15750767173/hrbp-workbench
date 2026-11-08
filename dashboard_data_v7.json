@@ -208,7 +208,7 @@
       }
     ],
     "data_through_day": 7,
-    "generated_at": "2026-11-08 10:30",
+    "generated_at": "2026-11-08 14:15",
     "expect_day": 7,
     "dept_last_day": {
       "一部": 7,
@@ -83160,9 +83160,9 @@
     "humingce": {
       "total": 1030,
       "by_zaizhi_status": {
-        "优化": 258,
-        "自离": 414,
-        "在职": 358
+        "优化": 262,
+        "自离": 415,
+        "在职": 353
       },
       "by_yiji": {
         "绒光-Elite事业部": 317,
@@ -83180,11 +83180,11 @@
         "总经办": 2
       },
       "by_stage": {
-        "试用期": 499,
+        "试用期": 503,
         "正式员工": 240,
-        "试岗": 291
+        "试岗": 287
       },
-      "zaizhi_count": 358
+      "zaizhi_count": 353
     },
     "zhuanzheng": {
       "total": 163,
@@ -94498,7 +94498,7 @@
         "fields": 25
       }
     ],
-    "time": "2026-11-08 10:30:08",
+    "time": "2026-11-08 14:15:15",
     "total": 40,
     "ok": 40,
     "bad": [],
@@ -129234,29 +129234,36 @@
   },
   "org_xcheck": {
     "dingtalk_count": 325,
-    "humingce_active_count": 358,
-    "both_count": 309,
-    "dingtalk_only_count": 16,
-    "humingce_only_count": 49,
+    "humingce_active_count": 353,
+    "both_count": 303,
+    "dingtalk_only_count": 22,
+    "humingce_only_count": 50,
     "dingtalk_only": [
       "丁香",
+      "乔孔",
       "六六",
       "包子",
       "吴琼",
       "夏志强",
       "小达",
       "尧婕",
+      "张凯玥",
       "张政",
       "张旭辉",
+      "李佳星",
       "李军锋",
+      "杜鑫琨",
       "樊红玉",
       "罗祥磊",
       "肉肉",
       "赵志硕",
       "赵晨露",
+      "邵静芳",
+      "郭梦阳",
       "魏雪彥"
     ],
     "humingce_only": [
+      "乔孔孔",
       "侯自豪",
       "刘一晨",
       "刘姚乐",
@@ -129312,11 +129319,6 @@
         "name": "万靖怡",
         "dingtalk_top": "望辰_Crown事业部",
         "humingce_top": "望辰-Crown事业部"
-      },
-      {
-        "name": "乔孔",
-        "dingtalk_top": "新星训练营",
-        "humingce_top": "电商运营部"
       },
       {
         "name": "于鹏展",
@@ -129489,11 +129491,6 @@
         "humingce_top": "绒光-Elite事业部"
       },
       {
-        "name": "张凯玥",
-        "dingtalk_top": "绒光_Elite事业部",
-        "humingce_top": "绒光-Elite事业部"
-      },
-      {
         "name": "张千姿",
         "dingtalk_top": "新星训练营",
         "humingce_top": "绒光-Elite事业部"
@@ -129604,7 +129601,17 @@
         "humingce_top": "绒光-Elite事业部"
       },
       {
-        "name": "李佳星",
+        "name": "李依晨",
+        "dingtalk_top": "绒光_Elite事业部",
+        "humingce_top": "绒光-Elite事业部"
+      },
+      {
+        "name": "李恩熙",
+        "dingtalk_top": "望辰_Crown事业部",
+        "humingce_top": "望辰-Crown事业部"
+      },
+      {
+        "name": "李春利",
         "dingtalk_top": "绒光_Elite事业部",
         "humingce_top": "绒光-Elite事业部"
       }
