@@ -2,10 +2,10 @@
   "overview": {
     "current_month": "2026-11",
     "last_month": "2026-10",
-    "cutoff_day": 8,
-    "period_label": "8日",
-    "last_month_period": "10月1-7日",
-    "yesterday": "2026-11-07",
+    "cutoff_day": 9,
+    "period_label": "9日",
+    "last_month_period": "10月1-8日",
+    "yesterday": "2026-11-08",
     "departments": [
       {
         "name": "一部",
@@ -13,10 +13,10 @@
         "base_target": 860000,
         "stretch_target": 1060000,
         "actual": 177993.29,
-        "actual_jul": 157254.43,
-        "actual_prev": 157254.43,
+        "actual_jul": 183070.87,
+        "actual_prev": 183070.87,
         "completion": 20.7,
-        "mom_change": 13.2,
+        "mom_change": -2.8,
         "target_ready": true,
         "group_count": 4,
         "person_count": 19,
@@ -41,8 +41,8 @@
             "status": "在职"
           }
         ],
-        "yesterday_actual": 21172.28,
-        "daily_eff": 1114.33,
+        "yesterday_actual": -36.0,
+        "daily_eff": -1.89,
         "monthly_eff": 9368.07
       },
       {
@@ -51,10 +51,10 @@
         "base_target": 970000,
         "stretch_target": 1160000,
         "actual": 165014.36,
-        "actual_jul": 127071.46,
-        "actual_prev": 127071.46,
+        "actual_jul": 149177.48,
+        "actual_prev": 149177.48,
         "completion": 17.0,
-        "mom_change": 29.9,
+        "mom_change": 10.6,
         "target_ready": true,
         "group_count": 5,
         "person_count": 21,
@@ -69,8 +69,8 @@
             "status": "在职"
           }
         ],
-        "yesterday_actual": 43125.36,
-        "daily_eff": 3317.34,
+        "yesterday_actual": 0.0,
+        "daily_eff": 0.0,
         "monthly_eff": 12693.41
       },
       {
@@ -79,10 +79,10 @@
         "base_target": 270000,
         "stretch_target": 350000,
         "actual": 16212.36,
-        "actual_jul": 30600.7,
-        "actual_prev": 30600.7,
+        "actual_jul": 33879.64,
+        "actual_prev": 33879.64,
         "completion": 6.0,
-        "mom_change": -47.0,
+        "mom_change": -52.1,
         "target_ready": true,
         "group_count": 2,
         "person_count": 7,
@@ -91,8 +91,8 @@
         "trial_count": 2,
         "shigang_count": 0,
         "shigang_list": [],
-        "yesterday_actual": 3979.51,
-        "daily_eff": 795.9,
+        "yesterday_actual": 0.0,
+        "daily_eff": 0.0,
         "monthly_eff": 3242.47
       },
       {
@@ -101,10 +101,10 @@
         "base_target": 470000,
         "stretch_target": 590000,
         "actual": 43763.25,
-        "actual_jul": 41780.74,
-        "actual_prev": 41780.74,
+        "actual_jul": 48224.44,
+        "actual_prev": 48224.44,
         "completion": 9.3,
-        "mom_change": 4.7,
+        "mom_change": -9.3,
         "target_ready": true,
         "group_count": 3,
         "person_count": 12,
@@ -113,8 +113,8 @@
         "trial_count": 4,
         "shigang_count": 0,
         "shigang_list": [],
-        "yesterday_actual": 5460.19,
-        "daily_eff": 546.02,
+        "yesterday_actual": 0.0,
+        "daily_eff": 0.0,
         "monthly_eff": 4376.32
       },
       {
@@ -123,10 +123,10 @@
         "base_target": 490000,
         "stretch_target": 620000,
         "actual": 61008.12,
-        "actual_jul": 65142.13,
-        "actual_prev": 65142.13,
+        "actual_jul": 73317.05,
+        "actual_prev": 73317.05,
         "completion": 12.5,
-        "mom_change": -6.3,
+        "mom_change": -16.8,
         "target_ready": true,
         "group_count": 4,
         "person_count": 9,
@@ -151,8 +151,8 @@
             "status": "在职"
           }
         ],
-        "yesterday_actual": 6260.69,
-        "daily_eff": 695.63,
+        "yesterday_actual": 0.0,
+        "daily_eff": 0.0,
         "monthly_eff": 6778.68
       },
       {
@@ -161,10 +161,10 @@
         "base_target": 210000,
         "stretch_target": 250000,
         "actual": 8399.05,
-        "actual_jul": 9663.75,
-        "actual_prev": 9663.75,
+        "actual_jul": 10038.75,
+        "actual_prev": 10038.75,
         "completion": 4.0,
-        "mom_change": -13.1,
+        "mom_change": -16.3,
         "target_ready": true,
         "group_count": 2,
         "person_count": 7,
@@ -179,8 +179,8 @@
             "status": "在职"
           }
         ],
-        "yesterday_actual": 809.06,
-        "daily_eff": 115.58,
+        "yesterday_actual": 0.0,
+        "daily_eff": 0.0,
         "monthly_eff": 1199.86
       },
       {
@@ -208,8 +208,8 @@
       }
     ],
     "data_through_day": 7,
-    "generated_at": "2026-11-08 22:30",
-    "expect_day": 7,
+    "generated_at": "2026-11-09 05:46",
+    "expect_day": 8,
     "dept_last_day": {
       "一部": 8,
       "二部": 7,
@@ -218,7 +218,13 @@
       "七部": 7,
       "宠元气友组": 7
     },
-    "pending_depts": []
+    "pending_depts": [
+      "二部",
+      "三部",
+      "六部",
+      "七部",
+      "宠元气友组"
+    ]
   },
   "targets_8_hist": [
     {
@@ -15399,6 +15405,9 @@
         "p": {
           "元气友缝纫机": -36.0
         }
+      },
+      "2026-11-09": {
+        "t": 0.0
       }
     },
     "二部": {
@@ -19345,6 +19354,9 @@
       },
       "2026-11-08": {
         "t": 0.0
+      },
+      "2026-11-09": {
+        "t": 0.0
       }
     },
     "三部": {
@@ -22886,6 +22898,9 @@
       },
       "2026-11-08": {
         "t": 0.0
+      },
+      "2026-11-09": {
+        "t": 0.0
       }
     },
     "七部": {
@@ -23177,6 +23192,9 @@
           "益生熊猫粮": 339.4,
           "益生熊维生素": 84.1
         }
+      },
+      "2026-11-09": {
+        "t": 0.0
       },
       "2026-10-10": {
         "t": 7952.94,
@@ -25930,6 +25948,9 @@
         }
       },
       "2026-11-08": {
+        "t": 0.0
+      },
+      "2026-11-09": {
         "t": 0.0
       }
     }
@@ -51877,6 +51898,15 @@
         "time": "2026/11/07"
       },
       {
+        "name": "王典典",
+        "post": "新媒体编辑",
+        "chushi": "是",
+        "fushi": "是",
+        "offer": "已接",
+        "days": 0,
+        "time": "2026/11/07"
+      },
+      {
         "name": "李铮",
         "post": "电商客服",
         "chushi": "是",
@@ -58956,15 +58986,6 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "未接",
-        "days": 0,
-        "time": "2026/09/01"
-      },
-      {
-        "name": "王红妍",
-        "post": "招聘专员",
-        "chushi": "是",
-        "fushi": "否",
-        "offer": "",
         "days": 0,
         "time": "2026/09/01"
       }
@@ -94177,7 +94198,7 @@
         "id": 153,
         "name": "招聘数据表",
         "expected": 5107,
-        "local": 5106,
+        "local": 5107,
         "state": "正常",
         "file": "_hr_ziliao153.json",
         "cat": "招聘",
@@ -94504,7 +94525,7 @@
         "fields": 25
       }
     ],
-    "time": "2026-11-08 22:30:11",
+    "time": "2026-11-09 05:45:18",
     "total": 40,
     "ok": 40,
     "bad": [],
@@ -94533,17 +94554,17 @@
       {
         "name": "王乐乐",
         "userId": "282431573129066955",
-        "top": "创新项目部",
+        "top": "绒光_Elite事业部",
         "tops": [
-          "创新项目部",
+          "绒光_Elite事业部",
           "渠道运营部",
-          "绒光_Elite事业部"
+          "创新项目部"
         ],
         "depts": [
-          "盈光_Elite事业部",
+          "绒光_Elite事业部",
           "星灿_Luck部",
           "曦跃_Win部",
-          "绒光_Elite事业部"
+          "盈光_Elite事业部"
         ],
         "master": "马欢",
         "labels": [
@@ -94559,8 +94580,8 @@
           "电商运营部"
         ],
         "depts": [
-          "电商运营部",
-          "电商一组"
+          "电商一组",
+          "电商运营部"
         ],
         "master": "马欢",
         "labels": [
@@ -94617,14 +94638,14 @@
       {
         "name": "马欢",
         "userId": "0130464665660425",
-        "top": "创新项目部",
+        "top": "渠道运营部",
         "tops": [
-          "创新项目部",
-          "渠道运营部"
+          "渠道运营部",
+          "创新项目部"
         ],
         "depts": [
-          "创新项目部",
-          "渠道运营部"
+          "渠道运营部",
+          "创新项目部"
         ],
         "master": "",
         "labels": [
@@ -94742,9 +94763,9 @@
           "创新项目部"
         ],
         "depts": [
-          "昭荣二部",
+          "慧晟三部",
           "盛视",
-          "慧晟三部"
+          "昭荣二部"
         ],
         "master": "王乐乐",
         "labels": [
@@ -94783,14 +94804,14 @@
       {
         "name": "朱思雨",
         "userId": "17931527918527982",
-        "top": "新星训练营",
+        "top": "组织效能中心",
         "tops": [
-          "新星训练营",
-          "组织效能中心"
+          "组织效能中心",
+          "新星训练营"
         ],
         "depts": [
-          "新星训练营",
-          "HRBP组"
+          "HRBP组",
+          "新星训练营"
         ],
         "master": "许志远",
         "labels": [],
@@ -94813,15 +94834,15 @@
       {
         "name": "王雨馨",
         "userId": "324124526729662347",
-        "top": "渠道运营部",
+        "top": "望辰_Crown事业部",
         "tops": [
-          "渠道运营部",
-          "望辰_Crown事业部"
+          "望辰_Crown事业部",
+          "渠道运营部"
         ],
         "depts": [
-          "商务部",
           "星辰一部",
           "望辰_Crown事业部",
+          "商务部",
           "星辰四部"
         ],
         "master": "马欢",
@@ -94997,14 +95018,14 @@
       {
         "name": "杨蓓蕾",
         "userId": "02206949614026527859",
-        "top": "组织效能中心",
+        "top": "新星训练营",
         "tops": [
-          "组织效能中心",
-          "新星训练营"
+          "新星训练营",
+          "组织效能中心"
         ],
         "depts": [
-          "HRBP组",
-          "新星训练营"
+          "新星训练营",
+          "HRBP组"
         ],
         "master": "许志远",
         "labels": [
@@ -95344,14 +95365,14 @@
       {
         "name": "罗思会",
         "userId": "01111427385632110644",
-        "top": "新星训练营",
+        "top": "组织效能中心",
         "tops": [
-          "新星训练营",
-          "组织效能中心"
+          "组织效能中心",
+          "新星训练营"
         ],
         "depts": [
-          "新星训练营",
-          "HRBP组"
+          "HRBP组",
+          "新星训练营"
         ],
         "master": "许志远",
         "labels": [
@@ -95425,8 +95446,8 @@
         ],
         "depts": [
           "业绩第一组",
-          "一组",
-          "晗盛六部"
+          "晗盛六部",
+          "一组"
         ],
         "master": "吴自齐",
         "labels": [
@@ -95451,14 +95472,14 @@
       {
         "name": "何佳倚",
         "userId": "035611665720167964",
-        "top": "电商运营部",
+        "top": "供应链管理中心",
         "tops": [
-          "电商运营部",
-          "供应链管理中心"
+          "供应链管理中心",
+          "电商运营部"
         ],
         "depts": [
-          "素材组",
-          "品牌部"
+          "品牌部",
+          "素材组"
         ],
         "master": "马欢",
         "labels": [
@@ -97042,14 +97063,14 @@
       {
         "name": "尧婕",
         "userId": "2045624923754446",
-        "top": "双启",
+        "top": "渠道运营部",
         "tops": [
-          "双启",
-          "渠道运营部"
+          "渠道运营部",
+          "双启"
         ],
         "depts": [
-          "TK直播组",
-          "渠道组"
+          "渠道组",
+          "TK直播组"
         ],
         "master": "",
         "labels": [
@@ -100011,16 +100032,16 @@
         "尧婕"
       ],
       "by_top": {
-        "绒光_Elite事业部": 61,
-        "新星训练营": 42,
-        "双启": 41,
-        "创新项目部": 36,
-        "望辰_Crown事业部": 36,
-        "组织效能中心": 31,
-        "电商运营部": 29,
+        "绒光_Elite事业部": 62,
+        "新星训练营": 41,
+        "双启": 40,
+        "望辰_Crown事业部": 37,
+        "创新项目部": 34,
+        "组织效能中心": 32,
+        "电商运营部": 28,
         "太乙品牌运营中心": 24,
-        "供应链管理中心": 12,
-        "渠道运营部": 12,
+        "渠道运营部": 13,
+        "供应链管理中心": 13,
         "(未挂靠)": 1
       },
       "by_label": {
@@ -111860,8 +111881,8 @@
         "post": "新媒体编辑",
         "level": "P1-P3",
         "need": 1.0,
-        "interview": 1.0,
-        "offer": 1.0,
+        "interview": 2.0,
+        "offer": 2.0,
         "arrive": 1.0,
         "status": "已完成",
         "urgency": "a",
@@ -111871,7 +111892,7 @@
         "deadline": "2026/11/30",
         "salary": "4000-4500",
         "progress": 1.0,
-        "pass": 1.0
+        "pass": 2.0
       },
       {
         "no": "ZH2611089",
@@ -114877,8 +114898,8 @@
     "stat": {
       "total": 742,
       "need_total": 742.0,
-      "interview_total": 1538.0,
-      "offer_total": 628.0,
+      "interview_total": 1539.0,
+      "offer_total": 629.0,
       "arrive_total": 450.0,
       "gap": 292.0,
       "fill_rate": 60.65,
@@ -129347,11 +129368,6 @@
         "humingce_top": "创新项目部"
       },
       {
-        "name": "何佳倚",
-        "dingtalk_top": "电商运营部",
-        "humingce_top": "供应链管理中心"
-      },
-      {
         "name": "余永强",
         "dingtalk_top": "新星训练营",
         "humingce_top": "创新项目部"
@@ -129597,11 +129613,6 @@
         "humingce_top": "绒光-Elite事业部"
       },
       {
-        "name": "朱思雨",
-        "dingtalk_top": "新星训练营",
-        "humingce_top": "组织效能中心"
-      },
-      {
         "name": "朱萌萌",
         "dingtalk_top": "绒光_Elite事业部",
         "humingce_top": "绒光-Elite事业部"
@@ -129619,6 +129630,16 @@
       {
         "name": "李春利",
         "dingtalk_top": "绒光_Elite事业部",
+        "humingce_top": "绒光-Elite事业部"
+      },
+      {
+        "name": "李晓乐",
+        "dingtalk_top": "绒光_Elite事业部",
+        "humingce_top": "绒光-Elite事业部"
+      },
+      {
+        "name": "李泽",
+        "dingtalk_top": "新星训练营",
         "humingce_top": "绒光-Elite事业部"
       }
     ],
