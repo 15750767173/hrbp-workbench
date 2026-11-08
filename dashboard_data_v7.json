@@ -208,7 +208,7 @@
       }
     ],
     "data_through_day": 7,
-    "generated_at": "2026-11-08 19:15",
+    "generated_at": "2026-11-08 20:30",
     "expect_day": 7,
     "dept_last_day": {
       "一部": 8,
@@ -82451,7 +82451,7 @@
   },
   "prod_split_src": {
     "一部": {
-      "file": "_jf_yibu.json",
+      "file": "_xc_jfdet_yibu.json",
       "kind": "detail",
       "records": 1400,
       "kept": 15,
@@ -94204,7 +94204,7 @@
         "id": 187,
         "name": "一部积分表",
         "expected": 1400,
-        "local": 1399,
+        "local": 1400,
         "state": "正常",
         "file": "_xc_jfdet_yibu.json",
         "cat": "积分明细",
@@ -94214,7 +94214,7 @@
         "id": 188,
         "name": "一部月度积分统计表",
         "expected": 107,
-        "local": 106,
+        "local": 107,
         "state": "正常",
         "file": "_xc_jf_yibu.json",
         "cat": "积分月度",
@@ -94501,7 +94501,7 @@
         "fields": 25
       }
     ],
-    "time": "2026-11-08 19:15:09",
+    "time": "2026-11-08 20:30:10",
     "total": 40,
     "ok": 40,
     "bad": [],
