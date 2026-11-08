@@ -208,7 +208,7 @@
       }
     ],
     "data_through_day": 7,
-    "generated_at": "2026-11-08 17:31",
+    "generated_at": "2026-11-08 18:30",
     "expect_day": 7,
     "dept_last_day": {
       "一部": 7,
@@ -82448,9 +82448,9 @@
   },
   "prod_split_src": {
     "一部": {
-      "file": "_xc_jfdet_yibu.json",
+      "file": "_jf_yibu.json",
       "kind": "detail",
-      "records": 1399,
+      "records": 1400,
       "kept": 14,
       "det_person": {
         "张甜静": 0.0,
@@ -94200,7 +94200,7 @@
       {
         "id": 187,
         "name": "一部积分表",
-        "expected": 1399,
+        "expected": 1400,
         "local": 1399,
         "state": "正常",
         "file": "_xc_jfdet_yibu.json",
@@ -94498,12 +94498,12 @@
         "fields": 25
       }
     ],
-    "time": "2026-11-08 17:30:20",
+    "time": "2026-11-08 18:30:07",
     "total": 40,
     "ok": 40,
     "bad": [],
     "bad_names": [],
-    "records_total": 20411,
+    "records_total": 20412,
     "by_cat": {
       "HR流程": 2,
       "产品人员": 2,
