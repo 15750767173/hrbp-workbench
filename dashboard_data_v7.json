@@ -218,7 +218,7 @@
       }
     ],
     "data_through_day": 8,
-    "generated_at": "2026-11-09 18:05",
+    "generated_at": "2026-11-09 18:09",
     "expect_day": 8,
     "dept_last_day": {
       "一部": 9,
@@ -95892,6 +95892,19 @@
       "组织架构": 1,
       "花名册": 1,
       "试岗跟进": 1
+    },
+    "full_pull": {
+      "ok": true,
+      "last_at": "2026-11-09 18:05:52",
+      "age_h": 0.1,
+      "today_count": 1,
+      "daily": {
+        "2026-11-09": 1
+      },
+      "runs": 1,
+      "fail_streak": 0,
+      "gap_h": 8,
+      "note": "最近一次全量 2026-11-09 18:05:52（0.1 小时前）· 今日已完成 1 轮"
     }
   },
   "dingtalk_org": {
