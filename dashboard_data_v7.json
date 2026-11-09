@@ -208,7 +208,7 @@
       }
     ],
     "data_through_day": 8,
-    "generated_at": "2026-11-09 16:15",
+    "generated_at": "2026-11-09 16:30",
     "expect_day": 8,
     "dept_last_day": {
       "一部": 8,
@@ -25989,7 +25989,7 @@
         "hire_date": "2025/10/13",
         "regular_date": "2025/12/01",
         "enter_date": "2026/06/23",
-        "cycle": 138,
+        "cycle": 139,
         "remark": null,
         "archive": "https://www.kdocs.cn/l/cmxwju14cmR6"
       },
@@ -26000,7 +26000,7 @@
         "hire_date": "2025/12/01",
         "regular_date": "2026/03/01",
         "enter_date": "2026/06/15",
-        "cycle": 146,
+        "cycle": 147,
         "remark": "晋升P3",
         "archive": "https://www.kdocs.cn/l/calHklCbEVuH"
       },
@@ -26011,7 +26011,7 @@
         "hire_date": "2026/03/09",
         "regular_date": "2026/06/01",
         "enter_date": "2026/08/13",
-        "cycle": 87,
+        "cycle": 88,
         "remark": null,
         "archive": "https://www.kdocs.cn/l/ckEQX3ram1mc"
       },
@@ -26022,7 +26022,7 @@
         "hire_date": "2026/05/14",
         "regular_date": "2026/07/01",
         "enter_date": "2026/06/01",
-        "cycle": 160,
+        "cycle": 161,
         "remark": "转正晋升P2",
         "archive": "https://www.kdocs.cn/l/cgjxO0NmcVfM"
       },
@@ -26033,7 +26033,7 @@
         "hire_date": "2026/04/07",
         "regular_date": "2026/07/01",
         "enter_date": "2026/06/24",
-        "cycle": 137,
+        "cycle": 138,
         "remark": null,
         "archive": "https://www.kdocs.cn/l/cqiMDCfLHEm3"
       },
@@ -26044,7 +26044,7 @@
         "hire_date": "2025/01/13",
         "regular_date": "2025/04/01",
         "enter_date": "2026/06/23",
-        "cycle": 138,
+        "cycle": 139,
         "remark": null,
         "archive": "https://www.kdocs.cn/l/cbZne775mKwg"
       },
@@ -26055,7 +26055,7 @@
         "hire_date": "2025/11/24",
         "regular_date": "2026/02/01",
         "enter_date": "2026/04/20",
-        "cycle": 202,
+        "cycle": 203,
         "remark": null,
         "archive": "https://www.kdocs.cn/l/cuN5obvpltDW"
       },
@@ -26066,7 +26066,7 @@
         "hire_date": "2025/12/29",
         "regular_date": "2026/06/01",
         "enter_date": "2026/05/01",
-        "cycle": 191,
+        "cycle": 192,
         "remark": null,
         "archive": "https://www.kdocs.cn/l/csDwcjiyWZ9c"
       },
@@ -26077,7 +26077,7 @@
         "hire_date": "2025/06/16",
         "regular_date": "2025/12/01",
         "enter_date": "2026/06/23",
-        "cycle": 138,
+        "cycle": 139,
         "remark": null,
         "archive": "https://www.kdocs.cn/l/clkFajnw7gEo"
       },
@@ -26088,7 +26088,7 @@
         "hire_date": "2025/12/05",
         "regular_date": "2026/03/01",
         "enter_date": "2026/06/23",
-        "cycle": 138,
+        "cycle": 139,
         "remark": "晋升P3\n2026.11.7变回潜力",
         "archive": "https://www.kdocs.cn/l/ckTV3AdHQfXO"
       },
@@ -26099,7 +26099,7 @@
         "hire_date": "2025/04/24",
         "regular_date": "2025/10/01",
         "enter_date": "2026/06/23",
-        "cycle": 138,
+        "cycle": 139,
         "remark": null,
         "archive": "https://www.kdocs.cn/l/cu49qj6ZWqx8"
       },
@@ -26110,7 +26110,7 @@
         "hire_date": "2025/05/15",
         "regular_date": "2025/08/11",
         "enter_date": "2026/06/23",
-        "cycle": 138,
+        "cycle": 139,
         "remark": null,
         "archive": "https://www.kdocs.cn/l/cdPoRVH8LkcT"
       },
@@ -26121,7 +26121,7 @@
         "hire_date": "2025/08/18",
         "regular_date": "2025/12/01",
         "enter_date": "2026/06/23",
-        "cycle": 138,
+        "cycle": 139,
         "remark": null,
         "archive": "https://www.kdocs.cn/l/cobTJqSzOi8B"
       },
@@ -26132,7 +26132,7 @@
         "hire_date": "2025/03/20",
         "regular_date": "2025/05/01",
         "enter_date": "2026/06/20",
-        "cycle": 141,
+        "cycle": 142,
         "remark": null,
         "archive": "https://www.kdocs.cn/l/cgxLRB5Zfrf4"
       },
@@ -26143,7 +26143,7 @@
         "hire_date": "2026/11/05",
         "regular_date": "",
         "enter_date": "2026/05/21",
-        "cycle": 171,
+        "cycle": 172,
         "remark": null,
         "archive": "https://www.kdocs.cn/l/ct8yDSr0b3qD"
       },
@@ -26154,7 +26154,7 @@
         "hire_date": "2025/06/24",
         "regular_date": "2025/08/01",
         "enter_date": "2026/07/02",
-        "cycle": 129,
+        "cycle": 130,
         "remark": null,
         "archive": "https://www.kdocs.cn/l/clCPjz9UJNtQ"
       },
@@ -26165,7 +26165,7 @@
         "hire_date": "2026/05/18",
         "regular_date": "2026/09/01",
         "enter_date": "2026/08/12",
-        "cycle": 88,
+        "cycle": 89,
         "remark": null,
         "archive": "https://www.kdocs.cn/l/ciFjxmmkZRAf"
       },
@@ -26176,7 +26176,7 @@
         "hire_date": "2026/06/12",
         "regular_date": "",
         "enter_date": "2026/08/14",
-        "cycle": 86,
+        "cycle": 87,
         "remark": null,
         "archive": "https://www.kdocs.cn/l/cfUHJvy9IGAC"
       },
@@ -26187,7 +26187,7 @@
         "hire_date": "2026/07/08",
         "regular_date": "2026/10/01",
         "enter_date": "2026/09/08",
-        "cycle": 61,
+        "cycle": 62,
         "remark": null,
         "archive": "https://www.kdocs.cn/l/cuG3gNzntJmO"
       },
@@ -26198,7 +26198,7 @@
         "hire_date": "2026/04/27",
         "regular_date": "2026/09/01",
         "enter_date": "2026/08/13",
-        "cycle": 87,
+        "cycle": 88,
         "remark": null,
         "archive": "https://www.kdocs.cn/l/cli9R4E2NuMo"
       },
@@ -26209,7 +26209,7 @@
         "hire_date": "2026/05/29",
         "regular_date": "2026/09/01",
         "enter_date": "2026/08/15",
-        "cycle": 85,
+        "cycle": 86,
         "remark": null,
         "archive": "https://www.kdocs.cn/l/cfy43BcJN8Es"
       },
@@ -26220,7 +26220,7 @@
         "hire_date": "2026/07/22",
         "regular_date": "",
         "enter_date": "2026/09/08",
-        "cycle": 61,
+        "cycle": 62,
         "remark": null,
         "archive": "https://www.kdocs.cn/l/clvQwoBydhdE"
       },
@@ -26231,7 +26231,7 @@
         "hire_date": "2026/03/02",
         "regular_date": "2026/06/01",
         "enter_date": "2026/09/08",
-        "cycle": 61,
+        "cycle": 62,
         "remark": null,
         "archive": "https://www.kdocs.cn/l/cvow4syfObUc"
       },
@@ -26242,7 +26242,7 @@
         "hire_date": "2026/07/30",
         "regular_date": "",
         "enter_date": "",
-        "cycle": 46334,
+        "cycle": 46335,
         "remark": null,
         "archive": "https://www.kdocs.cn/l/clNzHsNNlPop"
       },
@@ -26253,7 +26253,7 @@
         "hire_date": "2026/07/15",
         "regular_date": "2026/10/01",
         "enter_date": "2026/11/07",
-        "cycle": 1,
+        "cycle": 2,
         "remark": null,
         "archive": ""
       },
@@ -26264,7 +26264,7 @@
         "hire_date": "2026/08/06",
         "regular_date": "",
         "enter_date": "2026/11/07",
-        "cycle": 1,
+        "cycle": 2,
         "remark": null,
         "archive": ""
       },
@@ -26275,7 +26275,7 @@
         "hire_date": "2026/09/21",
         "regular_date": "",
         "enter_date": "2026/11/07",
-        "cycle": 1,
+        "cycle": 2,
         "remark": null,
         "archive": ""
       },
@@ -26286,7 +26286,7 @@
         "hire_date": "2026/07/20",
         "regular_date": "2026/09/01",
         "enter_date": "2026/11/07",
-        "cycle": 1,
+        "cycle": 2,
         "remark": null,
         "archive": ""
       },
@@ -26297,7 +26297,7 @@
         "hire_date": "2026/08/28",
         "regular_date": "",
         "enter_date": "2026/11/07",
-        "cycle": 1,
+        "cycle": 2,
         "remark": null,
         "archive": ""
       }
@@ -67669,7 +67669,7 @@
       },
       "虎太郎化毛片": {
         "王小雨": {
-          "net": 0.0,
+          "net": 707.27,
           "jf": 0.0,
           "group": "四组",
           "n": 3
@@ -68444,7 +68444,7 @@
         },
         "虎太郎化毛片": {
           "王小雨": {
-            "net": 0.0,
+            "net": 707.27,
             "jf": 0.0,
             "group": "四组",
             "n": 3
@@ -72750,7 +72750,7 @@
               "g": "四组",
               "s": 8.5476,
               "jf": 0.0,
-              "net": 0.0,
+              "net": 707.27,
               "c": 3
             }
           ]
@@ -83124,7 +83124,7 @@
   },
   "prod_split_src": {
     "一部": {
-      "file": "_jf_yibu.json",
+      "file": "_xc_jfdet_yibu.json",
       "kind": "detail",
       "records": 1412,
       "kept": 31,
@@ -83168,7 +83168,7 @@
       }
     },
     "六部": {
-      "file": "_jf_liubu.json",
+      "file": "_xc_jfdet_liubu.json",
       "kind": "detail",
       "records": 232,
       "kept": 14,
@@ -83183,7 +83183,7 @@
     "七部": {
       "file": "_xc_jfdet_qibu.json",
       "kind": "detail",
-      "records": 420,
+      "records": 379,
       "kept": 20,
       "det_person": {
         "李春利": 3.8678,
@@ -83216,9 +83216,9 @@
   },
   "monthly_jf": {
     "一部": {
-      "吴璐阳": 86.0,
       "汪燕姿": 23.0,
       "朱叶杰": 0.0,
+      "吴璐阳": 0.0,
       "王馨毅": 0.0,
       "王硕硕": 0.0,
       "张甜静": 0.0,
@@ -83265,10 +83265,8 @@
     }
   },
   "jf_xcheck": {
-    "ok": false,
-    "notes": [
-      "一部(1人差异): 吴璐阳 月度86.0 vs 明细0.0"
-    ],
+    "ok": true,
+    "notes": [],
     "fallback": [
       "六部: 月度统计表（_xc_jf_liubu.json）无「业绩积分」列 → 跳过逐人印证，该部数值改用明细表复算（5 人）",
       "八部/王静: 月度表「业绩积分」为公式列（取数=0），明细复算 38.9 ≡ 该行其它数值字段（[14.0, 38.89, 3889.5]）→ 非数据不一致"
@@ -94866,7 +94864,7 @@
       {
         "id": 134,
         "name": "BP工作进度表",
-        "expected": 841,
+        "expected": 842,
         "local": 824,
         "state": "正常",
         "file": "_hr_bp.json",
@@ -94906,7 +94904,7 @@
       {
         "id": 153,
         "name": "招聘数据表",
-        "expected": 5121,
+        "expected": 5126,
         "local": 5107,
         "state": "正常",
         "file": "_hr_ziliao153.json",
@@ -94937,7 +94935,7 @@
         "id": 187,
         "name": "一部积分表",
         "expected": 1412,
-        "local": 1411,
+        "local": 1412,
         "state": "正常",
         "file": "_xc_jfdet_yibu.json",
         "cat": "积分明细",
@@ -94947,7 +94945,7 @@
         "id": 188,
         "name": "一部月度积分统计表",
         "expected": 108,
-        "local": 107,
+        "local": 108,
         "state": "正常",
         "file": "_xc_jf_yibu.json",
         "cat": "积分月度",
@@ -94977,7 +94975,7 @@
         "id": 197,
         "name": "七部积分表",
         "expected": 379,
-        "local": 420,
+        "local": 379,
         "state": "正常",
         "file": "_xc_jfdet_qibu.json",
         "cat": "积分明细",
@@ -94987,7 +94985,7 @@
         "id": 198,
         "name": "七部月度积分统计表",
         "expected": 36,
-        "local": 39,
+        "local": 36,
         "state": "正常",
         "file": "_xc_jf_qibu.json",
         "cat": "积分月度",
@@ -95097,7 +95095,7 @@
         "id": 216,
         "name": "六部积分表",
         "expected": 232,
-        "local": 228,
+        "local": 232,
         "state": "正常",
         "file": "_xc_jfdet_liubu.json",
         "cat": "积分明细",
@@ -95107,7 +95105,7 @@
         "id": 217,
         "name": "六部月度积分统计表",
         "expected": 44,
-        "local": 42,
+        "local": 44,
         "state": "正常",
         "file": "_xc_jf_liubu.json",
         "cat": "积分月度",
@@ -95216,7 +95214,7 @@
       {
         "id": 228,
         "name": "招聘数据表(2)",
-        "expected": 5121,
+        "expected": 5126,
         "local": 5117,
         "state": "正常",
         "file": "_ex_228.json",
@@ -95234,12 +95232,12 @@
         "fields": 25
       }
     ],
-    "time": "2026-11-09 16:15:11",
+    "time": "2026-11-09 16:30:08",
     "total": 40,
     "ok": 40,
     "bad": [],
     "bad_names": [],
-    "records_total": 20531,
+    "records_total": 20542,
     "by_cat": {
       "HR流程": 2,
       "产品人员": 2,
