@@ -165,11 +165,11 @@
         "leader": "陈华锋",
         "base_target": 210000,
         "stretch_target": 250000,
-        "actual": 8963.44,
+        "actual": 8809.44,
         "actual_jul": 10038.75,
         "actual_prev": 10038.75,
-        "completion": 4.3,
-        "mom_change": -10.7,
+        "completion": 4.2,
+        "mom_change": -12.2,
         "target_ready": true,
         "group_count": 2,
         "person_count": 7,
@@ -191,7 +191,7 @@
         ],
         "yesterday_actual": 872.39,
         "daily_eff": 109.05,
-        "monthly_eff": 1120.43
+        "monthly_eff": 1101.18
       },
       {
         "name": "八部",
@@ -218,7 +218,7 @@
       }
     ],
     "data_through_day": 8,
-    "generated_at": "2026-11-09 18:15",
+    "generated_at": "2026-11-09 18:45",
     "expect_day": 8,
     "dept_last_day": {
       "一部": 9,
@@ -12009,7 +12009,7 @@
         "元气友猫粮": 7374.1
       },
       "2026-11": {
-        "元气友猫粮": 1397.0399999999995,
+        "元气友猫粮": 1243.0399999999995,
         "元气友维生素": 7566.400000000001
       }
     }
@@ -25999,9 +25999,9 @@
         }
       },
       "2026-11-07": {
-        "t": 809.06,
+        "t": 655.06,
         "p": {
-          "元气友猫粮": 74.0,
+          "元气友猫粮": -80.0,
           "元气友维生素": 735.06
         }
       },
@@ -95542,7 +95542,7 @@
       {
         "id": 153,
         "name": "招聘数据表",
-        "expected": 5148,
+        "expected": 5151,
         "local": 5143,
         "state": "正常",
         "file": "_hr_ziliao153.json",
@@ -95852,7 +95852,7 @@
       {
         "id": 228,
         "name": "招聘数据表(2)",
-        "expected": 5148,
+        "expected": 5151,
         "local": 5143,
         "state": "正常",
         "file": "_ex_228.json",
@@ -95862,7 +95862,7 @@
       {
         "id": 229,
         "name": "需求总表",
-        "expected": 743,
+        "expected": 745,
         "local": 743,
         "state": "正常",
         "file": "_ex_229.json",
@@ -95870,12 +95870,12 @@
         "fields": 25
       }
     ],
-    "time": "2026-11-09 18:15:08",
+    "time": "2026-11-09 18:45:08",
     "total": 40,
     "ok": 40,
     "bad": [],
     "bad_names": [],
-    "records_total": 20596,
+    "records_total": 20604,
     "by_cat": {
       "HR流程": 2,
       "产品人员": 2,
@@ -95896,7 +95896,7 @@
     "full_pull": {
       "ok": true,
       "last_at": "2026-11-09 18:05:52",
-      "age_h": 0.2,
+      "age_h": 0.7,
       "today_count": 1,
       "daily": {
         "2026-11-09": 1
@@ -95904,7 +95904,7 @@
       "runs": 1,
       "fail_streak": 0,
       "gap_h": 8,
-      "note": "最近一次全量 2026-11-09 18:05:52（0.2 小时前）· 今日已完成 1 轮"
+      "note": "最近一次全量 2026-11-09 18:05:52（0.7 小时前）· 今日已完成 1 轮"
     }
   },
   "dingtalk_org": {
