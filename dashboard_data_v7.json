@@ -218,7 +218,7 @@
       }
     ],
     "data_through_day": 8,
-    "generated_at": "2026-11-09 20:30",
+    "generated_at": "2026-11-09 22:30",
     "expect_day": 8,
     "dept_last_day": {
       "一部": 9,
@@ -95505,7 +95505,7 @@
       {
         "id": 134,
         "name": "BP工作进度表",
-        "expected": 849,
+        "expected": 850,
         "local": 846,
         "state": "正常",
         "file": "_hr_bp.json",
@@ -95515,7 +95515,7 @@
       {
         "id": 137,
         "name": "面谈记录表",
-        "expected": 475,
+        "expected": 476,
         "local": 475,
         "state": "正常",
         "file": "_hr_miantan.json",
@@ -95873,12 +95873,12 @@
         "fields": 25
       }
     ],
-    "time": "2026-11-09 20:30:09",
+    "time": "2026-11-09 22:30:09",
     "total": 40,
     "ok": 40,
     "bad": [],
     "bad_names": [],
-    "records_total": 20621,
+    "records_total": 20623,
     "by_cat": {
       "HR流程": 2,
       "产品人员": 2,
@@ -95899,7 +95899,7 @@
     "full_pull": {
       "ok": true,
       "last_at": "2026-11-09 18:05:52",
-      "age_h": 2.4,
+      "age_h": 4.4,
       "today_count": 1,
       "daily": {
         "2026-11-09": 1
@@ -95907,7 +95907,7 @@
       "runs": 1,
       "fail_streak": 0,
       "gap_h": 8,
-      "note": "最近一次全量 2026-11-09 18:05:52（2.4 小时前）· 今日已完成 1 轮"
+      "note": "最近一次全量 2026-11-09 18:05:52（4.4 小时前）· 今日已完成 1 轮"
     }
   },
   "dingtalk_org": {
