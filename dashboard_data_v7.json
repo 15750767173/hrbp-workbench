@@ -218,7 +218,7 @@
       }
     ],
     "data_through_day": 8,
-    "generated_at": "2026-11-09 18:09",
+    "generated_at": "2026-11-09 18:15",
     "expect_day": 8,
     "dept_last_day": {
       "一部": 9,
@@ -95542,7 +95542,7 @@
       {
         "id": 153,
         "name": "招聘数据表",
-        "expected": 5143,
+        "expected": 5148,
         "local": 5143,
         "state": "正常",
         "file": "_hr_ziliao153.json",
@@ -95852,7 +95852,7 @@
       {
         "id": 228,
         "name": "招聘数据表(2)",
-        "expected": 5143,
+        "expected": 5148,
         "local": 5143,
         "state": "正常",
         "file": "_ex_228.json",
@@ -95870,12 +95870,12 @@
         "fields": 25
       }
     ],
-    "time": "2026-11-09 18:04:33",
+    "time": "2026-11-09 18:15:08",
     "total": 40,
     "ok": 40,
     "bad": [],
     "bad_names": [],
-    "records_total": 20586,
+    "records_total": 20596,
     "by_cat": {
       "HR流程": 2,
       "产品人员": 2,
@@ -95896,7 +95896,7 @@
     "full_pull": {
       "ok": true,
       "last_at": "2026-11-09 18:05:52",
-      "age_h": 0.1,
+      "age_h": 0.2,
       "today_count": 1,
       "daily": {
         "2026-11-09": 1
@@ -95904,7 +95904,7 @@
       "runs": 1,
       "fail_streak": 0,
       "gap_h": 8,
-      "note": "最近一次全量 2026-11-09 18:05:52（0.1 小时前）· 今日已完成 1 轮"
+      "note": "最近一次全量 2026-11-09 18:05:52（0.2 小时前）· 今日已完成 1 轮"
     }
   },
   "dingtalk_org": {
