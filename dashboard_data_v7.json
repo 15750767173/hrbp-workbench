@@ -160,11 +160,11 @@
         "leader": "陈华锋",
         "base_target": 210000,
         "stretch_target": 250000,
-        "actual": 9271.44,
+        "actual": 8963.44,
         "actual_jul": 10038.75,
         "actual_prev": 10038.75,
-        "completion": 4.4,
-        "mom_change": -7.6,
+        "completion": 4.3,
+        "mom_change": -10.7,
         "target_ready": true,
         "group_count": 2,
         "person_count": 7,
@@ -181,7 +181,7 @@
         ],
         "yesterday_actual": 872.39,
         "daily_eff": 124.63,
-        "monthly_eff": 1324.49
+        "monthly_eff": 1280.49
       },
       {
         "name": "八部",
@@ -208,7 +208,7 @@
       }
     ],
     "data_through_day": 8,
-    "generated_at": "2026-11-09 16:30",
+    "generated_at": "2026-11-09 16:45",
     "expect_day": 8,
     "dept_last_day": {
       "一部": 8,
@@ -11975,7 +11975,7 @@
         "元气友猫粮": 7374.1
       },
       "2026-11": {
-        "元气友猫粮": 1705.0399999999995,
+        "元气友猫粮": 1397.0399999999995,
         "元气友维生素": 7566.400000000001
       }
     }
@@ -25955,9 +25955,9 @@
         }
       },
       "2026-11-06": {
-        "t": 1449.0,
+        "t": 1141.0,
         "p": {
-          "元气友猫粮": 541.0,
+          "元气友猫粮": 233.0,
           "元气友维生素": 908.0
         }
       },
@@ -94864,7 +94864,7 @@
       {
         "id": 134,
         "name": "BP工作进度表",
-        "expected": 842,
+        "expected": 846,
         "local": 824,
         "state": "正常",
         "file": "_hr_bp.json",
@@ -94904,7 +94904,7 @@
       {
         "id": 153,
         "name": "招聘数据表",
-        "expected": 5126,
+        "expected": 5127,
         "local": 5107,
         "state": "正常",
         "file": "_hr_ziliao153.json",
@@ -95214,7 +95214,7 @@
       {
         "id": 228,
         "name": "招聘数据表(2)",
-        "expected": 5126,
+        "expected": 5127,
         "local": 5117,
         "state": "正常",
         "file": "_ex_228.json",
@@ -95232,12 +95232,12 @@
         "fields": 25
       }
     ],
-    "time": "2026-11-09 16:30:08",
+    "time": "2026-11-09 16:45:08",
     "total": 40,
     "ok": 40,
     "bad": [],
     "bad_names": [],
-    "records_total": 20542,
+    "records_total": 20548,
     "by_cat": {
       "HR流程": 2,
       "产品人员": 2,
