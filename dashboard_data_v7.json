@@ -213,7 +213,7 @@
       }
     ],
     "data_through_day": 9,
-    "generated_at": "2026-11-10 12:45",
+    "generated_at": "2026-11-10 14:15",
     "expect_day": 9,
     "dept_last_day": {
       "一部": 9,
@@ -95336,7 +95336,7 @@
       {
         "id": 134,
         "name": "BP工作进度表",
-        "expected": 872,
+        "expected": 873,
         "local": 872,
         "state": "正常",
         "file": "_hr_bp.json",
@@ -95346,7 +95346,7 @@
       {
         "id": 137,
         "name": "面谈记录表",
-        "expected": 478,
+        "expected": 479,
         "local": 477,
         "state": "正常",
         "file": "_hr_miantan.json",
@@ -95646,7 +95646,7 @@
       {
         "id": 224,
         "name": "八部积分表",
-        "expected": 29,
+        "expected": 28,
         "local": 29,
         "state": "正常",
         "file": "_xc_jfdet_babu.json",
@@ -95656,7 +95656,7 @@
       {
         "id": 225,
         "name": "八部月度积分统计表",
-        "expected": 7,
+        "expected": 6,
         "local": 7,
         "state": "正常",
         "file": "_xc_jf_babu.json",
@@ -95704,7 +95704,7 @@
         "fields": 25
       }
     ],
-    "time": "2026-11-10 12:45:12",
+    "time": "2026-11-10 14:15:08",
     "total": 40,
     "ok": 40,
     "bad": [],
@@ -95730,7 +95730,7 @@
     "full_pull": {
       "ok": true,
       "last_at": "2026-11-10 10:36:29",
-      "age_h": 2.2,
+      "age_h": 3.6,
       "today_count": 2,
       "daily": {
         "2026-11-09": 1,
@@ -95739,7 +95739,7 @@
       "runs": 3,
       "fail_streak": 0,
       "gap_h": 8,
-      "note": "最近一次全量 2026-11-10 10:36:29（2.2 小时前）· 今日已完成 2 轮"
+      "note": "最近一次全量 2026-11-10 10:36:29（3.6 小时前）· 今日已完成 2 轮"
     }
   },
   "dingtalk_org": {
