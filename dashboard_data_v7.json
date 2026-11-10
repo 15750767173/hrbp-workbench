@@ -213,7 +213,7 @@
       }
     ],
     "data_through_day": 9,
-    "generated_at": "2026-11-10 16:15",
+    "generated_at": "2026-11-10 16:45",
     "expect_day": 9,
     "dept_last_day": {
       "一部": 9,
@@ -5030,9 +5030,9 @@
           "name": "张梦歌",
           "product": "映鹿维生素",
           "group_base": 130000,
-          "group_stretch": 150000,
+          "group_stretch": 160000,
           "person_base": 50000,
-          "person_stretch": 50000,
+          "person_stretch": 60000,
           "actual": 0,
           "daily_keys": [],
           "actual_jul": 0,
@@ -5268,14 +5268,14 @@
             {
               "name": "映鹿乳化鱼油+映鹿维生素",
               "base_target": 130000,
-              "stretch_target": 150000,
+              "stretch_target": 160000,
               "actual": 0,
               "daily_keys": [],
               "actual_jul": 0
             }
           ],
           "base_target": 130000,
-          "stretch_target": 150000,
+          "stretch_target": 160000,
           "actual": 0
         },
         {
@@ -10678,7 +10678,7 @@
       },
       "三部": {
         "base": 345000.0,
-        "stretch": 410000.0
+        "stretch": 420000.0
       },
       "六部": {
         "base": 490000.0,
@@ -68274,7 +68274,7 @@
           "net": 0.0,
           "jf": 0.0,
           "group": "百货一组",
-          "n": 17
+          "n": 18
         }
       },
       "uiko维生素": {
@@ -69005,7 +69005,7 @@
             "net": 0.0,
             "jf": 0.0,
             "group": "百货一组",
-            "n": 17
+            "n": 18
           }
         },
         "uiko维生素": {
@@ -72985,7 +72985,7 @@
               "s": 44.735,
               "jf": 0.0,
               "net": 0.0,
-              "c": 17
+              "c": 18
             },
             {
               "n": "张吉祥",
@@ -83592,10 +83592,10 @@
   },
   "prod_split_src": {
     "一部": {
-      "file": "_xc_jfdet_yibu.json",
+      "file": "_jf_yibu.json",
       "kind": "detail",
-      "records": 1419,
-      "kept": 36,
+      "records": 1420,
+      "kept": 37,
       "det_person": {
         "张甜静": 0.0,
         "王馨毅": 2.0997,
@@ -95400,7 +95400,7 @@
       {
         "id": 153,
         "name": "招聘数据表",
-        "expected": 5160,
+        "expected": 5167,
         "local": 5155,
         "state": "正常",
         "file": "_hr_ziliao153.json",
@@ -95430,7 +95430,7 @@
       {
         "id": 187,
         "name": "一部积分表",
-        "expected": 1419,
+        "expected": 1420,
         "local": 1419,
         "state": "正常",
         "file": "_xc_jfdet_yibu.json",
@@ -95710,7 +95710,7 @@
       {
         "id": 228,
         "name": "招聘数据表(2)",
-        "expected": 5160,
+        "expected": 5167,
         "local": 5150,
         "state": "正常",
         "file": "_ex_228.json",
@@ -95728,12 +95728,12 @@
         "fields": 25
       }
     ],
-    "time": "2026-11-10 16:15:10",
+    "time": "2026-11-10 16:45:09",
     "total": 40,
     "ok": 40,
     "bad": [],
     "bad_names": [],
-    "records_total": 20672,
+    "records_total": 20687,
     "by_cat": {
       "HR流程": 2,
       "产品人员": 2,
@@ -95754,7 +95754,7 @@
     "full_pull": {
       "ok": true,
       "last_at": "2026-11-10 10:36:29",
-      "age_h": 5.6,
+      "age_h": 6.1,
       "today_count": 2,
       "daily": {
         "2026-11-09": 1,
@@ -95763,7 +95763,7 @@
       "runs": 3,
       "fail_streak": 0,
       "gap_h": 8,
-      "note": "最近一次全量 2026-11-10 10:36:29（5.6 小时前）· 今日已完成 2 轮"
+      "note": "最近一次全量 2026-11-10 10:36:29（6.1 小时前）· 今日已完成 2 轮"
     }
   },
   "dingtalk_org": {
