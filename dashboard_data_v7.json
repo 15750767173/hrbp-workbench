@@ -208,7 +208,7 @@
       }
     ],
     "data_through_day": 10,
-    "generated_at": "2026-11-11 20:15",
+    "generated_at": "2026-11-11 21:45",
     "expect_day": 10,
     "dept_last_day": {
       "一部": 10,
@@ -72544,7 +72544,7 @@
             "n": 12
           },
           "韦向前": {
-            "net": 15760.039999999997,
+            "net": 15760.039999999999,
             "jf": 157.60039999999995,
             "group": "一组",
             "n": 24
@@ -72564,7 +72564,7 @@
             "n": 12
           },
           "韦向前": {
-            "net": 15760.039999999997,
+            "net": 15760.039999999999,
             "jf": 157.60039999999995,
             "group": "一组",
             "n": 24
@@ -84581,7 +84581,7 @@
       }
     },
     "三部": {
-      "file": "_jf_sanbu.json",
+      "file": "_xc_jfdet_sanbu.json",
       "kind": "detail",
       "records": 216,
       "kept": 6,
@@ -84604,7 +84604,7 @@
       }
     },
     "七部": {
-      "file": "_jf_qibu.json",
+      "file": "_xc_jfdet_qibu.json",
       "kind": "detail",
       "records": 380,
       "kept": 20,
@@ -96362,7 +96362,7 @@
       {
         "id": 134,
         "name": "BP工作进度表",
-        "expected": 908,
+        "expected": 911,
         "local": 908,
         "state": "正常",
         "file": "_hr_bp.json",
@@ -96453,7 +96453,7 @@
         "id": 192,
         "name": "三部积分表",
         "expected": 216,
-        "local": 215,
+        "local": 216,
         "state": "正常",
         "file": "_xc_jfdet_sanbu.json",
         "cat": "积分明细",
@@ -96473,7 +96473,7 @@
         "id": 197,
         "name": "七部积分表",
         "expected": 380,
-        "local": 379,
+        "local": 380,
         "state": "正常",
         "file": "_xc_jfdet_qibu.json",
         "cat": "积分明细",
@@ -96483,7 +96483,7 @@
         "id": 198,
         "name": "七部月度积分统计表",
         "expected": 37,
-        "local": 36,
+        "local": 37,
         "state": "正常",
         "file": "_xc_jf_qibu.json",
         "cat": "积分月度",
@@ -96730,12 +96730,12 @@
         "fields": 25
       }
     ],
-    "time": "2026-11-11 20:15:07",
+    "time": "2026-11-11 21:45:09",
     "total": 40,
     "ok": 40,
     "bad": [],
     "bad_names": [],
-    "records_total": 20891,
+    "records_total": 20894,
     "by_cat": {
       "HR流程": 2,
       "产品人员": 2,
@@ -96756,7 +96756,7 @@
     "full_pull": {
       "ok": true,
       "last_at": "2026-11-11 19:33:47",
-      "age_h": 0.7,
+      "age_h": 2.2,
       "today_count": 3,
       "daily": {
         "2026-11-09": 1,
@@ -96766,7 +96766,7 @@
       "runs": 7,
       "fail_streak": 0,
       "gap_h": 8,
-      "note": "最近一次全量 2026-11-11 19:33:47（0.7 小时前）· 今日已完成 3 轮"
+      "note": "最近一次全量 2026-11-11 19:33:47（2.2 小时前）· 今日已完成 3 轮"
     }
   },
   "dingtalk_org": {
