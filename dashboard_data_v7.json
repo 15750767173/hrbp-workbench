@@ -202,7 +202,7 @@
       }
     ],
     "data_through_day": 10,
-    "generated_at": "2026-11-11 17:30",
+    "generated_at": "2026-11-11 17:45",
     "expect_day": 10,
     "dept_last_day": {
       "一部": 10,
@@ -95704,7 +95704,7 @@
       {
         "id": 134,
         "name": "BP工作进度表",
-        "expected": 897,
+        "expected": 898,
         "local": 881,
         "state": "正常",
         "file": "_hr_bp.json",
@@ -96072,12 +96072,12 @@
         "fields": 25
       }
     ],
-    "time": "2026-11-11 17:30:09",
+    "time": "2026-11-11 17:45:08",
     "total": 40,
     "ok": 40,
     "bad": [],
     "bad_names": [],
-    "records_total": 20840,
+    "records_total": 20841,
     "by_cat": {
       "HR流程": 2,
       "产品人员": 2,
@@ -96098,7 +96098,7 @@
     "full_pull": {
       "ok": true,
       "last_at": "2026-11-11 11:16:49",
-      "age_h": 6.2,
+      "age_h": 6.5,
       "today_count": 2,
       "daily": {
         "2026-11-09": 1,
@@ -96108,7 +96108,7 @@
       "runs": 6,
       "fail_streak": 0,
       "gap_h": 8,
-      "note": "最近一次全量 2026-11-11 11:16:49（6.2 小时前）· 今日已完成 2 轮"
+      "note": "最近一次全量 2026-11-11 11:16:49（6.5 小时前）· 今日已完成 2 轮"
     }
   },
   "dingtalk_org": {
