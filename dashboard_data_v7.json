@@ -202,7 +202,7 @@
       }
     ],
     "data_through_day": 10,
-    "generated_at": "2026-11-11 17:15",
+    "generated_at": "2026-11-11 17:30",
     "expect_day": 10,
     "dept_last_day": {
       "一部": 10,
@@ -84597,6 +84597,15 @@
       "main": "益生熊维生素",
       "subs": [],
       "group": "三组"
+    },
+    "韦向前": {
+      "products": [
+        "桂姨膨化猫粮试吃",
+        "桂姨膨化猫粮"
+      ],
+      "main": "桂姨膨化猫粮",
+      "subs": [],
+      "group": "一组"
     }
   },
   "hmc_ext": {
@@ -95705,7 +95714,7 @@
       {
         "id": 137,
         "name": "面谈记录表",
-        "expected": 486,
+        "expected": 487,
         "local": 484,
         "state": "正常",
         "file": "_hr_miantan.json",
@@ -95756,7 +95765,7 @@
         "id": 186,
         "name": "宠物产品人员对照表",
         "expected": 56,
-        "local": 55,
+        "local": 56,
         "state": "正常",
         "file": "_xc_pp.json",
         "cat": "产品人员",
@@ -96063,12 +96072,12 @@
         "fields": 25
       }
     ],
-    "time": "2026-11-11 17:15:07",
+    "time": "2026-11-11 17:30:09",
     "total": 40,
     "ok": 40,
     "bad": [],
     "bad_names": [],
-    "records_total": 20839,
+    "records_total": 20840,
     "by_cat": {
       "HR流程": 2,
       "产品人员": 2,
@@ -96089,7 +96098,7 @@
     "full_pull": {
       "ok": true,
       "last_at": "2026-11-11 11:16:49",
-      "age_h": 6.0,
+      "age_h": 6.2,
       "today_count": 2,
       "daily": {
         "2026-11-09": 1,
@@ -96099,7 +96108,7 @@
       "runs": 6,
       "fail_streak": 0,
       "gap_h": 8,
-      "note": "最近一次全量 2026-11-11 11:16:49（6.0 小时前）· 今日已完成 2 轮"
+      "note": "最近一次全量 2026-11-11 11:16:49（6.2 小时前）· 今日已完成 2 轮"
     }
   },
   "dingtalk_org": {
