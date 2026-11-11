@@ -2,10 +2,10 @@
   "overview": {
     "current_month": "2026-11",
     "last_month": "2026-10",
-    "cutoff_day": 11,
-    "period_label": "11日",
-    "last_month_period": "10月1-10日",
-    "yesterday": "2026-11-10",
+    "cutoff_day": 12,
+    "period_label": "12日",
+    "last_month_period": "10月1-11日",
+    "yesterday": "2026-11-11",
     "departments": [
       {
         "name": "一部",
@@ -13,10 +13,10 @@
         "base_target": 910000,
         "stretch_target": 1100000,
         "actual": 247938.15,
-        "actual_jul": 240881.68,
-        "actual_prev": 240881.68,
+        "actual_jul": 275798.78,
+        "actual_prev": 275798.78,
         "completion": 27.2,
-        "mom_change": 2.9,
+        "mom_change": -10.1,
         "target_ready": true,
         "group_count": 4,
         "person_count": 19,
@@ -41,8 +41,8 @@
             "status": "在职"
           }
         ],
-        "yesterday_actual": 27535.6,
-        "daily_eff": 1376.78,
+        "yesterday_actual": 0.0,
+        "daily_eff": 0.0,
         "monthly_eff": 12396.91
       },
       {
@@ -51,10 +51,10 @@
         "base_target": 220000,
         "stretch_target": 270000,
         "actual": 216435.61,
-        "actual_jul": 187471.61,
-        "actual_prev": 187471.61,
+        "actual_jul": 207430.92,
+        "actual_prev": 207430.92,
         "completion": 98.4,
-        "mom_change": 15.4,
+        "mom_change": 4.3,
         "target_ready": true,
         "group_count": 5,
         "person_count": 21,
@@ -69,8 +69,8 @@
             "status": "在职"
           }
         ],
-        "yesterday_actual": 26874.36,
-        "daily_eff": 2067.26,
+        "yesterday_actual": -462.5,
+        "daily_eff": -35.58,
         "monthly_eff": 16648.89
       },
       {
@@ -79,10 +79,10 @@
         "base_target": 345000,
         "stretch_target": 270000,
         "actual": 23842.49,
-        "actual_jul": 41070.86,
-        "actual_prev": 41070.86,
+        "actual_jul": 45053.24,
+        "actual_prev": 45053.24,
         "completion": 6.9,
-        "mom_change": -41.9,
+        "mom_change": -47.1,
         "target_ready": true,
         "group_count": 2,
         "person_count": 7,
@@ -91,8 +91,8 @@
         "trial_count": 2,
         "shigang_count": 0,
         "shigang_list": [],
-        "yesterday_actual": 2918.24,
-        "daily_eff": 583.65,
+        "yesterday_actual": -2.5,
+        "daily_eff": -0.5,
         "monthly_eff": 4768.5
       },
       {
@@ -101,10 +101,10 @@
         "base_target": 490000,
         "stretch_target": 620000,
         "actual": 61493.11,
-        "actual_jul": 64308.06,
-        "actual_prev": 64308.06,
+        "actual_jul": 71542.84,
+        "actual_prev": 71542.84,
         "completion": 12.5,
-        "mom_change": -4.4,
+        "mom_change": -14.0,
         "target_ready": true,
         "group_count": 3,
         "person_count": 12,
@@ -113,8 +113,8 @@
         "trial_count": 4,
         "shigang_count": 0,
         "shigang_list": [],
-        "yesterday_actual": 5240.93,
-        "daily_eff": 524.09,
+        "yesterday_actual": -319.75,
+        "daily_eff": -31.98,
         "monthly_eff": 6149.31
       },
       {
@@ -123,10 +123,10 @@
         "base_target": 980000,
         "stretch_target": 1240000,
         "actual": 103067.91,
-        "actual_jul": 92481.96,
-        "actual_prev": 92481.96,
+        "actual_jul": 104334.21,
+        "actual_prev": 104334.21,
         "completion": 10.5,
-        "mom_change": 11.4,
+        "mom_change": -1.2,
         "target_ready": true,
         "group_count": 4,
         "person_count": 9,
@@ -151,8 +151,8 @@
             "status": "在职"
           }
         ],
-        "yesterday_actual": 15094.18,
-        "daily_eff": 1509.42,
+        "yesterday_actual": 0.0,
+        "daily_eff": 0.0,
         "monthly_eff": 10306.79
       },
       {
@@ -161,10 +161,10 @@
         "base_target": 210000,
         "stretch_target": 250000,
         "actual": 10495.64,
-        "actual_jul": 11298.75,
-        "actual_prev": 11298.75,
+        "actual_jul": 12718.43,
+        "actual_prev": 12718.43,
         "completion": 5.0,
-        "mom_change": -7.1,
+        "mom_change": -17.5,
         "target_ready": true,
         "group_count": 2,
         "person_count": 7,
@@ -179,8 +179,8 @@
             "status": "在职"
           }
         ],
-        "yesterday_actual": 964.0,
-        "daily_eff": 120.5,
+        "yesterday_actual": 0.0,
+        "daily_eff": 0.0,
         "monthly_eff": 1311.95
       },
       {
@@ -208,8 +208,8 @@
       }
     ],
     "data_through_day": 10,
-    "generated_at": "2026-11-11 21:45",
-    "expect_day": 10,
+    "generated_at": "2026-11-12 03:45",
+    "expect_day": 11,
     "dept_last_day": {
       "一部": 10,
       "二部": 11,
@@ -218,7 +218,11 @@
       "七部": 10,
       "宠元气友组": 10
     },
-    "pending_depts": []
+    "pending_depts": [
+      "一部",
+      "七部",
+      "宠元气友组"
+    ]
   },
   "targets_8_hist": [
     {
@@ -15432,6 +15436,9 @@
       },
       "2026-11-11": {
         "t": 0.0
+      },
+      "2026-11-12": {
+        "t": 0.0
       }
     },
     "二部": {
@@ -24699,6 +24706,9 @@
           "益生熊维生素": 725.0
         }
       },
+      "2026-11-12": {
+        "t": 0.0
+      },
       "2026-09-10": {
         "t": 10046.93,
         "p": {
@@ -26165,6 +26175,9 @@
       },
       "2026-11-11": {
         "t": 0.0
+      },
+      "2026-11-12": {
+        "t": 0.0
       }
     }
   },
@@ -26177,7 +26190,7 @@
         "hire_date": "2025/10/13",
         "regular_date": "2025/12/01",
         "enter_date": "2026/06/23",
-        "cycle": 141,
+        "cycle": 142,
         "remark": null,
         "archive": "https://www.kdocs.cn/l/cmxwju14cmR6"
       },
@@ -26188,7 +26201,7 @@
         "hire_date": "2025/12/01",
         "regular_date": "2026/03/01",
         "enter_date": "2026/06/15",
-        "cycle": 149,
+        "cycle": 150,
         "remark": "晋升P3",
         "archive": "https://www.kdocs.cn/l/calHklCbEVuH"
       },
@@ -26199,7 +26212,7 @@
         "hire_date": "2026/03/09",
         "regular_date": "2026/06/01",
         "enter_date": "2026/08/13",
-        "cycle": 90,
+        "cycle": 91,
         "remark": null,
         "archive": "https://www.kdocs.cn/l/ckEQX3ram1mc"
       },
@@ -26210,7 +26223,7 @@
         "hire_date": "2026/05/14",
         "regular_date": "2026/07/01",
         "enter_date": "2026/06/01",
-        "cycle": 163,
+        "cycle": 164,
         "remark": "转正晋升P2",
         "archive": "https://www.kdocs.cn/l/cgjxO0NmcVfM"
       },
@@ -26221,7 +26234,7 @@
         "hire_date": "2026/04/07",
         "regular_date": "2026/07/01",
         "enter_date": "2026/06/24",
-        "cycle": 140,
+        "cycle": 141,
         "remark": null,
         "archive": "https://www.kdocs.cn/l/cqiMDCfLHEm3"
       },
@@ -26232,7 +26245,7 @@
         "hire_date": "2025/01/13",
         "regular_date": "2025/04/01",
         "enter_date": "2026/06/23",
-        "cycle": 141,
+        "cycle": 142,
         "remark": null,
         "archive": "https://www.kdocs.cn/l/cbZne775mKwg"
       },
@@ -26243,7 +26256,7 @@
         "hire_date": "2025/11/24",
         "regular_date": "2026/02/01",
         "enter_date": "2026/04/20",
-        "cycle": 205,
+        "cycle": 206,
         "remark": null,
         "archive": "https://www.kdocs.cn/l/cuN5obvpltDW"
       },
@@ -26254,7 +26267,7 @@
         "hire_date": "2025/12/29",
         "regular_date": "2026/06/01",
         "enter_date": "2026/05/01",
-        "cycle": 194,
+        "cycle": 195,
         "remark": null,
         "archive": "https://www.kdocs.cn/l/csDwcjiyWZ9c"
       },
@@ -26265,7 +26278,7 @@
         "hire_date": "2025/06/16",
         "regular_date": "2025/12/01",
         "enter_date": "2026/06/23",
-        "cycle": 141,
+        "cycle": 142,
         "remark": null,
         "archive": "https://www.kdocs.cn/l/clkFajnw7gEo"
       },
@@ -26276,7 +26289,7 @@
         "hire_date": "2025/12/05",
         "regular_date": "2026/03/01",
         "enter_date": "2026/06/23",
-        "cycle": 141,
+        "cycle": 142,
         "remark": "晋升P3\n2026.11.7变回潜力",
         "archive": "https://www.kdocs.cn/l/ckTV3AdHQfXO"
       },
@@ -26287,7 +26300,7 @@
         "hire_date": "2025/04/24",
         "regular_date": "2025/10/01",
         "enter_date": "2026/06/23",
-        "cycle": 141,
+        "cycle": 142,
         "remark": null,
         "archive": "https://www.kdocs.cn/l/cu49qj6ZWqx8"
       },
@@ -26298,7 +26311,7 @@
         "hire_date": "2025/05/15",
         "regular_date": "2025/08/11",
         "enter_date": "2026/06/23",
-        "cycle": 141,
+        "cycle": 142,
         "remark": null,
         "archive": "https://www.kdocs.cn/l/cdPoRVH8LkcT"
       },
@@ -26309,7 +26322,7 @@
         "hire_date": "2025/08/18",
         "regular_date": "2025/12/01",
         "enter_date": "2026/06/23",
-        "cycle": 141,
+        "cycle": 142,
         "remark": null,
         "archive": "https://www.kdocs.cn/l/cobTJqSzOi8B"
       },
@@ -26320,7 +26333,7 @@
         "hire_date": "2025/03/20",
         "regular_date": "2025/05/01",
         "enter_date": "2026/06/20",
-        "cycle": 144,
+        "cycle": 145,
         "remark": null,
         "archive": "https://www.kdocs.cn/l/cgxLRB5Zfrf4"
       },
@@ -26331,7 +26344,7 @@
         "hire_date": "2026/11/05",
         "regular_date": "",
         "enter_date": "2026/05/21",
-        "cycle": 174,
+        "cycle": 175,
         "remark": null,
         "archive": "https://www.kdocs.cn/l/ct8yDSr0b3qD"
       },
@@ -26342,7 +26355,7 @@
         "hire_date": "2025/06/24",
         "regular_date": "2025/08/01",
         "enter_date": "2026/07/02",
-        "cycle": 132,
+        "cycle": 133,
         "remark": null,
         "archive": "https://www.kdocs.cn/l/clCPjz9UJNtQ"
       },
@@ -26353,7 +26366,7 @@
         "hire_date": "2026/05/18",
         "regular_date": "2026/09/01",
         "enter_date": "2026/08/12",
-        "cycle": 91,
+        "cycle": 92,
         "remark": null,
         "archive": "https://www.kdocs.cn/l/ciFjxmmkZRAf"
       },
@@ -26364,7 +26377,7 @@
         "hire_date": "2026/06/12",
         "regular_date": "",
         "enter_date": "2026/08/14",
-        "cycle": 89,
+        "cycle": 90,
         "remark": null,
         "archive": "https://www.kdocs.cn/l/cfUHJvy9IGAC"
       },
@@ -26375,7 +26388,7 @@
         "hire_date": "2026/07/08",
         "regular_date": "2026/10/01",
         "enter_date": "2026/09/08",
-        "cycle": 64,
+        "cycle": 65,
         "remark": null,
         "archive": "https://www.kdocs.cn/l/cuG3gNzntJmO"
       },
@@ -26386,7 +26399,7 @@
         "hire_date": "2026/04/27",
         "regular_date": "2026/09/01",
         "enter_date": "2026/08/13",
-        "cycle": 90,
+        "cycle": 91,
         "remark": null,
         "archive": "https://www.kdocs.cn/l/cli9R4E2NuMo"
       },
@@ -26397,7 +26410,7 @@
         "hire_date": "2026/05/29",
         "regular_date": "2026/09/01",
         "enter_date": "2026/08/15",
-        "cycle": 88,
+        "cycle": 89,
         "remark": null,
         "archive": "https://www.kdocs.cn/l/cfy43BcJN8Es"
       },
@@ -26408,7 +26421,7 @@
         "hire_date": "2026/07/22",
         "regular_date": "",
         "enter_date": "2026/09/08",
-        "cycle": 64,
+        "cycle": 65,
         "remark": null,
         "archive": "https://www.kdocs.cn/l/clvQwoBydhdE"
       },
@@ -26419,7 +26432,7 @@
         "hire_date": "2026/03/02",
         "regular_date": "2026/06/01",
         "enter_date": "2026/09/08",
-        "cycle": 64,
+        "cycle": 65,
         "remark": null,
         "archive": "https://www.kdocs.cn/l/cvow4syfObUc"
       },
@@ -26430,7 +26443,7 @@
         "hire_date": "2026/07/30",
         "regular_date": "",
         "enter_date": "",
-        "cycle": 46337,
+        "cycle": 46338,
         "remark": null,
         "archive": "https://www.kdocs.cn/l/clNzHsNNlPop"
       },
@@ -26441,7 +26454,7 @@
         "hire_date": "2026/07/15",
         "regular_date": "2026/10/01",
         "enter_date": "2026/11/07",
-        "cycle": 4,
+        "cycle": 5,
         "remark": null,
         "archive": ""
       },
@@ -26452,7 +26465,7 @@
         "hire_date": "2026/08/06",
         "regular_date": "",
         "enter_date": "2026/11/07",
-        "cycle": 4,
+        "cycle": 5,
         "remark": null,
         "archive": ""
       },
@@ -26463,7 +26476,7 @@
         "hire_date": "2026/09/21",
         "regular_date": "",
         "enter_date": "2026/11/07",
-        "cycle": 4,
+        "cycle": 5,
         "remark": null,
         "archive": ""
       },
@@ -26474,7 +26487,7 @@
         "hire_date": "2026/07/20",
         "regular_date": "2026/09/01",
         "enter_date": "2026/11/07",
-        "cycle": 4,
+        "cycle": 5,
         "remark": null,
         "archive": ""
       },
@@ -26485,7 +26498,7 @@
         "hire_date": "2026/08/28",
         "regular_date": "",
         "enter_date": "2026/11/07",
-        "cycle": 4,
+        "cycle": 5,
         "remark": null,
         "archive": ""
       }
@@ -36946,6 +36959,39 @@
         "progress": "已完成",
         "interviewee": "刘倩",
         "record": "本次罗思会与员工进行晋升结果告知及绩效面谈，围绕晋升原因、团队人员规划及个人职业发展展开沟通。会议确认员工顺利晋升，重点讨论了其业绩稳定性、新人带教成果及未来新品拓展计划，并明确了核心骨干闫晨曦的培养方向及抖音账号资源支持需求。\n\n## 晋升结果与原因分析\n\n- **晋升结果告知**\n  - HRBP 罗思会正式告知员工，基于上级对其整体业绩指标、工作态度、效率质量及带教表现的综合反馈，确认其**顺利晋升**。\n- **晋升主要原因**\n  - **业绩稳定**：工作产出稳当，是晋升的核心因素。\n  - **带教成果显著**：手下4名组员中，除1人有2个月经验外，其余3人均为新手（小白）。目前其中1人已升至 **P3**，1人升至 **P2**，且日常工作无问题。\n  - **工作态度良好**：秉持“把每件小事做好”的态度，执行力强。\n\n## 团队人员管理与规划\n\n- **组员现状与培养策略**\n  - 目前团队分为两个层级：**P2** 和 **P3** 各若干人。\n  - 基础工作能力已达标，后续1-2个月将考察组员是否有向上晋升的意愿。\n  - 若公司开设新品，将针对性提升组员的报名逻辑等进阶能力，并进行进一步带教。\n- **核心骨干识别与短板**\n  - 认定 **闫晨曦** 为具备承担“左右手”潜力的组员，其本月刚升至 **T3**，报文输出稳定。\n  - 闫晨曦的短板在于**管理能力**及性格偏内向（I人），且刚毕业，对从 P2 到 P3 及后续管理方向的晋升标准认知不清晰。\n- **骨干培养计划**\n  - 需与闫晨曦进行专门沟通，明确其晋升路径及管理岗位要求，帮助其建立清晰认知，因其本人有意愿向管理方向发展。\n\n## 个人工作规划与挑战\n\n- **短期工作重点**\n  - **稳住现有品类**：确保手头两个品牌的业绩稳定，避免波动。\n  - **拓展新品**：计划再提 **1-2个新品**，并为此储备组长人选。\n  - **能力提升**：针对团队缺项进行针对性补强和带教。\n- **主要挑战：从0到1挖掘新品**\n  - 此前负责的两个品牌由主管选定，员工仅负责执行；未来的挑战在于自主从众多百货品类中**挖掘并选定新品**，实现从0到1的突破。\n- **所需支持**\n  - **选品指导**：希望在与主管沟通选品时，获得更明确的建议，了解好品的具体具备要素及尝试开的标准。\n  - **账号资源**：目前抖音业务面临**账号紧缺**问题，若有新渠道或更多账号资源支持，将事半功倍。公司方面表示正在跟进此事，有结果会及时反馈。"
+      },
+      {
+        "task": "补充李然10月提成金额",
+        "owner": "罗思会",
+        "creator": "罗思会",
+        "created": "2026/11/11 20:35:45",
+        "deadline": "",
+        "done": "",
+        "progress": null,
+        "interviewee": null,
+        "record": null
+      },
+      {
+        "task": "星辰三部尤芮芮面谈",
+        "owner": "罗思会",
+        "creator": "罗思会",
+        "created": "2026/11/11 20:36:58",
+        "deadline": "",
+        "done": "",
+        "progress": null,
+        "interviewee": null,
+        "record": null
+      },
+      {
+        "task": "星辰三部黄雯欣面谈",
+        "owner": "罗思会",
+        "creator": "罗思会",
+        "created": "2026/11/11 20:37:13",
+        "deadline": "",
+        "done": "",
+        "progress": null,
+        "interviewee": null,
+        "record": null
       }
     ],
     "miantan": [
@@ -37614,7 +37660,7 @@
         "dept": "星灿-Luck部",
         "status": "在职",
         "stage": "正式员工",
-        "age": 28,
+        "age": 29,
         "level": "M1",
         "type": "日常面谈",
         "interviewer": "许志远",
@@ -96363,7 +96409,7 @@
         "id": 134,
         "name": "BP工作进度表",
         "expected": 911,
-        "local": 908,
+        "local": 911,
         "state": "正常",
         "file": "_hr_bp.json",
         "cat": "HR流程",
@@ -96730,7 +96776,7 @@
         "fields": 25
       }
     ],
-    "time": "2026-11-11 21:45:09",
+    "time": "2026-11-12 03:45:26",
     "total": 40,
     "ok": 40,
     "bad": [],
@@ -96756,8 +96802,8 @@
     "full_pull": {
       "ok": true,
       "last_at": "2026-11-11 19:33:47",
-      "age_h": 2.2,
-      "today_count": 3,
+      "age_h": 8.2,
+      "today_count": 0,
       "daily": {
         "2026-11-09": 1,
         "2026-11-10": 3,
@@ -96766,7 +96812,7 @@
       "runs": 7,
       "fail_streak": 0,
       "gap_h": 8,
-      "note": "最近一次全量 2026-11-11 19:33:47（2.2 小时前）· 今日已完成 3 轮"
+      "note": "最近一次全量 2026-11-11 19:33:47（8.2 小时前）· 今日已完成 0 轮"
     }
   },
   "dingtalk_org": {
