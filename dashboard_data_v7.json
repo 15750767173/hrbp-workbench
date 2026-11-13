@@ -208,7 +208,7 @@
       }
     ],
     "data_through_day": 12,
-    "generated_at": "2026-11-13 16:00",
+    "generated_at": "2026-11-13 16:15",
     "expect_day": 12,
     "dept_last_day": {
       "一部": 12,
@@ -85036,9 +85036,9 @@
   },
   "prod_split_src": {
     "一部": {
-      "file": "_xc_jfdet_yibu.json",
+      "file": "_jf_yibu.json",
       "kind": "detail",
-      "records": 1436,
+      "records": 1437,
       "kept": 49,
       "det_person": {
         "张甜静": 0.0,
@@ -96957,7 +96957,7 @@
       {
         "id": 153,
         "name": "招聘数据表",
-        "expected": 5278,
+        "expected": 5280,
         "local": 5264,
         "state": "正常",
         "file": "_hr_ziliao153.json",
@@ -96987,7 +96987,7 @@
       {
         "id": 187,
         "name": "一部积分表",
-        "expected": 1436,
+        "expected": 1437,
         "local": 1436,
         "state": "正常",
         "file": "_xc_jfdet_yibu.json",
@@ -97267,7 +97267,7 @@
       {
         "id": 228,
         "name": "招聘数据表(2)",
-        "expected": 5278,
+        "expected": 5280,
         "local": 5272,
         "state": "正常",
         "file": "_ex_228.json",
@@ -97285,12 +97285,12 @@
         "fields": 25
       }
     ],
-    "time": "2026-11-13 16:00:09",
+    "time": "2026-11-13 16:15:07",
     "total": 40,
     "ok": 40,
     "bad": [],
     "bad_names": [],
-    "records_total": 21064,
+    "records_total": 21069,
     "by_cat": {
       "HR流程": 2,
       "产品人员": 2,
@@ -97311,7 +97311,7 @@
     "full_pull": {
       "ok": true,
       "last_at": "2026-11-13 11:10:39",
-      "age_h": 4.8,
+      "age_h": 5.1,
       "today_count": 2,
       "daily": {
         "2026-11-09": 1,
@@ -97323,7 +97323,7 @@
       "runs": 13,
       "fail_streak": 0,
       "gap_h": 8,
-      "note": "最近一次全量 2026-11-13 11:10:39（4.8 小时前）· 今日已完成 2 轮"
+      "note": "最近一次全量 2026-11-13 11:10:39（5.1 小时前）· 今日已完成 2 轮"
     }
   },
   "dingtalk_org": {
