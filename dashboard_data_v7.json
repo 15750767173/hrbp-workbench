@@ -22,14 +22,9 @@
         "person_count": 19,
         "staff_count": 23,
         "formal_count": 13,
-        "trial_count": 8,
-        "shigang_count": 2,
+        "trial_count": 9,
+        "shigang_count": 1,
         "shigang_list": [
-          {
-            "name": "张千姿",
-            "hire_date": "",
-            "status": "在职"
-          },
           {
             "name": "吕敬雨",
             "hire_date": "",
@@ -37,8 +32,8 @@
           }
         ],
         "yesterday_actual": 14216.11,
-        "daily_eff": 676.96,
-        "monthly_eff": 15029.99
+        "daily_eff": 646.19,
+        "monthly_eff": 14346.81
       },
       {
         "name": "二部",
@@ -208,7 +203,7 @@
       }
     ],
     "data_through_day": 12,
-    "generated_at": "2026-11-13 19:00",
+    "generated_at": "2026-11-13 19:15",
     "expect_day": 12,
     "dept_last_day": {
       "一部": 13,
@@ -37221,20 +37216,108 @@
         "owner": "罗思会",
         "creator": "罗思会",
         "created": "2026/11/13 10:06:09",
-        "deadline": "",
-        "done": "",
-        "progress": null,
+        "deadline": "2026/11/13 19:00:00",
+        "done": "2026/11/13",
+        "progress": "已完成",
         "interviewee": "翟佳琪",
         "record": "> **主题**: 新员工入职一周面谈\n> **时间**: 2026-09-03 17:02:11\n> **参与人**: 木易\n\n本次HRBP与新员工进行入职一周后的试岗期沟通，围绕工作适应情况、业务技能短板、转正考核标准及薪资福利疑问展开。双方确认了试用期提前转正的具体指标，HRBP针对员工提出的薪资结构差异及病假政策进行了澄清与记录，并安排了后续薪资复核事宜。\n\n## 工作适应与团队氛围\n\n- **整体工作状态**\n  - 入职初期因对业务不熟悉及视频剪辑经验缺失，上手速度较慢，主要集中在找素材和构思脚本环节；目前工作节奏已完全跟上，能准时下班并按时完成任务。\n  - 工作内容涵盖图文与视频制作，其中图文制作能力较强，视频制作相对薄弱，但通过积累素材库等方法正在逐步提升效率。\n- **带教与沟通反馈**\n  - 主管及带教人指导细致，沟通顺畅，团队氛围轻松融洽，同事间相处如朋友般贴心，无适应困难或沟通障碍。\n  - 员工计划建立个人素材库以解决临时找素材耗时的问题，并对爆款内容衍生多版本思路表示认可。\n\n## 转正考核与职业规划\n\n- **转正标准与周期**\n  - 试用期为3个月，考核周期为 **2026年8月28日** 至 **2026年11月27日**。\n  - 提前转正条件：两个月内累计报文达到 **3篇** 即可申请提前转正（例如9月完成3篇，10月1日转正）。\n  - 报文标准以主管沟通为准（面试时提及标准为2万浏览），涉及新品如“收腹裤”可能更容易产出爆款。\n- **个人目标设定**\n  - 员工希望争取提前转正，设定月度目标为产出 **3-4篇** 报文，参考内推朋友的快速转正经历。\n\n## 薪资结构与福利政策\n\n- **薪资疑义待核实**\n  - 员工反馈面试时人事告知试用期与转正后薪资均为 **4500元**，且包含两个不同的 **500元** 绩效/补贴部分；这与员工当前认知或Offer可能存在出入。\n  - HRBP现场未直接确认，表示需会后与招聘部门及相关负责人核实具体薪资结构，确认后再通知员工签署相关文件。\n- **考勤与病假制度**\n  - 病假政策：入职满半年后，当年享有 **2天** 全薪病假（不扣全勤、不扣工资）；入职不满半年或超出额度时，请假按事假处理，事假会扣除全勤奖。\n  - 打卡架构：目前位于“新兴训练营”，后续将调整至“太乙品牌运营中心”架构下，调整后打卡无需再选择班次。\n\n## 后续事项与行政流程\n\n- **文件签署与礼品发放**\n  - 员工在转正标准确认书上填写信息（职位：新媒体编辑，部门：太乙品牌运营中心）并按手印确认。\n  - HRBP向员工发放了通过试岗期的小礼品。\n- **待办事项**\n  - HRBP需内部确认翟佳琪（音译，根据上下文推测为员工姓名或相关责任人，此处原文模糊，仅记录动作）的薪资细节及招聘侧说法的一致性。\n  - 待薪资问题确认后，再次联系员工进行最终确认或签约。\n\n> ###### AI洞察\n>\n> - 员工虽在视频技能上存在短期短板，但已通过建立素材库等主动措施应对，且团队融入度高，具备快速成长潜力。\n> - 薪资结构的口头承诺与书面/实际执行可能存在偏差，需HR内部尽快拉通招聘与用人部门信息，避免转正签约时产生信任危机。\n> - “2个月3篇报文”的提前转正机制清晰且具有挑战性，建议主管在首月给予具体的选题或流量扶持，以帮助员工达成目标。"
       },
       {
-        "task": "星辰二部",
+        "task": "星辰二部刘彤核心人才面谈",
         "owner": "罗思会",
         "creator": "罗思会",
         "created": "2026/11/13 10:07:06",
         "deadline": "",
         "done": "",
         "progress": null,
+        "interviewee": "刘彤",
+        "record": null
+      },
+      {
+        "task": "双启转正晋升标准大纲",
+        "owner": "朱思雨",
+        "creator": "朱思雨",
+        "created": "2026/11/13 11:42:17",
+        "deadline": "",
+        "done": "",
+        "progress": null,
+        "interviewee": null,
+        "record": null
+      },
+      {
+        "task": "望辰9月10月业绩、薪资浮动、人效分析",
+        "owner": "罗思会",
+        "creator": "罗思会",
+        "created": "2026/11/13 17:28:28",
+        "deadline": "",
+        "done": "",
+        "progress": null,
+        "interviewee": null,
+        "record": null
+      },
+      {
+        "task": "望辰奖励假机制",
+        "owner": "罗思会",
+        "creator": "罗思会",
+        "created": "2026/11/13 17:29:15",
+        "deadline": "",
+        "done": "",
+        "progress": null,
+        "interviewee": null,
+        "record": null
+      },
+      {
+        "task": "望辰爆文奖金形式更改规则",
+        "owner": "罗思会",
+        "creator": "罗思会",
+        "created": "2026/11/13 17:29:28",
+        "deadline": "",
+        "done": "",
+        "progress": null,
+        "interviewee": null,
+        "record": null
+      },
+      {
+        "task": "试岗期跟进助手优化",
+        "owner": "杨蓓蕾",
+        "creator": "杨蓓蕾",
+        "created": "2026/11/13 18:47:06",
+        "deadline": "",
+        "done": "",
+        "progress": "已完成",
+        "interviewee": null,
+        "record": null
+      },
+      {
+        "task": "双十一物资和茶话会物资盘点",
+        "owner": "杨蓓蕾",
+        "creator": "杨蓓蕾",
+        "created": "2026/11/13 18:47:11",
+        "deadline": "",
+        "done": "",
+        "progress": "已完成",
+        "interviewee": null,
+        "record": null
+      },
+      {
+        "task": "创晖一部张千姿试岗期面谈",
+        "owner": "杨蓓蕾",
+        "creator": "杨蓓蕾",
+        "created": "2026/11/13 18:49:12",
+        "deadline": "",
+        "done": "",
+        "progress": "已完成",
+        "interviewee": null,
+        "record": null
+      },
+      {
+        "task": "昭荣二部王雪试岗期面谈",
+        "owner": "杨蓓蕾",
+        "creator": "杨蓓蕾",
+        "created": "2026/11/13 18:49:53",
+        "deadline": "",
+        "done": "",
+        "progress": "已完成",
         "interviewee": null,
         "record": null
       }
@@ -42103,7 +42186,7 @@
       {
         "name": "陈梦宇",
         "dept": "业绩第一组",
-        "status": "在职",
+        "status": "自离",
         "stage": "试用期",
         "age": 24,
         "level": "P1",
@@ -45843,7 +45926,7 @@
         "nick": "众奕",
         "dept1": "电商运营部",
         "dept2": "电商一组",
-        "dept3": null,
+        "dept3": "运营二组",
         "status": "在职",
         "stage": "正式员工",
         "hire_date": ""
@@ -45863,7 +45946,7 @@
         "nick": "众川",
         "dept1": "电商运营部",
         "dept2": "电商一组",
-        "dept3": null,
+        "dept3": "运营一组",
         "status": "在职",
         "stage": "正式员工",
         "hire_date": ""
@@ -45873,7 +45956,7 @@
         "nick": "众橙",
         "dept1": "电商运营部",
         "dept2": "电商一组",
-        "dept3": null,
+        "dept3": "运营一组",
         "status": "在职",
         "stage": "正式员工",
         "hire_date": ""
@@ -45883,7 +45966,7 @@
         "nick": "众夏",
         "dept1": "电商运营部",
         "dept2": "电商一组",
-        "dept3": null,
+        "dept3": "运营二组",
         "status": "在职",
         "stage": "正式员工",
         "hire_date": ""
@@ -45893,7 +45976,7 @@
         "nick": "众星",
         "dept1": "电商运营部",
         "dept2": "电商一组",
-        "dept3": null,
+        "dept3": "运营一组",
         "status": "在职",
         "stage": "正式员工",
         "hire_date": ""
@@ -45913,7 +45996,7 @@
         "nick": "弥彦",
         "dept1": "电商运营部",
         "dept2": "电商一组",
-        "dept3": null,
+        "dept3": "运营一组",
         "status": "在职",
         "stage": "正式员工",
         "hire_date": ""
@@ -45923,7 +46006,7 @@
         "nick": "止水",
         "dept1": "电商运营部",
         "dept2": "电商一组",
-        "dept3": null,
+        "dept3": "运营二组",
         "status": "在职",
         "stage": "正式员工",
         "hire_date": ""
@@ -45953,7 +46036,7 @@
         "nick": "琳琳",
         "dept1": "电商运营部",
         "dept2": "电商客服组",
-        "dept3": null,
+        "dept3": "客服一组",
         "status": "在职",
         "stage": "正式员工",
         "hire_date": ""
@@ -46763,7 +46846,7 @@
         "nick": "众柠",
         "dept1": "电商运营部",
         "dept2": "电商一组",
-        "dept3": null,
+        "dept3": "运营二组",
         "status": "在职",
         "stage": "正式员工",
         "hire_date": ""
@@ -46933,7 +47016,7 @@
         "nick": "相术",
         "dept1": "电商运营部",
         "dept2": "电商客服组",
-        "dept3": null,
+        "dept3": "客服二组",
         "status": "在职",
         "stage": "正式员工",
         "hire_date": ""
@@ -46943,7 +47026,7 @@
         "nick": null,
         "dept1": "电商运营部",
         "dept2": "电商客服组",
-        "dept3": null,
+        "dept3": "客服一组",
         "status": "在职",
         "stage": "正式员工",
         "hire_date": ""
@@ -47113,7 +47196,7 @@
         "nick": "小夏",
         "dept1": "电商运营部",
         "dept2": "电商客服组",
-        "dept3": null,
+        "dept3": "客服一组",
         "status": "在职",
         "stage": "正式员工",
         "hire_date": ""
@@ -47193,7 +47276,7 @@
         "nick": null,
         "dept1": "电商运营部",
         "dept2": "电商客服组",
-        "dept3": null,
+        "dept3": "客服二组",
         "status": "在职",
         "stage": "正式员工",
         "hire_date": ""
@@ -47723,7 +47806,7 @@
         "nick": null,
         "dept1": "电商运营部",
         "dept2": "电商一组",
-        "dept3": null,
+        "dept3": "运营一组",
         "status": "在职",
         "stage": "试用期",
         "hire_date": ""
@@ -49983,7 +50066,7 @@
         "nick": null,
         "dept1": "电商运营部",
         "dept2": "电商客服组",
-        "dept3": null,
+        "dept3": "客服二组",
         "status": "在职",
         "stage": "试用期",
         "hire_date": ""
@@ -51653,7 +51736,7 @@
         "nick": "左左",
         "dept1": "电商运营部",
         "dept2": "电商客服组",
-        "dept3": null,
+        "dept3": "客服二组",
         "status": "在职",
         "stage": "试用期",
         "hire_date": ""
@@ -51754,7 +51837,7 @@
         "dept1": "双启",
         "dept2": "业绩第一组",
         "dept3": "二组",
-        "status": "在职",
+        "status": "自离",
         "stage": "试用期",
         "hire_date": ""
       },
@@ -51853,7 +51936,7 @@
         "nick": "众蕊",
         "dept1": "电商运营部",
         "dept2": "电商一组",
-        "dept3": null,
+        "dept3": "运营一组",
         "status": "在职",
         "stage": "试用期",
         "hire_date": ""
@@ -52303,7 +52386,7 @@
         "nick": "颗颗",
         "dept1": "电商运营部",
         "dept2": "电商客服组",
-        "dept3": null,
+        "dept3": "客服二组",
         "status": "在职",
         "stage": "试用期",
         "hire_date": ""
@@ -52333,7 +52416,7 @@
         "nick": "小岛",
         "dept1": "电商运营部",
         "dept2": "电商客服组",
-        "dept3": null,
+        "dept3": "客服二组",
         "status": "在职",
         "stage": "试用期",
         "hire_date": ""
@@ -52503,7 +52586,7 @@
         "nick": "霍霍",
         "dept1": "电商运营部",
         "dept2": "电商客服组",
-        "dept3": null,
+        "dept3": "客服二组",
         "status": "在职",
         "stage": "试用期",
         "hire_date": ""
@@ -52983,7 +53066,7 @@
         "nick": "菠萝",
         "dept1": "电商运营部",
         "dept2": "电商客服组",
-        "dept3": null,
+        "dept3": "客服二组",
         "status": "在职",
         "stage": "试用期",
         "hire_date": ""
@@ -53013,7 +53096,7 @@
         "nick": "秋刀鱼",
         "dept1": "电商运营部",
         "dept2": "电商客服组",
-        "dept3": null,
+        "dept3": "客服二组",
         "status": "在职",
         "stage": "试用期",
         "hire_date": ""
@@ -53073,7 +53156,7 @@
         "nick": "早一",
         "dept1": "电商运营部",
         "dept2": "电商客服组",
-        "dept3": null,
+        "dept3": "客服二组",
         "status": "在职",
         "stage": "试用期",
         "hire_date": ""
@@ -53435,7 +53518,7 @@
         "dept2": "创晖一部",
         "dept3": null,
         "status": "在职",
-        "stage": "试岗",
+        "stage": "试用期",
         "hire_date": ""
       },
       {
@@ -53505,7 +53588,7 @@
         "dept2": "昭荣二部",
         "dept3": null,
         "status": "在职",
-        "stage": "试岗",
+        "stage": "试用期",
         "hire_date": ""
       },
       {
@@ -53784,7 +53867,7 @@
         "dept1": "创新项目部",
         "dept2": "盈光-Elite事业部",
         "dept3": null,
-        "status": "在职",
+        "status": "自离",
         "stage": "试岗",
         "hire_date": ""
       },
@@ -53864,7 +53947,7 @@
         "dept1": "望辰-Crown事业部",
         "dept2": "星辰三部",
         "dept3": null,
-        "status": "在职",
+        "status": "自离",
         "stage": "试岗",
         "hire_date": ""
       },
@@ -53921,8 +54004,8 @@
       {
         "name": "王莉妞",
         "nick": null,
-        "dept1": null,
-        "dept2": null,
+        "dept1": "双启",
+        "dept2": "扶摇直上组",
         "dept3": null,
         "status": "在职",
         "stage": "试岗",
@@ -53931,8 +54014,8 @@
       {
         "name": "宋梦研",
         "nick": null,
-        "dept1": null,
-        "dept2": null,
+        "dept1": "望辰-Crown事业部",
+        "dept2": "星辰三部",
         "dept3": null,
         "status": "在职",
         "stage": "试岗",
@@ -53941,8 +54024,8 @@
       {
         "name": "王子涵",
         "nick": null,
-        "dept1": null,
-        "dept2": null,
+        "dept1": "望辰-Crown事业部",
+        "dept2": "星辰四部",
         "dept3": null,
         "status": "在职",
         "stage": "试岗",
@@ -53951,8 +54034,8 @@
       {
         "name": "詹银玉",
         "nick": null,
-        "dept1": null,
-        "dept2": null,
+        "dept1": "望辰-Crown事业部",
+        "dept2": "星辰二部",
         "dept3": null,
         "status": "在职",
         "stage": "试岗",
@@ -53961,6 +54044,195 @@
     ],
     "zaizhi_note": "XMT在职人员sheet4（前500条，超过500条时需分页补拉）",
     "shigang": [
+      {
+        "name": "田贞叶",
+        "post": "新媒体编辑",
+        "chushi": "是",
+        "fushi": "否",
+        "offer": "",
+        "days": 0,
+        "time": "2026/11/13"
+      },
+      {
+        "name": "王雪研",
+        "post": "新媒体编辑",
+        "chushi": "是",
+        "fushi": "是",
+        "offer": "",
+        "days": 0,
+        "time": "2026/11/13"
+      },
+      {
+        "name": "肖晗",
+        "post": "新媒体编辑",
+        "chushi": "是",
+        "fushi": "否",
+        "offer": "",
+        "days": 0,
+        "time": "2026/11/13"
+      },
+      {
+        "name": "郭孝亮",
+        "post": "新媒体编辑组长",
+        "chushi": "是",
+        "fushi": "是",
+        "offer": "",
+        "days": 0,
+        "time": "2026/11/13"
+      },
+      {
+        "name": "杨一帆",
+        "post": "新媒体编辑",
+        "chushi": "是",
+        "fushi": "是",
+        "offer": "已接",
+        "days": -2,
+        "time": "2026/11/13"
+      },
+      {
+        "name": "毛诗语",
+        "post": "新媒体编辑",
+        "chushi": "是",
+        "fushi": "是",
+        "offer": "已接",
+        "days": 0,
+        "time": "2026/11/13"
+      },
+      {
+        "name": "李佳鑫",
+        "post": "新媒体编辑",
+        "chushi": "是",
+        "fushi": "是",
+        "offer": "",
+        "days": 0,
+        "time": "2026/11/13"
+      },
+      {
+        "name": "吴燕菲",
+        "post": "新媒体编辑",
+        "chushi": "是",
+        "fushi": "是",
+        "offer": "",
+        "days": -2,
+        "time": "2026/11/13"
+      },
+      {
+        "name": "刘欣茹",
+        "post": "新媒体编辑",
+        "chushi": "是",
+        "fushi": "是",
+        "offer": "",
+        "days": 0,
+        "time": "2026/11/13"
+      },
+      {
+        "name": "贾凯璐",
+        "post": "电商客服",
+        "chushi": "是",
+        "fushi": "是",
+        "offer": "已接",
+        "days": -2,
+        "time": "2026/11/13"
+      },
+      {
+        "name": "田晓芳",
+        "post": "新媒体编辑",
+        "chushi": "是",
+        "fushi": "否",
+        "offer": "",
+        "days": 0,
+        "time": "2026/11/13"
+      },
+      {
+        "name": "武璐婕",
+        "post": "新媒体编辑",
+        "chushi": "是",
+        "fushi": "是",
+        "offer": "已接",
+        "days": -2,
+        "time": "2026/11/13"
+      },
+      {
+        "name": "李翼萱",
+        "post": "新媒体编辑",
+        "chushi": "是",
+        "fushi": "是",
+        "offer": "已接",
+        "days": -2,
+        "time": "2026/11/13"
+      },
+      {
+        "name": "李矿灵",
+        "post": "保洁",
+        "chushi": "是",
+        "fushi": "是",
+        "offer": "",
+        "days": -2,
+        "time": "2026/11/13"
+      },
+      {
+        "name": "许佳怡",
+        "post": "新媒体编辑",
+        "chushi": "是",
+        "fushi": "否",
+        "offer": "",
+        "days": 0,
+        "time": "2026/11/13"
+      },
+      {
+        "name": "李重阳",
+        "post": "新媒体编辑",
+        "chushi": "是",
+        "fushi": "是",
+        "offer": "",
+        "days": 0,
+        "time": "2026/11/13"
+      },
+      {
+        "name": "潘琳颖",
+        "post": "新媒体编辑",
+        "chushi": "是",
+        "fushi": "是",
+        "offer": "",
+        "days": 0,
+        "time": "2026/11/13"
+      },
+      {
+        "name": "屠振轩",
+        "post": "新媒体编辑",
+        "chushi": "是",
+        "fushi": "否",
+        "offer": "",
+        "days": 0,
+        "time": "2026/11/13"
+      },
+      {
+        "name": "卢梦瑶",
+        "post": "PR专员",
+        "chushi": "是",
+        "fushi": "否",
+        "offer": "",
+        "days": 0,
+        "time": "2026/11/13"
+      },
+      {
+        "name": "段雯佳",
+        "post": "新媒体编辑",
+        "chushi": "是",
+        "fushi": "是",
+        "offer": "已接",
+        "days": -2,
+        "time": "2026/11/13"
+      },
+      {
+        "name": "刘嘉林",
+        "post": "新媒体编辑",
+        "chushi": "是",
+        "fushi": "是",
+        "offer": "已接",
+        "days": -3,
+        "time": "2026/11/13"
+      },
       {
         "name": "魏迪",
         "post": "电商运营",
@@ -54029,7 +54301,7 @@
         "post": "新媒体编辑",
         "chushi": "是",
         "fushi": "是",
-        "offer": "",
+        "offer": "未发",
         "days": 0,
         "time": "2026/11/12"
       },
@@ -54210,7 +54482,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 2,
+        "days": 1,
         "time": "2026/11/11"
       },
       {
@@ -54309,7 +54581,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 3,
+        "days": 2,
         "time": "2026/11/10"
       },
       {
@@ -54475,6 +54747,15 @@
         "time": "2026/11/10"
       },
       {
+        "name": "邬俊杰",
+        "post": "新媒体编辑",
+        "chushi": "是",
+        "fushi": "否",
+        "offer": "",
+        "days": 0,
+        "time": "2026/11/10"
+      },
+      {
         "name": "石佳",
         "post": "新媒体编辑",
         "chushi": "是",
@@ -54587,7 +54868,7 @@
         "post": "新媒体推广主管",
         "chushi": "是",
         "fushi": "是",
-        "offer": "",
+        "offer": "未接",
         "days": 0,
         "time": "2026/11/09"
       },
@@ -54651,7 +54932,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": -2,
+        "days": 0,
         "time": "2026/11/09"
       },
       {
@@ -54777,7 +55058,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 3,
+        "days": 2,
         "time": "2026/11/07"
       },
       {
@@ -55605,7 +55886,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 8,
+        "days": 1,
         "time": "2026/11/03"
       },
       {
@@ -60962,204 +61243,6 @@
         "offer": "已接",
         "days": 61,
         "time": "2026/09/09"
-      },
-      {
-        "name": "杨芬",
-        "post": "新媒体编辑",
-        "chushi": "是",
-        "fushi": "否",
-        "offer": "",
-        "days": 0,
-        "time": "2026/09/09"
-      },
-      {
-        "name": "张博涵",
-        "post": "行政专员",
-        "chushi": "是",
-        "fushi": "是",
-        "offer": "已接",
-        "days": 64,
-        "time": "2026/09/09"
-      },
-      {
-        "name": "胡贵达",
-        "post": "新媒体编辑",
-        "chushi": "是",
-        "fushi": "是",
-        "offer": "已接",
-        "days": 32,
-        "time": "2026/09/09"
-      },
-      {
-        "name": "张文瑜",
-        "post": "新媒体编辑",
-        "chushi": "是",
-        "fushi": "是",
-        "offer": "已接",
-        "days": 1,
-        "time": "2026/09/09"
-      },
-      {
-        "name": "徐珂欣",
-        "post": "新媒体编辑组长",
-        "chushi": "是",
-        "fushi": "是",
-        "offer": "已接",
-        "days": 2,
-        "time": "2026/09/09"
-      },
-      {
-        "name": "周金龙",
-        "post": "电商运营组长",
-        "chushi": "是",
-        "fushi": "是",
-        "offer": "待定",
-        "days": 0,
-        "time": "2026/09/09"
-      },
-      {
-        "name": "郑营池",
-        "post": "新媒体编辑",
-        "chushi": "是",
-        "fushi": "",
-        "offer": "",
-        "days": 0,
-        "time": "2026/09/08"
-      },
-      {
-        "name": "席红菲",
-        "post": "新媒体编辑",
-        "chushi": "是",
-        "fushi": "是",
-        "offer": "未接",
-        "days": 0,
-        "time": "2026/09/08"
-      },
-      {
-        "name": "张宁宁",
-        "post": "新媒体编辑",
-        "chushi": "是",
-        "fushi": "是",
-        "offer": "已接",
-        "days": 36,
-        "time": "2026/09/08"
-      },
-      {
-        "name": "郭泽宇",
-        "post": "新媒体编辑",
-        "chushi": "是",
-        "fushi": "否",
-        "offer": "",
-        "days": 0,
-        "time": "2026/09/08"
-      },
-      {
-        "name": "朱豪杰",
-        "post": "新媒体编辑",
-        "chushi": "是",
-        "fushi": "是",
-        "offer": "待定",
-        "days": 0,
-        "time": "2026/09/08"
-      },
-      {
-        "name": "娄文雅",
-        "post": "新媒体编辑",
-        "chushi": "是",
-        "fushi": "否",
-        "offer": "",
-        "days": 0,
-        "time": "2026/09/08"
-      },
-      {
-        "name": "王淑悦",
-        "post": "新媒体编辑",
-        "chushi": "是",
-        "fushi": "否",
-        "offer": "",
-        "days": 0,
-        "time": "2026/09/08"
-      },
-      {
-        "name": "孔诗琦",
-        "post": "新媒体编辑",
-        "chushi": "是",
-        "fushi": "否",
-        "offer": "",
-        "days": 0,
-        "time": "2026/09/08"
-      },
-      {
-        "name": "陈甜",
-        "post": "新媒体编辑",
-        "chushi": "是",
-        "fushi": "是",
-        "offer": "已接",
-        "days": 66,
-        "time": "2026/09/08"
-      },
-      {
-        "name": "马兰",
-        "post": "新媒体编辑",
-        "chushi": "是",
-        "fushi": "是",
-        "offer": "已接",
-        "days": 61,
-        "time": "2026/09/08"
-      },
-      {
-        "name": "张璇",
-        "post": "新媒体编辑组长",
-        "chushi": "是",
-        "fushi": "是",
-        "offer": "未接",
-        "days": 0,
-        "time": "2026/09/08"
-      },
-      {
-        "name": "林子博",
-        "post": "新媒体编辑",
-        "chushi": "是",
-        "fushi": "否",
-        "offer": "",
-        "days": 0,
-        "time": "2026/09/08"
-      },
-      {
-        "name": "孙玮",
-        "post": "PR专员",
-        "chushi": "是",
-        "fushi": "是",
-        "offer": "已接",
-        "days": 6,
-        "time": "2026/09/08"
-      },
-      {
-        "name": "张欣瑞",
-        "post": "电商客服",
-        "chushi": "是",
-        "fushi": "是",
-        "offer": "已接",
-        "days": 66,
-        "time": "2026/09/08"
-      },
-      {
-        "name": "屈杨杨",
-        "post": "电商客服",
-        "chushi": "是",
-        "fushi": "是",
-        "offer": "未接",
-        "days": 0,
-        "time": "2026/09/08"
-      },
-      {
-        "name": "张益溥",
-        "post": "商务专员",
-        "chushi": "是",
-        "fushi": "否",
-        "offer": "",
-        "days": 0,
-        "time": "2026/09/08"
       }
     ],
     "shigang_note": "来源：sheet153 招聘数据表派生（sheet3「面试+试岗」已从文档移除）",
@@ -62339,7 +62422,7 @@
         {
           "name": "张千姿",
           "nick": null,
-          "stage": "试岗",
+          "stage": "试用期",
           "hire_date": "",
           "status": "在职"
         },
@@ -62352,8 +62435,8 @@
         }
       ],
       "counts": {
-        "试岗": 2,
-        "试用期": 8,
+        "试岗": 1,
+        "试用期": 9,
         "正式员工": 13,
         "其他": 0
       }
@@ -62726,13 +62809,6 @@
           "status": "在职"
         },
         {
-          "name": "陈梦宇",
-          "nick": "小宇",
-          "stage": "试用期",
-          "hire_date": "",
-          "status": "在职"
-        },
-        {
           "name": "尚嘉敏",
           "nick": "小花",
           "stage": "试用期",
@@ -62805,7 +62881,7 @@
       ],
       "counts": {
         "试岗": 3,
-        "试用期": 11,
+        "试用期": 10,
         "正式员工": 5,
         "其他": 0
       }
@@ -64027,7 +64103,7 @@
           "status": "在职"
         },
         {
-          "name": "张紫涵",
+          "name": "宋梦研",
           "nick": null,
           "stage": "试岗",
           "hire_date": "",
@@ -64126,10 +64202,17 @@
           "stage": "试用期",
           "hire_date": "",
           "status": "在职"
+        },
+        {
+          "name": "詹银玉",
+          "nick": null,
+          "stage": "试岗",
+          "hire_date": "",
+          "status": "在职"
         }
       ],
       "counts": {
-        "试岗": 0,
+        "试岗": 1,
         "试用期": 4,
         "正式员工": 8,
         "其他": 0
@@ -64206,10 +64289,17 @@
           "stage": "试岗",
           "hire_date": "",
           "status": "在职"
+        },
+        {
+          "name": "王莉妞",
+          "nick": null,
+          "stage": "试岗",
+          "hire_date": "",
+          "status": "在职"
         }
       ],
       "counts": {
-        "试岗": 1,
+        "试岗": 2,
         "试用期": 8,
         "正式员工": 1,
         "其他": 0
@@ -64561,17 +64651,10 @@
           "stage": "试岗",
           "hire_date": "",
           "status": "在职"
-        },
-        {
-          "name": "张文数",
-          "nick": null,
-          "stage": "试岗",
-          "hire_date": "",
-          "status": "在职"
         }
       ],
       "counts": {
-        "试岗": 2,
+        "试岗": 1,
         "试用期": 11,
         "正式员工": 0,
         "其他": 0
@@ -64773,31 +64856,10 @@
           "stage": "试用期",
           "hire_date": "",
           "status": "在职"
-        },
-        {
-          "name": "王莉妞",
-          "nick": null,
-          "stage": "试岗",
-          "hire_date": "",
-          "status": "在职"
-        },
-        {
-          "name": "宋梦研",
-          "nick": null,
-          "stage": "试岗",
-          "hire_date": "",
-          "status": "在职"
-        },
-        {
-          "name": "詹银玉",
-          "nick": null,
-          "stage": "试岗",
-          "hire_date": "",
-          "status": "在职"
         }
       ],
       "counts": {
-        "试岗": 3,
+        "试岗": 0,
         "试用期": 1,
         "正式员工": 2,
         "其他": 0
@@ -85761,13 +85823,13 @@
       "total": 1074,
       "by_zaizhi_status": {
         "优化": 275,
-        "自离": 431,
-        "在职": 368
+        "自离": 434,
+        "在职": 365
       },
       "by_yiji": {
         "绒光-Elite事业部": 325,
-        "双启": 130,
-        "望辰-Crown事业部": 110,
+        "双启": 131,
+        "望辰-Crown事业部": 113,
         "创新项目部": 88,
         "合作团队": 86,
         "电商运营部": 80,
@@ -85776,15 +85838,15 @@
         "其他架构": 52,
         "渠道运营部": 29,
         "供应链管理中心": 21,
-        "未填": 8,
+        "未填": 4,
         "总经办": 2
       },
       "by_stage": {
-        "试用期": 528,
+        "试用期": 530,
         "正式员工": 240,
-        "试岗": 306
+        "试岗": 304
       },
-      "zaizhi_count": 368
+      "zaizhi_count": 365
     },
     "zhuanzheng": {
       "total": 178,
@@ -96922,7 +96984,7 @@
         "id": 134,
         "name": "BP工作进度表",
         "expected": 927,
-        "local": 919,
+        "local": 927,
         "state": "正常",
         "file": "_hr_bp.json",
         "cat": "HR流程",
@@ -96952,7 +97014,7 @@
         "id": 149,
         "name": "招聘需求进度表",
         "expected": 756,
-        "local": 755,
+        "local": 756,
         "state": "正常",
         "file": "_hr_149.json",
         "cat": "招聘",
@@ -96961,8 +97023,8 @@
       {
         "id": 153,
         "name": "招聘数据表",
-        "expected": 5298,
-        "local": 5264,
+        "expected": 5299,
+        "local": 5299,
         "state": "正常",
         "file": "_hr_ziliao153.json",
         "cat": "招聘",
@@ -97271,8 +97333,8 @@
       {
         "id": 228,
         "name": "招聘数据表(2)",
-        "expected": 5298,
-        "local": 5288,
+        "expected": 5299,
+        "local": 5299,
         "state": "正常",
         "file": "_ex_228.json",
         "cat": "招聘",
@@ -97289,12 +97351,12 @@
         "fields": 25
       }
     ],
-    "time": "2026-11-13 19:00:07",
+    "time": "2026-11-13 19:15:27",
     "total": 40,
     "ok": 40,
     "bad": [],
     "bad_names": [],
-    "records_total": 21114,
+    "records_total": 21116,
     "by_cat": {
       "HR流程": 2,
       "产品人员": 2,
@@ -97314,20 +97376,20 @@
     },
     "full_pull": {
       "ok": true,
-      "last_at": "2026-11-13 11:10:39",
-      "age_h": 7.8,
-      "today_count": 2,
+      "last_at": "2026-11-13 19:15",
+      "age_h": 0.0,
+      "today_count": 3,
       "daily": {
         "2026-11-09": 1,
         "2026-11-10": 3,
         "2026-11-11": 3,
         "2026-11-12": 4,
-        "2026-11-13": 2
+        "2026-11-13": 3
       },
-      "runs": 13,
+      "runs": 14,
       "fail_streak": 0,
       "gap_h": 8,
-      "note": "最近一次全量 2026-11-13 11:10:39（7.8 小时前）· 今日已完成 2 轮"
+      "note": "最近一次全量 2026-11-13 19:15（0.0 小时前）· 今日已完成 3 轮"
     }
   },
   "dingtalk_org": {
@@ -113451,7 +113513,7 @@
         "post": "新媒体编辑",
         "level": "p1-p3",
         "need": 1.0,
-        "interview": 6.0,
+        "interview": 7.0,
         "offer": 0.0,
         "arrive": 0.0,
         "status": "",
@@ -113462,7 +113524,7 @@
         "deadline": "2026/11/30",
         "salary": "4000-4500",
         "progress": 0.0,
-        "pass": 1.0
+        "pass": 2.0
       },
       {
         "no": "ZH2610190",
@@ -113551,7 +113613,7 @@
         "post": "新媒体编辑",
         "level": "P1",
         "need": 1.0,
-        "interview": 2.0,
+        "interview": 3.0,
         "offer": 1.0,
         "arrive": 0.0,
         "status": "终止",
@@ -114291,7 +114353,7 @@
         "post": "新媒体编辑",
         "level": "P1-P3",
         "need": 1.0,
-        "interview": 4.0,
+        "interview": 6.0,
         "offer": 0.0,
         "arrive": 0.0,
         "status": "",
@@ -114431,7 +114493,7 @@
         "post": "新媒体编辑组长",
         "level": "M1",
         "need": 1.0,
-        "interview": 0.0,
+        "interview": 1.0,
         "offer": 0.0,
         "arrive": 0.0,
         "status": "",
@@ -114442,7 +114504,7 @@
         "deadline": "2026/11/30",
         "salary": "5000-7000",
         "progress": 0.0,
-        "pass": 0.0
+        "pass": 1.0
       },
       {
         "no": "ZH2611097",
@@ -114491,7 +114553,7 @@
         "post": "新媒体编辑",
         "level": "P1-P3",
         "need": 1.0,
-        "interview": 3.0,
+        "interview": 4.0,
         "offer": 0.0,
         "arrive": 0.0,
         "status": "",
@@ -114502,7 +114564,7 @@
         "deadline": "2026/11/30",
         "salary": "4000-4500",
         "progress": 0.0,
-        "pass": 1.0
+        "pass": 2.0
       },
       {
         "no": "ZH2611088",
@@ -114811,8 +114873,8 @@
         "post": "新媒体编辑",
         "level": "P1",
         "need": 1.0,
-        "interview": 2.0,
-        "offer": 0.0,
+        "interview": 3.0,
+        "offer": 1.0,
         "arrive": 0.0,
         "status": "",
         "urgency": "a",
@@ -114822,7 +114884,7 @@
         "deadline": "2026/11/30",
         "salary": "4000-5000",
         "progress": 0.0,
-        "pass": 1.0
+        "pass": 2.0
       },
       {
         "no": "ZH2611150",
@@ -115431,7 +115493,7 @@
         "post": "新媒体编辑",
         "level": "P1",
         "need": 1.0,
-        "interview": 2.0,
+        "interview": 4.0,
         "offer": 1.0,
         "arrive": 0.0,
         "status": "",
@@ -115531,10 +115593,10 @@
         "post": "新媒体编辑",
         "level": "P1",
         "need": 1.0,
-        "interview": 1.0,
-        "offer": 1.0,
+        "interview": 2.0,
+        "offer": 2.0,
         "arrive": 1.0,
-        "status": "",
+        "status": "已完成",
         "urgency": "a",
         "import": "一类",
         "owner": "晋素敏",
@@ -115542,7 +115604,7 @@
         "deadline": "2026/11/15",
         "salary": "4000-5000",
         "progress": 1.0,
-        "pass": 1.0
+        "pass": 2.0
       },
       {
         "no": "ZH2611154",
@@ -115651,18 +115713,18 @@
         "post": "新媒体编辑",
         "level": "p2-p3",
         "need": 1.0,
-        "interview": 2.0,
-        "offer": 0.0,
+        "interview": 4.0,
+        "offer": 2.0,
         "arrive": 0.0,
         "status": "",
         "urgency": "c",
         "import": "一类",
-        "owner": "晋素敏",
+        "owner": "李彦鹏",
         "apply": "2026/10/26",
         "deadline": "2026/11/08",
         "salary": "4000-5000",
         "progress": 0.0,
-        "pass": 0.0
+        "pass": 2.0
       },
       {
         "no": "ZH2611157",
@@ -115951,7 +116013,7 @@
         "post": "新媒体编辑",
         "level": "P1",
         "need": 1.0,
-        "interview": 0.0,
+        "interview": 1.0,
         "offer": 0.0,
         "arrive": 0.0,
         "status": "",
@@ -115962,7 +116024,7 @@
         "deadline": "2026/11/15",
         "salary": "4000-5000",
         "progress": 0.0,
-        "pass": 0.0
+        "pass": 1.0
       },
       {
         "no": "ZH2611195",
@@ -116131,8 +116193,8 @@
         "post": "新媒体编辑",
         "level": "P1",
         "need": 1.0,
-        "interview": 4.0,
-        "offer": 2.0,
+        "interview": 5.0,
+        "offer": 3.0,
         "arrive": 0.0,
         "status": "",
         "urgency": "b",
@@ -116142,7 +116204,7 @@
         "deadline": "2026/11/08",
         "salary": "4000-5000",
         "progress": 0.0,
-        "pass": 2.0
+        "pass": 3.0
       },
       {
         "no": "ZH2611026",
@@ -116911,8 +116973,8 @@
         "post": "电商客服",
         "level": "p1",
         "need": 1.0,
-        "interview": 2.0,
-        "offer": 1.0,
+        "interview": 3.0,
+        "offer": 2.0,
         "arrive": 0.0,
         "status": "",
         "urgency": "b",
@@ -116922,7 +116984,7 @@
         "deadline": "2026/11/08",
         "salary": "4000-5000",
         "progress": 0.0,
-        "pass": 2.0
+        "pass": 3.0
       },
       {
         "no": "ZH2611115",
@@ -117111,8 +117173,8 @@
         "post": "新媒体编辑",
         "level": "p2-p3",
         "need": 1.0,
-        "interview": 0.0,
-        "offer": 0.0,
+        "interview": 2.0,
+        "offer": 1.0,
         "arrive": 0.0,
         "status": "",
         "urgency": "c",
@@ -117122,7 +117184,7 @@
         "deadline": "2026/11/08",
         "salary": "4000-5000",
         "progress": 0.0,
-        "pass": 0.0
+        "pass": 2.0
       },
       {
         "no": "ZH2611010",
@@ -117131,7 +117193,7 @@
         "post": "新媒体编辑",
         "level": "P1",
         "need": 1.0,
-        "interview": 6.0,
+        "interview": 8.0,
         "offer": 0.0,
         "arrive": 0.0,
         "status": "",
@@ -117142,7 +117204,7 @@
         "deadline": "2026/11/08",
         "salary": "4000-5000",
         "progress": 0.0,
-        "pass": 0.0
+        "pass": 1.0
       },
       {
         "no": "ZH2611050",
@@ -117291,10 +117353,10 @@
         "post": "新媒体编辑",
         "level": "p2-p3",
         "need": 1.0,
-        "interview": 6.0,
+        "interview": 7.0,
         "offer": 1.0,
         "arrive": 1.0,
-        "status": "",
+        "status": "已完成",
         "urgency": "a",
         "import": "一类",
         "owner": "司良玉",
@@ -117302,7 +117364,7 @@
         "deadline": "2026/11/08",
         "salary": "4000-5000",
         "progress": 1.0,
-        "pass": 1.0
+        "pass": 2.0
       },
       {
         "no": "ZH2611041",
@@ -117351,7 +117413,7 @@
         "post": "新媒体编辑",
         "level": "p2-p3",
         "need": 1.0,
-        "interview": 1.0,
+        "interview": 2.0,
         "offer": 1.0,
         "arrive": 0.0,
         "status": "",
@@ -117471,7 +117533,7 @@
         "post": "PR专员",
         "level": "P1-P3",
         "need": 1.0,
-        "interview": 4.0,
+        "interview": 6.0,
         "offer": 0.0,
         "arrive": 0.0,
         "status": "",
@@ -117925,56 +117987,76 @@
         "pass": 1.0
       },
       {
-        "no": "",
-        "top": "",
-        "dept": "",
-        "post": "",
+        "no": "ZH2611219",
+        "top": "组织效能中心",
+        "dept": "人资部",
+        "post": "行政专员",
         "level": "",
-        "need": 0.0,
+        "need": 1.0,
+        "interview": 1.0,
+        "offer": 0.0,
+        "arrive": 0.0,
+        "status": "",
+        "urgency": "b",
+        "import": "一类",
+        "owner": "李盼盼",
+        "apply": "2026/11/12",
+        "deadline": "2026/11/30",
+        "salary": "3000",
+        "progress": 0.0,
+        "pass": 1.0
+      },
+      {
+        "no": "ZH2611220",
+        "top": "创新项目部",
+        "dept": "盛视",
+        "post": "",
+        "level": "p1-p3",
+        "need": 1.0,
         "interview": 0.0,
         "offer": 0.0,
         "arrive": 0.0,
         "status": "",
-        "urgency": "",
-        "import": "",
-        "owner": "晋素敏",
-        "apply": "",
-        "deadline": "",
-        "salary": "",
+        "urgency": "s",
+        "import": "三类",
+        "owner": "盛琦雅",
+        "apply": "2026/11/10",
+        "deadline": "2026/11/30",
+        "salary": "4000--6000",
         "progress": 0.0,
         "pass": 0.0
       },
       {
-        "no": "",
-        "top": "",
-        "dept": "",
+        "no": "ZH2611221",
+        "top": "创新项目部",
+        "dept": "盛视",
         "post": "",
-        "level": "",
-        "need": 0.0,
+        "level": "p1--p3",
+        "need": 1.0,
         "interview": 0.0,
         "offer": 0.0,
         "arrive": 0.0,
         "status": "",
-        "urgency": "",
-        "import": "",
-        "owner": "晋素敏",
-        "apply": "",
-        "deadline": "",
-        "salary": "",
+        "urgency": "s",
+        "import": "三类",
+        "owner": "盛琦雅",
+        "apply": "2026/11/12",
+        "deadline": "2026/11/30",
+        "salary": "4000---6000",
         "progress": 0.0,
         "pass": 0.0
       }
     ],
     "stat": {
-      "total": 755,
-      "need_total": 753.0,
-      "interview_total": 1660.0,
-      "offer_total": 678.0,
+      "total": 756,
+      "need_total": 756.0,
+      "interview_total": 1684.0,
+      "offer_total": 685.0,
       "arrive_total": 496.0,
-      "gap": 257.0,
-      "fill_rate": 65.87,
+      "gap": 260.0,
+      "fill_rate": 65.61,
       "by_status": {
-        "已完成": 492,
+        "已完成": 494,
         "终止": 92,
         "未完成": 46
       },
@@ -117995,13 +118077,13 @@
           "arrive": 75.0
         },
         "创新项目部": {
-          "cnt": 87,
-          "need": 87.0,
+          "cnt": 89,
+          "need": 89.0,
           "arrive": 69.0
         },
         "组织效能中心": {
-          "cnt": 49,
-          "need": 49.0,
+          "cnt": 50,
+          "need": 50.0,
           "arrive": 36.0
         },
         "电商运营部": {
@@ -118035,20 +118117,20 @@
           "arrive": 3.0
         },
         "(未填)": {
-          "cnt": 4,
+          "cnt": 2,
           "need": 2.0,
           "arrive": 2.0
         }
       }
     },
-    "src": "招聘需求进度表（sheet149）共 755 条需求"
+    "src": "招聘需求进度表（sheet149）共 756 条需求"
   },
   "recruit_funnel": {
     "stat": {
-      "total": 5288,
+      "total": 5299,
       "by_source": {
-        "BOSS": 4720,
-        "(未填)": 324,
+        "BOSS": 4729,
+        "(未填)": 326,
         "内推": 105,
         "海鸥": 60,
         "转介绍": 56,
@@ -118058,14 +118140,14 @@
         "猎聘": 1
       },
       "by_stage": {
-        "其他/未推进": 1838,
+        "其他/未推进": 1840,
         "到岗": 1249,
-        "过初试": 1084,
-        "已发offer未到岗": 677,
+        "过初试": 1088,
+        "已发offer未到岗": 682,
         "过复试": 440
       },
       "interview_months": {
-        "1900年01月": 315,
+        "1900年01月": 317,
         "2025年04月": 242,
         "2025年05月": 249,
         "2025年06月": 199,
@@ -118085,7 +118167,7 @@
         "2026年08月": 456,
         "2026年09月": 334,
         "2026年10月": 555,
-        "2026年11月": 329
+        "2026年11月": 338
       },
       "arrive_months": {
         "2025年04月": 39,
@@ -118107,7 +118189,7 @@
         "2026年08月": 185,
         "2026年09月": 144,
         "2026年10月": 208,
-        "2026年11月": 145
+        "2026年11月": 148
       },
       "leave_months": {
         "2025年10月": 20,
@@ -118136,16 +118218,16 @@
         "李雪芹": 1375,
         "盛琦雅": 1202,
         "张帅涛": 1000,
-        "柴鑫雅": 538,
+        "柴鑫雅": 540,
         "杨蓓蕾": 460,
-        "霍怡彤": 404,
-        "刘晓颖": 400,
+        "霍怡彤": 406,
+        "刘晓颖": 402,
         "原桠栋": 347,
         "李盼盼": 277,
-        "李彦鹏": 232,
+        "李彦鹏": 231,
         "严美淇": 167,
-        "高秋慧": 144,
-        "内推": 126,
+        "高秋慧": 148,
+        "内推": 127,
         "总部": 123
       }
     },
@@ -118791,7 +118873,7 @@
         "month": "0"
       }
     ],
-    "src": "招聘数据表（sheet228）共 5288 条候选人记录"
+    "src": "招聘数据表（sheet228）共 5299 条候选人记录"
   },
   "recruit_ledger": {
     "rows": [
@@ -132584,10 +132666,10 @@
   },
   "org_xcheck": {
     "dingtalk_count": 327,
-    "humingce_active_count": 368,
-    "both_count": 314,
-    "dingtalk_only_count": 13,
-    "humingce_only_count": 54,
+    "humingce_active_count": 365,
+    "both_count": 312,
+    "dingtalk_only_count": 15,
+    "humingce_only_count": 53,
     "dingtalk_only": [
       "六六",
       "包子",
@@ -132595,13 +132677,15 @@
       "夏志强",
       "小达",
       "尧婕",
+      "张文数",
       "张旭辉",
       "李军锋",
       "杜子昂",
       "樊红玉",
       "罗祥磊",
       "肉肉",
-      "贺瑶"
+      "贺瑶",
+      "陈梦宇"
     ],
     "humingce_only": [
       "侯自豪",
@@ -132624,7 +132708,6 @@
       "张圆圆",
       "张帅豪",
       "张珂",
-      "张紫涵",
       "徐子溪",
       "晋素敏",
       "李彦鹏",
@@ -132856,11 +132939,6 @@
         "humingce_top": "望辰-Crown事业部"
       },
       {
-        "name": "张文数",
-        "dingtalk_top": "新星训练营",
-        "humingce_top": "创新项目部"
-      },
-      {
         "name": "张梦歌",
         "dingtalk_top": "绒光_Elite事业部",
         "humingce_top": "绒光-Elite事业部"
@@ -132957,6 +133035,11 @@
       },
       {
         "name": "李春利",
+        "dingtalk_top": "绒光_Elite事业部",
+        "humingce_top": "绒光-Elite事业部"
+      },
+      {
+        "name": "李晓乐",
         "dingtalk_top": "绒光_Elite事业部",
         "humingce_top": "绒光-Elite事业部"
       }
