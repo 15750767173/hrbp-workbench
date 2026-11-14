@@ -4479,49 +4479,22 @@
         },
         {
           "name": "四组：吴俊豪：17w",
-          "lead_clean_name": "吴俊豪（组长）、吴若寒、黑钰琪、王小雨",
+          "lead_clean_name": "吴俊豪（组长）、吴若寒、新人、王小雨",
           "members": [
-            "虎太郎乳化鱼油+虎太郎鱼油护毛宝+虎太郎泌尿片",
-            "虎太郎化毛片",
-            "虎太郎维生素+万卡丘维生素"
+            "虎太郎乳化鱼油+虎太郎维生素+虎太郎化毛片+泌尿片+万卡丘维生素"
           ],
           "products": [
             {
-              "name": "虎太郎乳化鱼油+虎太郎鱼油护毛宝+虎太郎泌尿片",
-              "base_target": 60000,
-              "stretch_target": 70000,
+              "name": "虎太郎乳化鱼油+虎太郎维生素+虎太郎化毛片+泌尿片+万卡丘维生素",
+              "base_target": 170000,
+              "stretch_target": 210000,
               "actual": 0,
-              "daily_keys": [
-                "虎太郎乳化鱼油",
-                "虎太郎鱼油护毛宝",
-                "虎太郎泌尿片"
-              ],
-              "actual_jul": 0
-            },
-            {
-              "name": "虎太郎化毛片",
-              "base_target": 70000,
-              "stretch_target": 90000,
-              "actual": 0,
-              "daily_keys": [
-                "虎太郎化毛片"
-              ],
-              "actual_jul": 0
-            },
-            {
-              "name": "虎太郎维生素+万卡丘维生素",
-              "base_target": 80000,
-              "stretch_target": 100000,
-              "actual": 0,
-              "daily_keys": [
-                "虎太郎维生素",
-                "万卡丘维生素"
-              ],
+              "daily_keys": [],
               "actual_jul": 0
             }
           ],
-          "base_target": 210000,
-          "stretch_target": 260000,
+          "base_target": 170000,
+          "stretch_target": 210000,
           "actual": 0
         }
       ],
@@ -4803,7 +4776,7 @@
         },
         {
           "name": "吴俊豪",
-          "product": "虎太郎乳化鱼油+虎太郎维生素+虎太郎鱼油护毛宝+虎太郎泌尿片",
+          "product": "虎太郎保健品",
           "group_base": 70000,
           "group_stretch": 80000,
           "person_base": 70000,
@@ -4853,7 +4826,7 @@
         },
         {
           "name": "吴若寒",
-          "product": "虎太郎维生素+万卡丘维生素",
+          "product": "万卡丘维生素/虎太郎维生素",
           "group_base": 50000,
           "group_stretch": 60000,
           "person_base": 50000,
