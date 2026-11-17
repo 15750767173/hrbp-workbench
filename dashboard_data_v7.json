@@ -137,14 +137,9 @@
         "person_count": 9,
         "staff_count": 13,
         "formal_count": 3,
-        "trial_count": 7,
-        "shigang_count": 3,
+        "trial_count": 8,
+        "shigang_count": 2,
         "shigang_list": [
-          {
-            "name": "王典典",
-            "hire_date": "",
-            "status": "在职"
-          },
           {
             "name": "刘文",
             "hire_date": "",
@@ -157,8 +152,8 @@
           }
         ],
         "yesterday_actual": 11252.51,
-        "daily_eff": 1125.25,
-        "monthly_eff": 17037.67
+        "daily_eff": 1022.96,
+        "monthly_eff": 15488.79
       },
       {
         "name": "宠元气友组",
@@ -224,7 +219,7 @@
       }
     ],
     "data_through_day": 16,
-    "generated_at": "2026-11-17 14:21",
+    "generated_at": "2026-11-17 15:44",
     "expect_day": 16,
     "dept_last_day": {
       "一部": 16,
@@ -12602,13 +12597,13 @@
           "2026-08": "6",
           "2026-09": "4",
           "2026-10": "8",
-          "2026-11": "7"
+          "2026-11": "8"
         },
         "probation": {
           "2026-08": "2",
           "2026-09": "0",
           "2026-10": "1",
-          "2026-11": "3"
+          "2026-11": "2"
         },
         "reg_output": {
           "2026-08": "87,974.14",
@@ -29069,7 +29064,7 @@
         "enter_date": "2026/06/23",
         "cycle": 147,
         "remark": null,
-        "archive": "https://www.kdocs.cn/l/cmxwju14cmR6"
+        "archive": "https://www.kdocs.cn/l/cgqWSKi0jz9M"
       },
       {
         "name": "吴璐阳",
@@ -29080,7 +29075,7 @@
         "enter_date": "2026/06/15",
         "cycle": 155,
         "remark": "晋升P3",
-        "archive": "https://www.kdocs.cn/l/calHklCbEVuH"
+        "archive": "https://www.kdocs.cn/l/cfwGJbq5udHy"
       },
       {
         "name": "蔺姣",
@@ -29091,7 +29086,7 @@
         "enter_date": "2026/08/13",
         "cycle": 96,
         "remark": null,
-        "archive": "https://www.kdocs.cn/l/ckEQX3ram1mc"
+        "archive": "https://www.kdocs.cn/l/cdc20oMcvp60"
       },
       {
         "name": "汪燕姿",
@@ -29102,7 +29097,7 @@
         "enter_date": "2026/06/01",
         "cycle": 169,
         "remark": "转正晋升P2",
-        "archive": "https://www.kdocs.cn/l/cgjxO0NmcVfM"
+        "archive": "https://www.kdocs.cn/l/cj1J3cj99jSG"
       },
       {
         "name": "吴若寒",
@@ -29113,7 +29108,7 @@
         "enter_date": "2026/06/24",
         "cycle": 146,
         "remark": null,
-        "archive": "https://www.kdocs.cn/l/cqiMDCfLHEm3"
+        "archive": "https://www.kdocs.cn/l/caD2X5e9rpIk"
       },
       {
         "name": "张颖柯",
@@ -29124,7 +29119,7 @@
         "enter_date": "2026/06/23",
         "cycle": 147,
         "remark": null,
-        "archive": "https://www.kdocs.cn/l/cbZne775mKwg"
+        "archive": "https://www.kdocs.cn/l/cnIhDntbJxuA"
       },
       {
         "name": "许晓宁",
@@ -29135,7 +29130,7 @@
         "enter_date": "2026/04/20",
         "cycle": 211,
         "remark": null,
-        "archive": "https://www.kdocs.cn/l/cuN5obvpltDW"
+        "archive": "https://www.kdocs.cn/l/crpDiNs02knN"
       },
       {
         "name": "马怡琪",
@@ -29146,7 +29141,7 @@
         "enter_date": "2026/05/01",
         "cycle": 200,
         "remark": null,
-        "archive": "https://www.kdocs.cn/l/csDwcjiyWZ9c"
+        "archive": "https://www.kdocs.cn/l/ca6SBlueUlRf"
       },
       {
         "name": "张楠楠",
@@ -29157,7 +29152,7 @@
         "enter_date": "2026/06/23",
         "cycle": 147,
         "remark": null,
-        "archive": "https://www.kdocs.cn/l/clkFajnw7gEo"
+        "archive": "https://www.kdocs.cn/l/csDEXdJUQbsv"
       },
       {
         "name": "陈文广",
@@ -29168,7 +29163,7 @@
         "enter_date": "2026/06/23",
         "cycle": 147,
         "remark": "晋升P3\n2026.11.7变回潜力",
-        "archive": "https://www.kdocs.cn/l/ckTV3AdHQfXO"
+        "archive": "https://www.kdocs.cn/l/coWRYG8JP9JI"
       },
       {
         "name": "韩艳艳",
@@ -29179,7 +29174,7 @@
         "enter_date": "2026/06/23",
         "cycle": 147,
         "remark": null,
-        "archive": "https://www.kdocs.cn/l/cu49qj6ZWqx8"
+        "archive": "https://www.kdocs.cn/l/chrj57qVkIPv"
       },
       {
         "name": "李寰珠",
@@ -29190,7 +29185,7 @@
         "enter_date": "2026/06/23",
         "cycle": 147,
         "remark": null,
-        "archive": "https://www.kdocs.cn/l/cdPoRVH8LkcT"
+        "archive": "https://www.kdocs.cn/l/cbkaAYrRAfbR"
       },
       {
         "name": "庾云龙",
@@ -29201,7 +29196,7 @@
         "enter_date": "2026/06/23",
         "cycle": 147,
         "remark": null,
-        "archive": "https://www.kdocs.cn/l/cobTJqSzOi8B"
+        "archive": "https://www.kdocs.cn/l/cm7CUlTVieVr"
       },
       {
         "name": "于鹏展",
@@ -29212,7 +29207,7 @@
         "enter_date": "2026/06/20",
         "cycle": 150,
         "remark": null,
-        "archive": "https://www.kdocs.cn/l/cgxLRB5Zfrf4"
+        "archive": "https://www.kdocs.cn/l/cgROiEQnkR3S"
       },
       {
         "name": "韦向前",
@@ -29223,7 +29218,7 @@
         "enter_date": "2026/05/21",
         "cycle": 180,
         "remark": null,
-        "archive": "https://www.kdocs.cn/l/ct8yDSr0b3qD"
+        "archive": "https://www.kdocs.cn/l/cqrWseQa1t4j"
       },
       {
         "name": "鲁起飞",
@@ -29234,7 +29229,7 @@
         "enter_date": "2026/07/02",
         "cycle": 138,
         "remark": null,
-        "archive": "https://www.kdocs.cn/l/clCPjz9UJNtQ"
+        "archive": "https://www.kdocs.cn/l/cdGgoBVxF4HC"
       },
       {
         "name": "甘佳欣",
@@ -29245,7 +29240,7 @@
         "enter_date": "2026/08/12",
         "cycle": 97,
         "remark": null,
-        "archive": "https://www.kdocs.cn/l/ciFjxmmkZRAf"
+        "archive": "https://www.kdocs.cn/l/ceLXlG3q9bvU"
       },
       {
         "name": "史梦棋",
@@ -29256,7 +29251,7 @@
         "enter_date": "2026/08/14",
         "cycle": 95,
         "remark": null,
-        "archive": "https://www.kdocs.cn/l/cfUHJvy9IGAC"
+        "archive": "https://www.kdocs.cn/l/ch4lVv9QY1uL"
       },
       {
         "name": "翟文裕",
@@ -29267,7 +29262,7 @@
         "enter_date": "2026/09/08",
         "cycle": 70,
         "remark": null,
-        "archive": "https://www.kdocs.cn/l/cuG3gNzntJmO"
+        "archive": "https://www.kdocs.cn/l/cqzVsVjLuHCm"
       },
       {
         "name": "宋一鸣",
@@ -29278,7 +29273,7 @@
         "enter_date": "2026/08/13",
         "cycle": 96,
         "remark": null,
-        "archive": "https://www.kdocs.cn/l/cli9R4E2NuMo"
+        "archive": "https://www.kdocs.cn/l/caUAS5rqUPh1"
       },
       {
         "name": "张吉祥",
@@ -29289,7 +29284,7 @@
         "enter_date": "2026/08/15",
         "cycle": 94,
         "remark": null,
-        "archive": "https://www.kdocs.cn/l/cfy43BcJN8Es"
+        "archive": "https://www.kdocs.cn/l/cr7O5hqxrOPc"
       },
       {
         "name": "邵静芳",
@@ -29300,7 +29295,7 @@
         "enter_date": "2026/09/08",
         "cycle": 70,
         "remark": null,
-        "archive": "https://www.kdocs.cn/l/clvQwoBydhdE"
+        "archive": "https://www.kdocs.cn/l/cqL7W2SIJwxx"
       },
       {
         "name": "李佳音",
@@ -29311,7 +29306,7 @@
         "enter_date": "2026/09/08",
         "cycle": 70,
         "remark": null,
-        "archive": "https://www.kdocs.cn/l/cvow4syfObUc"
+        "archive": "https://www.kdocs.cn/l/coRXn7eZIhJF"
       },
       {
         "name": "李依晨",
@@ -29322,7 +29317,7 @@
         "enter_date": "",
         "cycle": 46343,
         "remark": null,
-        "archive": "https://www.kdocs.cn/l/clNzHsNNlPop"
+        "archive": "https://www.kdocs.cn/l/csMvB9BsST0Q"
       },
       {
         "name": "王硕硕",
@@ -29333,7 +29328,7 @@
         "enter_date": "2026/11/07",
         "cycle": 10,
         "remark": null,
-        "archive": ""
+        "archive": "https://www.kdocs.cn/l/cr9Nm80hLXsw"
       },
       {
         "name": "赖佳",
@@ -29344,7 +29339,7 @@
         "enter_date": "2026/11/07",
         "cycle": 10,
         "remark": null,
-        "archive": ""
+        "archive": "https://www.kdocs.cn/l/cjzyWNkelhs7"
       },
       {
         "name": "谢宇辰",
@@ -29355,7 +29350,7 @@
         "enter_date": "2026/11/07",
         "cycle": 10,
         "remark": null,
-        "archive": ""
+        "archive": "https://www.kdocs.cn/l/cufP0K6km0os"
       },
       {
         "name": "张甜静",
@@ -29366,7 +29361,7 @@
         "enter_date": "2026/11/07",
         "cycle": 10,
         "remark": null,
-        "archive": ""
+        "archive": "https://www.kdocs.cn/l/ceOt7DBNA8ui"
       },
       {
         "name": "王常红",
@@ -29377,7 +29372,7 @@
         "enter_date": "2026/11/07",
         "cycle": 10,
         "remark": null,
-        "archive": ""
+        "archive": "https://www.kdocs.cn/l/cdBuGJiRuvHe"
       }
     ],
     "hexin": [
@@ -29389,7 +29384,7 @@
         "regular_date": "2026/03/01",
         "days": null,
         "remark": "晋升",
-        "archive": "https://www.kdocs.cn/l/ceL9D200xLRo"
+        "archive": "https://www.kdocs.cn/l/ciHDJIP4yP0j"
       },
       {
         "name": "杨兰兰",
@@ -29399,7 +29394,7 @@
         "regular_date": "2025/07/01",
         "days": null,
         "remark": "晋升",
-        "archive": "https://www.kdocs.cn/l/ctG9EOuh1W2w"
+        "archive": "https://www.kdocs.cn/l/ckpW5euyZUhF"
       },
       {
         "name": "高营",
@@ -29409,7 +29404,7 @@
         "regular_date": "2024/09/19",
         "days": null,
         "remark": null,
-        "archive": "https://www.kdocs.cn/l/cpOsLC4Pa9rx"
+        "archive": "https://www.kdocs.cn/l/csCqqZInwRAw"
       },
       {
         "name": "庄盼盼",
@@ -29419,7 +29414,7 @@
         "regular_date": "2024/06/26",
         "days": null,
         "remark": "调薪",
-        "archive": "https://www.kdocs.cn/l/cb7LYqflR26n"
+        "archive": "https://www.kdocs.cn/l/cb6SGW1Go19W"
       },
       {
         "name": "吴俊豪",
@@ -29429,7 +29424,7 @@
         "regular_date": "2026/03/01",
         "days": null,
         "remark": null,
-        "archive": "https://www.kdocs.cn/l/cuD61xcoLk8v"
+        "archive": "https://www.kdocs.cn/l/csdbRYP04EAB"
       },
       {
         "name": "胡宵雪",
@@ -29439,7 +29434,7 @@
         "regular_date": "2023/09/08",
         "days": null,
         "remark": null,
-        "archive": "https://www.kdocs.cn/l/csUuS4ADAXS3"
+        "archive": "https://www.kdocs.cn/l/crs8zQqnP8aj"
       },
       {
         "name": "付一鸣",
@@ -29449,7 +29444,7 @@
         "regular_date": "2024/06/26",
         "days": null,
         "remark": null,
-        "archive": "https://www.kdocs.cn/l/coz51rsyVFcG"
+        "archive": "https://www.kdocs.cn/l/clUSciGkopIg"
       },
       {
         "name": "李秀琦",
@@ -29459,7 +29454,7 @@
         "regular_date": "2024/06/27",
         "days": null,
         "remark": null,
-        "archive": "https://www.kdocs.cn/l/cu0TXarNnKSo"
+        "archive": "https://www.kdocs.cn/l/croCNGBmC0UD"
       },
       {
         "name": "李晓乐",
@@ -29469,7 +29464,7 @@
         "regular_date": "2024/08/20",
         "days": null,
         "remark": null,
-        "archive": "https://www.kdocs.cn/l/coBK8EzHsdq3"
+        "archive": "https://www.kdocs.cn/l/cn4ODt9dd9JG"
       },
       {
         "name": "张楠",
@@ -29479,7 +29474,7 @@
         "regular_date": "2024/07/18",
         "days": null,
         "remark": null,
-        "archive": "https://www.kdocs.cn/l/ccqdVK2rHhnx"
+        "archive": "https://www.kdocs.cn/l/cvSI4T0YfUx6"
       },
       {
         "name": "韩晴",
@@ -29489,7 +29484,7 @@
         "regular_date": "2025/11/01",
         "days": null,
         "remark": null,
-        "archive": "https://www.kdocs.cn/l/cnoTBF46gH9H"
+        "archive": "https://www.kdocs.cn/l/cp5dV9BJHx5W"
       },
       {
         "name": "段云洁",
@@ -29499,7 +29494,7 @@
         "regular_date": "2026/01/01",
         "days": null,
         "remark": null,
-        "archive": "https://www.kdocs.cn/l/coJkuJBvQAhA"
+        "archive": "https://www.kdocs.cn/l/ct9IBpNJ6FIX"
       },
       {
         "name": "王雪娅",
@@ -29509,7 +29504,7 @@
         "regular_date": "2024/07/09",
         "days": null,
         "remark": "新媒体编辑",
-        "archive": "https://www.kdocs.cn/l/ckoTGLjlPevV"
+        "archive": "https://www.kdocs.cn/l/ciXgTE6b9lmv"
       },
       {
         "name": "魏谣鑫",
@@ -29519,7 +29514,7 @@
         "regular_date": "2024/08/01",
         "days": null,
         "remark": null,
-        "archive": "https://www.kdocs.cn/l/clEDw6TlefWH"
+        "archive": "https://www.kdocs.cn/l/cpKiiOhHPXIM"
       },
       {
         "name": "李春利",
@@ -29529,7 +29524,7 @@
         "regular_date": "2025/10/01",
         "days": null,
         "remark": null,
-        "archive": "https://www.kdocs.cn/l/cqIA7yE0ayDP"
+        "archive": "https://www.kdocs.cn/l/coQttg6Yxe0o"
       },
       {
         "name": "马赛赛",
@@ -29539,7 +29534,7 @@
         "regular_date": "2024/05/28",
         "days": null,
         "remark": null,
-        "archive": "https://www.kdocs.cn/l/cjep2sYWUfxJ"
+        "archive": "https://www.kdocs.cn/l/cpkveI17fNO8"
       },
       {
         "name": "朱叶杰",
@@ -29549,7 +29544,7 @@
         "regular_date": "2026/06/01",
         "days": null,
         "remark": "转正晋升P2",
-        "archive": "https://www.kdocs.cn/l/cpR4MkzUXrGb"
+        "archive": "https://www.kdocs.cn/l/cuRwPELab1A7"
       },
       {
         "name": "李紫怡",
@@ -29559,7 +29554,7 @@
         "regular_date": "2024/07/15",
         "days": null,
         "remark": null,
-        "archive": "https://www.kdocs.cn/l/cb3ZCcqlkXaF"
+        "archive": "https://www.kdocs.cn/l/cml0k9SdHrFK"
       },
       {
         "name": "胡帅",
@@ -29569,7 +29564,7 @@
         "regular_date": "2024/09/01",
         "days": null,
         "remark": null,
-        "archive": "https://www.kdocs.cn/l/cllXsB46rh9G"
+        "archive": "https://www.kdocs.cn/l/cfulkcUNVtfP"
       },
       {
         "name": "陈文广",
@@ -29579,7 +29574,7 @@
         "regular_date": "2026/03/01",
         "days": null,
         "remark": "晋升P3",
-        "archive": "https://www.kdocs.cn/l/ckTV3AdHQfXO"
+        "archive": "https://www.kdocs.cn/l/coWRYG8JP9JI"
       },
       {
         "name": "韩艳艳",
@@ -29589,7 +29584,7 @@
         "regular_date": "2025/10/01",
         "days": null,
         "remark": null,
-        "archive": ""
+        "archive": "https://www.kdocs.cn/l/chrj57qVkIPv"
       },
       {
         "name": "路正阳",
@@ -29599,7 +29594,7 @@
         "regular_date": "2025/11/01",
         "days": null,
         "remark": null,
-        "archive": ""
+        "archive": "https://www.kdocs.cn/l/cuEfBYWdkJ0V"
       },
       {
         "name": "时露",
@@ -29609,7 +29604,7 @@
         "regular_date": "2026/09/01",
         "days": null,
         "remark": null,
-        "archive": ""
+        "archive": "https://www.kdocs.cn/l/ceDptqk1PtqX"
       },
       {
         "name": "冯蔺城",
@@ -29619,241 +29614,241 @@
         "regular_date": "2024/12/04",
         "days": null,
         "remark": null,
-        "archive": ""
+        "archive": "https://www.kdocs.cn/l/cm8pv4oaWuaT"
       }
     ],
     "talent_map": {
       "沈雪妮": {
         "type": "潜力",
-        "url": "https://www.kdocs.cn/l/cmxwju14cmR6"
+        "url": "https://www.kdocs.cn/l/cgqWSKi0jz9M"
       },
       "吴璐阳": {
         "type": "潜力",
-        "url": "https://www.kdocs.cn/l/calHklCbEVuH"
+        "url": "https://www.kdocs.cn/l/cfwGJbq5udHy"
       },
       "蔺姣": {
         "type": "潜力",
-        "url": "https://www.kdocs.cn/l/ckEQX3ram1mc"
+        "url": "https://www.kdocs.cn/l/cdc20oMcvp60"
       },
       "汪燕姿": {
         "type": "潜力",
-        "url": "https://www.kdocs.cn/l/cgjxO0NmcVfM"
+        "url": "https://www.kdocs.cn/l/cj1J3cj99jSG"
       },
       "吴若寒": {
         "type": "潜力",
-        "url": "https://www.kdocs.cn/l/cqiMDCfLHEm3"
+        "url": "https://www.kdocs.cn/l/caD2X5e9rpIk"
       },
       "张颖柯": {
         "type": "潜力",
-        "url": "https://www.kdocs.cn/l/cbZne775mKwg"
+        "url": "https://www.kdocs.cn/l/cnIhDntbJxuA"
       },
       "许晓宁": {
         "type": "潜力",
-        "url": "https://www.kdocs.cn/l/cuN5obvpltDW"
+        "url": "https://www.kdocs.cn/l/crpDiNs02knN"
       },
       "马怡琪": {
         "type": "潜力",
-        "url": "https://www.kdocs.cn/l/csDwcjiyWZ9c"
+        "url": "https://www.kdocs.cn/l/ca6SBlueUlRf"
       },
       "张楠楠": {
         "type": "潜力",
-        "url": "https://www.kdocs.cn/l/clkFajnw7gEo"
+        "url": "https://www.kdocs.cn/l/csDEXdJUQbsv"
       },
       "陈文广": {
         "type": "核心",
-        "url": "https://www.kdocs.cn/l/ckTV3AdHQfXO"
+        "url": "https://www.kdocs.cn/l/coWRYG8JP9JI"
       },
       "韩艳艳": {
         "type": "核心",
-        "url": ""
+        "url": "https://www.kdocs.cn/l/chrj57qVkIPv"
       },
       "李寰珠": {
         "type": "潜力",
-        "url": "https://www.kdocs.cn/l/cdPoRVH8LkcT"
+        "url": "https://www.kdocs.cn/l/cbkaAYrRAfbR"
       },
       "庾云龙": {
         "type": "潜力",
-        "url": "https://www.kdocs.cn/l/cobTJqSzOi8B"
+        "url": "https://www.kdocs.cn/l/cm7CUlTVieVr"
       },
       "于鹏展": {
         "type": "潜力",
-        "url": "https://www.kdocs.cn/l/cgxLRB5Zfrf4"
+        "url": "https://www.kdocs.cn/l/cgROiEQnkR3S"
       },
       "韦向前": {
         "type": "潜力",
-        "url": "https://www.kdocs.cn/l/ct8yDSr0b3qD"
+        "url": "https://www.kdocs.cn/l/cqrWseQa1t4j"
       },
       "鲁起飞": {
         "type": "潜力",
-        "url": "https://www.kdocs.cn/l/clCPjz9UJNtQ"
+        "url": "https://www.kdocs.cn/l/cdGgoBVxF4HC"
       },
       "甘佳欣": {
         "type": "潜力",
-        "url": "https://www.kdocs.cn/l/ciFjxmmkZRAf"
+        "url": "https://www.kdocs.cn/l/ceLXlG3q9bvU"
       },
       "史梦棋": {
         "type": "潜力",
-        "url": "https://www.kdocs.cn/l/cfUHJvy9IGAC"
+        "url": "https://www.kdocs.cn/l/ch4lVv9QY1uL"
       },
       "翟文裕": {
         "type": "潜力",
-        "url": "https://www.kdocs.cn/l/cuG3gNzntJmO"
+        "url": "https://www.kdocs.cn/l/cqzVsVjLuHCm"
       },
       "宋一鸣": {
         "type": "潜力",
-        "url": "https://www.kdocs.cn/l/cli9R4E2NuMo"
+        "url": "https://www.kdocs.cn/l/caUAS5rqUPh1"
       },
       "张吉祥": {
         "type": "潜力",
-        "url": "https://www.kdocs.cn/l/cfy43BcJN8Es"
+        "url": "https://www.kdocs.cn/l/cr7O5hqxrOPc"
       },
       "邵静芳": {
         "type": "潜力",
-        "url": "https://www.kdocs.cn/l/clvQwoBydhdE"
+        "url": "https://www.kdocs.cn/l/cqL7W2SIJwxx"
       },
       "李佳音": {
         "type": "潜力",
-        "url": "https://www.kdocs.cn/l/cvow4syfObUc"
+        "url": "https://www.kdocs.cn/l/coRXn7eZIhJF"
       },
       "李依晨": {
         "type": "潜力",
-        "url": "https://www.kdocs.cn/l/clNzHsNNlPop"
+        "url": "https://www.kdocs.cn/l/csMvB9BsST0Q"
       },
       "王硕硕": {
         "type": "潜力",
-        "url": ""
+        "url": "https://www.kdocs.cn/l/cr9Nm80hLXsw"
       },
       "赖佳": {
         "type": "潜力",
-        "url": ""
+        "url": "https://www.kdocs.cn/l/cjzyWNkelhs7"
       },
       "谢宇辰": {
         "type": "潜力",
-        "url": ""
+        "url": "https://www.kdocs.cn/l/cufP0K6km0os"
       },
       "张甜静": {
         "type": "潜力",
-        "url": ""
+        "url": "https://www.kdocs.cn/l/ceOt7DBNA8ui"
       },
       "王常红": {
         "type": "潜力",
-        "url": ""
+        "url": "https://www.kdocs.cn/l/cdBuGJiRuvHe"
       },
       "贾怡凡": {
         "type": "核心",
-        "url": "https://www.kdocs.cn/l/ceL9D200xLRo"
+        "url": "https://www.kdocs.cn/l/ciHDJIP4yP0j"
       },
       "杨兰兰": {
         "type": "核心",
-        "url": "https://www.kdocs.cn/l/ctG9EOuh1W2w"
+        "url": "https://www.kdocs.cn/l/ckpW5euyZUhF"
       },
       "高营": {
         "type": "核心",
-        "url": "https://www.kdocs.cn/l/cpOsLC4Pa9rx"
+        "url": "https://www.kdocs.cn/l/csCqqZInwRAw"
       },
       "庄盼盼": {
         "type": "核心",
-        "url": "https://www.kdocs.cn/l/cb7LYqflR26n"
+        "url": "https://www.kdocs.cn/l/cb6SGW1Go19W"
       },
       "吴俊豪": {
         "type": "核心",
-        "url": "https://www.kdocs.cn/l/cuD61xcoLk8v"
+        "url": "https://www.kdocs.cn/l/csdbRYP04EAB"
       },
       "胡宵雪": {
         "type": "核心",
-        "url": "https://www.kdocs.cn/l/csUuS4ADAXS3"
+        "url": "https://www.kdocs.cn/l/crs8zQqnP8aj"
       },
       "付一鸣": {
         "type": "核心",
-        "url": "https://www.kdocs.cn/l/coz51rsyVFcG"
+        "url": "https://www.kdocs.cn/l/clUSciGkopIg"
       },
       "李秀琦": {
         "type": "核心",
-        "url": "https://www.kdocs.cn/l/cu0TXarNnKSo"
+        "url": "https://www.kdocs.cn/l/croCNGBmC0UD"
       },
       "李晓乐": {
         "type": "核心",
-        "url": "https://www.kdocs.cn/l/coBK8EzHsdq3"
+        "url": "https://www.kdocs.cn/l/cn4ODt9dd9JG"
       },
       "张楠": {
         "type": "核心",
-        "url": "https://www.kdocs.cn/l/ccqdVK2rHhnx"
+        "url": "https://www.kdocs.cn/l/cvSI4T0YfUx6"
       },
       "韩晴": {
         "type": "核心",
-        "url": "https://www.kdocs.cn/l/cnoTBF46gH9H"
+        "url": "https://www.kdocs.cn/l/cp5dV9BJHx5W"
       },
       "段云洁": {
         "type": "核心",
-        "url": "https://www.kdocs.cn/l/coJkuJBvQAhA"
+        "url": "https://www.kdocs.cn/l/ct9IBpNJ6FIX"
       },
       "王雪娅": {
         "type": "核心",
-        "url": "https://www.kdocs.cn/l/ckoTGLjlPevV"
+        "url": "https://www.kdocs.cn/l/ciXgTE6b9lmv"
       },
       "魏谣鑫": {
         "type": "核心",
-        "url": "https://www.kdocs.cn/l/clEDw6TlefWH"
+        "url": "https://www.kdocs.cn/l/cpKiiOhHPXIM"
       },
       "李春利": {
         "type": "核心",
-        "url": "https://www.kdocs.cn/l/cqIA7yE0ayDP"
+        "url": "https://www.kdocs.cn/l/coQttg6Yxe0o"
       },
       "马赛赛": {
         "type": "核心",
-        "url": "https://www.kdocs.cn/l/cjep2sYWUfxJ"
+        "url": "https://www.kdocs.cn/l/cpkveI17fNO8"
       },
       "朱叶杰": {
         "type": "核心",
-        "url": "https://www.kdocs.cn/l/cpR4MkzUXrGb"
+        "url": "https://www.kdocs.cn/l/cuRwPELab1A7"
       },
       "李紫怡": {
         "type": "核心",
-        "url": "https://www.kdocs.cn/l/cb3ZCcqlkXaF"
+        "url": "https://www.kdocs.cn/l/cml0k9SdHrFK"
       },
       "胡帅": {
         "type": "核心",
-        "url": "https://www.kdocs.cn/l/cllXsB46rh9G"
+        "url": "https://www.kdocs.cn/l/cfulkcUNVtfP"
       },
       "路正阳": {
         "type": "核心",
-        "url": ""
+        "url": "https://www.kdocs.cn/l/cuEfBYWdkJ0V"
       },
       "时露": {
         "type": "核心",
-        "url": ""
+        "url": "https://www.kdocs.cn/l/ceDptqk1PtqX"
       },
       "冯蔺城": {
         "type": "核心",
-        "url": ""
+        "url": "https://www.kdocs.cn/l/cm8pv4oaWuaT"
       },
       "李佳欣": {
         "type": "潜力",
-        "url": "https://www.kdocs.cn/l/cvow4syfObUc"
+        "url": "https://www.kdocs.cn/l/coRXn7eZIhJF"
       },
       "李佳鑫": {
         "type": "潜力",
-        "url": "https://www.kdocs.cn/l/cvow4syfObUc"
+        "url": "https://www.kdocs.cn/l/coRXn7eZIhJF"
       },
       "汪燕资": {
         "type": "潜力",
-        "url": "https://www.kdocs.cn/l/cgjxO0NmcVfM"
+        "url": "https://www.kdocs.cn/l/cj1J3cj99jSG"
       },
       "王雪": {
         "type": "核心",
-        "url": "https://www.kdocs.cn/l/ckoTGLjlPevV"
+        "url": "https://www.kdocs.cn/l/ciXgTE6b9lmv"
       },
       "贾怡帆": {
         "type": "核心",
-        "url": "https://www.kdocs.cn/l/ceL9D200xLRo"
+        "url": "https://www.kdocs.cn/l/ciHDJIP4yP0j"
       },
       "魏姚鑫": {
         "type": "核心",
-        "url": "https://www.kdocs.cn/l/clEDw6TlefWH"
+        "url": "https://www.kdocs.cn/l/cpKiiOhHPXIM"
       },
       "魏瑶鑫": {
         "type": "核心",
-        "url": "https://www.kdocs.cn/l/clEDw6TlefWH"
+        "url": "https://www.kdocs.cn/l/cpKiiOhHPXIM"
       }
     },
     "bp_tasks": [
@@ -40251,6 +40246,28 @@
         "progress": null,
         "interviewee": null,
         "record": null
+      },
+      {
+        "task": "星辰二部吴燕菲离职面谈（优化）",
+        "owner": "罗思会",
+        "creator": "罗思会",
+        "created": "2026/11/17 14:34:33",
+        "deadline": "",
+        "done": "",
+        "progress": null,
+        "interviewee": null,
+        "record": null
+      },
+      {
+        "task": "星辰四部王子涵离职面谈（优化）",
+        "owner": "罗思会",
+        "creator": "罗思会",
+        "created": "2026/11/17 15:21:32",
+        "deadline": "",
+        "done": "",
+        "progress": null,
+        "interviewee": null,
+        "record": null
       }
     ],
     "miantan": [
@@ -40882,7 +40899,7 @@
         "name": "王典典",
         "dept": "昱升七部",
         "status": "在职",
-        "stage": "试岗",
+        "stage": "试用期",
         "age": 24,
         "level": "P1",
         "type": "潜力人才面谈",
@@ -46342,7 +46359,7 @@
         "name": "王典典",
         "dept": "昱升七部",
         "status": "在职",
-        "stage": "试岗",
+        "stage": "试用期",
         "age": 24,
         "level": "P1",
         "type": "试岗期面谈",
@@ -56663,7 +56680,7 @@
         "nick": "爆米兜",
         "dept1": "绒光-Elite事业部",
         "dept2": "创晖一部",
-        "dept3": null,
+        "dept3": "宠物一组",
         "status": "在职",
         "stage": "试用期",
         "hire_date": ""
@@ -56693,9 +56710,9 @@
         "nick": "荷亦",
         "dept1": "渠道运营部",
         "dept2": "曦跃-Win部",
-        "dept3": null,
+        "dept3": "带货组",
         "status": "在职",
-        "stage": "试岗",
+        "stage": "试用期",
         "hire_date": ""
       },
       {
@@ -56733,7 +56750,7 @@
         "nick": "虎芽",
         "dept1": "绒光-Elite事业部",
         "dept2": "昭荣二部",
-        "dept3": null,
+        "dept3": "宠物四组",
         "status": "在职",
         "stage": "试用期",
         "hire_date": ""
@@ -56760,12 +56777,12 @@
       },
       {
         "name": "王典典",
-        "nick": null,
+        "nick": "桂淼",
         "dept1": "绒光-Elite事业部",
         "dept2": "昱升七部",
-        "dept3": null,
+        "dept3": "宠物二组",
         "status": "在职",
-        "stage": "试岗",
+        "stage": "试用期",
         "hire_date": ""
       },
       {
@@ -57434,8 +57451,8 @@
         "post": "新媒体编辑",
         "chushi": "是",
         "fushi": "是",
-        "offer": "",
-        "days": 0,
+        "offer": "已接",
+        "days": -2,
         "time": "2026/11/17"
       },
       {
@@ -57443,6 +57460,24 @@
         "post": "新媒体编辑",
         "chushi": "是",
         "fushi": "否",
+        "offer": "",
+        "days": 0,
+        "time": "2026/11/17"
+      },
+      {
+        "name": "胡伊曼",
+        "post": "新媒体编辑",
+        "chushi": "是",
+        "fushi": "否",
+        "offer": "",
+        "days": 0,
+        "time": "2026/11/17"
+      },
+      {
+        "name": "李嘉琪",
+        "post": "新媒体编辑",
+        "chushi": "是",
+        "fushi": "是",
         "offer": "",
         "days": 0,
         "time": "2026/11/17"
@@ -57803,8 +57838,8 @@
         "post": "投手",
         "chushi": "是",
         "fushi": "是",
-        "offer": "未发",
-        "days": 0,
+        "offer": "已接",
+        "days": -5,
         "time": "2026/11/13"
       },
       {
@@ -63618,7 +63653,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 57,
+        "days": 56,
         "time": "2026/09/21"
       },
       {
@@ -64589,24 +64624,6 @@
         "post": "TK带货主播",
         "chushi": "是",
         "fushi": "是",
-        "offer": "",
-        "days": 0,
-        "time": "2026/09/11"
-      },
-      {
-        "name": "郝明珠",
-        "post": "招聘专员",
-        "chushi": "是",
-        "fushi": "是",
-        "offer": "已接",
-        "days": 64,
-        "time": "2026/09/11"
-      },
-      {
-        "name": "王俊龙",
-        "post": "新媒体编辑",
-        "chushi": "是",
-        "fushi": "否",
         "offer": "",
         "days": 0,
         "time": "2026/09/11"
@@ -66119,14 +66136,14 @@
         {
           "name": "田佳柠",
           "nick": "荷亦",
-          "stage": "试岗",
+          "stage": "试用期",
           "hire_date": "",
           "status": "在职"
         }
       ],
       "counts": {
-        "试岗": 1,
-        "试用期": 0,
+        "试岗": 0,
+        "试用期": 1,
         "正式员工": 5,
         "其他": 0
       }
@@ -66421,8 +66438,8 @@
         },
         {
           "name": "王典典",
-          "nick": null,
-          "stage": "试岗",
+          "nick": "桂淼",
+          "stage": "试用期",
           "hire_date": "",
           "status": "在职"
         },
@@ -66442,8 +66459,8 @@
         }
       ],
       "counts": {
-        "试岗": 3,
-        "试用期": 7,
+        "试岗": 2,
+        "试用期": 8,
         "正式员工": 3,
         "其他": 0
       }
@@ -73165,7 +73182,7 @@
           "net": 0.0,
           "jf": 0.0,
           "group": "百货一组",
-          "n": 41
+          "n": 42
         },
         "张吉祥": {
           "net": 0.0,
@@ -74034,7 +74051,7 @@
             "net": 0.0,
             "jf": 0.0,
             "group": "百货一组",
-            "n": 41
+            "n": 42
           },
           "张吉祥": {
             "net": 0.0,
@@ -78196,7 +78213,7 @@
               "s": 44.735,
               "jf": 0.0,
               "net": 0.0,
-              "c": 41
+              "c": 42
             },
             {
               "n": "张吉祥",
@@ -88978,8 +88995,8 @@
     "一部": {
       "file": "_xc_jfdet_yibu.json",
       "kind": "detail",
-      "records": 1540,
-      "kept": 137,
+      "records": 1542,
+      "kept": 138,
       "det_person": {
         "张甜静": 0.0,
         "王馨毅": 8.4628,
@@ -89758,9 +89775,9 @@
         "总经办": 2
       },
       "by_stage": {
-        "试用期": 530,
+        "试用期": 532,
         "正式员工": 240,
-        "试岗": 326
+        "试岗": 324
       },
       "zaizhi_count": 373
     },
@@ -96893,17 +96910,17 @@
           }
         },
         "2026-11-16": {
-          "net": 56457.08999999999,
+          "net": 69740.38999999998,
           "p": {
-            "YRKL人体工学椅": 11583.2,
+            "YRKL人体工学椅": 12900.7,
             "YRKL婴儿床围栏": 820.7,
             "YRKL宝宝餐椅": 1197.0,
-            "YRKL途风300": 8729.55,
+            "YRKL途风300": 9747.85,
             "yrkl学习桌": -418.9,
             "安娜王妃带纸草莓酒": 149.0,
             "安娜王妃柚子酒": 467.0,
             "山林颂五红粉": 922.9499999999999,
-            "希贝兔儿童自行车": 7443.799999999999,
+            "希贝兔儿童自行车": 9819.8,
             "希贝兔口袋车": 1016.67,
             "希贝兔山地自行车": 703.6,
             "希贝兔平衡车": 1455.0,
@@ -96912,13 +96929,15 @@
             "德仑姆大路灯": 1337.0,
             "柚子草莓酒组合装": 344.3,
             "索奈尔CF260": 121.45000000000005,
-            "索奈尔GT-55": 2942.44,
-            "索奈尔升级款CF260": 11913.119999999999,
-            "索奈尔升级款K520": 4331.34,
-            "蓝理果啤": 71.1,
-            "蓝理组合苹果+青提": 133.2,
-            "蓝理苹果味气泡酒": 534.2,
+            "索奈尔GT-55": 5030.04,
+            "索奈尔K520": 712.3,
+            "索奈尔升级款CF260": 16090.019999999999,
+            "索奈尔升级款K520": 4738.49,
+            "蓝理果啤": 193.89999999999998,
+            "蓝理组合苹果+青提": 378.79999999999995,
+            "蓝理苹果味气泡酒": 598.35,
             "蓝理青提味气泡酒": 275.2,
+            "音次元吉他": 755.0,
             "音次元小提琴": 733.8200000000002
           }
         },
@@ -97157,7 +97176,7 @@
         "2026-11-13": 52301.21,
         "2026-11-14": 51364.17,
         "2026-11-15": 62869.43,
-        "2026-11-16": 37409.01999999999,
+        "2026-11-16": 47298.01999999999,
         "2026-11-17": 0.0
       },
       "months": {
@@ -97197,8 +97216,8 @@
           "days": 31
         },
         "2026-11": {
-          "net": 1817632.05,
-          "gross": 1137133.9100000001,
+          "net": 1830915.3499999999,
+          "gross": 1147022.9100000001,
           "days": 17
         }
       },
@@ -99990,7 +100009,7 @@
         "name": "电商运营部",
         "level": "一级架构",
         "bg": "职能",
-        "nature": "中台",
+        "nature": "后台",
         "owner": "钱林阳",
         "remark": ""
       },
@@ -99999,7 +100018,7 @@
         "name": "供应链管理中心",
         "level": "一级架构",
         "bg": "职能",
-        "nature": "中台",
+        "nature": "后台",
         "owner": "葛华阳",
         "remark": ""
       },
@@ -100242,7 +100261,7 @@
         "name": "产品部",
         "level": "二级机构",
         "bg": "职能",
-        "nature": "中台",
+        "nature": "后台",
         "owner": "葛华阳",
         "remark": ""
       },
@@ -100251,7 +100270,7 @@
         "name": "品牌部",
         "level": "二级机构",
         "bg": "职能",
-        "nature": "中台",
+        "nature": "后台",
         "owner": "何佳倚",
         "remark": ""
       },
@@ -100260,7 +100279,7 @@
         "name": "供应链部",
         "level": "二级机构",
         "bg": "职能",
-        "nature": "中台",
+        "nature": "后台",
         "owner": "葛华阳",
         "remark": ""
       },
@@ -100404,7 +100423,7 @@
         "name": "电商一组",
         "level": "二级机构",
         "bg": "职能",
-        "nature": "中台",
+        "nature": "后台",
         "owner": "钱林阳",
         "remark": ""
       },
@@ -100413,7 +100432,7 @@
         "name": "电商客服组",
         "level": "二级机构",
         "bg": "职能",
-        "nature": "中台",
+        "nature": "后台",
         "owner": "柴冠华",
         "remark": ""
       },
@@ -100422,7 +100441,7 @@
         "name": "素材组",
         "level": "二级机构",
         "bg": "职能",
-        "nature": "中台",
+        "nature": "后台",
         "owner": "何佳倚",
         "remark": ""
       },
@@ -100494,7 +100513,7 @@
         "name": "渠道运营部",
         "level": "一级架构",
         "bg": "",
-        "nature": "中台",
+        "nature": "后台",
         "owner": "马欢",
         "remark": ""
       },
@@ -100539,7 +100558,7 @@
         "name": "直播运营部",
         "level": "二级机构",
         "bg": "",
-        "nature": "",
+        "nature": "业务",
         "owner": "",
         "remark": ""
       },
@@ -101069,8 +101088,8 @@
       {
         "id": 134,
         "name": "BP工作进度表",
-        "expected": 945,
-        "local": 945,
+        "expected": 947,
+        "local": 947,
         "state": "正常",
         "file": "_hr_bp.json",
         "cat": "HR流程",
@@ -101099,8 +101118,8 @@
       {
         "id": 149,
         "name": "招聘需求进度表",
-        "expected": 767,
-        "local": 767,
+        "expected": 768,
+        "local": 768,
         "state": "正常",
         "file": "_hr_149.json",
         "cat": "招聘",
@@ -101109,8 +101128,8 @@
       {
         "id": 153,
         "name": "招聘数据表",
-        "expected": 5338,
-        "local": 5338,
+        "expected": 5341,
+        "local": 5341,
         "state": "正常",
         "file": "_hr_ziliao153.json",
         "cat": "招聘",
@@ -101139,8 +101158,8 @@
       {
         "id": 187,
         "name": "一部积分表",
-        "expected": 1540,
-        "local": 1540,
+        "expected": 1542,
+        "local": 1542,
         "state": "正常",
         "file": "_xc_jfdet_yibu.json",
         "cat": "积分明细",
@@ -101409,8 +101428,8 @@
       {
         "id": 227,
         "name": "二部月度积分统计表",
-        "expected": 105,
-        "local": 105,
+        "expected": 104,
+        "local": 104,
         "state": "正常",
         "file": "_xc_jf_erbu.json",
         "cat": "积分月度",
@@ -101419,8 +101438,8 @@
       {
         "id": 228,
         "name": "招聘数据表(2)",
-        "expected": 5338,
-        "local": 5338,
+        "expected": 5341,
+        "local": 5341,
         "state": "正常",
         "file": "_ex_228.json",
         "cat": "招聘",
@@ -101437,12 +101456,12 @@
         "fields": 25
       }
     ],
-    "time": "2026-11-17 14:21:08",
+    "time": "2026-11-17 15:44:06",
     "total": 40,
     "ok": 40,
     "bad": [],
     "bad_names": [],
-    "records_total": 21448,
+    "records_total": 21458,
     "by_cat": {
       "HR流程": 2,
       "产品人员": 2,
@@ -101462,9 +101481,9 @@
     },
     "full_pull": {
       "ok": true,
-      "last_at": "2026-11-17 14:21",
+      "last_at": "2026-11-17 15:44",
       "age_h": 0.0,
-      "today_count": 4,
+      "today_count": 5,
       "daily": {
         "2026-11-11": 3,
         "2026-11-12": 4,
@@ -101472,12 +101491,12 @@
         "2026-11-14": 3,
         "2026-11-15": 3,
         "2026-11-16": 7,
-        "2026-11-17": 4
+        "2026-11-17": 5
       },
-      "runs": 33,
+      "runs": 34,
       "fail_streak": 0,
       "gap_h": 8,
-      "note": "最近一次全量 2026-11-17 14:21（0.0 小时前）· 今日已完成 4 轮"
+      "note": "最近一次全量 2026-11-17 15:44（0.0 小时前）· 今日已完成 5 轮"
     }
   },
   "dingtalk_org": {
@@ -120902,7 +120921,7 @@
         "post": "新媒体编辑",
         "level": "p1-p3",
         "need": 1.0,
-        "interview": 1.0,
+        "interview": 2.0,
         "offer": 1.0,
         "arrive": 0.0,
         "status": "",
@@ -120913,7 +120932,7 @@
         "deadline": "2026/11/30",
         "salary": "4000-4500",
         "progress": 0.0,
-        "pass": 1.0
+        "pass": 2.0
       },
       {
         "no": "ZH2611005",
@@ -121222,8 +121241,8 @@
         "post": "新媒体编辑",
         "level": "P1",
         "need": 1.0,
-        "interview": 11.0,
-        "offer": 1.0,
+        "interview": 12.0,
+        "offer": 2.0,
         "arrive": 0.0,
         "status": "",
         "urgency": "b",
@@ -122043,7 +122062,7 @@
         "level": "p1-p3",
         "need": 1.0,
         "interview": 1.0,
-        "offer": 0.0,
+        "offer": 1.0,
         "arrive": 0.0,
         "status": "",
         "urgency": "s",
@@ -122294,13 +122313,33 @@
         "salary": "",
         "progress": 0.0,
         "pass": 0.0
+      },
+      {
+        "no": "",
+        "top": "",
+        "dept": "",
+        "post": "",
+        "level": "",
+        "need": 0.0,
+        "interview": 0.0,
+        "offer": 0.0,
+        "arrive": 0.0,
+        "status": "",
+        "urgency": "",
+        "import": "",
+        "owner": "李彦鹏",
+        "apply": "",
+        "deadline": "",
+        "salary": "",
+        "progress": 0.0,
+        "pass": 0.0
       }
     ],
     "stat": {
-      "total": 767,
+      "total": 768,
       "need_total": 764.0,
-      "interview_total": 1717.0,
-      "offer_total": 699.0,
+      "interview_total": 1719.0,
+      "offer_total": 701.0,
       "arrive_total": 520.0,
       "gap": 244.0,
       "fill_rate": 68.06,
@@ -122366,20 +122405,20 @@
           "arrive": 3.0
         },
         "(未填)": {
-          "cnt": 5,
+          "cnt": 6,
           "need": 2.0,
           "arrive": 2.0
         }
       }
     },
-    "src": "招聘需求进度表（sheet149）共 767 条需求"
+    "src": "招聘需求进度表（sheet149）共 768 条需求"
   },
   "recruit_funnel": {
     "stat": {
-      "total": 5338,
+      "total": 5341,
       "by_source": {
-        "BOSS": 4759,
-        "(未填)": 333,
+        "BOSS": 4761,
+        "(未填)": 334,
         "内推": 107,
         "海鸥": 60,
         "转介绍": 56,
@@ -122389,10 +122428,10 @@
         "猎聘": 1
       },
       "by_stage": {
-        "其他/未推进": 1854,
+        "其他/未推进": 1855,
         "到岗": 1273,
-        "过初试": 1097,
-        "已发offer未到岗": 674,
+        "过初试": 1098,
+        "已发offer未到岗": 675,
         "过复试": 440
       },
       "interview_months": {
@@ -122416,7 +122455,7 @@
         "2026年08月": 456,
         "2026年09月": 334,
         "2026年10月": 555,
-        "2026年11月": 370
+        "2026年11月": 373
       },
       "arrive_months": {
         "2025年04月": 39,
@@ -122438,7 +122477,7 @@
         "2026年08月": 185,
         "2026年09月": 144,
         "2026年10月": 208,
-        "2026年11月": 160
+        "2026年11月": 162
       },
       "leave_months": {
         "2025年10月": 20,
@@ -122451,7 +122490,7 @@
         "2025年8月": 29,
         "2025年9月": 16,
         "2026年10月": 86,
-        "2026年11月": 75,
+        "2026年11月": 76,
         "2026年1月": 21,
         "2026年2月": 8,
         "2026年3月": 48,
@@ -122465,12 +122504,12 @@
       "top_inviter": {
         "王佑": 1688,
         "李雪芹": 1375,
-        "盛琦雅": 1208,
+        "盛琦雅": 1210,
         "张帅涛": 1000,
         "柴鑫雅": 545,
         "杨蓓蕾": 460,
+        "霍怡彤": 412,
         "刘晓颖": 412,
-        "霍怡彤": 411,
         "原桠栋": 347,
         "李盼盼": 280,
         "李彦鹏": 234,
@@ -123122,7 +123161,7 @@
         "month": "0"
       }
     ],
-    "src": "招聘数据表（sheet228）共 5338 条候选人记录"
+    "src": "招聘数据表（sheet228）共 5341 条候选人记录"
   },
   "recruit_ledger": {
     "rows": [
@@ -137484,7 +137523,7 @@
     {
       "name": "沈雪妮",
       "type": "潜力",
-      "url": "https://www.kdocs.cn/l/cmxwju14cmR6",
+      "url": "https://www.kdocs.cn/l/cgqWSKi0jz9M",
       "dept": "一部",
       "matched": true,
       "product": "冬马猫粮",
@@ -137513,7 +137552,7 @@
     {
       "name": "吴璐阳",
       "type": "潜力",
-      "url": "https://www.kdocs.cn/l/calHklCbEVuH",
+      "url": "https://www.kdocs.cn/l/cfwGJbq5udHy",
       "dept": "一部",
       "matched": true,
       "product": "uiko维生素",
@@ -137542,7 +137581,7 @@
     {
       "name": "蔺姣",
       "type": "潜力",
-      "url": "https://www.kdocs.cn/l/ckEQX3ram1mc",
+      "url": "https://www.kdocs.cn/l/cdc20oMcvp60",
       "dept": "一部",
       "matched": true,
       "product": "冬马空气净化器",
@@ -137571,7 +137610,7 @@
     {
       "name": "汪燕姿",
       "type": "潜力",
-      "url": "https://www.kdocs.cn/l/cgjxO0NmcVfM",
+      "url": "https://www.kdocs.cn/l/cj1J3cj99jSG",
       "dept": "一部",
       "matched": true,
       "product": "uiko化毛球片",
@@ -137600,7 +137639,7 @@
     {
       "name": "吴若寒",
       "type": "潜力",
-      "url": "https://www.kdocs.cn/l/cqiMDCfLHEm3",
+      "url": "https://www.kdocs.cn/l/caD2X5e9rpIk",
       "dept": "二部",
       "matched": true,
       "product": "虎太郎维生素",
@@ -137629,7 +137668,7 @@
     {
       "name": "张颖柯",
       "type": "潜力",
-      "url": "https://www.kdocs.cn/l/cbZne775mKwg",
+      "url": "https://www.kdocs.cn/l/cnIhDntbJxuA",
       "dept": "二部",
       "matched": true,
       "product": "冬马漱口水",
@@ -137658,7 +137697,7 @@
     {
       "name": "许晓宁",
       "type": "潜力",
-      "url": "https://www.kdocs.cn/l/cuN5obvpltDW",
+      "url": "https://www.kdocs.cn/l/crpDiNs02knN",
       "dept": "二部",
       "matched": true,
       "product": "冬马漱口水",
@@ -137687,7 +137726,7 @@
     {
       "name": "马怡琪",
       "type": "潜力",
-      "url": "https://www.kdocs.cn/l/csDwcjiyWZ9c",
+      "url": "https://www.kdocs.cn/l/ca6SBlueUlRf",
       "dept": "二部",
       "matched": true,
       "product": "虎太郎升级猫粮",
@@ -137716,7 +137755,7 @@
     {
       "name": "张楠楠",
       "type": "潜力",
-      "url": "https://www.kdocs.cn/l/clkFajnw7gEo",
+      "url": "https://www.kdocs.cn/l/csDEXdJUQbsv",
       "dept": "三部",
       "matched": true,
       "product": "幽兔排毛粉",
@@ -137745,7 +137784,7 @@
     {
       "name": "陈文广",
       "type": "核心",
-      "url": "https://www.kdocs.cn/l/ckTV3AdHQfXO",
+      "url": "https://www.kdocs.cn/l/coWRYG8JP9JI",
       "dept": "三部",
       "matched": true,
       "product": "幽兔维生素",
@@ -137774,7 +137813,7 @@
     {
       "name": "韩艳艳",
       "type": "核心",
-      "url": "",
+      "url": "https://www.kdocs.cn/l/chrj57qVkIPv",
       "dept": "曦跃-Win部",
       "matched": false,
       "product": "",
@@ -137803,7 +137842,7 @@
     {
       "name": "李寰珠",
       "type": "潜力",
-      "url": "https://www.kdocs.cn/l/cdPoRVH8LkcT",
+      "url": "https://www.kdocs.cn/l/cbkaAYrRAfbR",
       "dept": "曦跃-Win部",
       "matched": false,
       "product": "",
@@ -137832,7 +137871,7 @@
     {
       "name": "庾云龙",
       "type": "潜力",
-      "url": "https://www.kdocs.cn/l/cobTJqSzOi8B",
+      "url": "https://www.kdocs.cn/l/cm7CUlTVieVr",
       "dept": "六部",
       "matched": true,
       "product": "映鹿猫粮",
@@ -137861,7 +137900,7 @@
     {
       "name": "于鹏展",
       "type": "潜力",
-      "url": "https://www.kdocs.cn/l/cgxLRB5Zfrf4",
+      "url": "https://www.kdocs.cn/l/cgROiEQnkR3S",
       "dept": "六部",
       "matched": true,
       "product": "映鹿猫粮",
@@ -137890,7 +137929,7 @@
     {
       "name": "韦向前",
       "type": "潜力",
-      "url": "https://www.kdocs.cn/l/ct8yDSr0b3qD",
+      "url": "https://www.kdocs.cn/l/cqrWseQa1t4j",
       "dept": "七部",
       "matched": true,
       "product": "桂姨猫砂",
@@ -137919,7 +137958,7 @@
     {
       "name": "鲁起飞",
       "type": "潜力",
-      "url": "https://www.kdocs.cn/l/clCPjz9UJNtQ",
+      "url": "https://www.kdocs.cn/l/cdGgoBVxF4HC",
       "dept": "宠元气友组",
       "matched": true,
       "product": "元气友维生素",
@@ -137948,7 +137987,7 @@
     {
       "name": "甘佳欣",
       "type": "潜力",
-      "url": "https://www.kdocs.cn/l/ciFjxmmkZRAf",
+      "url": "https://www.kdocs.cn/l/ceLXlG3q9bvU",
       "dept": "二部",
       "matched": true,
       "product": "虎太郎升级猫粮",
@@ -137977,7 +138016,7 @@
     {
       "name": "史梦棋",
       "type": "潜力",
-      "url": "https://www.kdocs.cn/l/cfUHJvy9IGAC",
+      "url": "https://www.kdocs.cn/l/ch4lVv9QY1uL",
       "dept": "三部",
       "matched": true,
       "product": "幽兔排毛粉",
@@ -138006,7 +138045,7 @@
     {
       "name": "翟文裕",
       "type": "潜力",
-      "url": "https://www.kdocs.cn/l/cuG3gNzntJmO",
+      "url": "https://www.kdocs.cn/l/cqzVsVjLuHCm",
       "dept": "三部",
       "matched": true,
       "product": "幽兔维生素",
@@ -138035,7 +138074,7 @@
     {
       "name": "宋一鸣",
       "type": "潜力",
-      "url": "https://www.kdocs.cn/l/cli9R4E2NuMo",
+      "url": "https://www.kdocs.cn/l/caUAS5rqUPh1",
       "dept": "七部",
       "matched": true,
       "product": "桂姨烘焙猫粮",
@@ -138064,7 +138103,7 @@
     {
       "name": "张吉祥",
       "type": "潜力",
-      "url": "https://www.kdocs.cn/l/cfy43BcJN8Es",
+      "url": "https://www.kdocs.cn/l/cr7O5hqxrOPc",
       "dept": "一部",
       "matched": true,
       "product": "元气友缝纫机",
@@ -138093,7 +138132,7 @@
     {
       "name": "邵静芳",
       "type": "潜力",
-      "url": "https://www.kdocs.cn/l/clvQwoBydhdE",
+      "url": "https://www.kdocs.cn/l/cqL7W2SIJwxx",
       "dept": "二部",
       "matched": true,
       "product": "虎太郎维生素",
@@ -138122,7 +138161,7 @@
     {
       "name": "李佳音",
       "type": "潜力",
-      "url": "https://www.kdocs.cn/l/cvow4syfObUc",
+      "url": "https://www.kdocs.cn/l/coRXn7eZIhJF",
       "dept": "二部",
       "matched": true,
       "product": "虎太郎化毛片",
@@ -138151,7 +138190,7 @@
     {
       "name": "李依晨",
       "type": "潜力",
-      "url": "https://www.kdocs.cn/l/clNzHsNNlPop",
+      "url": "https://www.kdocs.cn/l/csMvB9BsST0Q",
       "dept": "七部",
       "matched": true,
       "product": "桂姨猫砂",
@@ -138180,7 +138219,7 @@
     {
       "name": "王硕硕",
       "type": "潜力",
-      "url": "",
+      "url": "https://www.kdocs.cn/l/cr9Nm80hLXsw",
       "dept": "一部",
       "matched": true,
       "product": "学习机",
@@ -138209,7 +138248,7 @@
     {
       "name": "赖佳",
       "type": "潜力",
-      "url": "",
+      "url": "https://www.kdocs.cn/l/cjzyWNkelhs7",
       "dept": "一部",
       "matched": true,
       "product": "巴贝佳孕妇枕",
@@ -138238,7 +138277,7 @@
     {
       "name": "谢宇辰",
       "type": "潜力",
-      "url": "",
+      "url": "https://www.kdocs.cn/l/cufP0K6km0os",
       "dept": "一部",
       "matched": false,
       "product": "",
@@ -138267,7 +138306,7 @@
     {
       "name": "张甜静",
       "type": "潜力",
-      "url": "",
+      "url": "https://www.kdocs.cn/l/ceOt7DBNA8ui",
       "dept": "一部",
       "matched": true,
       "product": "元气友缝纫机",
@@ -138296,7 +138335,7 @@
     {
       "name": "王常红",
       "type": "潜力",
-      "url": "",
+      "url": "https://www.kdocs.cn/l/cdBuGJiRuvHe",
       "dept": "二部",
       "matched": true,
       "product": "虎太郎漱口水+虎太郎牙膏",
@@ -138325,7 +138364,7 @@
     {
       "name": "贾怡凡",
       "type": "核心",
-      "url": "https://www.kdocs.cn/l/ceL9D200xLRo",
+      "url": "https://www.kdocs.cn/l/ciHDJIP4yP0j",
       "dept": "一部",
       "matched": true,
       "product": "冬马猫粮",
@@ -138354,7 +138393,7 @@
     {
       "name": "杨兰兰",
       "type": "核心",
-      "url": "https://www.kdocs.cn/l/ctG9EOuh1W2w",
+      "url": "https://www.kdocs.cn/l/ckpW5euyZUhF",
       "dept": "一部",
       "matched": true,
       "product": "冬马维生素",
@@ -138383,7 +138422,7 @@
     {
       "name": "高营",
       "type": "核心",
-      "url": "https://www.kdocs.cn/l/cpOsLC4Pa9rx",
+      "url": "https://www.kdocs.cn/l/csCqqZInwRAw",
       "dept": "二部",
       "matched": false,
       "product": "",
@@ -138412,7 +138451,7 @@
     {
       "name": "庄盼盼",
       "type": "核心",
-      "url": "https://www.kdocs.cn/l/cb7LYqflR26n",
+      "url": "https://www.kdocs.cn/l/cb6SGW1Go19W",
       "dept": "二部",
       "matched": true,
       "product": "虎太郎升级猫粮",
@@ -138441,7 +138480,7 @@
     {
       "name": "吴俊豪",
       "type": "核心",
-      "url": "https://www.kdocs.cn/l/cuD61xcoLk8v",
+      "url": "https://www.kdocs.cn/l/csdbRYP04EAB",
       "dept": "二部",
       "matched": true,
       "product": "虎太郎软骨素",
@@ -138470,7 +138509,7 @@
     {
       "name": "胡宵雪",
       "type": "核心",
-      "url": "https://www.kdocs.cn/l/csUuS4ADAXS3",
+      "url": "https://www.kdocs.cn/l/crs8zQqnP8aj",
       "dept": "二部",
       "matched": true,
       "product": "虎太郎漱口水",
@@ -138499,7 +138538,7 @@
     {
       "name": "付一鸣",
       "type": "核心",
-      "url": "https://www.kdocs.cn/l/coz51rsyVFcG",
+      "url": "https://www.kdocs.cn/l/clUSciGkopIg",
       "dept": "曦跃-Win部",
       "matched": false,
       "product": "",
@@ -138528,7 +138567,7 @@
     {
       "name": "李秀琦",
       "type": "核心",
-      "url": "https://www.kdocs.cn/l/cu0TXarNnKSo",
+      "url": "https://www.kdocs.cn/l/croCNGBmC0UD",
       "dept": "业绩第一组",
       "matched": false,
       "product": "",
@@ -138557,7 +138596,7 @@
     {
       "name": "李晓乐",
       "type": "核心",
-      "url": "https://www.kdocs.cn/l/coBK8EzHsdq3",
+      "url": "https://www.kdocs.cn/l/cn4ODt9dd9JG",
       "dept": "六部",
       "matched": true,
       "product": "映鹿维生素",
@@ -138586,7 +138625,7 @@
     {
       "name": "张楠",
       "type": "核心",
-      "url": "https://www.kdocs.cn/l/ccqdVK2rHhnx",
+      "url": "https://www.kdocs.cn/l/cvSI4T0YfUx6",
       "dept": "六部",
       "matched": true,
       "product": "元气友冲浪板",
@@ -138615,7 +138654,7 @@
     {
       "name": "韩晴",
       "type": "核心",
-      "url": "https://www.kdocs.cn/l/cnoTBF46gH9H",
+      "url": "https://www.kdocs.cn/l/cp5dV9BJHx5W",
       "dept": "七部",
       "matched": false,
       "product": "",
@@ -138644,7 +138683,7 @@
     {
       "name": "段云洁",
       "type": "核心",
-      "url": "https://www.kdocs.cn/l/coJkuJBvQAhA",
+      "url": "https://www.kdocs.cn/l/ct9IBpNJ6FIX",
       "dept": "七部",
       "matched": true,
       "product": "桂姨猫砂",
@@ -138673,7 +138712,7 @@
     {
       "name": "王雪娅",
       "type": "核心",
-      "url": "https://www.kdocs.cn/l/ckoTGLjlPevV",
+      "url": "https://www.kdocs.cn/l/ciXgTE6b9lmv",
       "dept": "一部",
       "matched": false,
       "product": "",
@@ -138702,7 +138741,7 @@
     {
       "name": "魏谣鑫",
       "type": "核心",
-      "url": "https://www.kdocs.cn/l/clEDw6TlefWH",
+      "url": "https://www.kdocs.cn/l/cpKiiOhHPXIM",
       "dept": "一部",
       "matched": true,
       "product": "uiko南极磷虾油",
@@ -138731,7 +138770,7 @@
     {
       "name": "李春利",
       "type": "核心",
-      "url": "https://www.kdocs.cn/l/cqIA7yE0ayDP",
+      "url": "https://www.kdocs.cn/l/coQttg6Yxe0o",
       "dept": "七部",
       "matched": true,
       "product": "桂姨维生素",
@@ -138760,7 +138799,7 @@
     {
       "name": "马赛赛",
       "type": "核心",
-      "url": "https://www.kdocs.cn/l/cjep2sYWUfxJ",
+      "url": "https://www.kdocs.cn/l/cpkveI17fNO8",
       "dept": "一部",
       "matched": true,
       "product": "学习机",
@@ -138789,7 +138828,7 @@
     {
       "name": "朱叶杰",
       "type": "核心",
-      "url": "https://www.kdocs.cn/l/cpR4MkzUXrGb",
+      "url": "https://www.kdocs.cn/l/cuRwPELab1A7",
       "dept": "一部",
       "matched": true,
       "product": "uiko鱼油",
@@ -138818,7 +138857,7 @@
     {
       "name": "李紫怡",
       "type": "核心",
-      "url": "https://www.kdocs.cn/l/cb3ZCcqlkXaF",
+      "url": "https://www.kdocs.cn/l/cml0k9SdHrFK",
       "dept": "二部",
       "matched": true,
       "product": "虎太郎美毛猫粮150g",
@@ -138847,7 +138886,7 @@
     {
       "name": "胡帅",
       "type": "核心",
-      "url": "https://www.kdocs.cn/l/cllXsB46rh9G",
+      "url": "https://www.kdocs.cn/l/cfulkcUNVtfP",
       "dept": "星灿-Luck部",
       "matched": false,
       "product": "",
@@ -138876,7 +138915,7 @@
     {
       "name": "路正阳",
       "type": "核心",
-      "url": "",
+      "url": "https://www.kdocs.cn/l/cuEfBYWdkJ0V",
       "dept": "曦跃-Win部",
       "matched": false,
       "product": "",
@@ -138905,7 +138944,7 @@
     {
       "name": "时露",
       "type": "核心",
-      "url": "",
+      "url": "https://www.kdocs.cn/l/ceDptqk1PtqX",
       "dept": "星灿-Luck部",
       "matched": false,
       "product": "",
@@ -138934,7 +138973,7 @@
     {
       "name": "冯蔺城",
       "type": "核心",
-      "url": "",
+      "url": "https://www.kdocs.cn/l/cm8pv4oaWuaT",
       "dept": "二部",
       "matched": true,
       "product": "虎太郎冻干粮+冻干+升级长肉粮+益生菌猫粮",
@@ -138963,7 +139002,7 @@
     {
       "name": "李佳欣",
       "type": "潜力",
-      "url": "https://www.kdocs.cn/l/cvow4syfObUc",
+      "url": "https://www.kdocs.cn/l/coRXn7eZIhJF",
       "dept": "二部",
       "matched": true,
       "product": "虎太郎化毛片",
@@ -138992,7 +139031,7 @@
     {
       "name": "李佳鑫",
       "type": "潜力",
-      "url": "https://www.kdocs.cn/l/cvow4syfObUc",
+      "url": "https://www.kdocs.cn/l/coRXn7eZIhJF",
       "dept": "二部",
       "matched": true,
       "product": "虎太郎化毛片",
@@ -139021,7 +139060,7 @@
     {
       "name": "汪燕资",
       "type": "潜力",
-      "url": "https://www.kdocs.cn/l/cgjxO0NmcVfM",
+      "url": "https://www.kdocs.cn/l/cj1J3cj99jSG",
       "dept": "一部",
       "matched": true,
       "product": "uiko化毛球片",
@@ -139050,7 +139089,7 @@
     {
       "name": "王雪",
       "type": "核心",
-      "url": "https://www.kdocs.cn/l/ckoTGLjlPevV",
+      "url": "https://www.kdocs.cn/l/ciXgTE6b9lmv",
       "dept": "六部",
       "matched": true,
       "product": "映鹿辅酶",
@@ -139079,7 +139118,7 @@
     {
       "name": "贾怡帆",
       "type": "核心",
-      "url": "https://www.kdocs.cn/l/ceL9D200xLRo",
+      "url": "https://www.kdocs.cn/l/ciHDJIP4yP0j",
       "dept": "一部",
       "matched": true,
       "product": "冬马猫粮",
@@ -139108,7 +139147,7 @@
     {
       "name": "魏姚鑫",
       "type": "核心",
-      "url": "https://www.kdocs.cn/l/clEDw6TlefWH",
+      "url": "https://www.kdocs.cn/l/cpKiiOhHPXIM",
       "dept": "一部",
       "matched": true,
       "product": "uiko南极磷虾油",
@@ -139137,7 +139176,7 @@
     {
       "name": "魏瑶鑫",
       "type": "核心",
-      "url": "https://www.kdocs.cn/l/clEDw6TlefWH",
+      "url": "https://www.kdocs.cn/l/cpKiiOhHPXIM",
       "dept": "一部",
       "matched": true,
       "product": "uiko南极磷虾油",
