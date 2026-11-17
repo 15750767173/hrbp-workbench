@@ -224,7 +224,7 @@
       }
     ],
     "data_through_day": 16,
-    "generated_at": "2026-11-17 12:24",
+    "generated_at": "2026-11-17 14:05",
     "expect_day": 16,
     "dept_last_day": {
       "一部": 16,
@@ -39142,17 +39142,6 @@
         "record": null
       },
       {
-        "task": null,
-        "owner": "朱思雨",
-        "creator": null,
-        "created": "2026/11/17 10:53:37",
-        "deadline": "",
-        "done": "",
-        "progress": null,
-        "interviewee": null,
-        "record": null
-      },
-      {
         "task": "双启王冲绩效面谈",
         "owner": "张悦",
         "creator": "张悦",
@@ -39171,6 +39160,50 @@
         "deadline": "",
         "done": "2026/11/17",
         "progress": "已完成",
+        "interviewee": null,
+        "record": null
+      },
+      {
+        "task": "元启魏思涵试岗期面谈",
+        "owner": "张悦",
+        "creator": "张悦",
+        "created": "2026/11/17 12:26:39",
+        "deadline": "2026/11/17 18:30:00",
+        "done": "",
+        "progress": null,
+        "interviewee": null,
+        "record": null
+      },
+      {
+        "task": "电商运营部刁晗试岗期面谈",
+        "owner": "朱思雨",
+        "creator": "张悦",
+        "created": "2026/11/17 12:26:40",
+        "deadline": "2026/11/17 18:30:00",
+        "done": "",
+        "progress": null,
+        "interviewee": null,
+        "record": null
+      },
+      {
+        "task": null,
+        "owner": null,
+        "creator": null,
+        "created": "2026/11/17 12:27:04",
+        "deadline": "",
+        "done": "",
+        "progress": null,
+        "interviewee": null,
+        "record": null
+      },
+      {
+        "task": null,
+        "owner": "朱思雨",
+        "creator": null,
+        "created": "2026/11/17 12:29:20",
+        "deadline": "",
+        "done": "",
+        "progress": null,
         "interviewee": null,
         "record": null
       }
@@ -72178,8 +72211,8 @@
         "王硕硕": {
           "net": 0.0,
           "jf": 0.0,
-          "group": "",
-          "n": 6
+          "group": "百货一组",
+          "n": 15
         },
         "赖佳": {
           "net": 0.0,
@@ -73073,8 +73106,8 @@
           "王硕硕": {
             "net": 0.0,
             "jf": 0.0,
-            "group": "",
-            "n": 6
+            "group": "百货一组",
+            "n": 15
           },
           "赖佳": {
             "net": 0.0,
@@ -73886,7 +73919,7 @@
             "net": 0.0,
             "jf": 0.0,
             "group": "百货一组",
-            "n": 31
+            "n": 30
           }
         },
         "元气友缝纫机": {
@@ -77082,11 +77115,11 @@
           "people": [
             {
               "n": "王硕硕",
-              "g": "",
+              "g": "百货一组",
               "s": 58.5975,
               "jf": 0.0,
               "net": 0.0,
-              "c": 6
+              "c": 15
             },
             {
               "n": "赖佳",
@@ -79851,7 +79884,7 @@
               "s": 58.5975,
               "jf": 0.0,
               "net": 0.0,
-              "c": 31
+              "c": 30
             },
             {
               "n": "赖佳",
@@ -87900,8 +87933,8 @@
     "一部": {
       "file": "_xc_jfdet_yibu.json",
       "kind": "detail",
-      "records": 1531,
-      "kept": 128,
+      "records": 1538,
+      "kept": 137,
       "det_person": {
         "张甜静": 0.0,
         "王馨毅": 8.4628,
@@ -99991,8 +100024,8 @@
       {
         "id": 134,
         "name": "BP工作进度表",
-        "expected": 940,
-        "local": 940,
+        "expected": 943,
+        "local": 943,
         "state": "正常",
         "file": "_hr_bp.json",
         "cat": "HR流程",
@@ -100061,8 +100094,8 @@
       {
         "id": 187,
         "name": "一部积分表",
-        "expected": 1531,
-        "local": 1531,
+        "expected": 1538,
+        "local": 1538,
         "state": "正常",
         "file": "_xc_jfdet_yibu.json",
         "cat": "积分明细",
@@ -100071,8 +100104,8 @@
       {
         "id": 188,
         "name": "一部月度积分统计表",
-        "expected": 113,
-        "local": 113,
+        "expected": 112,
+        "local": 112,
         "state": "正常",
         "file": "_xc_jf_yibu.json",
         "cat": "积分月度",
@@ -100359,12 +100392,12 @@
         "fields": 25
       }
     ],
-    "time": "2026-11-17 12:24:13",
+    "time": "2026-11-17 14:04:29",
     "total": 40,
     "ok": 40,
     "bad": [],
     "bad_names": [],
-    "records_total": 21429,
+    "records_total": 21438,
     "by_cat": {
       "HR流程": 2,
       "产品人员": 2,
@@ -100384,9 +100417,9 @@
     },
     "full_pull": {
       "ok": true,
-      "last_at": "2026-11-17 12:24",
+      "last_at": "2026-11-17 14:05",
       "age_h": 0.0,
-      "today_count": 2,
+      "today_count": 3,
       "daily": {
         "2026-11-11": 3,
         "2026-11-12": 4,
@@ -100394,12 +100427,12 @@
         "2026-11-14": 3,
         "2026-11-15": 3,
         "2026-11-16": 7,
-        "2026-11-17": 2
+        "2026-11-17": 3
       },
-      "runs": 31,
+      "runs": 32,
       "fail_streak": 0,
       "gap_h": 8,
-      "note": "最近一次全量 2026-11-17 12:24（0.0 小时前）· 今日已完成 2 轮"
+      "note": "最近一次全量 2026-11-17 14:05（0.0 小时前）· 今日已完成 3 轮"
     }
   },
   "dingtalk_org": {
