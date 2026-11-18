@@ -219,7 +219,7 @@
       }
     ],
     "data_through_day": 17,
-    "generated_at": "2026-11-18 14:52",
+    "generated_at": "2026-11-18 16:00",
     "expect_day": 17,
     "dept_last_day": {
       "一部": 17,
@@ -101909,7 +101909,7 @@
       {
         "id": 118,
         "name": "宠物中心资料表",
-        "expected": 29,
+        "expected": 25,
         "local": 29,
         "state": "正常",
         "file": "_hr_ziliao.json",
@@ -101939,7 +101939,7 @@
       {
         "id": 134,
         "name": "BP工作进度表",
-        "expected": 971,
+        "expected": 973,
         "local": 970,
         "state": "正常",
         "file": "_hr_bp.json",
@@ -101979,7 +101979,7 @@
       {
         "id": 153,
         "name": "招聘数据表",
-        "expected": 5378,
+        "expected": 5391,
         "local": 5377,
         "state": "正常",
         "file": "_hr_ziliao153.json",
@@ -102289,7 +102289,7 @@
       {
         "id": 228,
         "name": "招聘数据表(2)",
-        "expected": 5378,
+        "expected": 5391,
         "local": 5377,
         "state": "正常",
         "file": "_ex_228.json",
@@ -102307,12 +102307,12 @@
         "fields": 25
       }
     ],
-    "time": "2026-11-18 14:52:40",
+    "time": "2026-11-18 16:00:12",
     "total": 40,
     "ok": 40,
     "bad": [],
     "bad_names": [],
-    "records_total": 21597,
+    "records_total": 21621,
     "by_cat": {
       "HR流程": 2,
       "产品人员": 2,
@@ -102333,7 +102333,7 @@
     "full_pull": {
       "ok": true,
       "last_at": "2026-11-18 14:03:39",
-      "age_h": 0.8,
+      "age_h": 1.9,
       "today_count": 8,
       "daily": {
         "2026-11-12": 4,
@@ -102347,7 +102347,7 @@
       "runs": 47,
       "fail_streak": 0,
       "gap_h": 8,
-      "note": "最近一次全量 2026-11-18 14:03:39（0.8 小时前）· 今日已完成 8 轮"
+      "note": "最近一次全量 2026-11-18 14:03:39（1.9 小时前）· 今日已完成 8 轮"
     }
   },
   "dingtalk_org": {
