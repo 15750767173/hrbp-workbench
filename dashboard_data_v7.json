@@ -70539,7 +70539,7 @@
           "net": 0.0,
           "jf": 0.0,
           "group": "百货一组",
-          "n": 51
+          "n": 52
         },
         "张吉祥": {
           "net": 0.0,
@@ -71422,10 +71422,10 @@
   },
   "prod_split_src": {
     "一部": {
-      "file": "_xc_jfdet_yibu.json",
+      "file": "_jf_yibu.json",
       "kind": "detail",
-      "records": 1546,
-      "kept": 160,
+      "records": 1547,
+      "kept": 161,
       "det_person": {
         "张甜静": 0.0,
         "王馨毅": 8.4628,
