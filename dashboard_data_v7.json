@@ -242,7 +242,7 @@
       }
     ],
     "data_through_day": 20,
-    "generated_at": "2026-11-21 15:06",
+    "generated_at": "2026-11-21 16:32",
     "expect_day": 20,
     "dept_last_day": {
       "一部": 20,
@@ -76005,7 +76005,7 @@
           "net": 0.0,
           "jf": 0.0,
           "group": "一组",
-          "n": 7
+          "n": 9
         },
         "殷嘉蕾": {
           "net": 0.0,
@@ -76025,7 +76025,7 @@
           "net": 0.0,
           "jf": 0.0,
           "group": "一组",
-          "n": 7
+          "n": 9
         }
       }
     },
@@ -76928,7 +76928,7 @@
             "net": 0.0,
             "jf": 0.0,
             "group": "一组",
-            "n": 7
+            "n": 9
           },
           "殷嘉蕾": {
             "net": 0.0,
@@ -76948,7 +76948,7 @@
             "net": 0.0,
             "jf": 0.0,
             "group": "一组",
-            "n": 7
+            "n": 9
           }
         }
       },
@@ -77627,10 +77627,10 @@
             "n": 8
           },
           "董戈": {
-            "net": 425.0,
-            "jf": 4.25,
+            "net": 1310.8899999999999,
+            "jf": 13.1089,
             "group": "一组",
-            "n": 1
+            "n": 8
           }
         },
         "映鹿维生素": {
@@ -84646,26 +84646,26 @@
             {
               "n": "李晓乐",
               "g": "一组",
-              "s": 63.6124,
+              "s": 50.8497,
               "jf": 22.45,
               "net": 2245.27,
               "c": 4
             },
             {
-              "n": "黄丽雯",
+              "n": "董戈",
               "g": "一组",
-              "s": 24.3466,
-              "jf": 8.59,
-              "net": 859.34,
+              "s": 29.6884,
+              "jf": 13.11,
+              "net": 1310.89,
               "c": 8
             },
             {
-              "n": "董戈",
+              "n": "黄丽雯",
               "g": "一组",
-              "s": 12.041,
-              "jf": 4.25,
-              "net": 425.0,
-              "c": 1
+              "s": 19.4619,
+              "jf": 8.59,
+              "net": 859.34,
+              "c": 8
             }
           ]
         },
@@ -91130,7 +91130,7 @@
       }
     },
     "二部": {
-      "file": "_jf_erbu.json",
+      "file": "_xc_jfdet_erbu.json",
       "kind": "detail",
       "records": 759,
       "kept": 56,
@@ -91192,8 +91192,8 @@
     "宠元气友组": {
       "file": "_xc_jfdet_chongyuan.json",
       "kind": "detail",
-      "records": 174,
-      "kept": 16,
+      "records": 176,
+      "kept": 18,
       "det_person": {
         "高诗雅": 0.0,
         "谢梦丹": 0.0,
@@ -103315,7 +103315,7 @@
       {
         "id": 118,
         "name": "宠物中心资料表",
-        "expected": 25,
+        "expected": 27,
         "local": 25,
         "state": "正常",
         "file": "_hr_ziliao.json",
@@ -103345,7 +103345,7 @@
       {
         "id": 134,
         "name": "BP工作进度表",
-        "expected": 1012,
+        "expected": 1010,
         "local": 1006,
         "state": "正常",
         "file": "_hr_bp.json",
@@ -103355,7 +103355,7 @@
       {
         "id": 137,
         "name": "面谈记录表",
-        "expected": 537,
+        "expected": 538,
         "local": 537,
         "state": "正常",
         "file": "_hr_miantan.json",
@@ -103385,7 +103385,7 @@
       {
         "id": 153,
         "name": "招聘数据表",
-        "expected": 5473,
+        "expected": 5475,
         "local": 5472,
         "state": "正常",
         "file": "_hr_ziliao153.json",
@@ -103475,8 +103475,8 @@
       {
         "id": 199,
         "name": "宠元气友积分表",
-        "expected": 174,
-        "local": 174,
+        "expected": 176,
+        "local": 176,
         "state": "正常",
         "file": "_xc_jfdet_chongyuan.json",
         "cat": "积分明细",
@@ -103676,7 +103676,7 @@
         "id": 226,
         "name": "二部积分表",
         "expected": 759,
-        "local": 758,
+        "local": 759,
         "state": "正常",
         "file": "_xc_jfdet_erbu.json",
         "cat": "积分明细",
@@ -103695,8 +103695,8 @@
       {
         "id": 228,
         "name": "招聘数据表(2)",
-        "expected": 5473,
-        "local": 5472,
+        "expected": 5475,
+        "local": 5475,
         "state": "正常",
         "file": "_ex_228.json",
         "cat": "招聘",
@@ -103706,19 +103706,19 @@
         "id": 229,
         "name": "需求总表",
         "expected": 776,
-        "local": 775,
+        "local": 776,
         "state": "正常",
         "file": "_ex_229.json",
         "cat": "招聘",
         "fields": 25
       }
     ],
-    "time": "2026-11-21 15:06:33",
+    "time": "2026-11-21 16:32:03",
     "total": 40,
     "ok": 40,
     "bad": [],
     "bad_names": [],
-    "records_total": 21928,
+    "records_total": 21935,
     "by_cat": {
       "HR流程": 2,
       "产品人员": 2,
@@ -103739,7 +103739,7 @@
     "full_pull": {
       "ok": true,
       "last_at": "2026-11-21 14:05:58",
-      "age_h": 1.0,
+      "age_h": 2.4,
       "today_count": 4,
       "daily": {
         "2026-11-15": 3,
@@ -103753,7 +103753,7 @@
       "runs": 61,
       "fail_streak": 0,
       "gap_h": 8,
-      "note": "最近一次全量 2026-11-21 14:05:58（1.0 小时前）· 今日已完成 4 轮"
+      "note": "最近一次全量 2026-11-21 14:05:58（2.4 小时前）· 今日已完成 4 轮"
     }
   },
   "dingtalk_org": {
@@ -124327,11 +124327,11 @@
   },
   "recruit_funnel": {
     "stat": {
-      "total": 5472,
+      "total": 5475,
       "by_source": {
-        "BOSS": 4864,
+        "BOSS": 4866,
         "(未填)": 360,
-        "内推": 108,
+        "内推": 109,
         "海鸥": 60,
         "转介绍": 57,
         "其他": 14,
@@ -124342,8 +124342,8 @@
       "by_stage": {
         "其他/未推进": 1906,
         "到岗": 1302,
-        "过初试": 1117,
-        "已发offer未到岗": 702,
+        "过初试": 1118,
+        "已发offer未到岗": 704,
         "过复试": 445
       },
       "interview_months": {
@@ -124367,7 +124367,7 @@
         "2026年08月": 456,
         "2026年09月": 334,
         "2026年10月": 555,
-        "2026年11月": 476
+        "2026年11月": 479
       },
       "arrive_months": {
         "2025年04月": 39,
@@ -124389,7 +124389,8 @@
         "2026年08月": 185,
         "2026年09月": 144,
         "2026年10月": 208,
-        "2026年11月": 213
+        "2026年11月": 214,
+        "2026年12月": 1
       },
       "leave_months": {
         "2025年10月": 20,
@@ -124401,8 +124402,8 @@
         "2025年7月": 46,
         "2025年8月": 29,
         "2025年9月": 16,
-        "2026年10月": 87,
-        "2026年11月": 106,
+        "2026年10月": 88,
+        "2026年11月": 107,
         "2026年1月": 21,
         "2026年2月": 8,
         "2026年3月": 48,
@@ -124414,21 +124415,21 @@
         "2026年9月": 96
       },
       "top_inviter": {
-        "王佑": 1701,
+        "王佑": 1702,
         "李雪芹": 1375,
         "盛琦雅": 1221,
         "张帅涛": 1000,
         "柴鑫雅": 572,
         "杨蓓蕾": 460,
-        "刘晓颖": 430,
+        "刘晓颖": 432,
         "霍怡彤": 423,
         "原桠栋": 357,
         "李盼盼": 287,
         "李彦鹏": 248,
         "严美淇": 167,
         "高秋慧": 161,
-        "张珂": 142,
-        "内推": 131
+        "张珂": 144,
+        "内推": 132
       }
     },
     "offer_not_arrived": [
@@ -125073,7 +125074,7 @@
         "month": "0"
       }
     ],
-    "src": "招聘数据表（sheet228）共 5472 条候选人记录"
+    "src": "招聘数据表（sheet228）共 5475 条候选人记录"
   },
   "recruit_ledger": {
     "rows": [
@@ -139026,11 +139027,29 @@
         "deadline": "2026/11/30",
         "hrbp": "",
         "hr": ""
+      },
+      {
+        "code": "ZH2611242",
+        "arch": "ZHB013",
+        "top": "创新项目部",
+        "dept": "盈光-Elite事业部",
+        "post": "新媒体编辑",
+        "level": "p1-p3",
+        "num": 1.0,
+        "month": "2026年11月",
+        "urg": "b",
+        "worktime": "9:30-12:30/14:00-19:00",
+        "rest": "三单一双+1天奖励假",
+        "salary": "4000-4500",
+        "apply": "2026/11/21",
+        "deadline": "2026/11/30",
+        "hrbp": "",
+        "hr": ""
       }
     ],
     "stat": {
-      "total": 775,
-      "num_total": 775.0,
+      "total": 776,
+      "num_total": 776.0,
       "by_month": {
         "2026年08月": {
           "cnt": 151,
@@ -139045,8 +139064,8 @@
           "num": 192.0
         },
         "2026年11月": {
-          "cnt": 241,
-          "num": 241.0
+          "cnt": 242,
+          "num": 242.0
         }
       },
       "by_dept": {
@@ -139078,13 +139097,13 @@
           "cnt": 37,
           "num": 37.0
         },
-        "电商客服组": {
+        "盈光-Elite事业部": {
           "cnt": 36,
           "num": 36.0
         },
-        "盈光-Elite事业部": {
-          "cnt": 35,
-          "num": 35.0
+        "电商客服组": {
+          "cnt": 36,
+          "num": 36.0
         },
         "昱升七部": {
           "cnt": 34,
@@ -139222,7 +139241,7 @@
       "hrbp_approved": 568,
       "hr_approved": 516
     },
-    "src": "需求总表（sheet229）共 775 条需求台账"
+    "src": "需求总表（sheet229）共 776 条需求台账"
   },
   "org_xcheck": {
     "dingtalk_count": 286,
@@ -139655,12 +139674,16 @@
   "salary_cost": {
     "meta": {
       "source": "薪资分析表 https://www.kdocs.cn/l/cl2TM7jxNsuN",
-      "generated_at": "2026-11-21 15:06:40",
+      "net_source": "净业绩取《众辉-宠物各部门汇总》sheet13「各部门净业绩汇总」（陈总列=宠元气友组）",
+      "generated_at": "2026-11-21 16:32:30",
       "scope": "仅部门级汇总；不含任何个人薪资明细",
+      "show_from": "2026-05",
       "metric_note": {
         "total_cost": "固定成本 + 浮动成本（含社保公积金分摊）",
         "avg_cost": "部门当月总成本 / 部门当月发薪人数",
-        "cost_ratio": "部门当月总成本 / 部门当月净业绩 × 100（无净业绩则为 null）"
+        "cost_ratio": "部门当月总成本 / 部门当月净业绩 × 100（无净业绩则为 null）",
+        "wage_ratio": "部门当月应发工资 / 部门当月净业绩 × 100",
+        "reg_split": "转正/非转正按薪资总表「转正日期 ≤ 当月月末」判定（同姓名跨月回填）"
       },
       "months": [
         "2026-02",
@@ -139687,8 +139710,15 @@
           "wage": 629.63,
           "avg_cost": 641.63,
           "avg_wage": 629.63,
+          "reg_headcount": 0,
+          "reg_wage": 0.0,
+          "reg_cost": 0.0,
+          "nonreg_headcount": 1,
+          "nonreg_wage": 629.63,
+          "nonreg_cost": 641.63,
           "net_output": 0.0,
-          "cost_ratio": null
+          "cost_ratio": null,
+          "wage_ratio": null
         },
         {
           "dept_raw": "创晖一部",
@@ -139700,8 +139730,15 @@
           "wage": 61298.63,
           "avg_cost": 5761.66,
           "avg_wage": 5572.6,
-          "net_output": 0.0,
-          "cost_ratio": null
+          "reg_headcount": 6,
+          "reg_wage": 41480.15,
+          "reg_cost": 43499.83,
+          "nonreg_headcount": 5,
+          "nonreg_wage": 19818.48,
+          "nonreg_cost": 19878.48,
+          "net_output": 326330.82,
+          "cost_ratio": 19.42,
+          "wage_ratio": 18.78
         },
         {
           "dept_raw": "和煦八部",
@@ -139713,8 +139750,15 @@
           "wage": 8752.0,
           "avg_cost": 4388.0,
           "avg_wage": 4376.0,
+          "reg_headcount": 0,
+          "reg_wage": 0.0,
+          "reg_cost": 0.0,
+          "nonreg_headcount": 2,
+          "nonreg_wage": 8752.0,
+          "nonreg_cost": 8776.0,
           "net_output": 0.0,
-          "cost_ratio": null
+          "cost_ratio": null,
+          "wage_ratio": null
         },
         {
           "dept_raw": "慧晟三部",
@@ -139726,8 +139770,15 @@
           "wage": 21187.31,
           "avg_cost": 7399.05,
           "avg_wage": 7062.44,
-          "net_output": 0.0,
-          "cost_ratio": null
+          "reg_headcount": 2,
+          "reg_wage": 15625.45,
+          "reg_cost": 16623.29,
+          "nonreg_headcount": 1,
+          "nonreg_wage": 5561.86,
+          "nonreg_cost": 5573.86,
+          "net_output": 100339.54,
+          "cost_ratio": 22.12,
+          "wage_ratio": 21.12
         },
         {
           "dept_raw": "星辰一部",
@@ -139739,8 +139790,15 @@
           "wage": 119652.13,
           "avg_cost": 8628.14,
           "avg_wage": 8546.58,
+          "reg_headcount": 10,
+          "reg_wage": 100528.21,
+          "reg_cost": 101622.05,
+          "nonreg_headcount": 4,
+          "nonreg_wage": 19123.92,
+          "nonreg_cost": 19171.92,
           "net_output": 0.0,
-          "cost_ratio": null
+          "cost_ratio": null,
+          "wage_ratio": null
         },
         {
           "dept_raw": "昭荣二部",
@@ -139752,8 +139810,15 @@
           "wage": 95965.45,
           "avg_cost": 6416.74,
           "avg_wage": 5997.84,
-          "net_output": 0.0,
-          "cost_ratio": null
+          "reg_headcount": 11,
+          "reg_wage": 78561.61,
+          "reg_cost": 85204.01,
+          "nonreg_headcount": 5,
+          "nonreg_wage": 17403.84,
+          "nonreg_cost": 17463.84,
+          "net_output": 725015.27,
+          "cost_ratio": 14.16,
+          "wage_ratio": 13.24
         },
         {
           "dept_raw": "昱升七部",
@@ -139765,8 +139830,15 @@
           "wage": 48690.5,
           "avg_cost": 7106.91,
           "avg_wage": 6955.79,
-          "net_output": 0.0,
-          "cost_ratio": null
+          "reg_headcount": 5,
+          "reg_wage": 41054.55,
+          "reg_cost": 42088.39,
+          "nonreg_headcount": 2,
+          "nonreg_wage": 7635.95,
+          "nonreg_cost": 7659.95,
+          "net_output": 235350.8,
+          "cost_ratio": 21.14,
+          "wage_ratio": 20.69
         },
         {
           "dept_raw": "晗盛六部",
@@ -139778,8 +139850,15 @@
           "wage": 52328.09,
           "avg_cost": 7039.93,
           "avg_wage": 6541.01,
-          "net_output": 0.0,
-          "cost_ratio": null
+          "reg_headcount": 7,
+          "reg_wage": 48365.59,
+          "reg_cost": 52344.95,
+          "nonreg_headcount": 1,
+          "nonreg_wage": 3962.5,
+          "nonreg_cost": 3974.5,
+          "net_output": 247839.79,
+          "cost_ratio": 22.72,
+          "wage_ratio": 21.11
         },
         {
           "dept_raw": "曦跃-Win部",
@@ -139791,8 +139870,15 @@
           "wage": 28521.56,
           "avg_cost": 4927.9,
           "avg_wage": 4753.59,
+          "reg_headcount": 5,
+          "reg_wage": 24862.3,
+          "reg_cost": 25896.14,
+          "nonreg_headcount": 1,
+          "nonreg_wage": 3659.26,
+          "nonreg_cost": 3671.26,
           "net_output": 0.0,
-          "cost_ratio": null
+          "cost_ratio": null,
+          "wage_ratio": null
         },
         {
           "dept_raw": "跨境电商一组",
@@ -139804,8 +139890,15 @@
           "wage": 17407.04,
           "avg_cost": 8715.52,
           "avg_wage": 8703.52,
+          "reg_headcount": 2,
+          "reg_wage": 17407.04,
+          "reg_cost": 17431.04,
+          "nonreg_headcount": 0,
+          "nonreg_wage": 0.0,
+          "nonreg_cost": 0.0,
           "net_output": 0.0,
-          "cost_ratio": null
+          "cost_ratio": null,
+          "wage_ratio": null
         }
       ],
       "2026-03": [
@@ -139819,8 +139912,15 @@
           "wage": 17345.2,
           "avg_cost": 5793.73,
           "avg_wage": 5781.73,
+          "reg_headcount": 0,
+          "reg_wage": 0.0,
+          "reg_cost": 0.0,
+          "nonreg_headcount": 3,
+          "nonreg_wage": 17345.2,
+          "nonreg_cost": 17381.2,
           "net_output": 0.0,
-          "cost_ratio": null
+          "cost_ratio": null,
+          "wage_ratio": null
         },
         {
           "dept_raw": "亿百万组",
@@ -139832,8 +139932,15 @@
           "wage": 7736.0,
           "avg_cost": 3880.0,
           "avg_wage": 3868.0,
+          "reg_headcount": 0,
+          "reg_wage": 0.0,
+          "reg_cost": 0.0,
+          "nonreg_headcount": 2,
+          "nonreg_wage": 7736.0,
+          "nonreg_cost": 7760.0,
           "net_output": 0.0,
-          "cost_ratio": null
+          "cost_ratio": null,
+          "wage_ratio": null
         },
         {
           "dept_raw": "创晖一部",
@@ -139845,8 +139952,15 @@
           "wage": 87163.87,
           "avg_cost": 6062.18,
           "avg_wage": 5810.92,
-          "net_output": 0.0,
-          "cost_ratio": null
+          "reg_headcount": 8,
+          "reg_wage": 74625.01,
+          "reg_cost": 78309.89,
+          "nonreg_headcount": 7,
+          "nonreg_wage": 12538.86,
+          "nonreg_cost": 12622.86,
+          "net_output": 589418.51,
+          "cost_ratio": 15.43,
+          "wage_ratio": 14.79
         },
         {
           "dept_raw": "和煦八部",
@@ -139858,8 +139972,15 @@
           "wage": 960.0,
           "avg_cost": 972.0,
           "avg_wage": 960.0,
+          "reg_headcount": 0,
+          "reg_wage": 0.0,
+          "reg_cost": 0.0,
+          "nonreg_headcount": 1,
+          "nonreg_wage": 960.0,
+          "nonreg_cost": 972.0,
           "net_output": 0.0,
-          "cost_ratio": null
+          "cost_ratio": null,
+          "wage_ratio": null
         },
         {
           "dept_raw": "慧晟三部",
@@ -139871,8 +139992,15 @@
           "wage": 45710.52,
           "avg_cost": 4680.44,
           "avg_wage": 4571.05,
-          "net_output": 0.0,
-          "cost_ratio": null
+          "reg_headcount": 3,
+          "reg_wage": 22440.33,
+          "reg_cost": 23450.17,
+          "nonreg_headcount": 7,
+          "nonreg_wage": 23270.19,
+          "nonreg_cost": 23354.19,
+          "net_output": 135403.09,
+          "cost_ratio": 34.57,
+          "wage_ratio": 33.76
         },
         {
           "dept_raw": "星辰一部",
@@ -139884,8 +140012,15 @@
           "wage": 140215.2,
           "avg_cost": 6150.65,
           "avg_wage": 6096.31,
+          "reg_headcount": 11,
+          "reg_wage": 120287.93,
+          "reg_cost": 121393.77,
+          "nonreg_headcount": 12,
+          "nonreg_wage": 19927.27,
+          "nonreg_cost": 20071.27,
           "net_output": 0.0,
-          "cost_ratio": null
+          "cost_ratio": null,
+          "wage_ratio": null
         },
         {
           "dept_raw": "昭荣二部",
@@ -139897,8 +140032,15 @@
           "wage": 140305.1,
           "avg_cost": 7049.59,
           "avg_wage": 6681.2,
-          "net_output": 0.0,
-          "cost_ratio": null
+          "reg_headcount": 11,
+          "reg_wage": 120571.42,
+          "reg_cost": 128187.66,
+          "nonreg_headcount": 10,
+          "nonreg_wage": 19733.68,
+          "nonreg_cost": 19853.68,
+          "net_output": 1305499.12,
+          "cost_ratio": 11.34,
+          "wage_ratio": 10.75
         },
         {
           "dept_raw": "昱升七部",
@@ -139910,8 +140052,15 @@
           "wage": 41959.49,
           "avg_cost": 4782.37,
           "avg_wage": 4662.17,
-          "net_output": 0.0,
-          "cost_ratio": null
+          "reg_headcount": 5,
+          "reg_wage": 33529.26,
+          "reg_cost": 34563.1,
+          "nonreg_headcount": 4,
+          "nonreg_wage": 8430.23,
+          "nonreg_cost": 8478.23,
+          "net_output": 259842.05,
+          "cost_ratio": 16.56,
+          "wage_ratio": 16.15
         },
         {
           "dept_raw": "晗盛六部",
@@ -139923,8 +140072,15 @@
           "wage": 70848.05,
           "avg_cost": 7650.46,
           "avg_wage": 7084.81,
-          "net_output": 0.0,
-          "cost_ratio": null
+          "reg_headcount": 7,
+          "reg_wage": 62528.86,
+          "reg_cost": 68149.42,
+          "nonreg_headcount": 3,
+          "nonreg_wage": 8319.19,
+          "nonreg_cost": 8355.19,
+          "net_output": 384876.37,
+          "cost_ratio": 19.88,
+          "wage_ratio": 18.41
         },
         {
           "dept_raw": "曦跃-Win部",
@@ -139936,8 +140092,15 @@
           "wage": 25513.47,
           "avg_cost": 4426.55,
           "avg_wage": 4252.24,
+          "reg_headcount": 5,
+          "reg_wage": 25209.47,
+          "reg_cost": 26243.31,
+          "nonreg_headcount": 1,
+          "nonreg_wage": 304.0,
+          "nonreg_cost": 316.0,
           "net_output": 0.0,
-          "cost_ratio": null
+          "cost_ratio": null,
+          "wage_ratio": null
         },
         {
           "dept_raw": "跨境电商一组",
@@ -139949,8 +140112,15 @@
           "wage": 26960.48,
           "avg_cost": 6752.12,
           "avg_wage": 6740.12,
+          "reg_headcount": 2,
+          "reg_wage": 22210.48,
+          "reg_cost": 22234.48,
+          "nonreg_headcount": 2,
+          "nonreg_wage": 4750.0,
+          "nonreg_cost": 4774.0,
           "net_output": 0.0,
-          "cost_ratio": null
+          "cost_ratio": null,
+          "wage_ratio": null
         }
       ],
       "2026-04": [
@@ -139964,8 +140134,15 @@
           "wage": 24507.4,
           "avg_cost": 8181.13,
           "avg_wage": 8169.13,
+          "reg_headcount": 1,
+          "reg_wage": 12480.0,
+          "reg_cost": 12492.0,
+          "nonreg_headcount": 2,
+          "nonreg_wage": 12027.4,
+          "nonreg_cost": 12051.4,
           "net_output": 0.0,
-          "cost_ratio": null
+          "cost_ratio": null,
+          "wage_ratio": null
         },
         {
           "dept_raw": "亿百万组",
@@ -139977,8 +140154,15 @@
           "wage": 15558.0,
           "avg_cost": 7791.0,
           "avg_wage": 7779.0,
+          "reg_headcount": 0,
+          "reg_wage": 0.0,
+          "reg_cost": 0.0,
+          "nonreg_headcount": 2,
+          "nonreg_wage": 15558.0,
+          "nonreg_cost": 15582.0,
           "net_output": 0.0,
-          "cost_ratio": null
+          "cost_ratio": null,
+          "wage_ratio": null
         },
         {
           "dept_raw": "创晖一部",
@@ -139990,8 +140174,15 @@
           "wage": 103524.32,
           "avg_cost": 7732.5,
           "avg_wage": 7394.59,
-          "net_output": 0.0,
-          "cost_ratio": null
+          "reg_headcount": 8,
+          "reg_wage": 85049.3,
+          "reg_cost": 89708.02,
+          "nonreg_headcount": 6,
+          "nonreg_wage": 18475.02,
+          "nonreg_cost": 18547.02,
+          "net_output": 787481.31,
+          "cost_ratio": 13.75,
+          "wage_ratio": 13.15
         },
         {
           "dept_raw": "慧晟三部",
@@ -140003,8 +140194,15 @@
           "wage": 46419.07,
           "avg_cost": 3238.29,
           "avg_wage": 3094.6,
-          "net_output": 0.0,
-          "cost_ratio": null
+          "reg_headcount": 3,
+          "reg_wage": 22837.12,
+          "reg_cost": 23846.96,
+          "nonreg_headcount": 12,
+          "nonreg_wage": 23581.95,
+          "nonreg_cost": 24727.37,
+          "net_output": 170890.91,
+          "cost_ratio": 28.42,
+          "wage_ratio": 27.16
         },
         {
           "dept_raw": "星辰一部",
@@ -140016,8 +140214,15 @@
           "wage": 142312.55,
           "avg_cost": 5743.46,
           "avg_wage": 5692.5,
+          "reg_headcount": 11,
+          "reg_wage": 111924.85,
+          "reg_cost": 113030.69,
+          "nonreg_headcount": 14,
+          "nonreg_wage": 30387.7,
+          "nonreg_cost": 30555.7,
           "net_output": 0.0,
-          "cost_ratio": null
+          "cost_ratio": null,
+          "wage_ratio": null
         },
         {
           "dept_raw": "昭荣二部",
@@ -140029,8 +140234,15 @@
           "wage": 104706.22,
           "avg_cost": 5588.15,
           "avg_wage": 5235.31,
-          "net_output": 0.0,
-          "cost_ratio": null
+          "reg_headcount": 11,
+          "reg_wage": 82414.58,
+          "reg_cost": 89363.46,
+          "nonreg_headcount": 9,
+          "nonreg_wage": 22291.64,
+          "nonreg_cost": 22399.64,
+          "net_output": 768560.49,
+          "cost_ratio": 14.54,
+          "wage_ratio": 13.62
         },
         {
           "dept_raw": "昱升七部",
@@ -140042,8 +140254,15 @@
           "wage": 43477.21,
           "avg_cost": 7420.51,
           "avg_wage": 7246.2,
-          "net_output": 0.0,
-          "cost_ratio": null
+          "reg_headcount": 4,
+          "reg_wage": 36466.84,
+          "reg_cost": 37488.68,
+          "nonreg_headcount": 2,
+          "nonreg_wage": 7010.37,
+          "nonreg_cost": 7034.37,
+          "net_output": 309551.38,
+          "cost_ratio": 14.38,
+          "wage_ratio": 14.05
         },
         {
           "dept_raw": "晗盛六部",
@@ -140055,8 +140274,15 @@
           "wage": 66203.96,
           "avg_cost": 6071.53,
           "avg_wage": 5517.0,
-          "net_output": 0.0,
-          "cost_ratio": null
+          "reg_headcount": 7,
+          "reg_wage": 52913.39,
+          "reg_cost": 59507.79,
+          "nonreg_headcount": 5,
+          "nonreg_wage": 13290.57,
+          "nonreg_cost": 13350.57,
+          "net_output": 325442.64,
+          "cost_ratio": 22.39,
+          "wage_ratio": 20.34
         },
         {
           "dept_raw": "曦跃-Win部",
@@ -140068,8 +140294,15 @@
           "wage": 26862.12,
           "avg_cost": 5579.19,
           "avg_wage": 5372.42,
+          "reg_headcount": 5,
+          "reg_wage": 26862.12,
+          "reg_cost": 27895.96,
+          "nonreg_headcount": 0,
+          "nonreg_wage": 0.0,
+          "nonreg_cost": 0.0,
           "net_output": 0.0,
-          "cost_ratio": null
+          "cost_ratio": null,
+          "wage_ratio": null
         },
         {
           "dept_raw": "跨境电商一组",
@@ -140081,8 +140314,15 @@
           "wage": 32411.99,
           "avg_cost": 6494.4,
           "avg_wage": 6482.4,
+          "reg_headcount": 2,
+          "reg_wage": 24202.36,
+          "reg_cost": 24226.36,
+          "nonreg_headcount": 3,
+          "nonreg_wage": 8209.63,
+          "nonreg_cost": 8245.63,
           "net_output": 0.0,
-          "cost_ratio": null
+          "cost_ratio": null,
+          "wage_ratio": null
         }
       ],
       "2026-05": [
@@ -140096,8 +140336,15 @@
           "wage": 26467.4,
           "avg_cost": 6628.85,
           "avg_wage": 6616.85,
+          "reg_headcount": 2,
+          "reg_wage": 18364.0,
+          "reg_cost": 18388.0,
+          "nonreg_headcount": 2,
+          "nonreg_wage": 8103.4,
+          "nonreg_cost": 8127.4,
           "net_output": 0.0,
-          "cost_ratio": null
+          "cost_ratio": null,
+          "wage_ratio": null
         },
         {
           "dept_raw": "亿百万组",
@@ -140109,8 +140356,15 @@
           "wage": 13826.22,
           "avg_cost": 6925.11,
           "avg_wage": 6913.11,
+          "reg_headcount": 0,
+          "reg_wage": 0.0,
+          "reg_cost": 0.0,
+          "nonreg_headcount": 2,
+          "nonreg_wage": 13826.22,
+          "nonreg_cost": 13850.22,
           "net_output": 0.0,
-          "cost_ratio": null
+          "cost_ratio": null,
+          "wage_ratio": null
         },
         {
           "dept_raw": "创晖一部",
@@ -140122,8 +140376,15 @@
           "wage": 159967.71,
           "avg_cost": 10253.44,
           "avg_wage": 9997.98,
-          "net_output": 0.0,
-          "cost_ratio": null
+          "reg_headcount": 9,
+          "reg_wage": 134884.47,
+          "reg_cost": 138887.83,
+          "nonreg_headcount": 7,
+          "nonreg_wage": 25083.24,
+          "nonreg_cost": 25167.24,
+          "net_output": 1300546.89,
+          "cost_ratio": 12.61,
+          "wage_ratio": 12.3
         },
         {
           "dept_raw": "慧晟三部",
@@ -140135,8 +140396,15 @@
           "wage": 49256.54,
           "avg_cost": 4666.93,
           "avg_wage": 4477.87,
-          "net_output": 0.0,
-          "cost_ratio": null
+          "reg_headcount": 3,
+          "reg_wage": 25299.38,
+          "reg_cost": 26309.22,
+          "nonreg_headcount": 8,
+          "nonreg_wage": 23957.16,
+          "nonreg_cost": 25027.0,
+          "net_output": 215973.43,
+          "cost_ratio": 23.77,
+          "wage_ratio": 22.81
         },
         {
           "dept_raw": "星辰一部",
@@ -140148,8 +140416,15 @@
           "wage": 206638.51,
           "avg_cost": 9038.62,
           "avg_wage": 8984.28,
+          "reg_headcount": 13,
+          "reg_wage": 170779.14,
+          "reg_cost": 171908.98,
+          "nonreg_headcount": 10,
+          "nonreg_wage": 35859.37,
+          "nonreg_cost": 35979.37,
           "net_output": 0.0,
-          "cost_ratio": null
+          "cost_ratio": null,
+          "wage_ratio": null
         },
         {
           "dept_raw": "昭荣二部",
@@ -140161,8 +140436,15 @@
           "wage": 147249.13,
           "avg_cost": 6668.18,
           "avg_wage": 6402.14,
-          "net_output": 0.0,
-          "cost_ratio": null
+          "reg_headcount": 11,
+          "reg_wage": 118747.4,
+          "reg_cost": 124722.44,
+          "nonreg_headcount": 12,
+          "nonreg_wage": 28501.73,
+          "nonreg_cost": 28645.73,
+          "net_output": 1209426.48,
+          "cost_ratio": 12.68,
+          "wage_ratio": 12.18
         },
         {
           "dept_raw": "昱升七部",
@@ -140174,8 +140456,15 @@
           "wage": 51263.37,
           "avg_cost": 7474.46,
           "avg_wage": 7323.34,
-          "net_output": 0.0,
-          "cost_ratio": null
+          "reg_headcount": 5,
+          "reg_wage": 44640.12,
+          "reg_cost": 45673.96,
+          "nonreg_headcount": 2,
+          "nonreg_wage": 6623.25,
+          "nonreg_cost": 6647.25,
+          "net_output": 385936.06,
+          "cost_ratio": 13.56,
+          "wage_ratio": 13.28
         },
         {
           "dept_raw": "晗盛六部",
@@ -140187,8 +140476,15 @@
           "wage": 87696.44,
           "avg_cost": 9365.95,
           "avg_wage": 8769.64,
-          "net_output": 0.0,
-          "cost_ratio": null
+          "reg_headcount": 7,
+          "reg_wage": 77155.76,
+          "reg_cost": 83082.8,
+          "nonreg_headcount": 3,
+          "nonreg_wage": 10540.68,
+          "nonreg_cost": 10576.68,
+          "net_output": 578719.9,
+          "cost_ratio": 16.18,
+          "wage_ratio": 15.15
         },
         {
           "dept_raw": "曦跃-Win部",
@@ -140200,8 +140496,15 @@
           "wage": 26920.17,
           "avg_cost": 6247.28,
           "avg_wage": 5384.03,
+          "reg_headcount": 5,
+          "reg_wage": 26920.17,
+          "reg_cost": 31236.41,
+          "nonreg_headcount": 0,
+          "nonreg_wage": 0.0,
+          "nonreg_cost": 0.0,
           "net_output": 0.0,
-          "cost_ratio": null
+          "cost_ratio": null,
+          "wage_ratio": null
         },
         {
           "dept_raw": "跨境电商一组",
@@ -140213,8 +140516,15 @@
           "wage": 16491.47,
           "avg_cost": 8257.74,
           "avg_wage": 8245.74,
+          "reg_headcount": 1,
+          "reg_wage": 12080.82,
+          "reg_cost": 12092.82,
+          "nonreg_headcount": 1,
+          "nonreg_wage": 4410.65,
+          "nonreg_cost": 4422.65,
           "net_output": 0.0,
-          "cost_ratio": null
+          "cost_ratio": null,
+          "wage_ratio": null
         }
       ],
       "2026-06": [
@@ -140228,8 +140538,15 @@
           "wage": 31972.32,
           "avg_cost": 8005.08,
           "avg_wage": 7993.08,
+          "reg_headcount": 3,
+          "reg_wage": 24792.82,
+          "reg_cost": 24828.82,
+          "nonreg_headcount": 1,
+          "nonreg_wage": 7179.5,
+          "nonreg_cost": 7191.5,
           "net_output": 0.0,
-          "cost_ratio": null
+          "cost_ratio": null,
+          "wage_ratio": null
         },
         {
           "dept_raw": "亿百万组",
@@ -140241,8 +140558,15 @@
           "wage": 14855.07,
           "avg_cost": 4963.69,
           "avg_wage": 4951.69,
+          "reg_headcount": 0,
+          "reg_wage": 0.0,
+          "reg_cost": 0.0,
+          "nonreg_headcount": 3,
+          "nonreg_wage": 14855.07,
+          "nonreg_cost": 14891.07,
           "net_output": 0.0,
-          "cost_ratio": null
+          "cost_ratio": null,
+          "wage_ratio": null
         },
         {
           "dept_raw": "元启",
@@ -140254,8 +140578,15 @@
           "wage": 8830.91,
           "avg_cost": 3275.65,
           "avg_wage": 2943.64,
-          "net_output": 4172.98,
-          "cost_ratio": 235.49
+          "reg_headcount": 1,
+          "reg_wage": 4608.69,
+          "reg_cost": 4620.69,
+          "nonreg_headcount": 2,
+          "nonreg_wage": 4222.22,
+          "nonreg_cost": 5206.27,
+          "net_output": 3429.73,
+          "cost_ratio": 286.52,
+          "wage_ratio": 257.48
         },
         {
           "dept_raw": "创晖一部",
@@ -140267,8 +140598,15 @@
           "wage": 172286.42,
           "avg_cost": 11862.27,
           "avg_wage": 11485.76,
-          "net_output": 1376470.96,
-          "cost_ratio": 12.93
+          "reg_headcount": 12,
+          "reg_wage": 148419.99,
+          "reg_cost": 154031.6,
+          "nonreg_headcount": 3,
+          "nonreg_wage": 23866.43,
+          "nonreg_cost": 23902.43,
+          "net_output": 1177016.58,
+          "cost_ratio": 15.12,
+          "wage_ratio": 14.64
         },
         {
           "dept_raw": "慧晟三部",
@@ -140280,8 +140618,15 @@
           "wage": 39281.23,
           "avg_cost": 4036.13,
           "avg_wage": 3928.12,
-          "net_output": 137847.55,
-          "cost_ratio": 29.28
+          "reg_headcount": 3,
+          "reg_wage": 19509.35,
+          "reg_cost": 20505.4,
+          "nonreg_headcount": 7,
+          "nonreg_wage": 19771.88,
+          "nonreg_cost": 19855.88,
+          "net_output": 135089.54,
+          "cost_ratio": 29.88,
+          "wage_ratio": 29.08
         },
         {
           "dept_raw": "推广引流组",
@@ -140293,8 +140638,15 @@
           "wage": 3170.36,
           "avg_cost": 1597.18,
           "avg_wage": 1585.18,
+          "reg_headcount": 0,
+          "reg_wage": 0.0,
+          "reg_cost": 0.0,
+          "nonreg_headcount": 2,
+          "nonreg_wage": 3170.36,
+          "nonreg_cost": 3194.36,
           "net_output": 0.0,
-          "cost_ratio": null
+          "cost_ratio": null,
+          "wage_ratio": null
         },
         {
           "dept_raw": "星辰一部",
@@ -140306,8 +140658,15 @@
           "wage": 202210.07,
           "avg_cost": 6035.46,
           "avg_wage": 5947.36,
+          "reg_headcount": 16,
+          "reg_wage": 157060.1,
+          "reg_cost": 159839.56,
+          "nonreg_headcount": 18,
+          "nonreg_wage": 45149.97,
+          "nonreg_cost": 45365.97,
           "net_output": 0.0,
-          "cost_ratio": null
+          "cost_ratio": null,
+          "wage_ratio": null
         },
         {
           "dept_raw": "昭荣二部",
@@ -140319,8 +140678,15 @@
           "wage": 102109.96,
           "avg_cost": 5405.51,
           "avg_wage": 5105.5,
-          "net_output": 809863.2,
-          "cost_ratio": 13.35
+          "reg_headcount": 13,
+          "reg_wage": 83159.67,
+          "reg_cost": 89075.97,
+          "nonreg_headcount": 7,
+          "nonreg_wage": 18950.29,
+          "nonreg_cost": 19034.29,
+          "net_output": 656316.22,
+          "cost_ratio": 16.47,
+          "wage_ratio": 15.56
         },
         {
           "dept_raw": "昱升七部",
@@ -140332,8 +140698,15 @@
           "wage": 39782.34,
           "avg_cost": 5832.34,
           "avg_wage": 5683.19,
-          "net_output": 322102.22,
-          "cost_ratio": 12.67
+          "reg_headcount": 5,
+          "reg_wage": 33412.7,
+          "reg_cost": 34432.75,
+          "nonreg_headcount": 2,
+          "nonreg_wage": 6369.64,
+          "nonreg_cost": 6393.64,
+          "net_output": 269071.72,
+          "cost_ratio": 15.17,
+          "wage_ratio": 14.79
         },
         {
           "dept_raw": "晗盛六部",
@@ -140345,8 +140718,15 @@
           "wage": 72048.51,
           "avg_cost": 6496.07,
           "avg_wage": 6004.04,
-          "net_output": 427881.17,
-          "cost_ratio": 18.22
+          "reg_headcount": 8,
+          "reg_wage": 59025.28,
+          "reg_cost": 64881.58,
+          "nonreg_headcount": 4,
+          "nonreg_wage": 13023.23,
+          "nonreg_cost": 13071.23,
+          "net_output": 353039.45,
+          "cost_ratio": 22.08,
+          "wage_ratio": 20.41
         },
         {
           "dept_raw": "曦跃-Win部",
@@ -140358,8 +140738,15 @@
           "wage": 27927.55,
           "avg_cost": 6173.54,
           "avg_wage": 5585.51,
+          "reg_headcount": 5,
+          "reg_wage": 27927.55,
+          "reg_cost": 30867.7,
+          "nonreg_headcount": 0,
+          "nonreg_wage": 0.0,
+          "nonreg_cost": 0.0,
           "net_output": 0.0,
-          "cost_ratio": null
+          "cost_ratio": null,
+          "wage_ratio": null
         },
         {
           "dept_raw": "盈光-Elite事业部",
@@ -140371,8 +140758,15 @@
           "wage": 11849.01,
           "avg_cost": 1986.83,
           "avg_wage": 1974.83,
+          "reg_headcount": 0,
+          "reg_wage": 0.0,
+          "reg_cost": 0.0,
+          "nonreg_headcount": 6,
+          "nonreg_wage": 11849.01,
+          "nonreg_cost": 11921.01,
           "net_output": 0.0,
-          "cost_ratio": null
+          "cost_ratio": null,
+          "wage_ratio": null
         },
         {
           "dept_raw": "跨境电商一组",
@@ -140384,8 +140778,15 @@
           "wage": 21008.49,
           "avg_cost": 7014.83,
           "avg_wage": 7002.83,
+          "reg_headcount": 1,
+          "reg_wage": 12008.49,
+          "reg_cost": 12020.49,
+          "nonreg_headcount": 2,
+          "nonreg_wage": 9000.0,
+          "nonreg_cost": 9024.0,
           "net_output": 0.0,
-          "cost_ratio": null
+          "cost_ratio": null,
+          "wage_ratio": null
         }
       ],
       "2026-07": [
@@ -140399,8 +140800,15 @@
           "wage": 32529.27,
           "avg_cost": 6517.85,
           "avg_wage": 6505.85,
+          "reg_headcount": 3,
+          "reg_wage": 25070.77,
+          "reg_cost": 25106.77,
+          "nonreg_headcount": 2,
+          "nonreg_wage": 7458.5,
+          "nonreg_cost": 7482.5,
           "net_output": 0.0,
-          "cost_ratio": null
+          "cost_ratio": null,
+          "wage_ratio": null
         },
         {
           "dept_raw": "亿百万组",
@@ -140412,8 +140820,15 @@
           "wage": 16454.91,
           "avg_cost": 2754.49,
           "avg_wage": 2742.49,
+          "reg_headcount": 0,
+          "reg_wage": 0.0,
+          "reg_cost": 0.0,
+          "nonreg_headcount": 6,
+          "nonreg_wage": 16454.91,
+          "nonreg_cost": 16526.91,
           "net_output": 0.0,
-          "cost_ratio": null
+          "cost_ratio": null,
+          "wage_ratio": null
         },
         {
           "dept_raw": "元启",
@@ -140425,8 +140840,15 @@
           "wage": 26337.72,
           "avg_cost": 4561.63,
           "avg_wage": 4389.62,
+          "reg_headcount": 1,
+          "reg_wage": 6448.93,
+          "reg_cost": 6460.93,
+          "nonreg_headcount": 5,
+          "nonreg_wage": 19888.79,
+          "nonreg_cost": 20908.84,
           "net_output": 122488.86,
-          "cost_ratio": 22.34
+          "cost_ratio": 22.34,
+          "wage_ratio": 21.5
         },
         {
           "dept_raw": "创晖一部",
@@ -140438,8 +140860,15 @@
           "wage": 197712.58,
           "avg_cost": 8112.51,
           "avg_wage": 7908.5,
+          "reg_headcount": 13,
+          "reg_wage": 172588.29,
+          "reg_cost": 177544.54,
+          "nonreg_headcount": 12,
+          "nonreg_wage": 25124.29,
+          "nonreg_cost": 25268.29,
           "net_output": 1549798.81,
-          "cost_ratio": 13.09
+          "cost_ratio": 13.09,
+          "wage_ratio": 12.76
         },
         {
           "dept_raw": "慧晟三部",
@@ -140451,8 +140880,15 @@
           "wage": 44145.81,
           "avg_cost": 2931.97,
           "avg_wage": 2759.11,
+          "reg_headcount": 3,
+          "reg_wage": 20783.41,
+          "reg_cost": 23393.08,
+          "nonreg_headcount": 13,
+          "nonreg_wage": 23362.4,
+          "nonreg_cost": 23518.4,
           "net_output": 175834.68,
-          "cost_ratio": 26.68
+          "cost_ratio": 26.68,
+          "wage_ratio": 25.11
         },
         {
           "dept_raw": "推广引流组",
@@ -140464,8 +140900,15 @@
           "wage": 6469.0,
           "avg_cost": 3246.5,
           "avg_wage": 3234.5,
+          "reg_headcount": 0,
+          "reg_wage": 0.0,
+          "reg_cost": 0.0,
+          "nonreg_headcount": 2,
+          "nonreg_wage": 6469.0,
+          "nonreg_cost": 6493.0,
           "net_output": 0.0,
-          "cost_ratio": null
+          "cost_ratio": null,
+          "wage_ratio": null
         },
         {
           "dept_raw": "星辰一部",
@@ -140477,8 +140920,15 @@
           "wage": 269231.11,
           "avg_cost": 7759.18,
           "avg_wage": 7692.32,
+          "reg_headcount": 18,
+          "reg_wage": 213374.64,
+          "reg_cost": 215510.74,
+          "nonreg_headcount": 17,
+          "nonreg_wage": 55856.47,
+          "nonreg_cost": 56060.47,
           "net_output": 0.0,
-          "cost_ratio": null
+          "cost_ratio": null,
+          "wage_ratio": null
         },
         {
           "dept_raw": "昭荣二部",
@@ -140490,8 +140940,15 @@
           "wage": 110730.44,
           "avg_cost": 4138.1,
           "avg_wage": 3954.66,
+          "reg_headcount": 13,
+          "reg_wage": 82984.7,
+          "reg_cost": 87940.95,
+          "nonreg_headcount": 15,
+          "nonreg_wage": 27745.74,
+          "nonreg_cost": 27925.74,
           "net_output": 771135.52,
-          "cost_ratio": 15.03
+          "cost_ratio": 15.03,
+          "wage_ratio": 14.36
         },
         {
           "dept_raw": "昱升七部",
@@ -140503,8 +140960,15 @@
           "wage": 49325.17,
           "avg_cost": 2895.27,
           "avg_wage": 2740.29,
+          "reg_headcount": 5,
+          "reg_wage": 30585.33,
+          "reg_cost": 33219.0,
+          "nonreg_headcount": 13,
+          "nonreg_wage": 18739.84,
+          "nonreg_cost": 18895.84,
           "net_output": 282223.23,
-          "cost_ratio": 18.47
+          "cost_ratio": 18.47,
+          "wage_ratio": 17.48
         },
         {
           "dept_raw": "晗盛六部",
@@ -140516,8 +140980,15 @@
           "wage": 86018.06,
           "avg_cost": 5410.73,
           "avg_wage": 5059.89,
+          "reg_headcount": 8,
+          "reg_wage": 60888.18,
+          "reg_cost": 66744.48,
+          "nonreg_headcount": 9,
+          "nonreg_wage": 25129.89,
+          "nonreg_cost": 25237.89,
           "net_output": 521268.78,
-          "cost_ratio": 17.65
+          "cost_ratio": 17.65,
+          "wage_ratio": 16.5
         },
         {
           "dept_raw": "曦跃-Win部",
@@ -140529,8 +141000,15 @@
           "wage": 27392.45,
           "avg_cost": 6389.24,
           "avg_wage": 5478.49,
+          "reg_headcount": 5,
+          "reg_wage": 27392.45,
+          "reg_cost": 31946.22,
+          "nonreg_headcount": 0,
+          "nonreg_wage": 0.0,
+          "nonreg_cost": 0.0,
           "net_output": 0.0,
-          "cost_ratio": null
+          "cost_ratio": null,
+          "wage_ratio": null
         },
         {
           "dept_raw": "盈光-Elite事业部",
@@ -140542,8 +141020,15 @@
           "wage": 15542.13,
           "avg_cost": 3897.53,
           "avg_wage": 3885.53,
+          "reg_headcount": 0,
+          "reg_wage": 0.0,
+          "reg_cost": 0.0,
+          "nonreg_headcount": 4,
+          "nonreg_wage": 15542.13,
+          "nonreg_cost": 15590.13,
           "net_output": 0.0,
-          "cost_ratio": null
+          "cost_ratio": null,
+          "wage_ratio": null
         },
         {
           "dept_raw": "跨境电商一组",
@@ -140555,8 +141040,15 @@
           "wage": 24820.58,
           "avg_cost": 6217.14,
           "avg_wage": 6205.14,
+          "reg_headcount": 2,
+          "reg_wage": 14757.79,
+          "reg_cost": 14781.79,
+          "nonreg_headcount": 2,
+          "nonreg_wage": 10062.79,
+          "nonreg_cost": 10086.79,
           "net_output": 0.0,
-          "cost_ratio": null
+          "cost_ratio": null,
+          "wage_ratio": null
         },
         {
           "dept_raw": "跨境电商二组",
@@ -140568,8 +141060,15 @@
           "wage": 4804.36,
           "avg_cost": 2414.18,
           "avg_wage": 2402.18,
+          "reg_headcount": 0,
+          "reg_wage": 0.0,
+          "reg_cost": 0.0,
+          "nonreg_headcount": 2,
+          "nonreg_wage": 4804.36,
+          "nonreg_cost": 4828.36,
           "net_output": 0.0,
-          "cost_ratio": null
+          "cost_ratio": null,
+          "wage_ratio": null
         }
       ],
       "2026-08": [
@@ -140583,8 +141082,15 @@
           "wage": 33885.44,
           "avg_cost": 6789.09,
           "avg_wage": 6777.09,
+          "reg_headcount": 4,
+          "reg_wage": 31826.24,
+          "reg_cost": 31874.24,
+          "nonreg_headcount": 1,
+          "nonreg_wage": 2059.2,
+          "nonreg_cost": 2071.2,
           "net_output": 0.0,
-          "cost_ratio": null
+          "cost_ratio": null,
+          "wage_ratio": null
         },
         {
           "dept_raw": "亿百万组",
@@ -140596,8 +141102,15 @@
           "wage": 74347.13,
           "avg_cost": 2019.03,
           "avg_wage": 1956.5,
+          "reg_headcount": 2,
+          "reg_wage": 26460.49,
+          "reg_cost": 28404.59,
+          "nonreg_headcount": 36,
+          "nonreg_wage": 47886.64,
+          "nonreg_cost": 48318.64,
           "net_output": 0.0,
-          "cost_ratio": null
+          "cost_ratio": null,
+          "wage_ratio": null
         },
         {
           "dept_raw": "元启",
@@ -140609,8 +141122,15 @@
           "wage": 28879.07,
           "avg_cost": 4063.6,
           "avg_wage": 3609.88,
+          "reg_headcount": 3,
+          "reg_wage": 15308.91,
+          "reg_cost": 17918.58,
+          "nonreg_headcount": 5,
+          "nonreg_wage": 13570.16,
+          "nonreg_cost": 14590.21,
           "net_output": 63563.17,
-          "cost_ratio": 51.14
+          "cost_ratio": 51.14,
+          "wage_ratio": 45.43
         },
         {
           "dept_raw": "创晖一部",
@@ -140622,8 +141142,15 @@
           "wage": 143295.34,
           "avg_cost": 5301.13,
           "avg_wage": 5117.69,
+          "reg_headcount": 13,
+          "reg_wage": 105423.9,
+          "reg_cost": 110380.15,
+          "nonreg_headcount": 15,
+          "nonreg_wage": 37871.44,
+          "nonreg_cost": 38051.44,
           "net_output": 1033163.05,
-          "cost_ratio": 14.37
+          "cost_ratio": 14.37,
+          "wage_ratio": 13.87
         },
         {
           "dept_raw": "慧晟三部",
@@ -140635,8 +141162,15 @@
           "wage": 45461.5,
           "avg_cost": 4319.42,
           "avg_wage": 4132.86,
+          "reg_headcount": 3,
+          "reg_wage": 26788.65,
+          "reg_cost": 28744.75,
+          "nonreg_headcount": 8,
+          "nonreg_wage": 18672.85,
+          "nonreg_cost": 18768.85,
           "net_output": 238917.98,
-          "cost_ratio": 19.89
+          "cost_ratio": 19.89,
+          "wage_ratio": 19.03
         },
         {
           "dept_raw": "推广引流组",
@@ -140648,8 +141182,15 @@
           "wage": 10207.0,
           "avg_cost": 3414.33,
           "avg_wage": 3402.33,
+          "reg_headcount": 0,
+          "reg_wage": 0.0,
+          "reg_cost": 0.0,
+          "nonreg_headcount": 3,
+          "nonreg_wage": 10207.0,
+          "nonreg_cost": 10243.0,
           "net_output": 0.0,
-          "cost_ratio": null
+          "cost_ratio": null,
+          "wage_ratio": null
         },
         {
           "dept_raw": "星辰一部",
@@ -140661,8 +141202,15 @@
           "wage": 121930.91,
           "avg_cost": 6156.55,
           "avg_wage": 6096.55,
+          "reg_headcount": 7,
+          "reg_wage": 87872.82,
+          "reg_cost": 88916.87,
+          "nonreg_headcount": 13,
+          "nonreg_wage": 34058.09,
+          "nonreg_cost": 34214.09,
           "net_output": 0.0,
-          "cost_ratio": null
+          "cost_ratio": null,
+          "wage_ratio": null
         },
         {
           "dept_raw": "星辰三部",
@@ -140674,8 +141222,15 @@
           "wage": 54666.29,
           "avg_cost": 6265.32,
           "avg_wage": 6074.03,
+          "reg_headcount": 8,
+          "reg_wage": 52157.96,
+          "reg_cost": 53867.58,
+          "nonreg_headcount": 1,
+          "nonreg_wage": 2508.33,
+          "nonreg_cost": 2520.33,
           "net_output": 0.0,
-          "cost_ratio": null
+          "cost_ratio": null,
+          "wage_ratio": null
         },
         {
           "dept_raw": "星辰二部",
@@ -140687,8 +141242,15 @@
           "wage": 108166.68,
           "avg_cost": 6074.6,
           "avg_wage": 6009.26,
+          "reg_headcount": 9,
+          "reg_wage": 98172.95,
+          "reg_cost": 99241.0,
+          "nonreg_headcount": 9,
+          "nonreg_wage": 9993.73,
+          "nonreg_cost": 10101.73,
           "net_output": 0.0,
-          "cost_ratio": null
+          "cost_ratio": null,
+          "wage_ratio": null
         },
         {
           "dept_raw": "昭荣二部",
@@ -140700,8 +141262,15 @@
           "wage": 109215.14,
           "avg_cost": 4927.45,
           "avg_wage": 4748.48,
+          "reg_headcount": 10,
+          "reg_wage": 76053.12,
+          "reg_cost": 80013.32,
+          "nonreg_headcount": 13,
+          "nonreg_wage": 33162.02,
+          "nonreg_cost": 33318.02,
           "net_output": 658703.38,
-          "cost_ratio": 17.21
+          "cost_ratio": 17.21,
+          "wage_ratio": 16.58
         },
         {
           "dept_raw": "昱升七部",
@@ -140713,8 +141282,15 @@
           "wage": 59977.99,
           "avg_cost": 3941.5,
           "avg_wage": 3748.62,
+          "reg_headcount": 4,
+          "reg_wage": 28181.21,
+          "reg_cost": 31123.15,
+          "nonreg_headcount": 12,
+          "nonreg_wage": 31796.78,
+          "nonreg_cost": 31940.78,
           "net_output": 323858.29,
-          "cost_ratio": 19.47
+          "cost_ratio": 19.47,
+          "wage_ratio": 18.52
         },
         {
           "dept_raw": "晗盛六部",
@@ -140726,8 +141302,15 @@
           "wage": 53882.8,
           "avg_cost": 4526.08,
           "avg_wage": 4144.83,
+          "reg_headcount": 6,
+          "reg_wage": 38476.75,
+          "reg_cost": 43349.0,
+          "nonreg_headcount": 7,
+          "nonreg_wage": 15406.05,
+          "nonreg_cost": 15490.05,
           "net_output": 373179.33,
-          "cost_ratio": 15.77
+          "cost_ratio": 15.77,
+          "wage_ratio": 14.44
         },
         {
           "dept_raw": "曦跃-Win部",
@@ -140739,8 +141322,15 @@
           "wage": 42580.98,
           "avg_cost": 5934.65,
           "avg_wage": 5322.62,
+          "reg_headcount": 6,
+          "reg_wage": 34810.15,
+          "reg_cost": 39682.4,
+          "nonreg_headcount": 2,
+          "nonreg_wage": 7770.83,
+          "nonreg_cost": 7794.83,
           "net_output": 0.0,
-          "cost_ratio": null
+          "cost_ratio": null,
+          "wage_ratio": null
         },
         {
           "dept_raw": "盈光-Elite事业部",
@@ -140752,8 +141342,15 @@
           "wage": 30612.69,
           "avg_cost": 2366.82,
           "avg_wage": 2354.82,
+          "reg_headcount": 0,
+          "reg_wage": 0.0,
+          "reg_cost": 0.0,
+          "nonreg_headcount": 13,
+          "nonreg_wage": 30612.69,
+          "nonreg_cost": 30768.69,
           "net_output": 0.0,
-          "cost_ratio": null
+          "cost_ratio": null,
+          "wage_ratio": null
         },
         {
           "dept_raw": "跨境电商一组",
@@ -140765,8 +141362,15 @@
           "wage": 20079.85,
           "avg_cost": 7243.16,
           "avg_wage": 6693.28,
+          "reg_headcount": 2,
+          "reg_wage": 14089.05,
+          "reg_cost": 15726.67,
+          "nonreg_headcount": 1,
+          "nonreg_wage": 5990.8,
+          "nonreg_cost": 6002.8,
           "net_output": 0.0,
-          "cost_ratio": null
+          "cost_ratio": null,
+          "wage_ratio": null
         },
         {
           "dept_raw": "跨境电商二组",
@@ -140778,8 +141382,15 @@
           "wage": 15415.17,
           "avg_cost": 3865.79,
           "avg_wage": 3853.79,
+          "reg_headcount": 0,
+          "reg_wage": 0.0,
+          "reg_cost": 0.0,
+          "nonreg_headcount": 4,
+          "nonreg_wage": 15415.17,
+          "nonreg_cost": 15463.17,
           "net_output": 0.0,
-          "cost_ratio": null
+          "cost_ratio": null,
+          "wage_ratio": null
         }
       ],
       "2026-09": [
@@ -140793,8 +141404,15 @@
           "wage": 6218.88,
           "avg_cost": 1566.72,
           "avg_wage": 1554.72,
+          "reg_headcount": 4,
+          "reg_wage": 6218.88,
+          "reg_cost": 6266.88,
+          "nonreg_headcount": 0,
+          "nonreg_wage": 0.0,
+          "nonreg_cost": 0.0,
           "net_output": 0.0,
-          "cost_ratio": null
+          "cost_ratio": null,
+          "wage_ratio": null
         },
         {
           "dept_raw": "业绩第一组",
@@ -140806,8 +141424,15 @@
           "wage": 70474.43,
           "avg_cost": 5114.46,
           "avg_wage": 5033.89,
+          "reg_headcount": 4,
+          "reg_wage": 34142.42,
+          "reg_cost": 35150.47,
+          "nonreg_headcount": 10,
+          "nonreg_wage": 36332.01,
+          "nonreg_cost": 36452.01,
           "net_output": 0.0,
-          "cost_ratio": null
+          "cost_ratio": null,
+          "wage_ratio": null
         },
         {
           "dept_raw": "亿百万组",
@@ -140819,8 +141444,15 @@
           "wage": 34979.26,
           "avg_cost": 2926.94,
           "avg_wage": 2914.94,
+          "reg_headcount": 0,
+          "reg_wage": 0.0,
+          "reg_cost": 0.0,
+          "nonreg_headcount": 12,
+          "nonreg_wage": 34979.26,
+          "nonreg_cost": 35123.26,
           "net_output": 0.0,
-          "cost_ratio": null
+          "cost_ratio": null,
+          "wage_ratio": null
         },
         {
           "dept_raw": "元启",
@@ -140832,8 +141464,15 @@
           "wage": 28403.2,
           "avg_cost": 2948.32,
           "avg_wage": 2840.32,
+          "reg_headcount": 3,
+          "reg_wage": 14031.62,
+          "reg_cost": 15027.67,
+          "nonreg_headcount": 7,
+          "nonreg_wage": 14371.58,
+          "nonreg_cost": 14455.58,
           "net_output": 29520.15,
-          "cost_ratio": 99.88
+          "cost_ratio": 99.88,
+          "wage_ratio": 96.22
         },
         {
           "dept_raw": "创晖一部",
@@ -140845,8 +141484,15 @@
           "wage": 127684.33,
           "avg_cost": 5107.56,
           "avg_wage": 4910.94,
+          "reg_headcount": 13,
+          "reg_wage": 94334.74,
+          "reg_cost": 99290.99,
+          "nonreg_headcount": 13,
+          "nonreg_wage": 33349.59,
+          "nonreg_cost": 33505.59,
           "net_output": 702387.8,
-          "cost_ratio": 18.91
+          "cost_ratio": 18.91,
+          "wage_ratio": 18.18
         },
         {
           "dept_raw": "和煦八部",
@@ -140858,8 +141504,15 @@
           "wage": 5025.0,
           "avg_cost": 1687.0,
           "avg_wage": 1675.0,
+          "reg_headcount": 0,
+          "reg_wage": 0.0,
+          "reg_cost": 0.0,
+          "nonreg_headcount": 3,
+          "nonreg_wage": 5025.0,
+          "nonreg_cost": 5061.0,
           "net_output": 0.0,
-          "cost_ratio": null
+          "cost_ratio": null,
+          "wage_ratio": null
         },
         {
           "dept_raw": "年入百万组",
@@ -140871,8 +141524,15 @@
           "wage": 2533.33,
           "avg_cost": 3505.38,
           "avg_wage": 2533.33,
+          "reg_headcount": 0,
+          "reg_wage": 0.0,
+          "reg_cost": 0.0,
+          "nonreg_headcount": 1,
+          "nonreg_wage": 2533.33,
+          "nonreg_cost": 3505.38,
           "net_output": 0.0,
-          "cost_ratio": null
+          "cost_ratio": null,
+          "wage_ratio": null
         },
         {
           "dept_raw": "慧晟三部",
@@ -140884,8 +141544,15 @@
           "wage": 34404.88,
           "avg_cost": 2959.08,
           "avg_wage": 2867.07,
+          "reg_headcount": 3,
+          "reg_wage": 17039.24,
+          "reg_cost": 18035.29,
+          "nonreg_headcount": 9,
+          "nonreg_wage": 17365.64,
+          "nonreg_cost": 17473.64,
           "net_output": 143831.32,
-          "cost_ratio": 24.69
+          "cost_ratio": 24.69,
+          "wage_ratio": 23.92
         },
         {
           "dept_raw": "扶摇直上组",
@@ -140897,8 +141564,15 @@
           "wage": 16828.89,
           "avg_cost": 4622.63,
           "avg_wage": 4207.22,
+          "reg_headcount": 2,
+          "reg_wage": 11200.0,
+          "reg_cost": 12837.62,
+          "nonreg_headcount": 2,
+          "nonreg_wage": 5628.89,
+          "nonreg_cost": 5652.89,
           "net_output": 0.0,
-          "cost_ratio": null
+          "cost_ratio": null,
+          "wage_ratio": null
         },
         {
           "dept_raw": "推广引流组",
@@ -140910,8 +141584,15 @@
           "wage": 15789.41,
           "avg_cost": 2643.57,
           "avg_wage": 2631.57,
+          "reg_headcount": 0,
+          "reg_wage": 0.0,
+          "reg_cost": 0.0,
+          "nonreg_headcount": 6,
+          "nonreg_wage": 15789.41,
+          "nonreg_cost": 15861.41,
           "net_output": 0.0,
-          "cost_ratio": null
+          "cost_ratio": null,
+          "wage_ratio": null
         },
         {
           "dept_raw": "星灿-Luck部",
@@ -140923,8 +141604,15 @@
           "wage": 21256.14,
           "avg_cost": 4455.24,
           "avg_wage": 4251.23,
+          "reg_headcount": 2,
+          "reg_wage": 12291.0,
+          "reg_cost": 13275.05,
+          "nonreg_headcount": 3,
+          "nonreg_wage": 8965.14,
+          "nonreg_cost": 9001.14,
           "net_output": 0.0,
-          "cost_ratio": null
+          "cost_ratio": null,
+          "wage_ratio": null
         },
         {
           "dept_raw": "星辰一部",
@@ -140936,8 +141624,15 @@
           "wage": 123852.97,
           "avg_cost": 5685.32,
           "avg_wage": 5629.68,
+          "reg_headcount": 6,
+          "reg_wage": 73587.02,
+          "reg_cost": 74619.07,
+          "nonreg_headcount": 16,
+          "nonreg_wage": 50265.95,
+          "nonreg_cost": 50457.95,
           "net_output": 0.0,
-          "cost_ratio": null
+          "cost_ratio": null,
+          "wage_ratio": null
         },
         {
           "dept_raw": "星辰三部",
@@ -140949,8 +141644,15 @@
           "wage": 60859.86,
           "avg_cost": 5298.13,
           "avg_wage": 5071.65,
+          "reg_headcount": 8,
+          "reg_wage": 48694.81,
+          "reg_cost": 51364.48,
+          "nonreg_headcount": 4,
+          "nonreg_wage": 12165.05,
+          "nonreg_cost": 12213.05,
           "net_output": 0.0,
-          "cost_ratio": null
+          "cost_ratio": null,
+          "wage_ratio": null
         },
         {
           "dept_raw": "星辰二部",
@@ -140962,8 +141664,15 @@
           "wage": 102481.16,
           "avg_cost": 6908.08,
           "avg_wage": 6832.08,
+          "reg_headcount": 9,
+          "reg_wage": 85190.56,
+          "reg_cost": 86258.61,
+          "nonreg_headcount": 6,
+          "nonreg_wage": 17290.6,
+          "nonreg_cost": 17362.6,
           "net_output": 0.0,
-          "cost_ratio": null
+          "cost_ratio": null,
+          "wage_ratio": null
         },
         {
           "dept_raw": "昭荣二部",
@@ -140975,8 +141684,15 @@
           "wage": 104770.43,
           "avg_cost": 5022.19,
           "avg_wage": 4762.29,
+          "reg_headcount": 12,
+          "reg_wage": 70406.48,
+          "reg_cost": 76004.3,
+          "nonreg_headcount": 10,
+          "nonreg_wage": 34363.95,
+          "nonreg_cost": 34483.95,
           "net_output": 493628.3,
-          "cost_ratio": 22.38
+          "cost_ratio": 22.38,
+          "wage_ratio": 21.22
         },
         {
           "dept_raw": "昱升七部",
@@ -140988,8 +141704,15 @@
           "wage": 57221.39,
           "avg_cost": 3768.35,
           "avg_wage": 3576.34,
+          "reg_headcount": 5,
+          "reg_wage": 31517.81,
+          "reg_cost": 34457.96,
+          "nonreg_headcount": 11,
+          "nonreg_wage": 25703.58,
+          "nonreg_cost": 25835.58,
           "net_output": 319244.43,
-          "cost_ratio": 18.89
+          "cost_ratio": 18.89,
+          "wage_ratio": 17.92
         },
         {
           "dept_raw": "晗盛六部",
@@ -141001,8 +141724,15 @@
           "wage": 44187.31,
           "avg_cost": 3780.27,
           "avg_wage": 3399.02,
+          "reg_headcount": 7,
+          "reg_wage": 32111.41,
+          "reg_cost": 36995.66,
+          "nonreg_headcount": 6,
+          "nonreg_wage": 12075.9,
+          "nonreg_cost": 12147.9,
           "net_output": 190820.12,
-          "cost_ratio": 25.75
+          "cost_ratio": 25.75,
+          "wage_ratio": 23.16
         },
         {
           "dept_raw": "曦跃-Win部",
@@ -141014,8 +141744,15 @@
           "wage": 32751.96,
           "avg_cost": 6110.69,
           "avg_wage": 5458.66,
+          "reg_headcount": 5,
+          "reg_wage": 28556.95,
+          "reg_cost": 32457.15,
+          "nonreg_headcount": 1,
+          "nonreg_wage": 4195.01,
+          "nonreg_cost": 4207.01,
           "net_output": 0.0,
-          "cost_ratio": null
+          "cost_ratio": null,
+          "wage_ratio": null
         },
         {
           "dept_raw": "盈光-Elite事业部",
@@ -141027,8 +141764,15 @@
           "wage": 53721.16,
           "avg_cost": 3369.57,
           "avg_wage": 3357.57,
+          "reg_headcount": 0,
+          "reg_wage": 0.0,
+          "reg_cost": 0.0,
+          "nonreg_headcount": 16,
+          "nonreg_wage": 53721.16,
+          "nonreg_cost": 53913.16,
           "net_output": 0.0,
-          "cost_ratio": null
+          "cost_ratio": null,
+          "wage_ratio": null
         },
         {
           "dept_raw": "跨境电商一组",
@@ -141040,8 +141784,15 @@
           "wage": 19093.64,
           "avg_cost": 6696.56,
           "avg_wage": 6364.55,
+          "reg_headcount": 2,
+          "reg_wage": 14178.9,
+          "reg_cost": 15162.95,
+          "nonreg_headcount": 1,
+          "nonreg_wage": 4914.74,
+          "nonreg_cost": 4926.74,
           "net_output": 0.0,
-          "cost_ratio": null
+          "cost_ratio": null,
+          "wage_ratio": null
         },
         {
           "dept_raw": "跨境电商二组",
@@ -141053,8 +141804,15 @@
           "wage": 36707.19,
           "avg_cost": 9428.81,
           "avg_wage": 9176.8,
+          "reg_headcount": 1,
+          "reg_wage": 21301.18,
+          "reg_cost": 22273.23,
+          "nonreg_headcount": 3,
+          "nonreg_wage": 15406.01,
+          "nonreg_cost": 15442.01,
           "net_output": 0.0,
-          "cost_ratio": null
+          "cost_ratio": null,
+          "wage_ratio": null
         }
       ],
       "2026-10": [
@@ -141068,8 +141826,15 @@
           "wage": 7458.43,
           "avg_cost": 1503.69,
           "avg_wage": 1491.69,
+          "reg_headcount": 2,
+          "reg_wage": 5496.29,
+          "reg_cost": 5520.29,
+          "nonreg_headcount": 3,
+          "nonreg_wage": 1962.14,
+          "nonreg_cost": 1998.14,
           "net_output": 0.0,
-          "cost_ratio": null
+          "cost_ratio": null,
+          "wage_ratio": null
         },
         {
           "dept_raw": "业绩第一组",
@@ -141081,8 +141846,15 @@
           "wage": 93749.02,
           "avg_cost": 4321.57,
           "avg_wage": 4261.32,
+          "reg_headcount": 5,
+          "reg_wage": 57339.56,
+          "reg_cost": 58461.1,
+          "nonreg_headcount": 17,
+          "nonreg_wage": 36409.46,
+          "nonreg_cost": 36613.46,
           "net_output": 0.0,
-          "cost_ratio": null
+          "cost_ratio": null,
+          "wage_ratio": null
         },
         {
           "dept_raw": "亿百万组",
@@ -141094,8 +141866,15 @@
           "wage": 34247.02,
           "avg_cost": 2646.39,
           "avg_wage": 2634.39,
+          "reg_headcount": 1,
+          "reg_wage": 9986.43,
+          "reg_cost": 9998.43,
+          "nonreg_headcount": 12,
+          "nonreg_wage": 24260.59,
+          "nonreg_cost": 24404.59,
           "net_output": 0.0,
-          "cost_ratio": null
+          "cost_ratio": null,
+          "wage_ratio": null
         },
         {
           "dept_raw": "元启",
@@ -141107,8 +141886,15 @@
           "wage": 28730.19,
           "avg_cost": 2301.61,
           "avg_wage": 2210.01,
+          "reg_headcount": 3,
+          "reg_wage": 9612.54,
+          "reg_cost": 10683.3,
+          "nonreg_headcount": 10,
+          "nonreg_wage": 19117.65,
+          "nonreg_cost": 19237.65,
           "net_output": 70793.14,
-          "cost_ratio": 42.27
+          "cost_ratio": 42.27,
+          "wage_ratio": 40.58
         },
         {
           "dept_raw": "创晖一部",
@@ -141120,8 +141906,15 @@
           "wage": 148407.73,
           "avg_cost": 5158.09,
           "avg_wage": 4946.92,
+          "reg_headcount": 14,
+          "reg_wage": 114280.71,
+          "reg_cost": 120423.79,
+          "nonreg_headcount": 16,
+          "nonreg_wage": 34127.02,
+          "nonreg_cost": 34319.02,
           "net_output": 906857.03,
-          "cost_ratio": 17.06
+          "cost_ratio": 17.06,
+          "wage_ratio": 16.37
         },
         {
           "dept_raw": "和煦八部",
@@ -141133,8 +141926,15 @@
           "wage": 13984.48,
           "avg_cost": 2342.75,
           "avg_wage": 2330.75,
+          "reg_headcount": 0,
+          "reg_wage": 0.0,
+          "reg_cost": 0.0,
+          "nonreg_headcount": 6,
+          "nonreg_wage": 13984.48,
+          "nonreg_cost": 14056.48,
           "net_output": 5901.81,
-          "cost_ratio": 238.17
+          "cost_ratio": 238.17,
+          "wage_ratio": 236.95
         },
         {
           "dept_raw": "商务部",
@@ -141146,8 +141946,15 @@
           "wage": 7523.37,
           "avg_cost": 1516.67,
           "avg_wage": 1504.67,
+          "reg_headcount": 0,
+          "reg_wage": 0.0,
+          "reg_cost": 0.0,
+          "nonreg_headcount": 5,
+          "nonreg_wage": 7523.37,
+          "nonreg_cost": 7583.37,
           "net_output": 0.0,
-          "cost_ratio": null
+          "cost_ratio": null,
+          "wage_ratio": null
         },
         {
           "dept_raw": "年入百万组",
@@ -141159,8 +141966,15 @@
           "wage": 16555.74,
           "avg_cost": 17629.28,
           "avg_wage": 16555.74,
+          "reg_headcount": 0,
+          "reg_wage": 0.0,
+          "reg_cost": 0.0,
+          "nonreg_headcount": 1,
+          "nonreg_wage": 16555.74,
+          "nonreg_cost": 17629.28,
           "net_output": 0.0,
-          "cost_ratio": null
+          "cost_ratio": null,
+          "wage_ratio": null
         },
         {
           "dept_raw": "慧晟三部",
@@ -141172,8 +141986,15 @@
           "wage": 29010.14,
           "avg_cost": 3770.15,
           "avg_wage": 3626.27,
+          "reg_headcount": 3,
+          "reg_wage": 15717.23,
+          "reg_cost": 16808.29,
+          "nonreg_headcount": 5,
+          "nonreg_wage": 13292.91,
+          "nonreg_cost": 13352.91,
           "net_output": 99752.7,
-          "cost_ratio": 30.24
+          "cost_ratio": 30.24,
+          "wage_ratio": 29.08
         },
         {
           "dept_raw": "扶摇直上组",
@@ -141185,8 +142006,15 @@
           "wage": 23869.97,
           "avg_cost": 2085.7,
           "avg_wage": 1989.16,
+          "reg_headcount": 2,
+          "reg_wage": 7711.19,
+          "reg_cost": 8749.65,
+          "nonreg_headcount": 10,
+          "nonreg_wage": 16158.78,
+          "nonreg_cost": 16278.78,
           "net_output": 0.0,
-          "cost_ratio": null
+          "cost_ratio": null,
+          "wage_ratio": null
         },
         {
           "dept_raw": "推广引流组",
@@ -141198,8 +142026,15 @@
           "wage": 26853.45,
           "avg_cost": 2545.45,
           "avg_wage": 2441.22,
+          "reg_headcount": 2,
+          "reg_wage": 9515.0,
+          "reg_cost": 9539.0,
+          "nonreg_headcount": 9,
+          "nonreg_wage": 17338.45,
+          "nonreg_cost": 18460.91,
           "net_output": 0.0,
-          "cost_ratio": null
+          "cost_ratio": null,
+          "wage_ratio": null
         },
         {
           "dept_raw": "旭阳九部",
@@ -141211,8 +142046,15 @@
           "wage": 251.85,
           "avg_cost": 263.85,
           "avg_wage": 251.85,
+          "reg_headcount": 0,
+          "reg_wage": 0.0,
+          "reg_cost": 0.0,
+          "nonreg_headcount": 1,
+          "nonreg_wage": 251.85,
+          "nonreg_cost": 263.85,
           "net_output": 0.0,
-          "cost_ratio": null
+          "cost_ratio": null,
+          "wage_ratio": null
         },
         {
           "dept_raw": "星灿-Luck部",
@@ -141224,8 +142066,15 @@
           "wage": 15259.0,
           "avg_cost": 4092.14,
           "avg_wage": 3814.75,
+          "reg_headcount": 2,
+          "reg_wage": 11299.0,
+          "reg_cost": 12384.54,
+          "nonreg_headcount": 2,
+          "nonreg_wage": 3960.0,
+          "nonreg_cost": 3984.0,
           "net_output": 0.0,
-          "cost_ratio": null
+          "cost_ratio": null,
+          "wage_ratio": null
         },
         {
           "dept_raw": "星辰一部",
@@ -141237,8 +142086,15 @@
           "wage": 117882.97,
           "avg_cost": 5183.5,
           "avg_wage": 5125.35,
+          "reg_headcount": 6,
+          "reg_wage": 73524.62,
+          "reg_cost": 74658.16,
+          "nonreg_headcount": 17,
+          "nonreg_wage": 44358.35,
+          "nonreg_cost": 44562.35,
           "net_output": 0.0,
-          "cost_ratio": null
+          "cost_ratio": null,
+          "wage_ratio": null
         },
         {
           "dept_raw": "星辰三部",
@@ -141250,8 +142106,15 @@
           "wage": 73825.56,
           "avg_cost": 5431.63,
           "avg_wage": 5273.25,
+          "reg_headcount": 6,
+          "reg_wage": 37364.56,
+          "reg_cost": 39485.78,
+          "nonreg_headcount": 8,
+          "nonreg_wage": 36461.0,
+          "nonreg_cost": 36557.0,
           "net_output": 0.0,
-          "cost_ratio": null
+          "cost_ratio": null,
+          "wage_ratio": null
         },
         {
           "dept_raw": "星辰二部",
@@ -141263,8 +142126,15 @@
           "wage": 162301.02,
           "avg_cost": 6358.55,
           "avg_wage": 6242.35,
+          "reg_headcount": 9,
+          "reg_wage": 93685.59,
+          "reg_cost": 96502.85,
+          "nonreg_headcount": 17,
+          "nonreg_wage": 68615.43,
+          "nonreg_cost": 68819.43,
           "net_output": 0.0,
-          "cost_ratio": null
+          "cost_ratio": null,
+          "wage_ratio": null
         },
         {
           "dept_raw": "星辰四部",
@@ -141276,8 +142146,15 @@
           "wage": 6057.41,
           "avg_cost": 2031.14,
           "avg_wage": 2019.14,
+          "reg_headcount": 0,
+          "reg_wage": 0.0,
+          "reg_cost": 0.0,
+          "nonreg_headcount": 3,
+          "nonreg_wage": 6057.41,
+          "nonreg_cost": 6093.41,
           "net_output": 0.0,
-          "cost_ratio": null
+          "cost_ratio": null,
+          "wage_ratio": null
         },
         {
           "dept_raw": "昭荣二部",
@@ -141289,8 +142166,15 @@
           "wage": 112839.5,
           "avg_cost": 5918.02,
           "avg_wage": 5641.97,
+          "reg_headcount": 12,
+          "reg_wage": 86034.51,
+          "reg_cost": 91459.43,
+          "nonreg_headcount": 8,
+          "nonreg_wage": 26804.99,
+          "nonreg_cost": 26900.99,
           "net_output": 751128.79,
-          "cost_ratio": 15.76
+          "cost_ratio": 15.76,
+          "wage_ratio": 15.02
         },
         {
           "dept_raw": "昱升七部",
@@ -141302,8 +142186,15 @@
           "wage": 52611.29,
           "avg_cost": 3109.17,
           "avg_wage": 2922.85,
+          "reg_headcount": 4,
+          "reg_wage": 25336.96,
+          "reg_cost": 28522.79,
+          "nonreg_headcount": 14,
+          "nonreg_wage": 27274.33,
+          "nonreg_cost": 27442.33,
           "net_output": 291839.68,
-          "cost_ratio": 19.18
+          "cost_ratio": 19.18,
+          "wage_ratio": 18.03
         },
         {
           "dept_raw": "晗盛六部",
@@ -141315,8 +142206,15 @@
           "wage": 49843.21,
           "avg_cost": 4607.91,
           "avg_wage": 4153.6,
+          "reg_headcount": 7,
+          "reg_wage": 36405.54,
+          "reg_cost": 41797.24,
+          "nonreg_headcount": 5,
+          "nonreg_wage": 13437.67,
+          "nonreg_cost": 13497.67,
           "net_output": 209111.85,
-          "cost_ratio": 26.44
+          "cost_ratio": 26.44,
+          "wage_ratio": 23.84
         },
         {
           "dept_raw": "曦跃-Win部",
@@ -141328,8 +142226,15 @@
           "wage": 29230.34,
           "avg_cost": 6706.0,
           "avg_wage": 5846.07,
+          "reg_headcount": 5,
+          "reg_wage": 29230.34,
+          "reg_cost": 33530.02,
+          "nonreg_headcount": 0,
+          "nonreg_wage": 0.0,
+          "nonreg_cost": 0.0,
           "net_output": 0.0,
-          "cost_ratio": null
+          "cost_ratio": null,
+          "wage_ratio": null
         },
         {
           "dept_raw": "盈光-Elite事业部",
@@ -141341,8 +142246,15 @@
           "wage": 866.67,
           "avg_cost": 878.67,
           "avg_wage": 866.67,
+          "reg_headcount": 0,
+          "reg_wage": 0.0,
+          "reg_cost": 0.0,
+          "nonreg_headcount": 1,
+          "nonreg_wage": 866.67,
+          "nonreg_cost": 878.67,
           "net_output": 0.0,
-          "cost_ratio": null
+          "cost_ratio": null,
+          "wage_ratio": null
         },
         {
           "dept_raw": "盛视",
@@ -141354,8 +142266,15 @@
           "wage": 15711.1,
           "avg_cost": 2630.52,
           "avg_wage": 2618.52,
+          "reg_headcount": 0,
+          "reg_wage": 0.0,
+          "reg_cost": 0.0,
+          "nonreg_headcount": 6,
+          "nonreg_wage": 15711.1,
+          "nonreg_cost": 15783.1,
           "net_output": 0.0,
-          "cost_ratio": null
+          "cost_ratio": null,
+          "wage_ratio": null
         },
         {
           "dept_raw": "跨境电商一组",
@@ -141367,8 +142286,15 @@
           "wage": 21823.74,
           "avg_cost": 7631.5,
           "avg_wage": 7274.58,
+          "reg_headcount": 3,
+          "reg_wage": 21823.74,
+          "reg_cost": 22894.5,
+          "nonreg_headcount": 0,
+          "nonreg_wage": 0.0,
+          "nonreg_cost": 0.0,
           "net_output": 0.0,
-          "cost_ratio": null
+          "cost_ratio": null,
+          "wage_ratio": null
         },
         {
           "dept_raw": "跨境电商二组",
@@ -141380,8 +142306,15 @@
           "wage": 31644.69,
           "avg_cost": 8188.56,
           "avg_wage": 7911.17,
+          "reg_headcount": 1,
+          "reg_wage": 17038.79,
+          "reg_cost": 18112.33,
+          "nonreg_headcount": 3,
+          "nonreg_wage": 14605.9,
+          "nonreg_cost": 14641.9,
           "net_output": 0.0,
-          "cost_ratio": null
+          "cost_ratio": null,
+          "wage_ratio": null
         }
       ]
     }
