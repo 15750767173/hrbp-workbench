@@ -180,13 +180,18 @@
         "target_ready": false,
         "group_count": 1,
         "person_count": 2,
-        "staff_count": 3,
+        "staff_count": 4,
         "formal_count": 0,
         "trial_count": 2,
-        "shigang_count": 1,
+        "shigang_count": 2,
         "shigang_list": [
           {
             "name": "李嘉琪",
+            "hire_date": "",
+            "status": "在职"
+          },
+          {
+            "name": "赵能",
             "hire_date": "",
             "status": "在职"
           }
@@ -198,7 +203,7 @@
       }
     ],
     "data_through_day": 20,
-    "generated_at": "2026-11-21 10:37",
+    "generated_at": "2026-11-21 11:13",
     "expect_day": 20,
     "dept_last_day": {
       "一部": 20,
@@ -40559,14 +40564,14 @@
         "record": null
       },
       {
-        "task": null,
+        "task": "昱升七部李佳鑫试岗期面谈",
         "owner": null,
-        "creator": null,
+        "creator": "杨蓓蕾",
         "created": "2026/11/16 16:08:44",
         "deadline": "",
         "done": "",
         "progress": null,
-        "interviewee": null,
+        "interviewee": "李佳鑫",
         "record": null
       },
       {
@@ -40594,7 +40599,7 @@
       {
         "task": null,
         "owner": null,
-        "creator": null,
+        "creator": "杨蓓蕾",
         "created": "2026/11/16 16:16:51",
         "deadline": "",
         "done": "",
@@ -40605,7 +40610,7 @@
       {
         "task": null,
         "owner": null,
-        "creator": null,
+        "creator": "杨蓓蕾",
         "created": "2026/11/16 16:17:10",
         "deadline": "",
         "done": "",
@@ -40671,7 +40676,7 @@
       {
         "task": null,
         "owner": null,
-        "creator": null,
+        "creator": "杨蓓蕾",
         "created": "2026/11/17 12:27:04",
         "deadline": "",
         "done": "",
@@ -40693,7 +40698,7 @@
       {
         "task": null,
         "owner": null,
-        "creator": null,
+        "creator": "杨蓓蕾",
         "created": "2026/11/17 14:10:22",
         "deadline": "",
         "done": "",
@@ -41263,7 +41268,7 @@
         "record": null
       },
       {
-        "task": "梳理晋降级方案搭建SOP",
+        "task": "梳理晋降级方案搭建SOP/试岗期面谈SOP",
         "owner": "张悦",
         "creator": "张悦",
         "created": "2026/11/21 09:42:53",
@@ -41320,7 +41325,7 @@
       {
         "task": null,
         "owner": null,
-        "creator": null,
+        "creator": "杨蓓蕾",
         "created": "2026/11/21 09:49:50",
         "deadline": "",
         "done": "",
@@ -41329,10 +41334,65 @@
         "record": null
       },
       {
-        "task": null,
+        "task": "搭建个人工作台多维表资料库",
         "owner": "朱思雨",
-        "creator": null,
+        "creator": "朱思雨",
         "created": "2026/11/21 09:53:25",
+        "deadline": "",
+        "done": "",
+        "progress": null,
+        "interviewee": null,
+        "record": null
+      },
+      {
+        "task": "星辰二部人员架构调整",
+        "owner": "罗思会",
+        "creator": null,
+        "created": "2026/11/21 10:11:46",
+        "deadline": "",
+        "done": "",
+        "progress": null,
+        "interviewee": null,
+        "record": null
+      },
+      {
+        "task": "4个主管人体工学椅购买",
+        "owner": "罗思会",
+        "creator": null,
+        "created": "2026/11/21 10:26:11",
+        "deadline": "",
+        "done": "",
+        "progress": null,
+        "interviewee": null,
+        "record": null
+      },
+      {
+        "task": "Q2-Q3季度奖金+爆文奖金",
+        "owner": "罗思会",
+        "creator": null,
+        "created": "2026/11/21 10:26:33",
+        "deadline": "",
+        "done": "",
+        "progress": null,
+        "interviewee": null,
+        "record": null
+      },
+      {
+        "task": "Q3编制",
+        "owner": "罗思会",
+        "creator": null,
+        "created": "2026/11/21 10:28:36",
+        "deadline": "",
+        "done": "",
+        "progress": null,
+        "interviewee": null,
+        "record": null
+      },
+      {
+        "task": null,
+        "owner": "张悦",
+        "creator": null,
+        "created": "2026/11/21 11:05:19",
         "deadline": "",
         "done": "",
         "progress": null,
@@ -58073,7 +58133,7 @@
         "dept1": "绒光-Elite事业部",
         "dept2": "昭荣二部",
         "dept3": "宠物四组",
-        "status": "在职",
+        "status": "自离",
         "stage": "试用期",
         "hire_date": ""
       },
@@ -58499,7 +58559,7 @@
       },
       {
         "name": "宋梦研",
-        "nick": null,
+        "nick": "索一",
         "dept1": "望辰-Crown事业部",
         "dept2": "星辰三部",
         "dept3": "一组",
@@ -59016,6 +59076,46 @@
         "status": "自离",
         "stage": "试岗",
         "hire_date": ""
+      },
+      {
+        "name": "陈亚烁",
+        "nick": null,
+        "dept1": "创新项目部",
+        "dept2": "盈光-Elite事业部",
+        "dept3": null,
+        "status": "在职",
+        "stage": "试岗",
+        "hire_date": ""
+      },
+      {
+        "name": "孙怡萱",
+        "nick": null,
+        "dept1": "双启",
+        "dept2": "亿百万组",
+        "dept3": null,
+        "status": "在职",
+        "stage": "试岗",
+        "hire_date": ""
+      },
+      {
+        "name": "杨珺婷",
+        "nick": null,
+        "dept1": "望辰-Crown事业部",
+        "dept2": "星辰一部",
+        "dept3": null,
+        "status": "在职",
+        "stage": "试岗",
+        "hire_date": ""
+      },
+      {
+        "name": "赵能",
+        "nick": null,
+        "dept1": "绒光-Elite事业部",
+        "dept2": "和煦八部",
+        "dept3": null,
+        "status": "在职",
+        "stage": "试岗",
+        "hire_date": ""
       }
     ],
     "zaizhi_note": "XMT在职人员sheet4（前500条，超过500条时需分页补拉）",
@@ -59250,7 +59350,7 @@
         "post": "新媒体编辑",
         "chushi": "是",
         "fushi": "是",
-        "offer": "",
+        "offer": "未接",
         "days": 0,
         "time": "2026/11/19"
       },
@@ -59449,7 +59549,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 1,
+        "days": -1,
         "time": "2026/11/18"
       },
       {
@@ -59529,8 +59629,8 @@
         "post": "新媒体编辑",
         "chushi": "是",
         "fushi": "是",
-        "offer": "未发",
-        "days": 0,
+        "offer": "已接",
+        "days": -1,
         "time": "2026/11/18"
       },
       {
@@ -61276,7 +61376,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 16,
+        "days": 15,
         "time": "2026/11/05"
       },
       {
@@ -68930,10 +69030,17 @@
           "stage": "试用期",
           "hire_date": "",
           "status": "在职"
+        },
+        {
+          "name": "孙怡萱",
+          "nick": null,
+          "stage": "试岗",
+          "hire_date": "",
+          "status": "在职"
         }
       ],
       "counts": {
-        "试岗": 0,
+        "试岗": 1,
         "试用期": 7,
         "正式员工": 1,
         "其他": 0
@@ -69052,10 +69159,17 @@
           "stage": "试岗",
           "hire_date": "",
           "status": "在职"
+        },
+        {
+          "name": "杨珺婷",
+          "nick": null,
+          "stage": "试岗",
+          "hire_date": "",
+          "status": "在职"
         }
       ],
       "counts": {
-        "试岗": 2,
+        "试岗": 3,
         "试用期": 8,
         "正式员工": 6,
         "其他": 0
@@ -69128,7 +69242,7 @@
         },
         {
           "name": "宋梦研",
-          "nick": null,
+          "nick": "索一",
           "stage": "试用期",
           "hire_date": "",
           "status": "在职"
@@ -69682,10 +69796,17 @@
           "stage": "试岗",
           "hire_date": "",
           "status": "在职"
+        },
+        {
+          "name": "陈亚烁",
+          "nick": null,
+          "stage": "试岗",
+          "hire_date": "",
+          "status": "在职"
         }
       ],
       "counts": {
-        "试岗": 1,
+        "试岗": 2,
         "试用期": 7,
         "正式员工": 0,
         "其他": 0
@@ -69963,10 +70084,17 @@
           "stage": "试岗",
           "hire_date": "",
           "status": "在职"
+        },
+        {
+          "name": "赵能",
+          "nick": null,
+          "stage": "试岗",
+          "hire_date": "",
+          "status": "在职"
         }
       ],
       "counts": {
-        "试岗": 1,
+        "试岗": 2,
         "试用期": 2,
         "正式员工": 0,
         "其他": 0
@@ -75168,7 +75296,7 @@
           "net": 6862.490000000001,
           "jf": 68.6249,
           "group": "三组",
-          "n": 10
+          "n": 11
         },
         "许晓宁": {
           "net": 13467.16,
@@ -75294,7 +75422,7 @@
           "net": 142.0,
           "jf": 1.42,
           "group": "二组",
-          "n": 2
+          "n": 4
         },
         "庾云龙": {
           "net": 1892.5200000000002,
@@ -75320,7 +75448,7 @@
           "net": 142.0,
           "jf": 1.42,
           "group": "二组",
-          "n": 2
+          "n": 4
         },
         "庾云龙": {
           "net": 1892.5200000000002,
@@ -76091,7 +76219,7 @@
             "net": 6862.490000000001,
             "jf": 68.6249,
             "group": "三组",
-            "n": 10
+            "n": 11
           },
           "许晓宁": {
             "net": 13467.16,
@@ -76225,7 +76353,7 @@
             "net": 142.0,
             "jf": 1.42,
             "group": "二组",
-            "n": 2
+            "n": 4
           },
           "庾云龙": {
             "net": 1892.5200000000002,
@@ -76251,7 +76379,7 @@
             "net": 142.0,
             "jf": 1.42,
             "group": "二组",
-            "n": 2
+            "n": 4
           },
           "庾云龙": {
             "net": 1892.5200000000002,
@@ -80208,7 +80336,7 @@
               "s": 33.7561,
               "jf": 68.62,
               "net": 6862.49,
-              "c": 10
+              "c": 11
             }
           ]
         },
@@ -81368,7 +81496,7 @@
               "s": 1.0823,
               "jf": 1.42,
               "net": 142.0,
-              "c": 2
+              "c": 4
             },
             {
               "n": "张楠",
@@ -81417,7 +81545,7 @@
               "s": 1.0823,
               "jf": 1.42,
               "net": 142.0,
-              "c": 2
+              "c": 4
             },
             {
               "n": "张楠",
@@ -90673,7 +90801,7 @@
   },
   "prod_split_src": {
     "一部": {
-      "file": "_jf_yibu.json",
+      "file": "_xc_jfdet_yibu.json",
       "kind": "detail",
       "records": 1557,
       "kept": 171,
@@ -90695,8 +90823,8 @@
     "二部": {
       "file": "_xc_jfdet_erbu.json",
       "kind": "detail",
-      "records": 757,
-      "kept": 53,
+      "records": 758,
+      "kept": 54,
       "det_person": {
         "冯蔺城": 13.3745,
         "吴若寒": 0.0,
@@ -90725,10 +90853,10 @@
       }
     },
     "六部": {
-      "file": "_jf_liubu.json",
+      "file": "_xc_jfdet_liubu.json",
       "kind": "detail",
-      "records": 247,
-      "kept": 29,
+      "records": 249,
+      "kept": 31,
       "det_person": {
         "张梦歌": 0.0,
         "于鹏展": 110.3614,
@@ -91435,17 +91563,17 @@
   },
   "hmc_ext": {
     "humingce": {
-      "total": 1123,
+      "total": 1127,
       "by_zaizhi_status": {
         "优化": 295,
-        "自离": 462,
-        "在职": 366
+        "自离": 463,
+        "在职": 369
       },
       "by_yiji": {
-        "绒光-Elite事业部": 333,
-        "双启": 136,
-        "望辰-Crown事业部": 123,
-        "创新项目部": 100,
+        "绒光-Elite事业部": 334,
+        "双启": 137,
+        "望辰-Crown事业部": 124,
+        "创新项目部": 101,
         "合作团队": 87,
         "电商运营部": 86,
         "组织效能中心": 79,
@@ -91460,9 +91588,9 @@
       "by_stage": {
         "试用期": 550,
         "正式员工": 240,
-        "试岗": 333
+        "试岗": 337
       },
-      "zaizhi_count": 366
+      "zaizhi_count": 369
     },
     "zhuanzheng": {
       "total": 179,
@@ -102908,8 +103036,8 @@
       {
         "id": 134,
         "name": "BP工作进度表",
-        "expected": 1006,
-        "local": 1002,
+        "expected": 1007,
+        "local": 1007,
         "state": "正常",
         "file": "_hr_bp.json",
         "cat": "HR流程",
@@ -102928,8 +103056,8 @@
       {
         "id": 146,
         "name": "员工花名册",
-        "expected": 1123,
-        "local": 1123,
+        "expected": 1127,
+        "local": 1127,
         "state": "正常",
         "file": "_huamingce_full.json",
         "cat": "花名册",
@@ -102949,7 +103077,7 @@
         "id": 153,
         "name": "招聘数据表",
         "expected": 5469,
-        "local": 5468,
+        "local": 5469,
         "state": "正常",
         "file": "_hr_ziliao153.json",
         "cat": "招聘",
@@ -102979,7 +103107,7 @@
         "id": 187,
         "name": "一部积分表",
         "expected": 1557,
-        "local": 1552,
+        "local": 1557,
         "state": "正常",
         "file": "_xc_jfdet_yibu.json",
         "cat": "积分明细",
@@ -103138,8 +103266,8 @@
       {
         "id": 216,
         "name": "六部积分表",
-        "expected": 247,
-        "local": 242,
+        "expected": 249,
+        "local": 249,
         "state": "正常",
         "file": "_xc_jfdet_liubu.json",
         "cat": "积分明细",
@@ -103238,8 +103366,8 @@
       {
         "id": 226,
         "name": "二部积分表",
-        "expected": 757,
-        "local": 757,
+        "expected": 758,
+        "local": 758,
         "state": "正常",
         "file": "_xc_jfdet_erbu.json",
         "cat": "积分明细",
@@ -103249,7 +103377,7 @@
         "id": 227,
         "name": "二部月度积分统计表",
         "expected": 104,
-        "local": 105,
+        "local": 104,
         "state": "正常",
         "file": "_xc_jf_erbu.json",
         "cat": "积分月度",
@@ -103259,7 +103387,7 @@
         "id": 228,
         "name": "招聘数据表(2)",
         "expected": 5469,
-        "local": 5468,
+        "local": 5469,
         "state": "正常",
         "file": "_ex_228.json",
         "cat": "招聘",
@@ -103276,12 +103404,12 @@
         "fields": 25
       }
     ],
-    "time": "2026-11-21 10:37:26",
+    "time": "2026-11-21 11:12:53",
     "total": 40,
     "ok": 40,
     "bad": [],
     "bad_names": [],
-    "records_total": 21904,
+    "records_total": 21912,
     "by_cat": {
       "HR流程": 2,
       "产品人员": 2,
@@ -103301,9 +103429,9 @@
     },
     "full_pull": {
       "ok": true,
-      "last_at": "2026-11-21 10:00:40",
-      "age_h": 0.6,
-      "today_count": 1,
+      "last_at": "2026-11-21 11:13",
+      "age_h": 0.0,
+      "today_count": 2,
       "daily": {
         "2026-11-15": 3,
         "2026-11-16": 7,
@@ -103311,12 +103439,12 @@
         "2026-11-18": 10,
         "2026-11-19": 3,
         "2026-11-20": 5,
-        "2026-11-21": 1
+        "2026-11-21": 2
       },
-      "runs": 58,
+      "runs": 59,
       "fail_streak": 0,
       "gap_h": 8,
-      "note": "最近一次全量 2026-11-21 10:00:40（0.6 小时前）· 今日已完成 1 轮"
+      "note": "最近一次全量 2026-11-21 11:13（0.0 小时前）· 今日已完成 2 轮"
     }
   },
   "dingtalk_org": {
@@ -111298,7 +111426,7 @@
         "need": 1.0,
         "interview": 4.0,
         "offer": 3.0,
-        "arrive": 1.0,
+        "arrive": 2.0,
         "status": "已完成",
         "urgency": "b",
         "import": "一类",
@@ -111306,7 +111434,7 @@
         "apply": "2026/08/17",
         "deadline": "2026/08/31",
         "salary": "4000-4500",
-        "progress": 1.0,
+        "progress": 2.0,
         "pass": 4.0
       },
       {
@@ -121098,15 +121226,15 @@
         "need": 1.0,
         "interview": 1.0,
         "offer": 1.0,
-        "arrive": 0.0,
-        "status": "",
+        "arrive": 1.0,
+        "status": "已完成",
         "urgency": "b",
         "import": "一类",
         "owner": "刘晓颖",
         "apply": "2026/10/28",
         "deadline": "2026/11/30",
         "salary": "4000-5000",
-        "progress": 0.0,
+        "progress": 1.0,
         "pass": 1.0
       },
       {
@@ -121602,7 +121730,7 @@
         "status": "已完成",
         "urgency": "s",
         "import": "一类",
-        "owner": "王佑",
+        "owner": "康豫盈",
         "apply": "2026/10/28",
         "deadline": "2026/11/30",
         "salary": "4000-5000",
@@ -121618,7 +121746,7 @@
         "need": 1.0,
         "interview": 7.0,
         "offer": 1.0,
-        "arrive": 0.0,
+        "arrive": 1.0,
         "status": "",
         "urgency": "c",
         "import": "一类",
@@ -121626,7 +121754,7 @@
         "apply": "2026/10/26",
         "deadline": "2026/11/15",
         "salary": "4000-5000",
-        "progress": 0.0,
+        "progress": 1.0,
         "pass": 5.0
       },
       {
@@ -122377,7 +122505,7 @@
         "level": "p2-p3",
         "need": 1.0,
         "interview": 2.0,
-        "offer": 0.0,
+        "offer": 1.0,
         "arrive": 0.0,
         "status": "",
         "urgency": "c",
@@ -122778,15 +122906,15 @@
         "need": 1.0,
         "interview": 1.0,
         "offer": 1.0,
-        "arrive": 0.0,
-        "status": "",
+        "arrive": 1.0,
+        "status": "已完成",
         "urgency": "b",
         "import": "二类",
-        "owner": "高秋慧",
+        "owner": "魏子涵",
         "apply": "2026/10/27",
         "deadline": "2026/11/30",
         "salary": "4500-5000",
-        "progress": 0.0,
+        "progress": 1.0,
         "pass": 1.0
       },
       {
@@ -123794,12 +123922,12 @@
       "total": 776,
       "need_total": 776.0,
       "interview_total": 1827.0,
-      "offer_total": 751.0,
-      "arrive_total": 545.0,
-      "gap": 231.0,
-      "fill_rate": 70.23,
+      "offer_total": 752.0,
+      "arrive_total": 549.0,
+      "gap": 227.0,
+      "fill_rate": 70.75,
       "by_status": {
-        "已完成": 541,
+        "已完成": 543,
         "终止": 92,
         "未完成": 46
       },
@@ -123807,22 +123935,22 @@
         "双启": {
           "cnt": 186,
           "need": 186.0,
-          "arrive": 107.0
+          "arrive": 108.0
         },
         "绒光-Elite事业部": {
           "cnt": 145,
           "need": 145.0,
-          "arrive": 120.0
+          "arrive": 121.0
         },
         "望辰-Crown事业部": {
           "cnt": 139,
           "need": 139.0,
-          "arrive": 91.0
+          "arrive": 92.0
         },
         "创新项目部": {
           "cnt": 94,
           "need": 94.0,
-          "arrive": 75.0
+          "arrive": 76.0
         },
         "组织效能中心": {
           "cnt": 51,
@@ -123870,10 +123998,10 @@
   },
   "recruit_funnel": {
     "stat": {
-      "total": 5468,
+      "total": 5469,
       "by_source": {
         "BOSS": 4861,
-        "(未填)": 359,
+        "(未填)": 360,
         "内推": 108,
         "海鸥": 60,
         "转介绍": 57,
@@ -123884,13 +124012,13 @@
       },
       "by_stage": {
         "其他/未推进": 1905,
-        "到岗": 1298,
+        "到岗": 1302,
         "过初试": 1116,
-        "已发offer未到岗": 705,
+        "已发offer未到岗": 702,
         "过复试": 444
       },
       "interview_months": {
-        "1900年01月": 351,
+        "1900年01月": 352,
         "2025年04月": 242,
         "2025年05月": 249,
         "2025年06月": 199,
@@ -123932,7 +124060,7 @@
         "2026年08月": 185,
         "2026年09月": 144,
         "2026年10月": 208,
-        "2026年11月": 212
+        "2026年11月": 213
       },
       "leave_months": {
         "2025年10月": 20,
@@ -123945,7 +124073,7 @@
         "2025年8月": 29,
         "2025年9月": 16,
         "2026年10月": 87,
-        "2026年11月": 105,
+        "2026年11月": 106,
         "2026年1月": 21,
         "2026年2月": 8,
         "2026年3月": 48,
@@ -124616,7 +124744,7 @@
         "month": "0"
       }
     ],
-    "src": "招聘数据表（sheet228）共 5468 条候选人记录"
+    "src": "招聘数据表（sheet228）共 5469 条候选人记录"
   },
   "recruit_ledger": {
     "rows": [
@@ -138769,24 +138897,23 @@
   },
   "org_xcheck": {
     "dingtalk_count": 286,
-    "humingce_active_count": 366,
-    "both_count": 270,
-    "dingtalk_only_count": 16,
-    "humingce_only_count": 96,
+    "humingce_active_count": 369,
+    "both_count": 271,
+    "dingtalk_only_count": 15,
+    "humingce_only_count": 98,
     "dingtalk_only": [
       "六六",
       "刘璐璐",
       "包子",
       "吴琼",
       "夏志强",
-      "孙怡萱",
       "小达",
       "尧婕",
       "张旭辉",
       "李军锋",
       "李福龙",
-      "杨珺婷",
       "樊红玉",
+      "王雪",
       "罗祥磊",
       "肉肉",
       "邢鹏博"
@@ -138873,6 +139000,7 @@
       "赵志强01",
       "赵梦瑶",
       "赵浩",
+      "赵能",
       "赵荣尊",
       "赵雪晴",
       "邢耀元",
@@ -138880,6 +139008,7 @@
       "郑芷若",
       "郭恩熙",
       "郭香蕊",
+      "陈亚烁",
       "陈录丽",
       "霍怡彤",
       "霍梦茹",
@@ -138999,6 +139128,11 @@
         "name": "孔晓钰",
         "dingtalk_top": "望辰_Crown事业部",
         "humingce_top": "望辰-Crown事业部"
+      },
+      {
+        "name": "孙怡萱",
+        "dingtalk_top": "新星训练营",
+        "humingce_top": "双启"
       },
       {
         "name": "孙雅莉",
@@ -139183,11 +139317,6 @@
       {
         "name": "李依晨",
         "dingtalk_top": "绒光_Elite事业部",
-        "humingce_top": "绒光-Elite事业部"
-      },
-      {
-        "name": "李嘉琪",
-        "dingtalk_top": "新星训练营",
         "humingce_top": "绒光-Elite事业部"
       }
     ],
