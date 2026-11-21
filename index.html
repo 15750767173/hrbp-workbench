@@ -226,7 +226,7 @@ th,td{padding:5px 6px;}
 <div class="container" id="mainContent" style="display:none;">
 <div class="header">
 <h1>众辉宠物中心 · 个人经营工作台</h1>
-<div class="date">数据版本 v7.5 · 数据源：金山多维表（daily业绩+目标拆解+HRBP资料） · <span id="dataTime">最后更新：--</span><span id="buildStamp" style="margin-left:10px;color:#94a3b8;" title="页面内置数据快照时间">· 快照 2026-11-21 19:14</span> · <span id="dataCut" style="font-weight:600;"></span> · <span id="liveTag" style="color:#059669;font-weight:600;">● 自动跟随中</span></div>
+<div class="date">数据版本 v7.5 · 数据源：金山多维表（daily业绩+目标拆解+HRBP资料） · <span id="dataTime">最后更新：--</span><span id="buildStamp" style="margin-left:10px;color:#94a3b8;" title="页面内置数据快照时间">· 快照 2026-11-21 19:31</span> · <span id="dataCut" style="font-weight:600;"></span> · <span id="liveTag" style="color:#059669;font-weight:600;">● 自动跟随中</span></div>
 </div>
 <div class="range-bar">
 <label>统计区间：</label>
@@ -1415,7 +1415,7 @@ ${_rdy?`<div class="stat"><div class="num">${fmtW(_T.base)}万</div><div>基础�
       ['成本占净业绩', function(r){ return (r.cost_ratio==null) ? '-' : r.cost_ratio.toFixed(1)+'%'; }],
     ];
     html+='<div class="section-title" style="margin-top:18px;">💰 人工成本与人效比（'+_scKeys.map(_scLbl).join(' / ')+'）</div>';
-    html+='<div style="font-size:11px;color:#888;margin-bottom:6px;">数据源：薪资分析表（月末发薪口径）× <b>《众辉-宠物各部门汇总》各部门净业绩汇总</b>（多维表同源）· <b>仅部门级汇总，不含任何个人薪资</b> · 人工总成本=固定成本+浮动成本（含社保公积金分摊）· 净业绩取多维表月度净业绩（5 月起齐全，2–4 月为同表历史值）</div>';
+    html+='<div style="font-size:11px;color:#888;margin-bottom:6px;">数据源：薪资分析表（月末发薪口径）× <b>《众辉-宠物各部门汇总》各部门净业绩汇总</b>（多维表同源）· <b>仅部门级汇总，不含任何个人薪资</b> · 人工总成本=固定成本+浮动成本（含社保公积金分摊）· 净业绩取多维表月度净业绩（覆盖 2 月起至今，与图表同区间）</div>';
     html+='<div class="scroll-x"><table><thead><tr><th>指标</th>'+_scKeys.map(function(mo){return '<th>'+_scLbl(mo)+'</th>';}).join('')+'</tr></thead><tbody>';
     _scDefs.forEach(function(df){
       html+='<tr><td style="font-weight:600;">'+esc(df[0])+'</td>'+_scKeys.map(function(mo){ return '<td>'+esc(String(df[1](_scPick[mo])))+'</td>'; }).join('')+'</tr>';
@@ -1439,9 +1439,11 @@ ${_rdy?`<div class="stat"><div class="num">${fmtW(_T.base)}万</div><div>基础�
     //     ①「净业绩 + 人工总成本」放同一张折线图（金额同轴，万元）
     //     ②「人工成本占净业绩」单独一张折线图（%），不与金额混轴
     //     ③金额口径统一为【人工总成本】=固定成本+浮动成本（含社保公积金），不用应发工资
-    //     ④区间从 2026-05 起（5 月起净业绩与薪资数据齐全），最多近 6 个月
-    const _scShow = _scKeys.filter(function(mo){ return mo>='2026-05'; }).slice(-6);
+    //     ④⭐2026-11-21 用户口径：区间必须覆盖「2 月至今全部月份」，不得截断近 6 个月
+    //       （薪资分析表与《众辉-宠物各部门汇总》均覆盖 2026-02 起，故图表与上方表格同区间）
+    const _scShow = _scKeys.slice();
     if(_scShow.length >= 2 && typeof Chart !== 'undefined'){
+      const _scSpan = _scLbl(_scShow[0])+'–'+_scLbl(_scShow[_scShow.length-1])+'（'+_scShow.length+' 个月）';
       const _chartId = 'sc_'+d.name.replace(/[^0-9A-Za-z一-龥]/g,'')+'_'+(Math.random().toString(36).slice(2,7));
       const _chartId2 = _chartId+'_ratio';
       const _scNetArr = _scShow.map(function(mo){ const v=_scPick[mo].net_output; return (v>0)? +(v/10000).toFixed(2) : null; });
@@ -1510,13 +1512,13 @@ ${_rdy?`<div class="stat"><div class="num">${fmtW(_T.base)}万</div><div>基础�
         }
       },0);
       html+='<div style="margin-top:20px;">';
-      html+='<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;"><span style="font-weight:600;font-size:13px;">📈 '+esc(d.name)+' · 净业绩与人工成本趋势（'+_scShow.length+' 个月）</span><span style="font-size:11px;color:#999;">单位：万元 · 同轴可比</span></div>';
+      html+='<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;"><span style="font-weight:600;font-size:13px;">📈 '+esc(d.name)+' · 净业绩与人工成本趋势（'+_scSpan+'）</span><span style="font-size:11px;color:#999;">单位：万元 · 同轴可比</span></div>';
       html+='<div style="position:relative;height:250px;"><canvas id="'+_chartId+'"></canvas></div>';
       html+='</div>';
       html+='<div style="margin-top:18px;">';
-      html+='<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;"><span style="font-weight:600;font-size:13px;">📉 '+esc(d.name)+' · 人工成本占净业绩比（'+_scShow.length+' 个月）</span><span style="font-size:11px;color:#999;">人工总成本 ÷ 净业绩</span></div>';
+      html+='<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;"><span style="font-weight:600;font-size:13px;">📉 '+esc(d.name)+' · 人工成本占净业绩比（'+_scSpan+'）</span><span style="font-size:11px;color:#999;">人工总成本 ÷ 净业绩</span></div>';
       html+='<div style="position:relative;height:190px;"><canvas id="'+_chartId2+'"></canvas></div>';
-      html+='<div style="font-size:11px;color:#999;margin-top:4px;">净业绩取《众辉-宠物各部门汇总》「各部门净业绩汇总」（与多维表同源）；人工总成本=固定成本+浮动成本（含社保公积金分摊）；成本占比=人工总成本÷净业绩。无净业绩的月份留空不补零。</div>';
+      html+='<div style="font-size:11px;color:#999;margin-top:4px;">净业绩取《众辉-宠物各部门汇总》「各部门净业绩汇总」（与多维表同源）；人工总成本=固定成本+浮动成本（含社保公积金分摊）；成本占比=人工总成本÷净业绩。区间与上方表格一致（2 月起至今）；无净业绩的月份留空不补零。</div>';
       html+='</div>';
     }
   }
@@ -1597,7 +1599,7 @@ ${_rdy?`<div class="stat"><div class="num">${fmtW(_T.base)}万</div><div>基础�
       html+='<div style="font-size:11px;color:#888;margin-bottom:6px;">按小组拆分的人效指标 · 数据源同人效表'
         +(_hasNov?' · <b style="color:#b45309;">11月为工作台自动核算</b>（人员归组=业绩划分表小组标注→钉钉通讯录→目标表负责人，目标=目标表，产出=业绩划分额，待源表填11月列后自动回切权威口径）':'')
         +'</div>';
-      html+='<div style="font-size:11px;color:#999;margin-bottom:4px;">口径：产出=组内成员业绩划分额之和（未划分到具体人的产品业绩不计入小组，故各组合计会略低于部门日表净业绩，属正常口径差）· 目标表里「X组+Y组」合并行按两组人数占比拆分</div>';
+      html+='<div style="font-size:11px;color:#999;margin-bottom:4px;">口径：产出=组内成员业绩划分额之和（未划分到具体人的产品业绩不计入小组，故各组合计会略低于部门日表净业绩，<b>属正常口径差、不做分摊</b>）· 目标表「X组+Y组」合并行按两组人数占比拆分 · 目标表组行合计与部门行不一致时<b>以组行为准</b></div>';
       _groups.forEach(g=>{
         const _gm=g.metrics||{};
         // 小组月份键（可能有 11月 已核算，与部门表 _yms 可能不同，独立收集）
