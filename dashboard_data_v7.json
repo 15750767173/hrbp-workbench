@@ -229,7 +229,7 @@
       }
     ],
     "data_through_day": 20,
-    "generated_at": "2026-11-21 14:58",
+    "generated_at": "2026-11-21 15:03",
     "expect_day": 20,
     "dept_last_day": {
       "一部": 20,
@@ -5888,13 +5888,13 @@
     },
     {
       "name": "八部",
-      "leader": "",
+      "leader": "孙雅莉",
       "month": "11月",
-      "base_target_total": 0,
-      "stretch_target_total": 0,
+      "base_target_total": 150000.0,
+      "stretch_target_total": 0.0,
       "actual_total": 0,
       "actual_jul": 0,
-      "target_ready": false,
+      "target_ready": true,
       "groups": [],
       "persons": [
         {
@@ -10739,7 +10739,7 @@
         "stretch": 250000.0
       },
       "八部": {
-        "base": 0.0,
+        "base": 150000.0,
         "stretch": 0.0
       }
     }
@@ -103700,7 +103700,7 @@
         "fields": 25
       }
     ],
-    "time": "2026-11-21 14:57:52",
+    "time": "2026-11-21 15:03:04",
     "total": 40,
     "ok": 40,
     "bad": [],
@@ -103726,7 +103726,7 @@
     "full_pull": {
       "ok": true,
       "last_at": "2026-11-21 14:05:58",
-      "age_h": 0.9,
+      "age_h": 1.0,
       "today_count": 4,
       "daily": {
         "2026-11-15": 3,
@@ -103740,7 +103740,7 @@
       "runs": 61,
       "fail_streak": 0,
       "gap_h": 8,
-      "note": "最近一次全量 2026-11-21 14:05:58（0.9 小时前）· 今日已完成 4 轮"
+      "note": "最近一次全量 2026-11-21 14:05:58（1.0 小时前）· 今日已完成 4 轮"
     }
   },
   "dingtalk_org": {
@@ -139642,7 +139642,7 @@
   "salary_cost": {
     "meta": {
       "source": "薪资分析表 https://www.kdocs.cn/l/cl2TM7jxNsuN",
-      "generated_at": "2026-11-21 14:58:03",
+      "generated_at": "2026-11-21 15:03:13",
       "scope": "仅部门级汇总；不含任何个人薪资明细",
       "metric_note": {
         "total_cost": "固定成本 + 浮动成本（含社保公积金分摊）",
