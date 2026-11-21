@@ -203,7 +203,7 @@
       }
     ],
     "data_through_day": 20,
-    "generated_at": "2026-11-21 11:13",
+    "generated_at": "2026-11-21 11:27",
     "expect_day": 20,
     "dept_last_day": {
       "一部": 20,
@@ -372,6 +372,9 @@
           "m7_net": 250254.36,
           "m7_comm": 11312.72,
           "m7_mgmt": 11864.19,
+          "main_product": "uiko维生素",
+          "sub_product": "",
+          "pp_group": "一组",
           "sep_net_tc": 65117.65,
           "sep_comm_tc": 5037.32,
           "sep_comm_bad": false
@@ -6055,6 +6058,9 @@
           "m7_net": 250254.36,
           "m7_comm": 11312.72,
           "m7_mgmt": 11864.19,
+          "main_product": "uiko维生素",
+          "sub_product": "",
+          "pp_group": "一组",
           "sep_net_tc": 65117.65,
           "sep_comm_tc": 5037.32,
           "sep_comm_bad": false
@@ -30303,10 +30309,6 @@
       "汪燕资": {
         "type": "潜力",
         "url": "https://www.kdocs.cn/l/cj1J3cj99jSG"
-      },
-      "王雪": {
-        "type": "核心",
-        "url": "https://www.kdocs.cn/l/ciXgTE6b9lmv"
       },
       "贾怡帆": {
         "type": "核心",
@@ -103066,7 +103068,7 @@
       {
         "id": 149,
         "name": "招聘需求进度表",
-        "expected": 776,
+        "expected": 777,
         "local": 776,
         "state": "正常",
         "file": "_hr_149.json",
@@ -103404,12 +103406,12 @@
         "fields": 25
       }
     ],
-    "time": "2026-11-21 11:12:53",
+    "time": "2026-11-21 11:27:15",
     "total": 40,
     "ok": 40,
     "bad": [],
     "bad_names": [],
-    "records_total": 21912,
+    "records_total": 21913,
     "by_cat": {
       "HR流程": 2,
       "产品人员": 2,
@@ -103429,8 +103431,8 @@
     },
     "full_pull": {
       "ok": true,
-      "last_at": "2026-11-21 11:13",
-      "age_h": 0.0,
+      "last_at": "2026-11-21 11:14:06",
+      "age_h": 0.2,
       "today_count": 2,
       "daily": {
         "2026-11-15": 3,
@@ -103444,7 +103446,7 @@
       "runs": 59,
       "fail_streak": 0,
       "gap_h": 8,
-      "note": "最近一次全量 2026-11-21 11:13（0.0 小时前）· 今日已完成 2 轮"
+      "note": "最近一次全量 2026-11-21 11:14:06（0.2 小时前）· 今日已完成 2 轮"
     }
   },
   "dingtalk_org": {
@@ -140082,9 +140084,9 @@
       "name": "谢宇辰",
       "type": "潜力",
       "url": "https://www.kdocs.cn/l/cufP0K6km0os",
-      "dept": "",
+      "dept": "一部",
       "matched": false,
-      "product": "",
+      "product": "冬马维生素",
       "person_base": 0,
       "person_stretch": 0,
       "jul": 0.0,
@@ -140887,35 +140889,6 @@
       "m9_tc": 22375.45,
       "m9_comm_tc": 671.26,
       "m9_person_comm_tc": 671.26,
-      "m9_mgmt_tc": 0,
-      "m9_comm_bad": false
-    },
-    {
-      "name": "王雪",
-      "type": "核心",
-      "url": "https://www.kdocs.cn/l/ciXgTE6b9lmv",
-      "dept": "六部",
-      "matched": true,
-      "product": "映鹿辅酶",
-      "person_base": 30000,
-      "person_stretch": 40000,
-      "jul": 21243.65,
-      "aug": 3170.85,
-      "sep": 2562.43,
-      "m5": 28401.52,
-      "m5_comm": 852.0,
-      "m5_mgmt": 426.02,
-      "m6": 7079.49,
-      "m6_comm": 0.0,
-      "m6_mgmt": 106.19,
-      "m7": 13383.57,
-      "m7_comm": 401.51,
-      "m7_mgmt": 0.0,
-      "m8_tc": 0,
-      "m8_comm_tc": 0,
-      "m9_tc": 0,
-      "m9_comm_tc": 0,
-      "m9_person_comm_tc": 0,
       "m9_mgmt_tc": 0,
       "m9_comm_bad": false
     },
