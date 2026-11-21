@@ -242,7 +242,7 @@
       }
     ],
     "data_through_day": 20,
-    "generated_at": "2026-11-21 16:32",
+    "generated_at": "2026-11-21 16:38",
     "expect_day": 20,
     "dept_last_day": {
       "一部": 20,
@@ -103385,7 +103385,7 @@
       {
         "id": 153,
         "name": "招聘数据表",
-        "expected": 5475,
+        "expected": 5477,
         "local": 5472,
         "state": "正常",
         "file": "_hr_ziliao153.json",
@@ -103695,7 +103695,7 @@
       {
         "id": 228,
         "name": "招聘数据表(2)",
-        "expected": 5475,
+        "expected": 5477,
         "local": 5475,
         "state": "正常",
         "file": "_ex_228.json",
@@ -103713,12 +103713,12 @@
         "fields": 25
       }
     ],
-    "time": "2026-11-21 16:32:03",
+    "time": "2026-11-21 16:38:28",
     "total": 40,
     "ok": 40,
     "bad": [],
     "bad_names": [],
-    "records_total": 21935,
+    "records_total": 21939,
     "by_cat": {
       "HR流程": 2,
       "产品人员": 2,
@@ -103739,7 +103739,7 @@
     "full_pull": {
       "ok": true,
       "last_at": "2026-11-21 14:05:58",
-      "age_h": 2.4,
+      "age_h": 2.5,
       "today_count": 4,
       "daily": {
         "2026-11-15": 3,
@@ -103753,7 +103753,7 @@
       "runs": 61,
       "fail_streak": 0,
       "gap_h": 8,
-      "note": "最近一次全量 2026-11-21 14:05:58（2.4 小时前）· 今日已完成 4 轮"
+      "note": "最近一次全量 2026-11-21 14:05:58（2.5 小时前）· 今日已完成 4 轮"
     }
   },
   "dingtalk_org": {
@@ -139675,7 +139675,7 @@
     "meta": {
       "source": "薪资分析表 https://www.kdocs.cn/l/cl2TM7jxNsuN",
       "net_source": "净业绩取《众辉-宠物各部门汇总》sheet13「各部门净业绩汇总」（陈总列=宠元气友组）",
-      "generated_at": "2026-11-21 16:32:30",
+      "generated_at": "2026-11-21 16:38:37",
       "scope": "仅部门级汇总；不含任何个人薪资明细",
       "show_from": "2026-05",
       "metric_note": {
