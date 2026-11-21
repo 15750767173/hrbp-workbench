@@ -203,7 +203,7 @@
       }
     ],
     "data_through_day": 20,
-    "generated_at": "2026-11-21 12:46",
+    "generated_at": "2026-11-21 14:05",
     "expect_day": 20,
     "dept_last_day": {
       "一部": 20,
@@ -36608,7 +36608,7 @@
       },
       {
         "task": "创新项目部高诗雅试岗第一天面谈",
-        "owner": null,
+        "owner": "朱思雨",
         "creator": "朱思雨",
         "created": "2026/10/14 14:11:29",
         "deadline": "2026/10/12 19:00:00",
@@ -36619,7 +36619,7 @@
       },
       {
         "task": "晗盛 Champ部方赛雅试用期优化面谈",
-        "owner": null,
+        "owner": "朱思雨",
         "creator": "朱思雨",
         "created": "2026/10/14 14:13:52",
         "deadline": "2026/10/12 19:00:00",
@@ -36630,7 +36630,7 @@
       },
       {
         "task": "扶摇直上组田香香试岗期面谈",
-        "owner": null,
+        "owner": "朱思雨",
         "creator": "朱思雨",
         "created": "2026/10/14 14:15:00",
         "deadline": "2026/10/13 19:00:00",
@@ -36641,7 +36641,7 @@
       },
       {
         "task": "小红书三部李恩熙试岗期面谈",
-        "owner": null,
+        "owner": "朱思雨",
         "creator": "朱思雨",
         "created": "2026/10/14 14:15:52",
         "deadline": "2026/10/13 19:00:00",
@@ -36652,7 +36652,7 @@
       },
       {
         "task": "小红书三部黄雯欣试岗期面谈",
-        "owner": null,
+        "owner": "朱思雨",
         "creator": "朱思雨",
         "created": "2026/10/14 14:16:38",
         "deadline": "2026/10/13 19:00:00",
@@ -36707,7 +36707,7 @@
       },
       {
         "task": "昱升部冯鹏妍试岗期面谈",
-        "owner": null,
+        "owner": "朱思雨",
         "creator": "朱思雨",
         "created": "2026/10/14 17:32:32",
         "deadline": "2026/10/14 19:00:00",
@@ -36718,7 +36718,7 @@
       },
       {
         "task": "星辰一部曹雯试岗期面谈",
-        "owner": null,
+        "owner": "朱思雨",
         "creator": "朱思雨",
         "created": "2026/10/14 17:36:25",
         "deadline": "2026/10/14 19:00:00",
@@ -36773,7 +36773,7 @@
       },
       {
         "task": "客服部（百货售后）刘诗雨自离面谈+办理",
-        "owner": null,
+        "owner": "罗思会",
         "creator": "罗思会",
         "created": "2026/10/15 15:16:28",
         "deadline": "2026/10/17 15:00:00",
@@ -41275,7 +41275,7 @@
         "owner": "罗思会",
         "creator": "罗思会",
         "created": "2026/11/21 10:11:46",
-        "deadline": "",
+        "deadline": "2026/11/21 19:00:00",
         "done": "",
         "progress": null,
         "interviewee": null,
@@ -41286,7 +41286,7 @@
         "owner": "罗思会",
         "creator": "罗思会",
         "created": "2026/11/21 10:26:11",
-        "deadline": "",
+        "deadline": "2026/11/21 19:00:00",
         "done": "",
         "progress": null,
         "interviewee": null,
@@ -41297,7 +41297,7 @@
         "owner": "罗思会",
         "creator": "罗思会",
         "created": "2026/11/21 10:26:33",
-        "deadline": "",
+        "deadline": "2026/11/21 19:00:00",
         "done": "",
         "progress": null,
         "interviewee": null,
@@ -41308,7 +41308,7 @@
         "owner": "罗思会",
         "creator": "罗思会",
         "created": "2026/11/21 10:28:36",
-        "deadline": "",
+        "deadline": "2026/11/21 19:00:00",
         "done": "",
         "progress": null,
         "interviewee": null,
@@ -41327,35 +41327,13 @@
       },
       {
         "task": "电商客服部平面设计马潇原优化",
-        "owner": "凌乐雨",
+        "owner": "许志远",
         "creator": "许志远",
         "created": "2026/11/21 11:17:10",
         "deadline": "2026/11/21 12:30:00",
-        "done": "",
-        "progress": "未完成",
+        "done": "2026/11/21",
+        "progress": "已完成",
         "interviewee": "马潇原",
-        "record": null
-      },
-      {
-        "task": null,
-        "owner": null,
-        "creator": null,
-        "created": "2026/11/21 11:17:44",
-        "deadline": "",
-        "done": "",
-        "progress": null,
-        "interviewee": null,
-        "record": null
-      },
-      {
-        "task": null,
-        "owner": null,
-        "creator": null,
-        "created": "2026/11/21 11:18:42",
-        "deadline": "",
-        "done": "",
-        "progress": null,
-        "interviewee": null,
         "record": null
       },
       {
@@ -41385,7 +41363,7 @@
         "owner": "凌乐雨",
         "creator": "杨蓓蕾",
         "created": "2026/11/21 11:36:49",
-        "deadline": "2026/11/21 18:34:00",
+        "deadline": "2026/11/21 19:00:00",
         "done": "",
         "progress": "未完成",
         "interviewee": "田子纯",
@@ -41407,21 +41385,10 @@
         "owner": "凌乐雨",
         "creator": "杨蓓蕾",
         "created": "2026/11/21 11:36:49",
-        "deadline": "2026/11/21 18:34:00",
+        "deadline": "2026/11/21 19:00:00",
         "done": "",
         "progress": "未完成",
         "interviewee": "闫萌",
-        "record": null
-      },
-      {
-        "task": null,
-        "owner": null,
-        "creator": null,
-        "created": "2026/11/21 11:39:09",
-        "deadline": "",
-        "done": "",
-        "progress": "未完成",
-        "interviewee": null,
         "record": null
       }
     ],
@@ -59155,6 +59122,15 @@
         "time": "2026/11/21"
       },
       {
+        "name": "杨燕",
+        "post": "HRBP",
+        "chushi": "是",
+        "fushi": "否",
+        "offer": "",
+        "days": 0,
+        "time": "2026/11/21"
+      },
+      {
         "name": "杨珺婷",
         "post": "新媒体编辑",
         "chushi": "是",
@@ -66335,15 +66311,6 @@
         "offer": "",
         "days": 0,
         "time": "2026/09/17"
-      },
-      {
-        "name": "陈智如",
-        "post": "新媒体编辑",
-        "chushi": "是",
-        "fushi": "是",
-        "offer": "已接",
-        "days": 2,
-        "time": "2026/09/17"
       }
     ],
     "shigang_note": "来源：sheet153 招聘数据表派生（sheet3「面试+试岗」已从文档移除）",
@@ -66794,6 +66761,12 @@
             "name": "26.8~26.10人效表",
             "url": "https://www.kdocs.cn/l/cdA6KVCvYUiP"
           }
+        ],
+        "1-5": [
+          {
+            "name": "薪资费用表",
+            "url": "https://www.kdocs.cn/l/cl2TM7jxNsuN"
+          }
         ]
       },
       {
@@ -66947,7 +66920,7 @@
         ]
       }
     ],
-    "ziliao_note": "来自BP资料表(sheet118)，共23条资料记录、92个文档链接，每条含多类文档链接",
+    "ziliao_note": "来自BP资料表(sheet118)，共23条资料记录、93个文档链接，每条含多类文档链接",
     "ziliao_categorized": {
       "common": [
         {
@@ -67149,6 +67122,10 @@
         {
           "name": "26.8~26.10人效表",
           "url": "https://www.kdocs.cn/l/cdA6KVCvYUiP"
+        },
+        {
+          "name": "薪资费用表",
+          "url": "https://www.kdocs.cn/l/cl2TM7jxNsuN"
         },
         {
           "name": "内容表",
@@ -103062,7 +103039,7 @@
         "id": 134,
         "name": "BP工作进度表",
         "expected": 1006,
-        "local": 1009,
+        "local": 1006,
         "state": "正常",
         "file": "_hr_bp.json",
         "cat": "HR流程",
@@ -103102,7 +103079,7 @@
         "id": 153,
         "name": "招聘数据表",
         "expected": 5472,
-        "local": 5471,
+        "local": 5472,
         "state": "正常",
         "file": "_hr_ziliao153.json",
         "cat": "招聘",
@@ -103429,7 +103406,7 @@
         "fields": 25
       }
     ],
-    "time": "2026-11-21 12:46:20",
+    "time": "2026-11-21 14:04:42",
     "total": 40,
     "ok": 40,
     "bad": [],
@@ -103454,9 +103431,9 @@
     },
     "full_pull": {
       "ok": true,
-      "last_at": "2026-11-21 12:16:44",
-      "age_h": 0.5,
-      "today_count": 3,
+      "last_at": "2026-11-21 14:05",
+      "age_h": 0.0,
+      "today_count": 4,
       "daily": {
         "2026-11-15": 3,
         "2026-11-16": 7,
@@ -103464,12 +103441,12 @@
         "2026-11-18": 10,
         "2026-11-19": 3,
         "2026-11-20": 5,
-        "2026-11-21": 3
+        "2026-11-21": 4
       },
-      "runs": 60,
+      "runs": 61,
       "fail_streak": 0,
       "gap_h": 8,
-      "note": "最近一次全量 2026-11-21 12:16:44（0.5 小时前）· 今日已完成 3 轮"
+      "note": "最近一次全量 2026-11-21 14:05（0.0 小时前）· 今日已完成 4 轮"
     }
   },
   "dingtalk_org": {
@@ -111509,7 +111486,7 @@
         "post": "HRBP",
         "level": "",
         "need": 1.0,
-        "interview": 4.0,
+        "interview": 5.0,
         "offer": 1.0,
         "arrive": 0.0,
         "status": "",
@@ -123966,7 +123943,7 @@
     "stat": {
       "total": 777,
       "need_total": 776.0,
-      "interview_total": 1829.0,
+      "interview_total": 1830.0,
       "offer_total": 752.0,
       "arrive_total": 549.0,
       "gap": 227.0,
@@ -124045,8 +124022,8 @@
     "stat": {
       "total": 5472,
       "by_source": {
-        "BOSS": 4863,
-        "(未填)": 361,
+        "BOSS": 4864,
+        "(未填)": 360,
         "内推": 108,
         "海鸥": 60,
         "转介绍": 57,
@@ -124056,9 +124033,9 @@
         "猎聘": 1
       },
       "by_stage": {
-        "其他/未推进": 1907,
+        "其他/未推进": 1906,
         "到岗": 1302,
-        "过初试": 1116,
+        "过初试": 1117,
         "已发offer未到岗": 702,
         "过复试": 445
       },
@@ -124132,7 +124109,7 @@
       "top_inviter": {
         "王佑": 1701,
         "李雪芹": 1375,
-        "盛琦雅": 1220,
+        "盛琦雅": 1221,
         "张帅涛": 1000,
         "柴鑫雅": 572,
         "杨蓓蕾": 460,
