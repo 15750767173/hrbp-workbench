@@ -226,7 +226,7 @@ th,td{padding:5px 6px;}
 <div class="container" id="mainContent" style="display:none;">
 <div class="header">
 <h1>众辉宠物中心 · 个人经营工作台</h1>
-<div class="date">数据版本 v7.5 · 数据源：金山多维表（daily业绩+目标拆解+HRBP资料） · <span id="dataTime">最后更新：--</span><span id="buildStamp" style="margin-left:10px;color:#94a3b8;" title="页面内置数据快照时间">· 快照 2026-11-23 14:21</span> · <span id="dataCut" style="font-weight:600;"></span> · <span id="liveTag" style="color:#059669;font-weight:600;">● 自动跟随中</span></div>
+<div class="date">数据版本 v7.5 · 数据源：金山多维表（daily业绩+目标拆解+HRBP资料） · <span id="dataTime">最后更新：--</span><span id="buildStamp" style="margin-left:10px;color:#94a3b8;" title="页面内置数据快照时间">· 快照 2026-11-23 14:22</span> · <span id="dataCut" style="font-weight:600;"></span> · <span id="liveTag" style="color:#059669;font-weight:600;">● 自动跟随中</span></div>
 </div>
 <div class="range-bar">
 <label>统计区间：</label>
@@ -1524,10 +1524,14 @@ ${_rdy?`<div class="stat"><div class="num">${fmtW(_T.base)}万</div><div>基础�
   }
 
   // ══ 2026-11-23：部门损益（财务口径 · 源《宠物种草经营计划表》cechWAfs4BoY sheet9/sheet10）══
+  // 🔴 2026-11-23 用户口径：**部门页不展示该区块**（"这一部分去除 不展示"）。
+  //    数据层保留（sync 仍抓 cechWAfs4BoY → build_fin_pnl.py → finance_pnl.json），
+  //    仅前端关闭渲染；如需恢复只需把 SHOW_FIN_PNL 改回 true，无需重新抓数。
   // 红线：只到部门级与科目级汇总，不含任何个人金额。
   // ⚠ 口径：「主营收入」= 财务确认收入，与工作台「净业绩」同源但确认略严（实测差 +0.9%~+6.3%），
   //    仅作并列旁证，绝不替代 net_output、不并入四源齐等门禁。
-  (function(){
+  const SHOW_FIN_PNL = false;
+  if(SHOW_FIN_PNL) (function(){
     const _FP = DATA.finance_pnl || {};
     const _fpMonths = _FP.months || [];
     if(!_fpMonths.length) return;
