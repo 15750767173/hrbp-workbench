@@ -226,7 +226,7 @@ th,td{padding:5px 6px;}
 <div class="container" id="mainContent" style="display:none;">
 <div class="header">
 <h1>众辉宠物中心 · 个人经营工作台</h1>
-<div class="date">数据版本 v7.5 · 数据源：金山多维表（daily业绩+目标拆解+HRBP资料） · <span id="dataTime">最后更新：--</span><span id="buildStamp" style="margin-left:10px;color:#94a3b8;" title="页面内置数据快照时间">· 快照 2026-11-23 17:15</span> · <span id="dataCut" style="font-weight:600;"></span> · <span id="liveTag" style="color:#059669;font-weight:600;">● 自动跟随中</span></div>
+<div class="date">数据版本 v7.5 · 数据源：金山多维表（daily业绩+目标拆解+HRBP资料） · <span id="dataTime">最后更新：--</span><span id="buildStamp" style="margin-left:10px;color:#94a3b8;" title="页面内置数据快照时间">· 快照 2026-11-23 17:25</span> · <span id="dataCut" style="font-weight:600;"></span> · <span id="liveTag" style="color:#059669;font-weight:600;">● 自动跟随中</span></div>
 </div>
 <div class="range-bar">
 <label>统计区间：</label>
@@ -1338,8 +1338,14 @@ function renderToday(){
   html+=`<div class="today-card"><div class="label">本周累计</div><div class="value">${fmtW(wTotals.reduce((a,b)=>a+b,0))}万</div><div class="sub">周一起 ${wd[0]} ~ ${todayStr}</div></div>`;
   html+='</div>';
 
-  html+='<div class="section-title">本周每日业绩趋势（全公司）</div>';
-  html+='<div class="mini-chart">'+renderBarChart(wd.map((d,i)=>({label:d.slice(5).replace('-','/'),value:wTotals[i]})),'全公司',wTotals.reduce((acc,v,i)=>{acc.push((acc[i-1]||0)+v);return acc;},[]))+'</div>';
+  // ── v7.78（2026-11-23 用户要求）：本周趋势 → 本月每日业绩趋势 ──────────────
+  //   缘由：11/23 是周一，本周只有 1 天 → 图上只有一个点、看着像"没数据"。
+  //   本月每日（1 日–今日）随月推进自然累积，趋势才看得懂。
+  const mDays=[];
+  for(let _d=new Date(todayStr.slice(0,7)+'-01T00:00:00'); fmtYMD(_d)<=todayStr; _d=new Date(_d.getTime()+86400000)) mDays.push(fmtYMD(_d));
+  const mTotals=mDays.map(dt=>{let s=0;DEPTS.forEach(x=>s+=getDayTotal(x.name,dt));return s;});
+  html+='<div class="section-title">本月每日业绩趋势（全公司 · 本月 '+mDays.length+' 天）</div>';
+  html+='<div class="mini-chart">'+renderLineChart(mDays.map((dt,i)=>({label:String(parseInt(dt.slice(8),10)),value:mTotals[i]})),'全公司 · 本月每日净业绩','#764ba2',{height:240,radius:2.8,dlSize:9,dlColor:'#5b2d86',dlEvery:3})+'</div>';
 
   DEPTS.forEach(d=>{
     const name=d.name;
@@ -1364,10 +1370,13 @@ function renderToday(){
     html+=`<div class="today-card"><div class="label">本周累计</div><div class="value">${fmtW(weekSum)}万</div><div class="sub">有业绩日均: ${fmtW(avg)}万</div></div>`;
     html+=`<div class="today-card"><div class="label">近7日合计</div><div class="value">${fmtW(last7Sum)}万</div><div class="sub">日均: ${fmtW(last7Sum/7)}万</div></div>`;
     html+='</div>';
-    // v7.9 近7天业绩趋势图
-    html+='<div style="margin-bottom:14px;">'+renderBarChart(last7T.map(x=>({label:x.label,value:x.value})),name+' · 近7天趋势',last7T.reduce((acc,x,i)=>{acc.push((acc[i-1]||0)+x.value);return acc;},[]))+'</div>';
-    // v7.9 本周业绩趋势图
-    html+='<div style="margin-bottom:20px;">'+renderBarChart(wd.map((x,i)=>({label:x.slice(5).replace('-','/'),value:weekT[i]})),name+' · 本周趋势',weekT.reduce((acc,v,i)=>{acc.push((acc[i-1]||0)+v);return acc;},[]))+'</div>';
+    // ── v7.78（2026-11-23 用户要求）────────────────────────────────────
+    //   ① 近七日：去掉「累计线」，只画每天净业绩折线（点上直标数值），并附逐日实际值明细表；
+    //      累计线会让 2 万的柱子配 12 万的线，既看不出日变化也容易误读成当日业绩。
+    //   ② 本周趋势 → 本月每日趋势（今日是周一，本周只有 1 天，图基本空白）。
+    html+='<div style="margin-bottom:8px;">'+renderLineChart(last7T.map(x=>({label:x.label,value:x.value})),deptDisplayName(name)+' · 近七日每日净业绩','#764ba2',{height:200,radius:3.8,dlSize:10,dlColor:'#5b2d86',legend:'日净业绩'})+'</div>';
+    html+=renderDayTable(last7T.map(x=>({label:x.label,value:x.value})),'近七日实际净业绩','近七日合计 '+fmtW(last7Sum)+' 万');
+    html+='<div style="margin:16px 0 20px;">'+renderLineChart(mDays.map(dt=>({label:String(parseInt(dt.slice(8),10)),value:getDayTotal(name,dt)})),deptDisplayName(name)+' · 本月每日净业绩（1 日–'+(todayStr.slice(8)|0)+' 日）','#0e9f6e',{height:230,radius:2.8,dlSize:9,dlColor:'#0b7a55',legend:'日净业绩',dlEvery:2})+'</div>';
   });
   return html;
 }
@@ -1440,6 +1449,81 @@ function renderBarChart(items,title,lineItems){
     return `<div class="chart-col"><div class="bar ${i.value>0?'':'zero'}" style="height:${h}px"></div><div class="amt">${fmtW(i.value)}</div><div class="day">${i.label}</div></div>`;
   }).join('');
   return `<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;"><span style="font-weight:600;font-size:13px;">${esc(title)}</span><span style="font-size:11px;color:#999;">单位: 万元</span></div><div class="chart-bar">${bars}</div>`;
+}
+
+/* ── 2026-11-23 用户要求新增：单折线「每日净业绩趋势」+ 实际数据明细表 ──
+   缘由：原「近7天趋势」把「累计线」和「日业绩柱」画在同一轴上，累计线爬到 12 万、
+   柱子只有 2 万，既看不出每天的变化，也容易把累计值误读成当日业绩。
+   新图只画每天净业绩一条折线（点上直标数值），另附一张逐日实际值明细表。 */
+function renderLineChart(items,title,color,opts){
+  opts=opts||{};
+  const hex=color||'#764ba2';
+  if(typeof Chart==='undefined') return renderBarChart(items,title,null);   // 退化：静态柱图
+  const cid='lc_'+Math.random().toString(36).slice(2,9);
+  const dlSize=opts.dlSize||9.5;
+  setTimeout(()=>{
+    const cv=document.getElementById(cid);
+    if(!cv)return;
+    new Chart(cv,{
+      type:'line',
+      data:{labels:items.map(i=>i.label),datasets:[{
+        label:opts.legend||'日净业绩',
+        data:items.map(i=>+(i.value/10000).toFixed(2)),
+        borderColor:hex,backgroundColor:hex+'1a',
+        pointRadius:opts.radius||3.4,pointHoverRadius:5.5,
+        pointBackgroundColor:hex,pointBorderColor:'#fff',pointBorderWidth:1.6,
+        borderWidth:2.4,tension:0.3,fill:true,spanGaps:true
+      }]},
+      options:{
+        responsive:true,maintainAspectRatio:false,
+        layout:{padding:{top:20,right:8}},
+        plugins:{
+          legend:{display:false},
+          tooltip:{mode:'index',intersect:false,callbacks:{label:c=>'净业绩: '+c.parsed.y.toFixed(2)+' 万'}}
+        },
+        scales:{
+          y:{beginAtZero:true,ticks:{callback:v=>(Math.abs(v)<10?v.toFixed(1):v.toFixed(0))+'万',font:{size:10},color:'#888'},grid:{color:'#f3f0f8'}},
+          x:{ticks:{font:{size:opts.xSize||9.5},color:'#888',maxRotation:0,autoSkip:true},grid:{display:false}}
+        },
+        interaction:{mode:'index',intersect:false}
+      },
+      plugins:[{
+        id:'dl_'+cid,
+        afterDatasetsDraw(chart){
+          const ctx=chart.ctx;
+          const every=opts.dlEvery||1;      // 点多时稀疏标注，避免数值互相压叠
+          const _arr=chart.data.datasets[0].data;
+          const _maxV=Math.max.apply(null,_arr.filter(v=>v!=null&&v>0).concat([0]));
+          ctx.save();
+          const meta=chart.getDatasetMeta(0);
+          meta.data.forEach((el,i)=>{
+            const v=_arr[i];
+            if(v===undefined||v===null||v<=0)return;
+            // 稀疏间隔之外，峰顶与最后一天必须标（用户最关心的两个点）
+            const _must=(v===_maxV)||(i===_arr.length-1);
+            if(every>1 && i%every!==0 && !_must)return;
+            ctx.font='600 '+dlSize+'px "Microsoft YaHei",sans-serif';
+            ctx.fillStyle=opts.dlColor||hex;
+            ctx.textAlign='center';
+            ctx.fillText(v.toFixed(2),el.x,el.y-8);
+          });
+          ctx.restore();
+        }
+      }]
+    });
+  },0);
+  return `<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;"><span style="font-weight:600;font-size:13px;">${esc(title)}</span><span style="font-size:11px;color:#999;">单位: 万元 · 每日净业绩</span></div><div style="position:relative;height:${opts.height||210}px;"><canvas id="${cid}"></canvas></div>`;
+}
+
+/* 逐日实际净业绩明细表（横向，可滚动） */
+function renderDayTable(rows,title,sumText){
+  let h='<div style="margin-top:6px;"><div style="font-size:11px;color:#888;margin-bottom:4px;">'+esc(title)+(sumText?' · <b style="color:#5b2d86;">'+esc(sumText)+'</b>':'')+'</div>';
+  h+='<div class="scroll-x"><table style="font-size:12px;"><thead><tr><th style="text-align:left;">项目</th>'+
+     rows.map(r=>'<th style="text-align:right;white-space:nowrap;">'+esc(r.label)+'</th>').join('')+'</tr></thead><tbody>';
+  h+='<tr><td style="font-weight:600;white-space:nowrap;">净业绩(万)</td>'+
+     rows.map(r=>'<td style="text-align:right;'+(r.value>0?'font-weight:600;':'color:#bbb;')+'">'+fmtW(r.value)+'</td>').join('')+'</tr>';
+  h+='</tbody></table></div></div>';
+  return h;
 }
 
 /* ───────────── 部门Tab（动态同期） ───────────── */
