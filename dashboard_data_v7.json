@@ -237,7 +237,7 @@
       }
     ],
     "data_through_day": 22,
-    "generated_at": "2026-11-23 13:02",
+    "generated_at": "2026-11-23 13:11",
     "expect_day": 22,
     "dept_last_day": {
       "一部": 22,
@@ -92213,7 +92213,7 @@
     "六部": {
       "file": "_xc_jfdet_liubu.json",
       "kind": "detail",
-      "records": 251,
+      "records": 252,
       "kept": 34,
       "det_person": {
         "张梦歌": 0.0,
@@ -104698,8 +104698,8 @@
       {
         "id": 216,
         "name": "六部积分表",
-        "expected": 251,
-        "local": 251,
+        "expected": 252,
+        "local": 252,
         "state": "正常",
         "file": "_xc_jfdet_liubu.json",
         "cat": "积分明细",
@@ -104708,8 +104708,8 @@
       {
         "id": 217,
         "name": "六部月度积分统计表",
-        "expected": 43,
-        "local": 43,
+        "expected": 44,
+        "local": 44,
         "state": "正常",
         "file": "_xc_jf_liubu.json",
         "cat": "积分月度",
@@ -104836,12 +104836,12 @@
         "fields": 25
       }
     ],
-    "time": "2026-11-23 13:01:52",
+    "time": "2026-11-23 13:10:27",
     "total": 40,
     "ok": 40,
     "bad": [],
     "bad_names": [],
-    "records_total": 22083,
+    "records_total": 22085,
     "by_cat": {
       "HR流程": 2,
       "产品人员": 2,
@@ -104861,9 +104861,9 @@
     },
     "full_pull": {
       "ok": true,
-      "last_at": "2026-11-23 13:02",
+      "last_at": "2026-11-23 13:11",
       "age_h": 0.0,
-      "today_count": 4,
+      "today_count": 5,
       "daily": {
         "2026-11-16": 7,
         "2026-11-17": 10,
@@ -104871,12 +104871,12 @@
         "2026-11-19": 3,
         "2026-11-20": 5,
         "2026-11-21": 6,
-        "2026-11-23": 4
+        "2026-11-23": 5
       },
-      "runs": 68,
+      "runs": 69,
       "fail_streak": 0,
       "gap_h": 8,
-      "note": "最近一次全量 2026-11-23 13:02（0.0 小时前）· 今日已完成 4 轮"
+      "note": "最近一次全量 2026-11-23 13:11（0.0 小时前）· 今日已完成 5 轮"
     }
   },
   "dingtalk_org": {
@@ -136484,7 +136484,7 @@
     "meta": {
       "source": "薪资分析表 https://www.kdocs.cn/l/cl2TM7jxNsuN",
       "net_source": "净业绩取《众辉-宠物各部门汇总》sheet13「各部门净业绩汇总」（陈总列=宠元气友组）",
-      "generated_at": "2026-11-23 13:02:25",
+      "generated_at": "2026-11-23 13:11:03",
       "scope": "仅部门级汇总；不含任何个人薪资明细",
       "show_from": "2026-05",
       "metric_note": {
