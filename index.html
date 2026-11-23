@@ -226,7 +226,7 @@ th,td{padding:5px 6px;}
 <div class="container" id="mainContent" style="display:none;">
 <div class="header">
 <h1>众辉宠物中心 · 个人经营工作台</h1>
-<div class="date">数据版本 v7.5 · 数据源：金山多维表（daily业绩+目标拆解+HRBP资料） · <span id="dataTime">最后更新：--</span><span id="buildStamp" style="margin-left:10px;color:#94a3b8;" title="页面内置数据快照时间">· 快照 2026-11-23 16:25</span> · <span id="dataCut" style="font-weight:600;"></span> · <span id="liveTag" style="color:#059669;font-weight:600;">● 自动跟随中</span></div>
+<div class="date">数据版本 v7.5 · 数据源：金山多维表（daily业绩+目标拆解+HRBP资料） · <span id="dataTime">最后更新：--</span><span id="buildStamp" style="margin-left:10px;color:#94a3b8;" title="页面内置数据快照时间">· 快照 2026-11-23 17:15</span> · <span id="dataCut" style="font-weight:600;"></span> · <span id="liveTag" style="color:#059669;font-weight:600;">● 自动跟随中</span></div>
 </div>
 <div class="range-bar">
 <label>统计区间：</label>
@@ -595,6 +595,24 @@ function checkPwd(){const p=document.getElementById('pwdInput').value;if(p==='zh
      · 刷新不再把用户选定的统计区间静默重置回当月
      · 刷新后停留在当前面板，不再跳回首页 */
 let _jsonProbe=null;   // null=未知  true=可用  false=无独立数据文件
+// ── 2026-11-23 主/备双通道取数（用户要求「应该有主链接有备用链接」）──────────
+//   主链接 GitHub Pages 的 JSON 响应带 Access-Control-Allow-Origin:*，所以**备用站点**
+//   （hrbp-workbench-92783.app.workbuddy.host）可跨域直接读主站数据 → 备用站点不必
+//   每轮重新发布也能显示最新数字；主站自己访问该绝对地址属同源，行为不变。
+//   取数顺序：①主站绝对地址 → ②本域相对路径（发布快照）→ ③页面内嵌数据（离线兜底）。
+//   ⚠ 必须定义在函数外层：refreshData 与 startAutoSync 共用。
+var _PRIMARY_BASE='https://15750767173.github.io/hrbp-workbench/';
+function _fetchJsonWithFallback(name){
+  var urls=[_PRIMARY_BASE+name, name];
+  return urls.reduce(function(p,u){
+    return p.catch(function(){
+      return fetch(u+'?t='+Date.now(),{cache:'no-store'}).then(function(r){
+        if(!r.ok) throw new Error('HTTP '+r.status);
+        return r.json();
+      });
+    });
+  }, Promise.reject(new Error('start')));
+}
 function refreshData(silent,expect){
   const btn=document.getElementById('refreshBtn');
   if(btn&&!silent){btn.textContent='🔄 刷新中...';btn.disabled=true;}
@@ -626,12 +644,9 @@ function refreshData(silent,expect){
     finish(false,silent?null:'ℹ️ 已重新计算（当前即内置最新数据）');
     return;
   }
-  // 尝试从同目录加载最新数据（部署后同一URL下JSON被自动化更新）
+  // 尝试加载最新数据（主站优先，失败回退本域相对路径；部署后同一URL下JSON被自动化更新）
   // v7.77：加时间戳参数，绕过 CDN/浏览器对 JSON 的缓存（曾出现页面显示旧口径「昨日 1.05 万」）
-  fetch('dashboard_data_v7.json?t='+Date.now(),{cache:'no-store'}).then(res=>{
-    if(!res.ok)throw new Error('HTTP '+res.status);
-    return res.json();
-  }).then(newData=>{
+  _fetchJsonWithFallback('dashboard_data_v7.json').then(newData=>{
     if(!newData||!newData.overview)throw new Error('数据格式异常');
     // ── 动态取数链路（2026-10-31）──────────────────────────────
     // version.json 与 dashboard_data_v7.json 是两个独立文件，GitHub Pages 的
@@ -674,10 +689,8 @@ let _liveTimer=null,_liveVer=null,_liveMiss=0;
 function startAutoSync(){
   if(_liveTimer)return;
   const probe=()=>{
-    fetch('version.json?t='+Date.now(),{cache:'no-store'}).then(r=>{
-      if(!r.ok)throw new Error('HTTP '+r.status);
-      return r.json();
-    }).then(v=>{
+    // 2026-11-23：主站优先、本域快照兜底的版本戳探测（与 refreshData 同一条取数链）
+    _fetchJsonWithFallback('version.json').then(v=>{
       if(!v||!v.v)throw new Error('bad payload');
       _liveMiss=0;
       const lt=document.getElementById('liveTag');
