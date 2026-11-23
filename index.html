@@ -226,7 +226,7 @@ th,td{padding:5px 6px;}
 <div class="container" id="mainContent" style="display:none;">
 <div class="header">
 <h1>众辉宠物中心 · 个人经营工作台</h1>
-<div class="date">数据版本 v7.5 · 数据源：金山多维表（daily业绩+目标拆解+HRBP资料） · <span id="dataTime">最后更新：--</span><span id="buildStamp" style="margin-left:10px;color:#94a3b8;" title="页面内置数据快照时间">· 快照 2026-11-23 14:22</span> · <span id="dataCut" style="font-weight:600;"></span> · <span id="liveTag" style="color:#059669;font-weight:600;">● 自动跟随中</span></div>
+<div class="date">数据版本 v7.5 · 数据源：金山多维表（daily业绩+目标拆解+HRBP资料） · <span id="dataTime">最后更新：--</span><span id="buildStamp" style="margin-left:10px;color:#94a3b8;" title="页面内置数据快照时间">· 快照 2026-11-23 14:36</span> · <span id="dataCut" style="font-weight:600;"></span> · <span id="liveTag" style="color:#059669;font-weight:600;">● 自动跟随中</span></div>
 </div>
 <div class="range-bar">
 <label>统计区间：</label>
@@ -1450,6 +1450,43 @@ ${_rdy?`<div class="stat"><div class="num">${fmtW(_T.base)}万</div><div>基础�
       const _scCostArr = _scShow.map(function(mo){ const v=_scPick[mo].total_cost; return (v==null||isNaN(v))? null : +(v/10000).toFixed(2); });
       const _scRatioArr = _scShow.map(function(mo){ const v=_scPick[mo].cost_ratio; return (v==null||isNaN(v))? null : +v.toFixed(2); });
       const _scXLbl = _scShow.map(_scLbl);
+      // ⭐ 2026-11-23 用户要求：把数值直接标在图上（不必 hover 才看得到）
+      //   页面零外部依赖，不引 chartjs-plugin-datalabels，用 afterDatasetsDraw 自己画。
+      //   规则：净业绩标万元数、人工成本标万元数、成本占比标 %；首末点贴边对齐防出界；白描边保证压线可读。
+      const _dlFmtWan = function(v){ return v.toFixed(2); };
+      const _dlFmtPct = function(v){ return v.toFixed(1)+'%'; };
+      const _dlPlugin = {
+        id:'scDataLabel',
+        afterDatasetsDraw:function(chart){
+          const ctx = chart.ctx;
+          chart.data.datasets.forEach(function(ds,di){
+            if(!ds._dlFmt) return;
+            const meta = chart.getDatasetMeta(di);
+            if(!meta || meta.hidden) return;
+            ctx.save();
+            ctx.font = '700 9.5px "PingFang SC","Microsoft YaHei",Arial,sans-serif';
+            ctx.textBaseline = 'bottom';
+            ctx.lineJoin = 'round';
+            ctx.lineWidth = 3;
+            ctx.strokeStyle = 'rgba(255,255,255,0.95)';
+            ctx.fillStyle = ds._dlColor || ds.borderColor || '#333';
+            const n = ds.data.length;
+            meta.data.forEach(function(pt,i){
+              const v = ds.data[i];
+              if(v==null || isNaN(v)) return;      // 无数据月留空，不标 0
+              ctx.textAlign = (i===0) ? 'left' : ((i===n-1) ? 'right' : 'center');
+              const dx = (i===0) ? -3 : ((i===n-1) ? 3 : 0);
+              const t = ds._dlFmt(v);
+              ctx.strokeText(t, pt.x+dx, pt.y-7);
+              ctx.fillText(t, pt.x+dx, pt.y-7);
+            });
+            ctx.restore();
+          });
+        }
+      };
+      // 最新月三项（标题行直接标出，不用 hover）
+      const _scLastMo = _scShow[_scShow.length-1];
+      const _scLast = _scPick[_scLastMo] || {};
       setTimeout(function(){
         // ── 图 1：净业绩 + 人工总成本（同轴，万元）──
         const cv=document.getElementById(_chartId);
@@ -1461,25 +1498,28 @@ ${_rdy?`<div class="stat"><div class="num">${fmtW(_T.base)}万</div><div>基础�
               datasets:[
                 {label:'净业绩（万元）',data:_scNetArr,borderColor:'#764ba2',backgroundColor:'rgba(118,75,162,0.10)',
                  pointRadius:4,pointHoverRadius:6,pointBackgroundColor:'#764ba2',pointBorderColor:'#fff',pointBorderWidth:2,
-                 borderWidth:2.6,tension:0.3,fill:true,yAxisID:'y',spanGaps:true},
+                 borderWidth:2.6,tension:0.3,fill:true,yAxisID:'y',spanGaps:true,
+                 _dlFmt:_dlFmtWan,_dlColor:'#5b2d86'},
                 {label:'人工总成本（万元）',data:_scCostArr,borderColor:'#e8833a',backgroundColor:'#e8833a',
                  pointRadius:4,pointHoverRadius:6,pointBackgroundColor:'#e8833a',pointBorderColor:'#fff',pointBorderWidth:2,
-                 borderWidth:2.4,tension:0.3,fill:false,yAxisID:'y',spanGaps:true}
+                 borderWidth:2.4,tension:0.3,fill:false,yAxisID:'y',spanGaps:true,
+                 _dlFmt:_dlFmtWan,_dlColor:'#b45f16'}
               ]
             },
             options:{
               responsive:true,maintainAspectRatio:false,
-              layout:{padding:{top:10}},
+              layout:{padding:{top:20,right:8}},
               plugins:{
                 legend:{display:true,position:'top',align:'end',labels:{font:{size:11},boxWidth:14,boxHeight:8,padding:8,usePointStyle:true}},
                 tooltip:{mode:'index',intersect:false,callbacks:{label:function(c){ return c.dataset.label+': '+c.parsed.y.toFixed(2)+'万'; }}}
               },
               scales:{
-                y:{position:'left',beginAtZero:true,ticks:{callback:function(v){return v.toFixed(0)+'万';},font:{size:10},color:'#764ba2'},grid:{color:'#f3f0f8'},title:{display:true,text:'金额（万元）',font:{size:10},color:'#764ba2'}},
+                y:{position:'left',beginAtZero:true,ticks:{callback:function(v){return (Math.abs(v)<10 ? v.toFixed(1) : v.toFixed(0))+'万';},font:{size:10},color:'#764ba2'},grid:{color:'#f3f0f8'},title:{display:true,text:'金额（万元）',font:{size:10},color:'#764ba2'}},
                 x:{ticks:{font:{size:10},color:'#888'},grid:{display:false}}
               },
               interaction:{mode:'index',intersect:false}
-            }
+            },
+            plugins:[_dlPlugin]
           });
         }
         // ── 图 2：人工成本占净业绩（单独一张，%）──
@@ -1492,14 +1532,15 @@ ${_rdy?`<div class="stat"><div class="num">${fmtW(_T.base)}万</div><div>基础�
               datasets:[
                 {label:'人工成本占净业绩（%）',data:_scRatioArr,borderColor:'#0e9f6e',backgroundColor:'rgba(14,159,110,0.10)',
                  pointRadius:4,pointHoverRadius:6,pointBackgroundColor:'#0e9f6e',pointBorderColor:'#fff',pointBorderWidth:2,
-                 borderWidth:2.4,tension:0.3,fill:true,yAxisID:'y',spanGaps:true}
+                 borderWidth:2.4,tension:0.3,fill:true,yAxisID:'y',spanGaps:true,
+                 _dlFmt:_dlFmtPct,_dlColor:'#0b7a55'}
               ]
             },
             options:{
               responsive:true,maintainAspectRatio:false,
-              layout:{padding:{top:10}},
+              layout:{padding:{top:20,right:8}},
               plugins:{
-                legend:{display:true,position:'top',align:'end',labels:{font:{size:11},boxWidth:14,boxHeight:8,padding:8,usePointStyle:true}},
+                legend:{display:false},
                 tooltip:{mode:'index',intersect:false,callbacks:{label:function(c){ return c.dataset.label+': '+c.parsed.y.toFixed(1)+'%'; }}}
               },
               scales:{
@@ -1507,18 +1548,29 @@ ${_rdy?`<div class="stat"><div class="num">${fmtW(_T.base)}万</div><div>基础�
                 x:{ticks:{font:{size:10},color:'#888'},grid:{display:false}}
               },
               interaction:{mode:'index',intersect:false}
-            }
+            },
+            plugins:[_dlPlugin]
           });
         }
       },0);
+      // 最新月三项徽标（标题行直接可读，无需 hover）
+      const _scNetTxt = (_scLast.net_output>0) ? (_scLast.net_output/10000).toFixed(2)+' 万' : '-';
+      const _scCostTxt = (_scLast.total_cost==null||isNaN(_scLast.total_cost)) ? '-' : (_scLast.total_cost/10000).toFixed(2)+' 万';
+      const _scRatioTxt = (_scLast.cost_ratio==null) ? '-' : _scLast.cost_ratio.toFixed(1)+'%';
       html+='<div style="margin-top:20px;">';
-      html+='<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;"><span style="font-weight:600;font-size:13px;">📈 '+esc(d.name)+' · 净业绩与人工成本趋势（'+_scSpan+'）</span><span style="font-size:11px;color:#999;">单位：万元 · 同轴可比</span></div>';
-      html+='<div style="position:relative;height:250px;"><canvas id="'+_chartId+'"></canvas></div>';
+      html+='<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;flex-wrap:wrap;gap:6px;"><span style="font-weight:600;font-size:13px;">📈 '+esc(d.name)+' · 净业绩与人工成本趋势（'+_scSpan+'）</span>'
+        +'<span style="font-size:11px;color:#555;background:#f7f7fb;border:1px solid #eceaf4;border-radius:4px;padding:3px 8px;">'
+        +'<b style="color:#666;">'+esc(_scLbl(_scLastMo))+'</b>：净业绩 <b style="color:#764ba2;">'+_scNetTxt+'</b>'
+        +'　·　人工成本 <b style="color:#e8833a;">'+_scCostTxt+'</b>'
+        +'　·　占比 <b style="color:#0e9f6e;">'+_scRatioTxt+'</b></span></div>';
+      html+='<div style="position:relative;height:270px;"><canvas id="'+_chartId+'"></canvas></div>';
       html+='</div>';
       html+='<div style="margin-top:18px;">';
-      html+='<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;"><span style="font-weight:600;font-size:13px;">📉 '+esc(d.name)+' · 人工成本占净业绩比（'+_scSpan+'）</span><span style="font-size:11px;color:#999;">人工总成本 ÷ 净业绩</span></div>';
-      html+='<div style="position:relative;height:190px;"><canvas id="'+_chartId2+'"></canvas></div>';
-      html+='<div style="font-size:11px;color:#999;margin-top:4px;">净业绩取《众辉-宠物各部门汇总》「各部门净业绩汇总」（与多维表同源）；人工总成本=固定成本+浮动成本（含社保公积金分摊）；成本占比=人工总成本÷净业绩。区间与上方表格一致（2 月起至今）；无净业绩的月份留空不补零。</div>';
+      html+='<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;flex-wrap:wrap;gap:6px;"><span style="font-weight:600;font-size:13px;">📉 '+esc(d.name)+' · 人工成本占净业绩比（'+_scSpan+'）</span>'
+        +'<span style="font-size:11px;color:#555;background:#f4faf7;border:1px solid #e2f0ea;border-radius:4px;padding:3px 8px;">'
+        +esc(_scLbl(_scLastMo))+'：<b style="color:#0e9f6e;">'+_scRatioTxt+'</b>　（人工成本 '+_scCostTxt+' ÷ 净业绩 '+_scNetTxt+'）</span></div>';
+      html+='<div style="position:relative;height:200px;"><canvas id="'+_chartId2+'"></canvas></div>';
+      html+='<div style="font-size:11px;color:#999;margin-top:4px;">图上数值即当月原值（图 1 单位：万元，净业绩与人工成本同轴可比；图 2 单位：%）。净业绩取《众辉-宠物各部门汇总》「各部门净业绩汇总」（与多维表同源）；人工总成本=固定成本+浮动成本（含社保公积金分摊）；成本占比=人工总成本÷净业绩。区间与上方表格一致（2 月起至今）；无净业绩的月份留空不标注。</div>';
       html+='</div>';
     }
   }
