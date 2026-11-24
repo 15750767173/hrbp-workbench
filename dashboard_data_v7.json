@@ -232,7 +232,7 @@
       }
     ],
     "data_through_day": 23,
-    "generated_at": "2026-11-24 15:47",
+    "generated_at": "2026-11-24 16:54",
     "expect_day": 23,
     "dept_last_day": {
       "一部": 23,
@@ -40852,7 +40852,7 @@
         "created": "2026/11/13 17:29:15",
         "deadline": "",
         "done": "",
-        "progress": "未完成",
+        "progress": "已完成",
         "interviewee": null,
         "record": null
       },
@@ -40863,7 +40863,7 @@
         "created": "2026/11/13 17:29:28",
         "deadline": "",
         "done": "",
-        "progress": "未完成",
+        "progress": "已完成",
         "interviewee": null,
         "record": null
       },
@@ -42368,7 +42368,7 @@
         "owner": "罗思会",
         "creator": "罗思会",
         "created": "2026/11/24 11:02:35",
-        "deadline": "",
+        "deadline": "2026/11/24 19:00:00",
         "done": "",
         "progress": null,
         "interviewee": null,
@@ -42386,7 +42386,7 @@
         "record": null
       },
       {
-        "task": "新媒体一部郜晗琪优化",
+        "task": "创晖一部郜晗琪离职面谈（优化）",
         "owner": "杨蓓蕾",
         "creator": "许志远",
         "created": "2026/11/24 12:30:41",
@@ -42412,7 +42412,7 @@
         "owner": "罗思会",
         "creator": "许志远",
         "created": "2026/11/24 12:34:08",
-        "deadline": "",
+        "deadline": "2026/11/24 19:00:00",
         "done": "",
         "progress": "未完成",
         "interviewee": null,
@@ -42456,10 +42456,32 @@
         "owner": "罗思会",
         "creator": "罗思会",
         "created": "2026/11/24 15:43:50",
-        "deadline": "",
+        "deadline": "2026/11/24 19:00:00",
         "done": "",
         "progress": null,
         "interviewee": null,
+        "record": null
+      },
+      {
+        "task": "参与望辰周会",
+        "owner": "罗思会",
+        "creator": "罗思会",
+        "created": "2026/11/24 15:46:08",
+        "deadline": "2026/11/24 19:00:00",
+        "done": "",
+        "progress": null,
+        "interviewee": null,
+        "record": null
+      },
+      {
+        "task": "和煦八部李嘉琪离职面谈（优化）",
+        "owner": "杨蓓蕾",
+        "creator": null,
+        "created": "2026/11/24 16:38:26",
+        "deadline": "",
+        "done": "",
+        "progress": null,
+        "interviewee": "李嘉琪",
         "record": null
       }
     ],
@@ -60509,6 +60531,69 @@
         "time": "2026/11/24"
       },
       {
+        "name": "刘世豪",
+        "post": "新媒体编辑",
+        "chushi": "是",
+        "fushi": "是",
+        "offer": "已接",
+        "days": 0,
+        "time": "2026/11/24"
+      },
+      {
+        "name": "张燕菊",
+        "post": "新媒体编辑",
+        "chushi": "是",
+        "fushi": "否",
+        "offer": "",
+        "days": 0,
+        "time": "2026/11/24"
+      },
+      {
+        "name": "高新玉",
+        "post": "HRBP",
+        "chushi": "是",
+        "fushi": "",
+        "offer": "",
+        "days": 0,
+        "time": "2026/11/24"
+      },
+      {
+        "name": "毛鸿阳",
+        "post": "新媒体编辑",
+        "chushi": "是",
+        "fushi": "是",
+        "offer": "已接",
+        "days": -1,
+        "time": "2026/11/24"
+      },
+      {
+        "name": "刘素",
+        "post": "新媒体编辑",
+        "chushi": "是",
+        "fushi": "是",
+        "offer": "",
+        "days": 0,
+        "time": "2026/11/24"
+      },
+      {
+        "name": "刘梦言",
+        "post": "新媒体编辑",
+        "chushi": "是",
+        "fushi": "是",
+        "offer": "",
+        "days": 0,
+        "time": "2026/11/24"
+      },
+      {
+        "name": "卢希文",
+        "post": "PR专员",
+        "chushi": "是",
+        "fushi": "否",
+        "offer": "",
+        "days": 0,
+        "time": "2026/11/24"
+      },
+      {
         "name": "王品",
         "post": "新媒体编辑",
         "chushi": "是",
@@ -67617,69 +67702,6 @@
         "offer": "未接",
         "days": 0,
         "time": "2026/09/22"
-      },
-      {
-        "name": "夏云风",
-        "post": "出纳会计",
-        "chushi": "是",
-        "fushi": "否",
-        "offer": "",
-        "days": 0,
-        "time": "2026/09/22"
-      },
-      {
-        "name": "张盼",
-        "post": "新媒体编辑",
-        "chushi": "是",
-        "fushi": "是",
-        "offer": "已接",
-        "days": 56,
-        "time": "2026/09/21"
-      },
-      {
-        "name": "陈佳怡",
-        "post": "新媒体编辑组长",
-        "chushi": "是",
-        "fushi": "是",
-        "offer": "已接",
-        "days": 59,
-        "time": "2026/09/21"
-      },
-      {
-        "name": "董戈",
-        "post": "新媒体编辑",
-        "chushi": "是",
-        "fushi": "是",
-        "offer": "已接",
-        "days": 50,
-        "time": "2026/09/21"
-      },
-      {
-        "name": "邱安莉",
-        "post": "HRBP",
-        "chushi": "是",
-        "fushi": "是",
-        "offer": "",
-        "days": 0,
-        "time": "2026/09/21"
-      },
-      {
-        "name": "冯鹏妍",
-        "post": "新媒体编辑",
-        "chushi": "是",
-        "fushi": "是",
-        "offer": "已接",
-        "days": 26,
-        "time": "2026/09/21"
-      },
-      {
-        "name": "杜鑫琨",
-        "post": "新媒体编辑",
-        "chushi": "是",
-        "fushi": "是",
-        "offer": "已接",
-        "days": 42,
-        "time": "2026/09/21"
       }
     ],
     "shigang_note": "来源：sheet153 招聘数据表派生（sheet3「面试+试岗」已从文档移除）",
@@ -105155,8 +105177,8 @@
       {
         "id": 134,
         "name": "BP工作进度表",
-        "expected": 1056,
-        "local": 1056,
+        "expected": 1058,
+        "local": 1058,
         "state": "正常",
         "file": "_hr_bp.json",
         "cat": "HR流程",
@@ -105195,8 +105217,8 @@
       {
         "id": 153,
         "name": "招聘数据表",
-        "expected": 5518,
-        "local": 5518,
+        "expected": 5526,
+        "local": 5526,
         "state": "正常",
         "file": "_hr_ziliao153.json",
         "cat": "招聘",
@@ -105505,8 +105527,8 @@
       {
         "id": 228,
         "name": "招聘数据表(2)",
-        "expected": 5518,
-        "local": 5518,
+        "expected": 5526,
+        "local": 5526,
         "state": "正常",
         "file": "_ex_228.json",
         "cat": "招聘",
@@ -105523,12 +105545,12 @@
         "fields": 25
       }
     ],
-    "time": "2026-11-24 15:46:45",
+    "time": "2026-11-24 16:53:31",
     "total": 40,
     "ok": 40,
     "bad": [],
     "bad_names": [],
-    "records_total": 22240,
+    "records_total": 22258,
     "by_cat": {
       "HR流程": 2,
       "产品人员": 2,
@@ -105548,9 +105570,9 @@
     },
     "full_pull": {
       "ok": true,
-      "last_at": "2026-11-24 15:47",
+      "last_at": "2026-11-24 16:54",
       "age_h": 0.0,
-      "today_count": 6,
+      "today_count": 7,
       "daily": {
         "2026-11-17": 10,
         "2026-11-18": 10,
@@ -105558,12 +105580,12 @@
         "2026-11-20": 5,
         "2026-11-21": 6,
         "2026-11-23": 9,
-        "2026-11-24": 6
+        "2026-11-24": 7
       },
-      "runs": 80,
+      "runs": 81,
       "fail_streak": 0,
       "gap_h": 8,
-      "note": "最近一次全量 2026-11-24 15:47（0.0 小时前）· 今日已完成 6 轮"
+      "note": "最近一次全量 2026-11-24 16:54（0.0 小时前）· 今日已完成 7 轮"
     }
   },
   "dingtalk_org": {
@@ -113458,7 +113480,7 @@
         "post": "新媒体编辑",
         "level": "P1-P3",
         "need": 1.0,
-        "interview": 5.0,
+        "interview": 7.0,
         "offer": 2.0,
         "arrive": 1.0,
         "status": "已完成",
@@ -113469,7 +113491,7 @@
         "deadline": "2026/08/31",
         "salary": "4000-4500",
         "progress": 1.0,
-        "pass": 5.0
+        "pass": 7.0
       },
       {
         "no": "ZH2608156",
@@ -121178,7 +121200,7 @@
         "post": "PR专员",
         "level": "p1",
         "need": 1.0,
-        "interview": 4.0,
+        "interview": 5.0,
         "offer": 2.0,
         "arrive": 1.0,
         "status": "已完成",
@@ -121898,7 +121920,7 @@
         "post": "新媒体编辑",
         "level": "P1-P3",
         "need": 1.0,
-        "interview": 6.0,
+        "interview": 7.0,
         "offer": 3.0,
         "arrive": 0.0,
         "status": "",
@@ -122558,8 +122580,8 @@
         "post": "新媒体编辑",
         "level": "P1",
         "need": 1.0,
-        "interview": 3.0,
-        "offer": 0.0,
+        "interview": 4.0,
+        "offer": 1.0,
         "arrive": 0.0,
         "status": "",
         "urgency": "b",
@@ -122569,7 +122591,7 @@
         "deadline": "2026/11/30",
         "salary": "4000-5000",
         "progress": 0.0,
-        "pass": 0.0
+        "pass": 1.0
       },
       {
         "no": "ZH2611148",
@@ -122978,8 +123000,8 @@
         "post": "新媒体编辑",
         "level": "P1",
         "need": 1.0,
-        "interview": 7.0,
-        "offer": 3.0,
+        "interview": 8.0,
+        "offer": 4.0,
         "arrive": 0.0,
         "status": "",
         "urgency": "a",
@@ -122989,7 +123011,7 @@
         "deadline": "2026/11/30",
         "salary": "4000-5000",
         "progress": 0.0,
-        "pass": 4.0
+        "pass": 5.0
       },
       {
         "no": "ZH2611169",
@@ -123421,7 +123443,7 @@
         "interview": 3.0,
         "offer": 1.0,
         "arrive": 1.0,
-        "status": "",
+        "status": "已完成",
         "urgency": "b",
         "import": "一类",
         "owner": "盛琦雅",
@@ -123978,7 +124000,7 @@
         "post": "HRBP",
         "level": "",
         "need": 1.0,
-        "interview": 0.0,
+        "interview": 1.0,
         "offer": 0.0,
         "arrive": 0.0,
         "status": "",
@@ -124638,8 +124660,8 @@
         "post": "新媒体编辑",
         "level": "p2-p3",
         "need": 1.0,
-        "interview": 1.0,
-        "offer": 1.0,
+        "interview": 2.0,
+        "offer": 2.0,
         "arrive": 0.0,
         "status": "",
         "urgency": "c",
@@ -124649,7 +124671,7 @@
         "deadline": "2026/11/20",
         "salary": "4000-5000",
         "progress": 0.0,
-        "pass": 1.0
+        "pass": 2.0
       },
       {
         "no": "ZH2611093",
@@ -124744,7 +124766,7 @@
         "status": "",
         "urgency": "b",
         "import": "一类",
-        "owner": "",
+        "owner": "李彦鹏",
         "apply": "2026/11/02",
         "deadline": "2026/11/30",
         "salary": "4000-5000",
@@ -125658,8 +125680,8 @@
         "post": "新媒体编辑",
         "level": "P1-P3",
         "need": 1.0,
-        "interview": 4.0,
-        "offer": 2.0,
+        "interview": 3.0,
+        "offer": 1.0,
         "arrive": 1.0,
         "status": "已完成",
         "urgency": "a",
@@ -125669,7 +125691,7 @@
         "deadline": "2026/11/30",
         "salary": "4000-5000",
         "progress": 1.0,
-        "pass": 2.0
+        "pass": 1.0
       },
       {
         "no": "ZH2611226",
@@ -126115,13 +126137,13 @@
     "stat": {
       "total": 784,
       "need_total": 784.0,
-      "interview_total": 1866.0,
-      "offer_total": 766.0,
+      "interview_total": 1873.0,
+      "offer_total": 768.0,
       "arrive_total": 562.0,
       "gap": 222.0,
       "fill_rate": 71.68,
       "by_status": {
-        "已完成": 561,
+        "已完成": 562,
         "终止": 95,
         "未完成": 46
       },
@@ -126192,9 +126214,9 @@
   },
   "recruit_funnel": {
     "stat": {
-      "total": 5518,
+      "total": 5526,
       "by_source": {
-        "BOSS": 4898,
+        "BOSS": 4906,
         "(未填)": 370,
         "内推": 109,
         "海鸥": 60,
@@ -126205,11 +126227,11 @@
         "猎聘": 1
       },
       "by_stage": {
-        "其他/未推进": 1924,
+        "其他/未推进": 1925,
         "到岗": 1316,
-        "过初试": 1121,
-        "已发offer未到岗": 704,
-        "过复试": 453
+        "过初试": 1124,
+        "已发offer未到岗": 706,
+        "过复试": 455
       },
       "interview_months": {
         "1900年01月": 362,
@@ -126232,7 +126254,7 @@
         "2026年08月": 456,
         "2026年09月": 334,
         "2026年10月": 555,
-        "2026年11月": 512
+        "2026年11月": 520
       },
       "arrive_months": {
         "2025年04月": 39,
@@ -126254,7 +126276,7 @@
         "2026年08月": 185,
         "2026年09月": 144,
         "2026年10月": 208,
-        "2026年11月": 226,
+        "2026年11月": 228,
         "2026年12月": 1
       },
       "leave_months": {
@@ -126286,14 +126308,14 @@
         "张帅涛": 1000,
         "柴鑫雅": 576,
         "杨蓓蕾": 460,
-        "刘晓颖": 437,
+        "刘晓颖": 439,
         "霍怡彤": 429,
         "原桠栋": 359,
         "李盼盼": 289,
         "李彦鹏": 252,
         "高秋慧": 174,
         "严美淇": 167,
-        "张珂": 146,
+        "张珂": 152,
         "晋素敏": 135
       }
     },
@@ -126939,7 +126961,7 @@
         "month": "0"
       }
     ],
-    "src": "招聘数据表（sheet228）共 5518 条候选人记录"
+    "src": "招聘数据表（sheet228）共 5526 条候选人记录"
   },
   "recruit_ledger": {
     "rows": [
@@ -141669,7 +141691,7 @@
     "meta": {
       "source": "薪资分析表 https://www.kdocs.cn/l/cl2TM7jxNsuN",
       "net_source": "净业绩取《众辉-宠物各部门汇总》sheet13「各部门净业绩汇总」（陈总列=宠元气友组）",
-      "generated_at": "2026-11-24 15:47:29",
+      "generated_at": "2026-11-24 16:54:07",
       "scope": "仅部门级汇总；不含任何个人薪资明细",
       "show_from": "2026-05",
       "metric_note": {
@@ -144532,7 +144554,7 @@
     "meta": {
       "source": "《宠物种草经营计划表》https://www.kdocs.cn/l/cechWAfs4BoY",
       "source_sheets": "sheet9 部门一级科目 / sheet10 部门二级科目 / sheet7 偏差度",
-      "generated_at": "2026-11-24 15:47:29",
+      "generated_at": "2026-11-24 16:54:07",
       "scope": "仅部门级与科目级汇总；不含任何个人金额",
       "caliber_note": {
         "revenue": "财务确认的主营业务收入；与工作台「净业绩」同源但确认口径略严（实测 2026-10 各部门差 +0.9%~+6.3%），两者不可互相替换、不并入四源门禁",
