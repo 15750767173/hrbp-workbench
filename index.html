@@ -63,7 +63,7 @@
   --c-down:#059669;           /* 下跌/负向 */
   --c-warn:#d97706;           /* 警示/待录入 */
   --c-info:#0891b2;           /* 信息 */
-  --c-danger:#ef4444;         /* 强警示（异常中心） */
+  --c-danger:#ef4444;         /* 强警示（各部门预警平台） */
   /* 中性灰阶（三级层次） */
   --c-bg:#f7f8fb;             /* 页面底（纯色回退） */
   --c-surface:#ffffff;        /* 卡片面 */
@@ -226,7 +226,7 @@ th,td{padding:5px 6px;}
 <div class="container" id="mainContent" style="display:none;">
 <div class="header">
 <h1>众辉宠物中心 · 个人经营工作台</h1>
-<div class="date">数据版本 v7.5 · 数据源：金山多维表（daily业绩+目标拆解+HRBP资料） · <span id="dataTime">最后更新：--</span><span id="buildStamp" style="margin-left:10px;color:#94a3b8;" title="页面内置数据快照时间">· 快照 2026-11-24 09:07</span> · <span id="dataCut" style="font-weight:600;"></span> · <span id="liveTag" style="color:#059669;font-weight:600;">● 自动跟随中</span></div>
+<div class="date">数据版本 v7.5 · 数据源：金山多维表（daily业绩+目标拆解+HRBP资料） · <span id="dataTime">最后更新：--</span><span id="buildStamp" style="margin-left:10px;color:#94a3b8;" title="页面内置数据快照时间">· 快照 2026-11-24 10:14</span> · <span id="dataCut" style="font-weight:600;"></span> · <span id="liveTag" style="color:#059669;font-weight:600;">● 自动跟随中</span></div>
 </div>
 <div class="range-bar">
 <label>统计区间：</label>
@@ -777,7 +777,7 @@ function init(){
   tc.innerHTML='';
   let tabs=[{name:'🏠 首页总览',key:'overview'},
             {name:'📊 各部门今日总览',key:'today',grp:true},
-            {name:'⚠️ 异常中心',key:'warn',grp:true}];
+            {name:'🚨 各部门预警平台',key:'warn',grp:true}];
   // 部门 Tab：固定顺序（创晖/昭荣/慧晟/晗盛/昱升/元启），标签=「新名 主管姓名」
   let deptTabs = DEPT_ORDER_FIXED
     .map(n => DEPTS.find(d => d && d.name === n))
@@ -808,7 +808,7 @@ function init(){
     div.innerHTML=renderTab(t.key);
     tc.appendChild(div);
   });
-  // 异常中心默认刷新一次
+  // 各部门预警平台默认刷新一次
   if(window.renderWarn)setTimeout(()=>{},50);
 }
 
@@ -2499,161 +2499,453 @@ ${_rdy?`<div class="stat"><div class="num">${fmtW(_T.base)}万</div><div>基础�
   return html;
 }
 
-/* ───────────── 异常中心 ───────────── */
+/* ───────────── 各部门预警平台 ───────────── */
+/* 2026-11-24 v7.79 预警重构（用户定性：预警过多就失去了预警的意义）
+   ────────────────────────────────────────────────────────────────
+   根因（已用数据核实，不是阈值松紧问题）：
+     原规则1-3 依赖 targets_9 的 daily_keys，而该键在 gen_v7.py:1796 是用**写死的
+     2026-08 产品快照**匹配生成的；11 月产品名与 8 月已不一致 →
+     60 个有个人目标的人 daily_keys 全空、17 个有目标小组 16 个空、23 个产品 20 个空
+     → sumKeysRange 恒返回 0 → 「0 < 阈值」对每个人都必然成立 →
+     59 条个人预警与业绩好坏无关（一部魏姚鑫 7 月净业绩 25 万，照样天天被报）。
+   本版做法：
+     ① 预警内部独立挂键（用当月实时产品名做保守匹配），**不改动全局 targets 数据**；
+     ② 键挂不上时直接跳过判定，绝不用 0 冒充「业绩为 0」；
+     ③ 分三档：P0 经营破线（给部门负责人）/ P1 组织与人（HRBP 处置）/ P2 明细（折叠）。
+*/
+var _W_MONTH = TODAY_STR.slice(0,7);
+var _W_MSTART = _W_MONTH + '-01';
+var _W_BRANDS = ['uiko','Uiko','UIKO','冬马','虎太郎','幽兔','映鹿','桂姨','优小可','元气友'];
+var _W_KCACHE = {};
+/* 目标表产品名 → 日表实际产品名（一对多）；只登记已人工确认等价的同义词组 */
+var _W_SYN = {
+  '映鹿鱼油':['映鹿乳化鱼油'],
+  '桂姨乳鸽猫粮':['桂姨烘焙猫粮','桂姨膨化猫粮'],
+  '桂姨乳鸽粮':['桂姨烘焙猫粮','桂姨膨化猫粮']
+};
+function _wNorm(s){
+  var t=String(s==null?'':s), ps=[['（','）'],['(',')']];
+  for(var i=0;i<ps.length;i++){
+    var a=ps[i][0], b=ps[i][1], out='', depth=0;
+    for(var j=0;j<t.length;j++){
+      var c=t.charAt(j);
+      if(c===a){depth++;continue;}
+      if(c===b){if(depth>0)depth--;continue;}
+      if(depth===0)out+=c;
+    }
+    t=out;
+  }
+  return t.split('日汇总').join('').trim();
+}
+function _wCore(s){
+  var t=_wNorm(s);
+  for(var i=0;i<_W_BRANDS.length;i++)t=t.split(_W_BRANDS[i]).join('');
+  t=t.split('试吃').join('').split(' ').join('');
+  t=t.replace(/[0-9]/g,'');
+  return t.trim();
+}
+function _wBrandOf(s){
+  var t=String(s==null?'':s).toLowerCase();
+  for(var i=0;i<_W_BRANDS.length;i++){
+    if(t.indexOf(_W_BRANDS[i].toLowerCase())>=0)return _W_BRANDS[i].toLowerCase();
+  }
+  return '';
+}
+function _wHit(dailyName,targetName){
+  var a=_wNorm(dailyName), b=_wNorm(targetName);
+  if(!a||!b)return 0;
+  if(a===b)return 5;
+  /* 跨品牌一律不认：'uiko爆珠猫粮' 绝不允许匹配到 '冬马猫粮'（曾错配） */
+  var bd=_wBrandOf(dailyName), bt=_wBrandOf(targetName);
+  if(bd&&bt&&bd!==bt)return 0;
+  if(a.length>=2&&a.indexOf(b)>=0&&a.length-b.length<=3)return 3;
+  if(b.length>=2&&b.indexOf(a)>=0&&b.length-a.length<=3)return 3;
+  var ca=_wCore(dailyName), cb=_wCore(targetName);
+  if(ca.length>=2&&ca===cb)return 4;
+  /* 去品牌后包含：要求较短一方 ≥3 字，避免「猫粮」「鱼油」这类通用词乱命中 */
+  if(ca.length>=3&&cb.length>=3){
+    if(ca.indexOf(cb)>=0&&ca.length-cb.length<=2)return 2;
+    if(cb.indexOf(ca)>=0&&cb.length-ca.length<=2)return 2;
+  }
+  return 0;
+}
+function _wPool(dn){
+  var dd=DS[dn]||{}, seen={}, out=[];
+  for(var k in dd){
+    var v=dd[k]; if(!v||!v.p)continue;
+    for(var nm in v.p){ if(!seen[nm]){seen[nm]=1;out.push(nm);} }
+  }
+  return out;
+}
+function _wKeysOf(dn,targetName){
+  var pool=_wPool(dn), out=[];
+  var parts=String(targetName==null?'':targetName).split(/[+/、，,]/);
+  for(var i=0;i<parts.length;i++){
+    var pt=parts[i].trim(); if(pt.length<2)continue;
+    if(_W_SYN[pt]){
+      _W_SYN[pt].forEach(function(sn){ if(pool.indexOf(sn)>=0&&out.indexOf(sn)<0)out.push(sn); });
+      continue;
+    }
+    var best=null,bs=0;
+    for(var j=0;j<pool.length;j++){
+      var sc=_wHit(pool[j],pt);
+      if(sc>bs||(sc===bs&&sc>0&&best&&pool[j].length<best.length)){bs=sc;best=pool[j];}
+    }
+    if(best&&out.indexOf(best)<0)out.push(best);
+  }
+  return out;
+}
+function _wKeys(dn,pn){
+  var k=dn+'|'+pn;
+  if(!(k in _W_KCACHE))_W_KCACHE[k]=_wKeysOf(dn,pn);
+  return _W_KCACHE[k];
+}
+function _wRangeTotal(dn,a,b){
+  var dd=DS[dn]||{},s=0;
+  for(var k in dd){ if(k>=a&&k<=b)s+=(dd[k].t||0); }
+  return s;
+}
+function _wMtd(dn){ return _wRangeTotal(dn,_W_MSTART,TODAY_STR); }
+function _wThousands(v){
+  var n=Math.round(v), neg=n<0; if(neg)n=-n;
+  var s=String(n), out='', c=0;
+  for(var i=s.length-1;i>=0;i--){ out=s.charAt(i)+out; c++; if(c%3===0&&i>0)out=','+out; }
+  return (neg?'-':'')+out;
+}
+
 function renderWarn(){
-  const r=RANGE;
-  const todayStr=TODAY_STR;
-  const warns=[];
-  // 周度范围：本周(周一~今天) 与 上周(完整周)
-  const tw=thisWeekRange(todayStr);
-  const lw=lastWeekRange(todayStr);
-  // 本周进度折算（本周还没过完）：已过天数/7
+  _W_KCACHE={};
+  const tw=thisWeekRange(TODAY_STR), lw=lastWeekRange(TODAY_STR);
   const thisDays=diffDays(tw.start,tw.end)+1;
   const weekRatio=thisDays/7;
+  const dom=Number(TODAY_STR.slice(8,10))||1;
+  const dim=new Date(TODAY.getFullYear(),TODAY.getMonth()+1,0).getDate();
+  const left=Math.max(0,dim-dom);
+  const P0=[],P1=[],P2=[];
+  var dropped=0;
+  const HR_LEFT_SET=new Set((HR.zaizhi||[]).filter(x=>x&&x.status&&x.status!=='在职').map(x=>x.name));
 
-  // ── 规则1: 产品连续两周周度实际 < 月度目标25%（9月目标待录入 → 暂停，避免8月目标误判9月）──
+  /* ══ P0-1 全中心与部门破线预测 ══ */
+  const rows=[];
   DEPTS.forEach(d=>{
-    if(!TARGET_READY)return;
-    d.groups.forEach(g=>{
-      g.products.forEach(p=>{
+    const tgt=d.base_target_total||0;
+    if(!tgt)return;
+    const act=_wMtd(d.name);
+    const daily=dom>0?act/dom:0;
+    const proj=dom>0?act/dom*dim:0;
+    rows.push({name:d.name,act:act,tgt:tgt,passed:act/tgt,proj:proj/tgt,
+               need:left>0?Math.max(0,tgt-act)/left:0,daily:daily,gap:Math.max(0,tgt-act)});
+  });
+  const totAct=rows.reduce((s,x)=>s+x.act,0);
+  const totTgt=rows.reduce((s,x)=>s+x.tgt,0);
+  const totProj=totTgt>0?((totAct/dom*dim)/totTgt):0;
+  const totDaily=dom>0?totAct/dom:0;
+  const totNeed=left>0?Math.max(0,totTgt-totAct)/left:0;
+  if(totTgt>0){
+    var tb='<table style="width:100%;border-collapse:collapse;font-size:12px;margin-top:8px;">';
+    tb+='<tr style="color:var(--t-3);"><th style="text-align:left;padding:4px 6px;font-weight:600;">部门</th><th style="text-align:right;padding:4px 6px;font-weight:600;">MTD(万)</th><th style="text-align:right;padding:4px 6px;font-weight:600;">目标(万)</th><th style="text-align:right;padding:4px 6px;font-weight:600;">已过</th><th style="text-align:right;padding:4px 6px;font-weight:600;">月末预测</th><th style="text-align:right;padding:4px 6px;font-weight:600;">剩余需日均</th></tr>';
+    rows.slice().sort((a,b)=>a.proj-b.proj).forEach(x=>{
+      const col=x.proj<0.3?'var(--c-danger)':(x.proj<0.5?'var(--c-up)':'var(--t-1)');
+      tb+='<tr style="border-top:1px solid var(--c-line);"><td style="padding:4px 6px;">'+esc(x.name)+'</td>'
+        +'<td style="text-align:right;padding:4px 6px;">'+fmtW(x.act)+'</td>'
+        +'<td style="text-align:right;padding:4px 6px;color:var(--t-3);">'+fmtW(x.tgt)+'</td>'
+        +'<td style="text-align:right;padding:4px 6px;">'+(x.passed*100).toFixed(1)+'%</td>'
+        +'<td style="text-align:right;padding:4px 6px;font-weight:700;color:'+col+';">'+(x.proj*100).toFixed(1)+'%</td>'
+        +'<td style="text-align:right;padding:4px 6px;">'+fmtW(x.need)+' 万/天</td></tr>';
+    });
+    tb+='</table>';
+    P0.push({level:totProj<0.7?'high':'mid',tag:'全中心破线',
+      title:'11月全中心预计完成 '+(totProj*100).toFixed(1)+'%，缺口 '+fmtW(Math.max(0,totTgt-totAct))+' 万',
+      detail:'已过 '+dom+'/'+dim+' 天 ｜ MTD '+fmtW(totAct)+' 万 ÷ 目标 '+fmtW(totTgt)+' 万 = '+(totAct/totTgt*100).toFixed(1)
+        +'% ｜ 按当前日均 '+fmtW(totDaily)+' 万线性外推，月末 '+fmtW(totDaily*dim)+' 万 ｜ 剩余 '+left+' 天需日均 '
+        +fmtW(totNeed)+' 万（现日均的 '+(totDaily>0?(totNeed/totDaily).toFixed(1):'-')+' 倍）',
+      html:tb});
+  }
+  /* P0-2 部门极危：预测完成率 <30%，最多 3 条 */
+  rows.filter(x=>x.proj<0.30).sort((a,b)=>a.proj-b.proj).slice(0,3).forEach(x=>{
+    P0.push({level:'high',tag:'部门极危',
+      title:x.name+' 月末预计仅 '+(x.proj*100).toFixed(1)+'%，缺口 '+fmtW(x.gap)+' 万',
+      detail:'MTD '+fmtW(x.act)+' 万 / 目标 '+fmtW(x.tgt)+' 万（'+(x.passed*100).toFixed(1)+'%）｜当前日均 '+fmtW(x.daily)
+        +' 万 ｜ 剩余 '+left+' 天需日均 '+fmtW(x.need)+' 万（'+(x.daily>0?(x.need/x.daily).toFixed(1):'-')+' 倍）'});
+  });
+  /* P0-3 断崖下滑：部门周环比 ≤ -30% 且上周 >5 万，最多 2 条 */
+  var slides=[];
+  if(thisDays>=3){                      // 本周不足 3 天（如周一/周二）周环比无意义，不判
+    DEPTS.forEach(d=>{
+      const lAct=_wRangeTotal(d.name,lw.start,lw.end);
+      const tAct=_wRangeTotal(d.name,tw.start,tw.end);
+      if(tAct<=0)return;                // 本周尚未回传或为负（退货日）→ 不判
+      if(lAct>50000 && tAct<lAct*0.7){
+        slides.push({name:d.name,l:lAct,t:tAct,r:(tAct-lAct)/lAct,wk:tAct/thisDays*7});
+      }
+    });
+  }
+  slides.sort((a,b)=>a.r-b.r).slice(0,2).forEach(s=>{
+    P0.push({level:'high',tag:'断崖下滑',
+      title:s.name+' 本周环比 '+(s.r*100).toFixed(0)+'%（'+fmtW(s.l)+' → '+fmtW(s.t)+' 万）',
+      detail:'上周完整周 '+fmtW(s.l)+' 万 → 本周至 '+tw.end.slice(5)+' '+fmtW(s.t)+' 万 ｜ 本周已过 '+thisDays+'/7 天，折算全周约 '+fmtW(s.wk)+' 万'});
+  });
+  /* P0-4 人工成本红线（最近有薪资月份，占比 >30%；八部为新部门不纳入） */
+  var A2D={'创晖一部':'一部','昭荣二部':'二部','慧晟三部':'三部','晗盛六部':'六部','昱升七部':'七部','元启':'宠元气友组','和煦八部':'八部'};
+  var scAll=(DATA.salary_cost&&DATA.salary_cost.by_month)||{};
+  var scMonths=Object.keys(scAll).sort();
+  var scM=scMonths.length?scMonths[scMonths.length-1]:'';
+  if(scM){
+    var over=[];
+    (scAll[scM]||[]).forEach(r=>{
+      var dn=A2D[r.dept_raw]; if(!dn||dn==='八部')return;
+      var c=r.total_cost||0, n=r.net_output||0;
+      if(!c||!n)return;
+      var ratio=c/n;
+      if(ratio>0.30)over.push({name:dn,ratio:ratio,cost:c,net:n});
+    });
+    over.sort((a,b)=>b.ratio-a.ratio).slice(0,2).forEach(o=>{
+      P0.push({level:'mid',tag:'成本红线',
+        title:o.name+' 人工成本占净业绩 '+(o.ratio*100).toFixed(1)+'%（超 30% 失血线）',
+        detail:scM.slice(5)+'月：人工总成本 '+fmtW(o.cost)+' 万，净业绩 '+fmtW(o.net)+' 万 ｜ 参考线 30%，全中心 10 月为 18.9%'});
+    });
+  }
+
+  /* ══ P1-1 零产出堆积（连续两周周产出为 0，按部门聚合） ══ */
+  var zeroByDept=[];
+  DEPTS.forEach(d=>{
+    var z=[];
+    (d.persons||[]).forEach(p=>{
+      if(!p.person_base)return;
+      if(HR_LEFT_SET.has(p.name))return;
+      var keys=_wKeys(d.name,p.product);
+      if(!keys.length){ dropped++; return; }
+      var la=sumKeysRange(d.name,keys,lw.start,lw.end);
+      var ta=sumKeysRange(d.name,keys,tw.start,tw.end);
+      if(la<=0&&ta<=0)z.push(p.name);
+    });
+    if(z.length)zeroByDept.push({dept:d.name,n:z.length,names:z});
+  });
+  zeroByDept.sort((a,b)=>b.n-a.n).slice(0,4).forEach(x=>{
+    P1.push({level:'high',tag:'零产出堆积',
+      title:x.dept+' '+x.n+' 人连续两周零业绩',
+      detail:'上周 '+lw.start.slice(5)+'~'+lw.end.slice(5)+' 与 本周 '+tw.start.slice(5)+'~'+tw.end.slice(5)+' 均为 0，且名下有个人目标 ｜ 名单：'+x.names.join('、')});
+  });
+  /* P1-2 人才滑坡（核心/潜力库内，连续两周零产出） */
+  var talents=[];
+  (HR.hexin||[]).forEach(t=>talents.push({name:t.name,lv:'核心'}));
+  (HR.qianli||[]).forEach(t=>talents.push({name:t.name,lv:'潜力'}));
+  var slideT=[];
+  talents.forEach(t=>{
+    var hit=null;
+    for(var di=0;di<DEPTS.length;di++){
+      var d=DEPTS[di];
+      var ps=(d.persons||[]).filter(x=>x.name===t.name);
+      if(ps.length){ hit={d:d,p:ps[0]}; break; }
+    }
+    if(!hit)return;
+    var keys=_wKeys(hit.d.name,hit.p.product);
+    if(!keys.length)return;
+    var la=sumKeysRange(hit.d.name,keys,lw.start,lw.end);
+    var ta=sumKeysRange(hit.d.name,keys,tw.start,tw.end);
+    if(la<=0&&ta<=0)slideT.push({name:t.name,dept:hit.d.name,lv:t.lv});
+  });
+  slideT.slice(0,3).forEach(s=>{
+    P1.push({level:'mid',tag:'人才滑坡',
+      title:(s.lv==='核心'?'【核心人才】':'【潜力人才】')+' '+s.name+'（'+s.dept+'）连续两周零业绩',
+      detail:'该员工在核心/潜力人才库内，近两周无业绩产出 ｜ 建议面谈确认状态，必要时调整产品分配或目标'});
+  });
+  /* P1-3 新人未达标（人效表新人窗口内标 ✘，按部门聚合） */
+  var mef=DATA.month_eff_full||{};
+  var nbBad=[];
+  Object.keys(mef).forEach(dn=>{
+    var nb=(mef[dn]&&mef[dn].newbies)||[];
+    var bad=0,tot=0;
+    nb.forEach(x=>{
+      var anyBad=false;
+      ['aug','sep','oct','nov'].forEach(k=>{
+        var s=String(x[k]==null?'':x[k]);
+        if(s.indexOf('✘')>=0||s.indexOf('✗')>=0)anyBad=true;
+      });
+      if(String(x.nov==null?'':x.nov).trim()!==''){ tot++; if(anyBad)bad++; }
+    });
+    if(bad>0)nbBad.push({dept:dn,bad:bad,tot:tot});
+  });
+  nbBad.sort((a,b)=>b.bad-a.bad).slice(0,3).forEach(x=>{
+    P1.push({level:'mid',tag:'新人未达标',
+      title:x.dept+' 新人 '+x.bad+' 人未达窗口目标（当月有产出 '+x.tot+' 人）',
+      detail:'口径：入职窗口内月产出低于标准标 ✘ ｜ 源：《人效分析表》新人区块 ｜ 建议逐个核对带教动作与产品分配'});
+  });
+  /* P1-4 人效偏低（当月 MTD 人效 < 全中心同期均值 50%） */
+  var effVals=[];
+  Object.keys(mef).forEach(dn=>{
+    var m=(mef[dn]&&mef[dn].metrics)||{};
+    var raw=String((m.avg_eff||{})[TODAY_STR.slice(0,7)]==null?'':(m.avg_eff||{})[TODAY_STR.slice(0,7)]).split(',').join('');
+    var v=parseFloat(raw);
+    if(!isNaN(v)&&v>0)effVals.push({dept:dn,v:v});
+  });
+  if(effVals.length){
+    var avgEff=effVals.reduce((s,x)=>s+x.v,0)/effVals.length;
+    effVals.filter(x=>x.v<avgEff*0.5).sort((a,b)=>a.v-b.v).forEach(x=>{
+      P1.push({level:'mid',tag:'人效偏低',
+        title:x.dept+' 当月人效 '+_wThousands(x.v)+' 元（全中心均值 '+_wThousands(avgEff)+' 元）',
+        detail:'MTD 人效 = 当月产出 ÷ 平均在岗人数 ｜ 低于均值 50%，需核查试用/试岗占比与产品分配'});
+    });
+  }
+  /* P1-5 结构风险：试用+试岗占比 >40% */
+  var zz=(HR.zaizhi||[]).filter(x=>x&&x.status==='在职');
+  var PET_D={'一部':['创晖一部'],'二部':['昭荣二部'],'三部':['慧晟三部'],'六部':['晗盛六部'],'七部':['昱升七部'],'宠元气友组':['元启'],'八部':['和煦八部']};
+  var structRows=[];
+  Object.keys(PET_D).forEach(dn=>{
+    if(dn==='八部')return;              // 八部 10 月起新设，全员试用/试岗属正常建制，不判结构风险
+    var mine=zz.filter(x=>PET_D[dn].indexOf(x.dept2)>=0);
+    if(!mine.length)return;
+    var trial=mine.filter(x=>x.stage==='试用期'||x.stage==='试岗').length;
+    structRows.push({dept:dn,trial:trial,tot:mine.length,ratio:trial/mine.length});
+  });
+  structRows.filter(x=>x.ratio>=0.40).sort((a,b)=>b.ratio-a.ratio).slice(0,2).forEach(x=>{
+    P1.push({level:'mid',tag:'结构风险',
+      title:x.dept+' 试用+试岗 '+x.trial+'/'+x.tot+' 人（'+(x.ratio*100).toFixed(0)+'%）',
+      detail:'试用/试岗占比过高 → 产出不稳定、带教负荷集中在少数老人；建议对照编制与人效决定转正节奏'});
+  });
+  /* P1-6 待接入说明（不编造数据） */
+  var nZero=zeroByDept.reduce((a,x)=>a+x.n,0);
+  P1.push({level:'info',tag:'扫描覆盖',
+    title:'本次扫描：零产出堆积 '+nZero+' 人 · 人才滑坡 '+slideT.length+' 人（均无风险即不报）',
+    detail:'已扫描：部门破线 7 个、零产出堆积（连续两周零业绩）'+nZero+' 人、核心/潜力 '+talents.length+' 人、新人窗口、部门人效、试用+试岗占比 ｜ 暂缺字段未生成：① 试用/试岗到期（排班表 hire_date 全空）② 低业绩未面谈（面谈 547 条 date 全空），补齐即可自动生效。'});
+
+  /* ══ P2 明细（原规则 1-4 改用当月实时归属键重算；键挂不上直接跳过） ══ */
+  DEPTS.forEach(d=>{
+    var bad=[];
+    (d.groups||[]).forEach(g=>{
+      (g.products||[]).forEach(p=>{
         if(!p.base_target)return;
-        const thresh=p.base_target*0.25;
-        const thisAct=sumKeysRange(d.name,p.daily_keys||[],tw.start,tw.end);
-        const lastAct=sumKeysRange(d.name,p.daily_keys||[],lw.start,lw.end);
-        // 本周按进度折算（避免本周未结束误报），上周完整周对比
-        const thisCheck=thisAct<thresh*weekRatio;
-        const lastCheck=lastAct<thresh;
-        if(lastCheck&&thisCheck){
-          warns.push({level:'high',dept:d.name,tag:'产品连续两周<25%',title:`${d.name}·${p.name} 连续两周低于目标25%`,
-            detail:`上周(${lw.start.slice(5)}~${lw.end.slice(5)}): ${fmtW(lastAct)}万，本周(${tw.start.slice(5)}~${tw.end.slice(5)}): ${fmtW(thisAct)}万；月目标25%阈值: ${fmtW(thresh)}万`});
-        } else if(lastCheck){
-          warns.push({level:'mid',dept:d.name,tag:'产品上周<25%',title:`${d.name}·${p.name} 上周低于目标25%`,
-            detail:`上周(${lw.start.slice(5)}~${lw.end.slice(5)}): ${fmtW(lastAct)}万 < 月目标25%: ${fmtW(thresh)}万`});
-        }
+        var keys=_wKeys(d.name,p.name);
+        if(!keys.length){ dropped++; return; }
+        var th=p.base_target*0.25;
+        var la=sumKeysRange(d.name,keys,lw.start,lw.end);
+        var ta=sumKeysRange(d.name,keys,tw.start,tw.end);
+        if(la<th&&ta<th*weekRatio)bad.push(p.name);
       });
     });
+    if(bad.length)P2.push({dept:d.name,kind:'产品',n:bad.length,names:bad});
   });
-  // ── 规则2: 个人连续两周周度实际 < 个人月目标25%（9月目标待录入 → 暂停）──
-  // 【2026-09-22 修复】离职人员不得再出「个人目标未达成」预警：
-  //   targets_9 不剔除离职人员（KnownByDesign），仍挂着 person_base，
-  //   于是自离/淘汰者（黄若菲·自离、蒋召周·淘汰、柳静珂·自离、雍梦鸽·自离）
-  //   会持续产生「连续两周低于个人目标25%」——对已经离开的人是无效告警。
-  //   判据：HR.zaizhi 里 status !== '在职' 即视为非在职；不在名单者放行（避免误杀未同步者）。
-  const _exitSet=new Set((HR.zaizhi||[]).filter(x=>x&&x.status&&x.status!=='在职').map(x=>x.name));
   DEPTS.forEach(d=>{
-    if(!TARGET_READY)return;
-    d.persons.forEach(p=>{
-      if(!p.person_base)return;
-      if(_exitSet.has(p.name))return;   // 非在职 → 不产生个人目标预警
-      const thresh=p.person_base*0.25;
-      const thisAct=sumKeysRange(d.name,p.daily_keys||[],tw.start,tw.end);
-      const lastAct=sumKeysRange(d.name,p.daily_keys||[],lw.start,lw.end);
-      const thisCheck=thisAct<thresh*weekRatio;
-      const lastCheck=lastAct<thresh;
-      if(lastCheck&&thisCheck){
-        warns.push({level:'mid',dept:d.name,tag:'个人连续两周<25%',title:`${d.name}·${p.name} 连续两周低于个人目标25%`,
-          detail:`上周: ${fmtW(lastAct)}万，本周: ${fmtW(thisAct)}万；个人月目标25%: ${fmtW(thresh)}万`});
-      } else if(lastCheck){
-        warns.push({level:'info',dept:d.name,tag:'个人上周<25%',title:`${d.name}·${p.name} 上周低于个人目标25%`,
-          detail:`上周: ${fmtW(lastAct)}万 < 个人月目标25%: ${fmtW(thresh)}万`});
-      }
-    });
-  });
-  // ── 规则3: 小组连续两周周度实际 < 小组月目标25%（9月目标待录入 → 暂停）──
-  // 【2026-09-22 修复】无人负责组不得报小组目标预警：
-  //   二部「二组」(base=6万) 原负责人蒋召周已淘汰，组名清洗后 lead_clean_name 为空，
-  //   该组产品「虎太郎乳化鱼油」实际由四组吴俊豪承接 → 二组自身归属业绩恒 0，
-  //   会持续产生「连续两周低于小组目标25%」这条**无人可处理**的无效告警。
-  //   判据：lead_clean_name 清洗后为空 且 无任何在职成员 → 视为空组，跳过小组告警。
-  //   ⚠ 小组行本身仍保留展示（部门基本盘），只是不出预警。
-  const _grpHasAlive=(d,g)=>{
-    const lc=(g.lead_clean_name||'').trim();
-    if(lc)return true;                                  // 有具名负责人 → 非空组
-    const gn=g.name||'';
-    // 组名里若含在职人员姓名，也视为有人负责
-    for(const p of (d.persons||[])){ if(p.name&&gn.includes(p.name))return true; }
-    return false;
-  };
-  DEPTS.forEach(d=>{
-    if(!TARGET_READY)return;
-    d.groups.forEach(g=>{
+    var bad=[];
+    (d.groups||[]).forEach(g=>{
       if(!g.base_target)return;
-      if(!_grpHasAlive(d,g))return;   // 无人负责组 → 不产生小组目标预警
-      const gKeys=g.products.flatMap(p=>p.daily_keys||[]);
-      const thresh=g.base_target*0.25;
-      const thisAct=sumKeysRange(d.name,gKeys,tw.start,tw.end);
-      const lastAct=sumKeysRange(d.name,gKeys,lw.start,lw.end);
-      const thisCheck=thisAct<thresh*weekRatio;
-      const lastCheck=lastAct<thresh;
-      if(lastCheck&&thisCheck){
-        warns.push({level:'high',dept:d.name,tag:'小组连续两周<25%',title:`${d.name}·${g.name} 连续两周低于小组目标25%`,
-          detail:`上周: ${fmtW(lastAct)}万，本周: ${fmtW(thisAct)}万；小组月目标25%: ${fmtW(thresh)}万`});
-      } else if(lastCheck){
-        warns.push({level:'mid',dept:d.name,tag:'小组上周<25%',title:`${d.name}·${g.name} 上周低于小组目标25%`,
-          detail:`上周: ${fmtW(lastAct)}万 < 小组月目标25%: ${fmtW(thresh)}万`});
+      var lc=(g.lead_clean_name||'').trim();
+      var alive=!!lc;
+      if(!alive){
+        for(var i=0;i<(d.persons||[]).length;i++){
+          var pn=d.persons[i].name||'';
+          if(pn&&(g.name||'').indexOf(pn)>=0){alive=true;break;}
+        }
       }
+      if(!alive)return;
+      var keys=[];
+      (g.products||[]).forEach(p=>{
+        _wKeys(d.name,p.name).forEach(k=>{ if(keys.indexOf(k)<0)keys.push(k); });
+      });
+      if(!keys.length){ dropped++; return; }
+      var th=g.base_target*0.25;
+      var la=sumKeysRange(d.name,keys,lw.start,lw.end);
+      var ta=sumKeysRange(d.name,keys,tw.start,tw.end);
+      if(la<th&&ta<th*weekRatio)bad.push(g.name);
     });
+    if(bad.length)P2.push({dept:d.name,kind:'小组',n:bad.length,names:bad});
   });
-  // ── 规则4: 个人/小组/部门 连续2-3天下滑 ──
-  // 部门级
   DEPTS.forEach(d=>{
-    const days=recentNonZero(d.name,null,3);
+    var bad=[];
+    (d.persons||[]).forEach(p=>{
+      if(!p.person_base)return;
+      if(HR_LEFT_SET.has(p.name))return;
+      var keys=_wKeys(d.name,p.product);
+      if(!keys.length)return;
+      var th=p.person_base*0.25;
+      var la=sumKeysRange(d.name,keys,lw.start,lw.end);
+      var ta=sumKeysRange(d.name,keys,tw.start,tw.end);
+      if(la<th&&ta<th*weekRatio)bad.push(p.name);
+    });
+    if(bad.length)P2.push({dept:d.name,kind:'个人',n:bad.length,names:bad});
+  });
+  /* 连续下滑（真实日数据，保留） */
+  var slideDaily=[];
+  DEPTS.forEach(d=>{
+    var days=recentNonZero(d.name,null,3);
     if(days.length>=2){
-      const drops=[];
-      for(let i=1;i<days.length;i++){if(days[i].val<days[i-1].val)drops.push(`${days[i].date.slice(5)}:${fmtW(days[i].val)}万→${days[i-1].date.slice(5)}:${fmtW(days[i-1].val)}万`);}
-      if(drops.length>=2){
-        warns.push({level:'mid',dept:d.name,tag:'部门连续3天下滑',title:`${d.name} 连续3天业绩下滑`,detail:drops.join('，')});
-      } else if(drops.length===1){
-        warns.push({level:'info',dept:d.name,tag:'部门连续2天下滑',title:`${d.name} 连续2天业绩下滑`,detail:drops.join('，')});
-      }
+      var drops=0;
+      for(var i=1;i<days.length;i++){ if(days[i].val<days[i-1].val)drops++; }
+      if(drops>=2)slideDaily.push(d.name);
     }
   });
-  // 小组级
-  DEPTS.forEach(d=>{
-    d.groups.forEach(g=>{
-      const gKeys=g.products.flatMap(p=>p.daily_keys||[]);
-      if(!gKeys.length)return;
-      const days=recentNonZero(d.name,gKeys,3);
-      if(days.length>=2){
-        const drops=[];
-        for(let i=1;i<days.length;i++){if(days[i].val<days[i-1].val)drops.push(`${days[i].date.slice(5)}:${fmtW(days[i].val)}万→${days[i-1].date.slice(5)}:${fmtW(days[i-1].val)}万`);}
-        if(drops.length>=2){
-          warns.push({level:'mid',dept:d.name,tag:'小组连续3天下滑',title:`${d.name}·${g.name} 连续3天业绩下滑`,detail:drops.join('，')});
-        }
-      }
-    });
-  });
-  // 个人级（仅对有daily_keys且目标>0的人）
-  DEPTS.forEach(d=>{
-    d.persons.forEach(p=>{
-      if(!p.daily_keys||!p.daily_keys.length||!p.person_base)return;
-      const days=recentNonZero(d.name,p.daily_keys,3);
-      if(days.length>=2){
-        const drops=[];
-        for(let i=1;i<days.length;i++){if(days[i].val<days[i-1].val)drops.push(`${days[i].date.slice(5)}:${fmtW(days[i].val)}万→${days[i-1].date.slice(5)}:${fmtW(days[i-1].val)}万`);}
-        if(drops.length>=2){
-          warns.push({level:'info',dept:d.name,tag:'个人连续3天下滑',title:`${d.name}·${p.name} 连续3天业绩下滑`,detail:drops.join('，')});
-        }
-      }
-    });
-  });
+  if(slideDaily.length)P2.push({dept:'全部门',kind:'连续下滑',n:slideDaily.length,names:slideDaily});
 
-  let html='<div class="section-title">异常中心 · 风险预警（周度口径：本周 '+tw.start.slice(5)+'~'+tw.end.slice(5)+' / 上周 '+lw.start.slice(5)+'~'+lw.end.slice(5)+'）</div>';
-  if(!TARGET_READY){html+='<div class="warn-card" style="border-left-color:var(--c-warn);margin-bottom:12px;"><div class="w-title"><span class="w-tag" style="background:var(--bg-warn-soft);color:#92400e;">'+CM_LBL+'目标待录入</span>目标对比类预警（规则1-3：产品/个人/小组低于目标25%）已暂停，避免用'+PM_LBL+'目标误判'+CM_LBL+'业绩；<b>业绩下滑类预警（规则4）正常生效</b>。目标录入后自动恢复。</div></div>';}
-  html+=`<div class="stat-grid">
-<div class="stat-box"><div class="n" style="color:${warns.filter(w=>w.level==='high').length?'var(--c-down)':'var(--c-up)'}">${warns.filter(w=>w.level==='high').length}</div><div class="l">高风险</div></div>
-<div class="stat-box"><div class="n" style="color:${warns.filter(w=>w.level==='mid').length?'var(--c-info)':'var(--c-up)'}">${warns.filter(w=>w.level==='mid').length}</div><div class="l">中风险</div></div>
-<div class="stat-box"><div class="n" style="color:${warns.filter(w=>w.level==='info').length?'var(--c-primary)':'var(--c-up)'}">${warns.filter(w=>w.level==='info').length}</div><div class="l">提示</div></div>
-<div class="stat-box"><div class="n">${warns.length}</div><div class="l">全部预警</div></div>
-</div>`;
-  if(!warns.length){html+='<div style="background:#ecfdf5;border:1px solid #a7f3d0;border-radius:10px;padding:24px;text-align:center;color:#065f46;font-weight:600;">✅ 未发现连续两周低于目标25%或连续下滑的风险项</div>';}
-  warns.forEach(w=>{
-    html+=`<div class="warn-card ${w.level==='info'?'info':''}"><div class="w-title"><span class="w-tag">${w.tag}</span>${esc(w.title)}</div><div class="w-detail">${esc(w.detail)}</div></div>`;
-  });
-  html+='<div class="section-title">预警规则说明（v7.2）</div>';
-  html+='<div class="doc-card"><ul><li><b>规则1</b>：产品<b>连续两周</b>周度实际完成业绩 &lt; 月度产品目标25% → 高风险；仅上周触发 → 中风险</li><li><b>规则2</b>：个人<b>连续两周</b>周度实际 &lt; 月度个人业绩目标25% → 中风险；仅上周 → 提示</li><li><b>规则3</b>：小组<b>连续两周</b>周度实际 &lt; 小组业绩目标25% → 高风险；仅上周 → 中风险</li><li><b>规则4</b>：个人/小组/部门连续2-3天实际完成业绩下滑 → 逐级预警</li></ul><p style="color:#888;font-size:12px;margin-top:6px;">※ 本周未结束，按已过天数折算（本周阈值 = 月目标25% × 本周已过天数/7），上周为完整周对比，避免本周未结束误报</p></div>';
-  return html;
+  var nP0=P0.length,nP1=P1.length,nP2=P2.reduce((s,x)=>s+x.n,0);
+
+  /* ══════════════ 渲染 ══════════════ */
+  var H='';
+  H+='<div class="section-title">各部门预警平台 · 分级预警（本周 '+tw.start.slice(5)+'~'+tw.end.slice(5)+' / 上周完整周 '+lw.start.slice(5)+'~'+lw.end.slice(5)+'）</div>';
+  H+='<div style="font-size:12px;color:var(--t-2);background:var(--bg-primary-soft);border-radius:8px;padding:10px 14px;margin-bottom:12px;line-height:1.75;">'
+   +'<b>只把必须动手的放上面：</b>P0 经营破线（'+nP0+' 条 · 给部门负责人看）｜ P1 组织与人（'+nP1+' 条 · HRBP 处置）｜ P2 明细（'+nP2+' 条 · 折叠可查）'
+   +'<br><b>已剔除无效判定 '+dropped+' 个对象：</b>它们的「人员/产品归属键」与当月在售产品名对不上，旧版会恒判为「业绩 0 &lt; 目标 25%」（该类判定与业绩好坏无关，旧版 102 条里有 95 条属此），本版对这类对象<b>直接跳过、不再判定</b>。</div>';
+
+  H+='<div class="stat-grid">'
+    +'<div class="stat-box"><div class="n" style="color:'+(nP0?'var(--c-danger)':'var(--c-down)')+'">'+nP0+'</div><div class="l">P0 待处置</div></div>'
+    +'<div class="stat-box"><div class="n" style="color:'+(nP1?'var(--c-warn)':'var(--c-down)')+'">'+nP1+'</div><div class="l">P1 需跟进</div></div>'
+    +'<div class="stat-box"><div class="n" style="color:var(--c-primary)">'+nP2+'</div><div class="l">P2 明细</div></div>'
+    +'<div class="stat-box"><div class="n" style="color:var(--c-down)">'+dropped+'</div><div class="l">剔除无效</div></div>'
+    +'</div>';
+
+  if(nP0){
+    H+='<div class="section-title" style="margin-top:16px;">🔴 P0 · 经营破线（给部门负责人）</div>';
+    P0.forEach(w=>{
+      var hi=w.level==='high';
+      H+='<div class="warn-card" style="border-left-color:'+(hi?'var(--c-danger)':'var(--c-warn)')+';">'
+       +'<div class="w-title"><span class="w-tag" style="background:'+(hi?'var(--bg-up-soft)':'var(--bg-warn-soft)')+';color:'+(hi?'#991b1b':'#92400e')+';">'+esc(w.tag)+'</span>'+esc(w.title)+'</div>'
+       +'<div class="w-detail">'+esc(w.detail)+'</div>'
+       +(w.html?'<div>'+w.html+'</div>':'')
+       +'</div>';
+    });
+  }else{
+    H+='<div class="section-title" style="margin-top:16px;">🔴 P0 · 经营破线</div>';
+    H+='<div style="background:#ecfdf5;border:1px solid #a7f3d0;border-radius:10px;padding:18px;text-align:center;color:#065f46;font-weight:600;margin-bottom:12px;">✅ 未发现经营破线风险</div>';
+  }
+  if(nP1){
+    H+='<div class="section-title" style="margin-top:20px;">🟠 P1 · 组织与人（HRBP 处置）</div>';
+    P1.forEach(w=>{
+      var info=w.level==='info';
+      H+='<div class="warn-card '+(info?'info':'')+'" style="border-left-color:'+(info?'var(--c-primary)':'var(--c-warn)')+';">'
+       +'<div class="w-title"><span class="w-tag" style="background:'+(info?'var(--bg-primary-soft)':'var(--bg-warn-soft)')+';color:'+(info?'#3730a3':'#92400e')+';">'+esc(w.tag)+'</span>'+esc(w.title)+'</div>'
+       +'<div class="w-detail">'+esc(w.detail)+'</div></div>';
+    });
+  }
+  H+='<div class="section-title" style="margin-top:20px;">⚪ P2 · 明细（折叠，可查不可吵）</div>';
+  H+='<div class="doc-card" style="padding:12px 16px;">';
+  if(!P2.length){
+    H+='<div style="color:var(--t-3);font-size:13px;">无明细预警</div>';
+  }else{
+    H+='<details><summary style="cursor:pointer;font-size:13px;font-weight:600;color:var(--t-1);">展开查看 '+nP2+' 条明细（按部门 + 类型聚合，共 '+P2.length+' 组）</summary>';
+    H+='<table style="width:100%;border-collapse:collapse;font-size:12px;margin-top:10px;">';
+    H+='<tr style="color:var(--t-3);"><th style="text-align:left;padding:4px 6px;">部门</th><th style="text-align:left;padding:4px 6px;">类型</th><th style="text-align:right;padding:4px 6px;">条数</th><th style="text-align:left;padding:4px 6px;">对象</th></tr>';
+    P2.forEach(x=>{
+      H+='<tr style="border-top:1px solid var(--c-line);"><td style="padding:4px 6px;">'+esc(x.dept)+'</td><td style="padding:4px 6px;">'+esc(x.kind)+'</td>'
+       +'<td style="text-align:right;padding:4px 6px;font-weight:600;">'+x.n+'</td>'
+       +'<td style="padding:4px 6px;color:var(--t-2);">'+esc(x.names.join('、'))+'</td></tr>';
+    });
+    H+='</table></details>';
+  }
+  H+='</div>';
+
+  H+='<div class="section-title" style="margin-top:20px;">预警口径说明（v7.79）</div>';
+  H+='<div class="doc-card"><ul>'
+   +'<li><b>P0 全中心 / 部门破线</b>：月末预测 = 当月 MTD ÷ 已过天数 × 当月天数，对比月度基础目标 —— <b>只看要不要动手，不看过程波动</b></li>'
+   +'<li><b>P0 断崖下滑</b>：部门本周（周一~今天）vs 上周完整周，环比 ≤ -30% 且上周基数 &gt; 5 万才报（小基数不报，避免噪声）</li>'
+   +'<li><b>P0 成本红线</b>：人工总成本 ÷ 净业绩 &gt; 30%；八部为 10 月起新部门，基数不足不纳入</li>'
+   +'<li><b>P1 零产出堆积</b>：连续两周周产出为 0 且名下有个人目标、在职 —— 按部门聚合成 1 条，不逐人刷屏</li>'
+   +'<li><b>P1 人才滑坡</b>：核心 24 人 / 潜力 29 人库内，连续两周零产出才报</li>'
+   +'<li><b>P1 新人未达标 / 人效偏低 / 结构风险</b>：分别取《人效分析表》新人区块、部门当月 MTD 人效、试用+试岗占比</li>'
+   +'<li><b>归属键修正（本次关键改动）</b>：原规则用 2026-08 产品快照去匹配 11 月人员/产品 → 键为空 → 取数恒 0 → 人人报警。现改用<b>当月在售产品名</b>做保守匹配（完全相等 &gt; 去品牌相等 &gt; 双向包含且长度差 ≤3），<b>挂不上键直接跳过，绝不用 0 冒充业绩</b></li>'
+   +'<li><b>数量上限</b>：P0 ≤ 8 条、P1 ≤ 10 条，超出折进 P2；同一对象同一规则不重复刷</li>'
+   +'</ul><p style="color:var(--t-3);font-size:12px;margin-top:6px;">※ 本周未结束的周度阈值按已过天数折算（本周阈值 = 月目标 25% × 已过天数 / 7），避免本周没过完就误报。</p></div>';
+  return H;
 }
+
 
 /* ───────────── 任务闭环 ───────────── */
 function renderTasks(){
@@ -2692,7 +2984,7 @@ function renderPlan(){
   html+=`<div class="doc-card"><h3>📐 同期对比口径（核心）</h3><ul><li><b>当月同期含今天，上月同期错开一天</b>（2026-09 起生效）：业绩当日（今天）常滞后未录/录不全，若上月也算到同日会多算一整个完整日 → 当月截至 N 日，上月同期只统计到 <b>N-1 日</b></li><li>跨月看已完整收官月份时（无滞后问题）：上月同期 = 上月同期全月对齐（如 8 月收官 vs 7 月全月）</li><li>通过顶部<b>日期范围选择器</b>修改统计区间，所有页面（首页/部门/异常）自动重算同期</li><li>当前默认区间：当月1日 ~ 今天（${TODAY_STR}），上月同期 = ${lastM}月1-${Math.max(1,TODAY.getDate()-1)}日（错开一天）</li></ul></div>`;
   html+=`<div class="doc-card"><h3>🎯 目标口径</h3><ul><li><b>基础目标</b>：月度基础目标（人/产品级拆解自目标表）</li><li><b>冲刺目标</b>：月度冲刺目标</li><li><b>完成率</b> = 区间实际 ÷ 月度基础目标 × 100%</li><li><b>环比</b> = (区间实际 - 上月同期) ÷ 上月同期 × 100%</li></ul></div>`;
   html+=`<div class="doc-card"><h3>🗂️ 数据源与更新</h3><ul><li><b>业绩（v7.22 切换）</b>：新媒体中心HRBP资料（cnvws9N0unml）内 <b>6 张「各部门每日净业绩」表</b>（一部/二部/三部/六部/七部/宠元气友组）为权威源；字段结构与旧表一致，逐日交叉核对；部门日总值=daily净业绩</li><li><b>目标</b>：5月宠物目标拆解（cfRTm5cdjmbL）· 8月 sheet13 已收官（历史）· 9月 sheet19 已收官（五部门 289.5w/362w + 宠元 sheet17 19w/27w；源表「总计」行不含宠元，属口径差异）· <b>${CM_LBL}已录入</b>（sheet22「${CM_LBL}目标」五部门 309w/381w + 宠元 sheet21「元启${CM_LBL}目标」16w/23w = <b>325w基础 / 406w冲刺</b>；⭐ 三部冲刺以小组行为准 19w+12w+4w=35w，覆盖源表部门行 33w）→ 完成率已恢复显示</li><li><b>人员</b>：新媒体中心HRBP资料（cnvws9N0unml）+ 花名册（coCi3YfG7wKA）</li><li><b>更新频率</b>：自动化每日 09:10 / 15:10 / 21:10 三次全量同步（含目标重抓）；今日总览数据实时抓取</li></ul></div>`;
-  html+=`<div class="doc-card"><h3>🧭 工作台规划（v7.3）</h3><ul><li><b>首页总览</b>：KPI + 部门概览 + 人员结构 + 今日速览</li><li><b>各部门今日总览</b>：今日/昨日/本周趋势（实时）</li><li><b>异常中心</b>：4条风险规则自动扫描</li><li><b>任务闭环</b>：BP工作进度表（面谈/招聘/跟进）</li><li><b>资料中心</b>：HRBP资料表全量整理（潜力/核心/在职/面谈/试岗）</li><li><b>业绩口径</b>：净业绩（各部门净业绩表，激励/提成按净业绩）</li></ul></div>`;
+  html+=`<div class="doc-card"><h3>🧭 工作台规划（v7.3）</h3><ul><li><b>首页总览</b>：KPI + 部门概览 + 人员结构 + 今日速览</li><li><b>各部门今日总览</b>：今日/昨日/本周趋势（实时）</li><li><b>各部门预警平台</b>：P0 经营破线 / P1 组织与人 / P2 明细，分三级预警</li><li><b>任务闭环</b>：BP工作进度表（面谈/招聘/跟进）</li><li><b>资料中心</b>：HRBP资料表全量整理（潜力/核心/在职/面谈/试岗）</li><li><b>业绩口径</b>：净业绩（各部门净业绩表，激励/提成按净业绩）</li></ul></div>`;
   html+=`<div class="doc-card" style="border-left:4px solid var(--c-up);background:#f0fdf4;"><h3>✅ 已对接数据源（无需再补充）</h3><ul><li><b>8月个人净业绩+提成（上月收官）</b>：6部门提成计算表 8月sheet → 首页"8月净业绩与提成汇总/8月个人TOP榜"、部门表1/表2 "8月净"列、人才页"8月*(提成表)"</li><li><b>9月个人净业绩+提成（收官·权威）</b>：6部门提成计算表 9月sheet → 首页"9月净业绩与提成汇总"、部门表1/表2"8月净/9月净/9月提成"列、人才页"9月*(提成表)/9月提成"</li><li><b>当月业绩目标（${CM_LBL}）</b>：宠物目标拆解（cfRTm5cdjmbL）sheet22「${CM_LBL}目标」+ sheet21「元启${CM_LBL}目标」→ 部门表 目标列与完成率</li><li><b>当月业绩口径（${CM_LBL}）</b>：<b>HRBP资料内 6 张「各部每日净业绩」表</b>（2026-09-12 起为权威源，与旧表逐日交叉核对）；上月同期 = ${PM_LBL}（1~${Math.max(1,TODAY.getDate()-1)}日）</li><li><b>人员状态</b>：花名册 coCi3YfG7wKA 在职人员500人（6部门85人：正式38+试用30+试岗17）</li><li><b>人才标签</b>：HRBP资料 cnvws9N0unml 潜力24人/核心13人/面谈100条/试岗/BP进度</li><li><b>资料库</b>：HRBP资料表 sheet118（48份文档分类展示）</li></ul></div>`;
   html+=`<div class="doc-card" style="border-left:4px solid var(--c-info);background:#fff8f0;"><h3>⏳ 后续可拓展（需新数据源）</h3><ul><li><b>5/6月个人级净业绩/提成</b>：激励表 cciUv0gBmIZr sheet45/57（需重新拉取人员级数据，5月68人/6月78人）→ 用于<b>前3月累计净业绩</b>列</li><li><b>薪资列</b>：6月薪资总表 cdXiFISs48cJ（368行 col5姓名/col19应发/col30实发）→ 用于<b>个人薪资</b>列（涉密需注意展示范围）</li><li><b>同比去年</b>：去年同月净业绩/提成（激励表历史数据）→ 用于<b>同比口径</b>展示</li><li>新数据源对接：在对话里发送金山文档链接即可自动配置抓取</li></ul></div>`;
   return html;
