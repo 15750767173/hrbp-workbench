@@ -226,7 +226,7 @@ th,td{padding:5px 6px;}
 <div class="container" id="mainContent" style="display:none;">
 <div class="header">
 <h1>众辉宠物中心 · 个人经营工作台</h1>
-<div class="date">数据版本 v7.5 · 数据源：金山多维表（daily业绩+目标拆解+HRBP资料） · <span id="dataTime">最后更新：--</span><span id="buildStamp" style="margin-left:10px;color:#94a3b8;" title="页面内置数据快照时间">· 快照 2026-11-24 20:04</span> · <span id="dataCut" style="font-weight:600;"></span> · <span id="liveTag" style="color:#059669;font-weight:600;">● 自动跟随中</span></div>
+<div class="date">数据版本 v7.5 · 数据源：金山多维表（daily业绩+目标拆解+HRBP资料） · <span id="dataTime">最后更新：--</span><span id="buildStamp" style="margin-left:10px;color:#94a3b8;" title="页面内置数据快照时间">· 快照 2026-11-24 20:09</span> · <span id="dataCut" style="font-weight:600;"></span> · <span id="liveTag" style="color:#059669;font-weight:600;">● 自动跟随中</span></div>
 </div>
 <div class="range-bar">
 <label>统计区间：</label>
@@ -1355,6 +1355,139 @@ ${_rdy?`<div class="stat-row"><span>基础目标(${rgRangeLabel()})</span><span 
       html+='</tbody></table></div>';
       html+='<div style="font-size:11px;color:#999;margin-top:6px;">💡 人工成本行与上表同源（薪资分析表部门级汇总，含社保公积金分摊）；11 月为工作台自动核算月，尚无发薪数据，故成本行显示「-」。</div>';
     }
+  })();
+
+  // ══════════════════════════════════════════════════════════════════════════
+  // 2026-11-24 用户要求：首页总览加「人数环比 / 人均利润月环比 · 连续几个月」
+  //   数据源 DATA.profit_monthly：净利润 2–9 月取《新媒体部门利润》部门级，
+  //   10 月该表未结转 → 取《宠物种草经营计划表》部门财务损益「本期利润」；
+  //   人数与净业绩与「人工成本与人效比」同源（薪资表/部门汇总），三个环比可比。
+  //   范围：一部/二部/三部/六部/七部 五部门。**不含元启**（用户明确）；八部 10 月起，
+  //   无法构成连续 9 个月，故不纳入。净利润为部门级、未含集团分摊。
+  // ══════════════════════════════════════════════════════════════════════════
+  (function(){
+    const PM = DATA.profit_monthly || {};
+    const months = (PM.months || []).slice().sort();
+    const tot = PM.total || {};
+    if(months.length < 2 || !Object.keys(tot).length) return;
+    const yLbl = function(ym){ return parseInt(ym.slice(5,7),10)+'月'; };
+    const yuan = function(v){ return (v==null||isNaN(v)) ? '-' : Math.round(v).toLocaleString(); };
+    const wan  = function(v){ return (v==null||isNaN(v)) ? '-' : (v/10000).toFixed(2); };
+    const mom  = function(v){
+      if(v==null||isNaN(v)) return '<span style="color:#bbb" title="基期为负或为零，环比无意义">—</span>';
+      const c = v>=0 ? 'var(--c-up)' : 'var(--c-down)';
+      return '<span style="color:'+c+';font-weight:600">'+(v>=0?'+':'')+v.toFixed(1)+'%</span>';
+    };
+    const spanTxt = yLbl(months[0])+'–'+yLbl(months[months.length-1])+'（'+months.length+' 个月）';
+    const lastMo = months[months.length-1];
+    const last = tot[lastMo] || {};
+
+    html+='<div class="section-title" style="margin-top:20px;">📈 宠物板块合计 · 人均利润与环比（'+spanTxt+'）</div>';
+    html+='<div style="font-size:11px;color:#888;margin-bottom:6px;">范围：<b>一部 / 二部 / 三部 / 六部 / 七部</b> 合计（<b style="color:#b45309;">不含元启（宠元气友组）</b>；八部 10 月起才有利润数据，无法连续对比）· 净利润为<b>部门级、未含集团分摊</b>：2–9 月取《新媒体部门利润》「各部门利润表」，10 月该表尚未结转 → 取《宠物种草经营计划表》部门财务损益「本期利润」· 人均业绩 = 净业绩 ÷ 发薪人数，人均利润 = 净利润 ÷ 发薪人数 · <b>仅部门级汇总，不含任何个人薪资</b></div>';
+
+    // ── 明细表：行=月份，列=人数/人均业绩/净利润/人均利润，各带环比 ──
+    html+='<div class="scroll-x"><table><thead><tr>'
+      +'<th>月份</th><th class="text-center">发薪人数</th><th class="text-center">人数环比</th>'
+      +'<th class="text-right">人均业绩(元)</th><th class="text-center">人均业绩环比</th>'
+      +'<th class="text-right">净利润(万)</th><th class="text-right">人均利润(元)</th><th class="text-center">人均利润环比</th>'
+      +'<th class="text-center">净利率</th></tr></thead><tbody>';
+    months.forEach(function(ym){
+      const r = tot[ym] || {};
+      html+='<tr>'
+        +'<td style="font-weight:600;">'+yLbl(ym)+'</td>'
+        +'<td class="text-center">'+((r.headcount>0)?r.headcount:'-')+'</td>'
+        +'<td class="text-center">'+mom(r.mom_headcount)+'</td>'
+        +'<td class="text-right">'+yuan(r.per_head_output)+'</td>'
+        +'<td class="text-center">'+mom(r.mom_per_output)+'</td>'
+        +'<td class="text-right" style="color:'+((r.net_profit>0)?'var(--c-up)':'var(--c-down)')+';font-weight:600">'+wan(r.net_profit)+'</td>'
+        +'<td class="text-right" style="color:'+((r.per_head_profit>0)?'var(--c-up)':'var(--c-down)')+';font-weight:600">'+yuan(r.per_head_profit)+'</td>'
+        +'<td class="text-center">'+mom(r.mom_per_profit)+'</td>'
+        +'<td class="text-center">'+((r.net_margin==null)?'-':r.net_margin.toFixed(1)+'%')+'</td>'
+        +'</tr>';
+    });
+    // 累计行：人均按「累计 ÷ 平均发薪人数」加权，不用各月人均再平均
+    const avgHc = months.reduce(function(a,ym){ return a + ((tot[ym]||{}).headcount||0); },0) / months.length;
+    const sumNet = months.reduce(function(a,ym){ return a + ((tot[ym]||{}).net_output||0); },0);
+    const sumPft = months.reduce(function(a,ym){ return a + ((tot[ym]||{}).net_profit||0); },0);
+    const sumRev = months.reduce(function(a,ym){ return a + ((tot[ym]||{}).revenue||0); },0);
+    html+='<tr style="background:var(--bg-primary-soft);font-weight:600">'
+      +'<td>累计<br><span style="font-weight:400;font-size:10px;color:#999">9 个月</span></td>'
+      +'<td class="text-center">均'+Math.round(avgHc)+'</td><td class="text-center">—</td>'
+      +'<td class="text-right">'+(avgHc?(sumNet/avgHc/10000).toFixed(2)+'万':'-')+'</td><td class="text-center">—</td>'
+      +'<td class="text-right">'+wan(sumPft)+'</td>'
+      +'<td class="text-right">'+(avgHc?(sumPft/avgHc/10000).toFixed(2)+'万':'-')+'</td><td class="text-center">—</td>'
+      +'<td class="text-center">'+((sumRev>0)?(sumPft/sumRev*100).toFixed(1)+'%':'-')+'</td>'
+      +'</tr>';
+    html+='</tbody></table></div>';
+    html+='<div style="font-size:11px;color:#999;margin-top:4px;">累计行的人均按「9 个月累计值 ÷ 各月发薪人数均值」加权计算（单位：万，跨 9 个月，不可与上面单月列直接比较），不是各月人均的简单平均；「—」表示基期为负或为零，环比无经济意义（9 月合计净利润为负，故 10 月人均利润环比不给数）。</div>';
+
+    // ── 图 1：人均业绩 / 人均利润（元/人，同轴）──
+    const c1 = 'ovpm_'+(Math.random().toString(36).slice(2,8));
+    const c2 = c1+'_mom';
+    /* 两条线单位必须一致：一律标「元」，避免出现「7,311」和「2.5万」混排 */
+    const DL_FMT_Y = function(v){ return (v==null) ? '' : Math.round(v).toLocaleString(); };
+    const xLbl = months.map(yLbl);
+    const outArr = months.map(function(ym){ const v=(tot[ym]||{}).per_head_output; return (v==null||isNaN(v))?null:+v.toFixed(0); });
+    const pftArr = months.map(function(ym){ const v=(tot[ym]||{}).per_head_profit; return (v==null||isNaN(v))?null:+v.toFixed(0); });
+    const hcArr  = months.map(function(ym){ const v=(tot[ym]||{}).mom_headcount;  return (v==null||isNaN(v))?null:+v.toFixed(2); });
+    const pmArr  = months.map(function(ym){ const v=(tot[ym]||{}).mom_per_profit; return (v==null||isNaN(v))?null:+v.toFixed(2); });
+    if(typeof Chart!=='undefined'){
+      setTimeout(function(){
+        const e1=document.getElementById(c1);
+        if(e1){
+          new Chart(e1,{ type:'line',
+            data:{ labels:xLbl, datasets:[
+              {label:'人均业绩（元/人）',data:outArr,borderColor:'#764ba2',backgroundColor:'rgba(118,75,162,0.10)',
+               pointRadius:4,pointHoverRadius:6,pointBackgroundColor:'#764ba2',pointBorderColor:'#fff',pointBorderWidth:2,
+               borderWidth:2.6,tension:0.3,fill:true,spanGaps:true,_dlFmt:DL_FMT_Y,_dlColor:'#5b2d86'},
+              {label:'人均利润（元/人）',data:pftArr,borderColor:'#e8833a',backgroundColor:'#e8833a',
+               pointRadius:4,pointHoverRadius:6,pointBackgroundColor:'#e8833a',pointBorderColor:'#fff',pointBorderWidth:2,
+               borderWidth:2.4,tension:0.3,fill:false,spanGaps:true,_dlFmt:DL_FMT_Y,_dlColor:'#b45f16'}
+            ]},
+            options:{ responsive:true,maintainAspectRatio:false, layout:{padding:{top:22,right:10}},
+              plugins:{ legend:{display:true,position:'top',align:'end',labels:{font:{size:11},boxWidth:14,boxHeight:8,padding:8,usePointStyle:true}},
+                tooltip:{mode:'index',intersect:false,callbacks:{label:function(c){ return c.dataset.label+': '+(c.parsed.y==null?'-':Math.round(c.parsed.y).toLocaleString()+' 元'); }}} },
+              scales:{ y:{position:'left',beginAtZero:true,ticks:{callback:function(v){return DL_FMT_Y(v);},font:{size:10},color:'#764ba2'},grid:{color:'#f3f0f8'},title:{display:true,text:'元/人',font:{size:10},color:'#764ba2'}},
+                x:{ticks:{font:{size:10},color:'#888'},grid:{display:false}} },
+              interaction:{mode:'index',intersect:false} },
+            plugins:[DL_PLUGIN] });
+        }
+        const e2=document.getElementById(c2);
+        if(e2){
+          new Chart(e2,{ type:'line',
+            data:{ labels:xLbl, datasets:[
+              /* 人数环比走右轴虚线、不标数值（数值在上面表格里，图上再标会与利润环比标签压叠） */
+              {type:'line',label:'人数环比（%，右轴）',data:hcArr,yAxisID:'y1',order:2,
+               borderColor:'#2f6fb0',backgroundColor:'rgba(47,111,176,0.10)',borderDash:[5,4],
+               pointRadius:3.5,pointHoverRadius:6,pointBackgroundColor:'#2f6fb0',pointBorderColor:'#fff',pointBorderWidth:2,
+               borderWidth:2,tension:0.3,fill:false,spanGaps:true},
+              {type:'line',label:'人均利润环比（%，左轴）',data:pmArr,yAxisID:'y',order:1,
+               borderColor:'#0e9f6e',backgroundColor:'rgba(14,159,110,0.10)',
+               pointRadius:4,pointHoverRadius:6,pointBackgroundColor:'#0e9f6e',pointBorderColor:'#fff',pointBorderWidth:2,
+               borderWidth:2.6,tension:0.3,fill:false,spanGaps:true,_dlFmt:DL_FMT_PCT,_dlColor:'#0b7a55'}
+            ]},
+            options:{ responsive:true,maintainAspectRatio:false, layout:{padding:{top:22,right:10,bottom:4}},
+              plugins:{ legend:{display:true,position:'top',align:'end',labels:{font:{size:11},boxWidth:14,boxHeight:8,padding:8,usePointStyle:true}},
+                tooltip:{mode:'index',intersect:false,callbacks:{label:function(c){ return c.dataset.label+': '+(c.parsed.y==null?'-':(c.parsed.y>=0?'+':'')+c.parsed.y.toFixed(1)+'%'); }}} },
+              scales:{ y:{position:'left',ticks:{callback:function(v){return v.toFixed(0)+'%';},font:{size:10},color:'#0e9f6e'},grid:{color:'#eef7f2'},title:{display:true,text:'人均利润环比（%）',font:{size:10},color:'#0e9f6e'}},
+                y1:{position:'right',grid:{display:false},ticks:{callback:function(v){return v.toFixed(0)+'%';},font:{size:10},color:'#2f6fb0'}},
+                x:{ticks:{font:{size:10},color:'#888'},grid:{display:false}} },
+              interaction:{mode:'index',intersect:false} },
+            plugins:[DL_PLUGIN] });
+        }
+      },0);
+    }
+    html+='<div style="margin-top:16px;">';
+    html+='<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;flex-wrap:wrap;gap:6px;"><span style="font-weight:600;font-size:13px;">📊 人均业绩与人均利润趋势（'+spanTxt+'）</span>'
+      +'<span style="font-size:11px;color:#555;background:#f7f7fb;border:1px solid #eceaf4;border-radius:4px;padding:3px 8px;"><b style="color:#666;">'+yLbl(lastMo)+'</b>：人均业绩 <b style="color:#764ba2;">'+yuan(last.per_head_output)+'</b> 元　·　人均利润 <b style="color:#e8833a;">'+yuan(last.per_head_profit)+'</b> 元</span></div>';
+    html+='<div style="position:relative;height:290px;"><canvas id="'+c1+'"></canvas></div>';
+    html+='</div>';
+    html+='<div style="margin-top:16px;">';
+    html+='<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;flex-wrap:wrap;gap:6px;"><span style="font-weight:600;font-size:13px;">🔁 人数环比与人均利润环比（'+spanTxt+'）</span>'
+      +'<span style="font-size:11px;color:#555;background:#f4faf7;border:1px solid #e2f0ea;border-radius:4px;padding:3px 8px;">看「人增了利润没增」还是「人减了利润在增」——两条线背离即为效率恶化/改善</span></div>';
+    html+='<div style="position:relative;height:230px;"><canvas id="'+c2+'"></canvas></div>';
+    html+='<div style="font-size:11px;color:#999;margin-top:4px;">图 1 纵轴刻度单位万元、点上标注单位元（两条线单位一致，同轴可比）；图 2 左轴＝人均利润环比（绿色实线，标数值）、右轴＝人数环比（蓝色虚线，数值见上表），两个量级差别大故分轴，读法看两条线方向是否背离。9 月合计净利润为负，10 月人均利润环比基期为负，故该点留空不标注。</div>';
+    html+='</div>';
   })();
 
   /* ⭐ v7.74（2026-10-09）：本块由「7月」推进为「**8月**」。
