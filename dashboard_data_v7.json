@@ -2,10 +2,10 @@
   "overview": {
     "current_month": "2026-11",
     "last_month": "2026-10",
-    "cutoff_day": 24,
-    "period_label": "24日",
-    "last_month_period": "10月1-23日",
-    "yesterday": "2026-11-23",
+    "cutoff_day": 25,
+    "period_label": "25日",
+    "last_month_period": "10月1-24日",
+    "yesterday": "2026-11-24",
     "departments": [
       {
         "name": "一部",
@@ -13,10 +13,10 @@
         "base_target": 890000,
         "stretch_target": 1080000,
         "actual": 518136.51,
-        "actual_jul": 670654.92,
-        "actual_prev": 670654.92,
+        "actual_jul": 704103.01,
+        "actual_prev": 704103.01,
         "completion": 58.2,
-        "mom_change": -22.7,
+        "mom_change": -26.4,
         "target_ready": true,
         "group_count": 4,
         "person_count": 19,
@@ -31,8 +31,8 @@
             "status": "在职"
           }
         ],
-        "yesterday_actual": 13473.8,
-        "daily_eff": 641.61,
+        "yesterday_actual": -1262.0,
+        "daily_eff": -60.1,
         "monthly_eff": 24673.17
       },
       {
@@ -41,10 +41,10 @@
         "base_target": 910000,
         "stretch_target": 1100000,
         "actual": 446246.77,
-        "actual_jul": 586544.39,
-        "actual_prev": 586544.39,
+        "actual_jul": 620112.79,
+        "actual_prev": 620112.79,
         "completion": 49.0,
-        "mom_change": -23.9,
+        "mom_change": -28.0,
         "target_ready": true,
         "group_count": 5,
         "person_count": 21,
@@ -59,8 +59,8 @@
             "status": "在职"
           }
         ],
-        "yesterday_actual": 13464.22,
-        "daily_eff": 897.61,
+        "yesterday_actual": -269.42,
+        "daily_eff": -17.96,
         "monthly_eff": 29749.78
       },
       {
@@ -69,10 +69,10 @@
         "base_target": 220000,
         "stretch_target": 270000,
         "actual": 49422.14,
-        "actual_jul": 80641.29,
-        "actual_prev": 80641.29,
+        "actual_jul": 85081.63,
+        "actual_prev": 85081.63,
         "completion": 22.5,
-        "mom_change": -38.7,
+        "mom_change": -41.9,
         "target_ready": true,
         "group_count": 2,
         "person_count": 7,
@@ -81,8 +81,8 @@
         "trial_count": 1,
         "shigang_count": 0,
         "shigang_list": [],
-        "yesterday_actual": 678.48,
-        "daily_eff": 169.62,
+        "yesterday_actual": 0.0,
+        "daily_eff": 0.0,
         "monthly_eff": 12355.53
       },
       {
@@ -91,10 +91,10 @@
         "base_target": 345000,
         "stretch_target": 420000,
         "actual": 139370.73,
-        "actual_jul": 153533.53,
-        "actual_prev": 153533.53,
+        "actual_jul": 160695.76,
+        "actual_prev": 160695.76,
         "completion": 40.4,
-        "mom_change": -9.2,
+        "mom_change": -13.3,
         "target_ready": true,
         "group_count": 3,
         "person_count": 12,
@@ -103,8 +103,8 @@
         "trial_count": 4,
         "shigang_count": 0,
         "shigang_list": [],
-        "yesterday_actual": 4881.87,
-        "daily_eff": 610.23,
+        "yesterday_actual": 0.0,
+        "daily_eff": 0.0,
         "monthly_eff": 17421.34
       },
       {
@@ -113,10 +113,10 @@
         "base_target": 490000,
         "stretch_target": 620000,
         "actual": 230905.65,
-        "actual_jul": 219539.25,
-        "actual_prev": 219539.25,
+        "actual_jul": 228216.32,
+        "actual_prev": 228216.32,
         "completion": 47.1,
-        "mom_change": 5.2,
+        "mom_change": 1.2,
         "target_ready": true,
         "group_count": 4,
         "person_count": 9,
@@ -131,8 +131,8 @@
             "status": "在职"
           }
         ],
-        "yesterday_actual": 9672.66,
-        "daily_eff": 879.33,
+        "yesterday_actual": 0.0,
+        "daily_eff": 0.0,
         "monthly_eff": 20991.42
       },
       {
@@ -141,10 +141,10 @@
         "base_target": 210000,
         "stretch_target": 250000,
         "actual": 25873.95,
-        "actual_jul": 60982.66,
-        "actual_prev": 60982.66,
+        "actual_jul": 62791.14,
+        "actual_prev": 62791.14,
         "completion": 12.3,
-        "mom_change": -57.6,
+        "mom_change": -58.8,
         "target_ready": true,
         "group_count": 2,
         "person_count": 7,
@@ -153,8 +153,8 @@
         "trial_count": 7,
         "shigang_count": 0,
         "shigang_list": [],
-        "yesterday_actual": 660.0,
-        "daily_eff": 66.0,
+        "yesterday_actual": 0.0,
+        "daily_eff": 0.0,
         "monthly_eff": 2587.39
       },
       {
@@ -163,10 +163,10 @@
         "base_target": 150000.0,
         "stretch_target": 0.0,
         "actual": 18746.96,
-        "actual_jul": 1635.0,
-        "actual_prev": 1635.0,
+        "actual_jul": 2972.61,
+        "actual_prev": 2972.61,
         "completion": 12.5,
-        "mom_change": 1046.6,
+        "mom_change": 530.7,
         "target_ready": true,
         "group_count": 1,
         "person_count": 2,
@@ -232,8 +232,8 @@
       }
     ],
     "data_through_day": 23,
-    "generated_at": "2026-11-24 23:14",
-    "expect_day": 23,
+    "generated_at": "2026-11-25 09:24",
+    "expect_day": 24,
     "dept_last_day": {
       "一部": 24,
       "二部": 24,
@@ -242,7 +242,12 @@
       "七部": 23,
       "宠元气友组": 23
     },
-    "pending_depts": []
+    "pending_depts": [
+      "三部",
+      "六部",
+      "七部",
+      "宠元气友组"
+    ]
   },
   "targets_8_hist": [
     {
@@ -18273,6 +18278,9 @@
           "元气友缝纫机": -716.5,
           "冬马满分粮": -545.499999999999
         }
+      },
+      "2026-11-25": {
+        "t": 0.0
       }
     },
     "二部": {
@@ -22567,6 +22575,9 @@
           "虎太郎化毛片": -3.0,
           "虎太郎生骨肉猫粮": -266.42
         }
+      },
+      "2026-11-25": {
+        "t": 0.0
       }
     },
     "三部": {
@@ -24204,6 +24215,9 @@
         }
       },
       "2026-11-24": {
+        "t": 0.0
+      },
+      "2026-11-25": {
         "t": 0.0
       }
     },
@@ -26417,6 +26431,9 @@
       },
       "2026-11-24": {
         "t": 0.0
+      },
+      "2026-11-25": {
+        "t": 0.0
       }
     },
     "七部": {
@@ -28358,6 +28375,9 @@
           "益生熊猫粮": 543.6
         }
       },
+      "2026-11-25": {
+        "t": 0.0
+      },
       "2026-09-02": {
         "t": 8273.34,
         "p": {
@@ -29799,6 +29819,9 @@
       },
       "2026-11-24": {
         "t": 0.0
+      },
+      "2026-11-25": {
+        "t": 0.0
       }
     },
     "八部": {
@@ -30053,6 +30076,9 @@
       },
       "2026-11-24": {
         "t": 0.0
+      },
+      "2026-11-25": {
+        "t": 0.0
       }
     }
   },
@@ -30065,7 +30091,7 @@
         "hire_date": "2025/10/13",
         "regular_date": "2025/12/01",
         "enter_date": "2026/06/23",
-        "cycle": 154,
+        "cycle": 155,
         "remark": null,
         "archive": "https://www.kdocs.cn/l/cgqWSKi0jz9M"
       },
@@ -30076,7 +30102,7 @@
         "hire_date": "2025/12/01",
         "regular_date": "2026/03/01",
         "enter_date": "2026/06/15",
-        "cycle": 162,
+        "cycle": 163,
         "remark": "晋升P3",
         "archive": "https://www.kdocs.cn/l/cfwGJbq5udHy"
       },
@@ -30087,7 +30113,7 @@
         "hire_date": "2026/03/09",
         "regular_date": "2026/06/01",
         "enter_date": "2026/08/13",
-        "cycle": 103,
+        "cycle": 104,
         "remark": null,
         "archive": "https://www.kdocs.cn/l/cdc20oMcvp60"
       },
@@ -30098,7 +30124,7 @@
         "hire_date": "2026/05/14",
         "regular_date": "2026/07/01",
         "enter_date": "2026/06/01",
-        "cycle": 176,
+        "cycle": 177,
         "remark": "转正晋升P2",
         "archive": "https://www.kdocs.cn/l/cj1J3cj99jSG"
       },
@@ -30109,7 +30135,7 @@
         "hire_date": "2026/04/07",
         "regular_date": "2026/07/01",
         "enter_date": "2026/06/24",
-        "cycle": 153,
+        "cycle": 154,
         "remark": null,
         "archive": "https://www.kdocs.cn/l/caD2X5e9rpIk"
       },
@@ -30120,7 +30146,7 @@
         "hire_date": "2025/01/13",
         "regular_date": "2025/04/01",
         "enter_date": "2026/06/23",
-        "cycle": 154,
+        "cycle": 155,
         "remark": null,
         "archive": "https://www.kdocs.cn/l/cnIhDntbJxuA"
       },
@@ -30131,7 +30157,7 @@
         "hire_date": "2025/11/24",
         "regular_date": "2026/02/01",
         "enter_date": "2026/04/20",
-        "cycle": 218,
+        "cycle": 219,
         "remark": null,
         "archive": "https://www.kdocs.cn/l/crpDiNs02knN"
       },
@@ -30142,7 +30168,7 @@
         "hire_date": "2025/12/29",
         "regular_date": "2026/06/01",
         "enter_date": "2026/05/01",
-        "cycle": 207,
+        "cycle": 208,
         "remark": null,
         "archive": "https://www.kdocs.cn/l/ca6SBlueUlRf"
       },
@@ -30153,7 +30179,7 @@
         "hire_date": "2025/06/16",
         "regular_date": "2025/12/01",
         "enter_date": "2026/06/23",
-        "cycle": 154,
+        "cycle": 155,
         "remark": null,
         "archive": "https://www.kdocs.cn/l/csDEXdJUQbsv"
       },
@@ -30164,7 +30190,7 @@
         "hire_date": "2025/12/05",
         "regular_date": "2026/03/01",
         "enter_date": "2026/06/23",
-        "cycle": 154,
+        "cycle": 155,
         "remark": "晋升P3\n2026.11.7变回潜力",
         "archive": "https://www.kdocs.cn/l/coWRYG8JP9JI"
       },
@@ -30175,7 +30201,7 @@
         "hire_date": "2025/04/24",
         "regular_date": "2025/10/01",
         "enter_date": "2026/06/23",
-        "cycle": 154,
+        "cycle": 155,
         "remark": null,
         "archive": "https://www.kdocs.cn/l/chrj57qVkIPv"
       },
@@ -30186,7 +30212,7 @@
         "hire_date": "2025/05/15",
         "regular_date": "2025/08/11",
         "enter_date": "2026/06/23",
-        "cycle": 154,
+        "cycle": 155,
         "remark": null,
         "archive": "https://www.kdocs.cn/l/cbkaAYrRAfbR"
       },
@@ -30197,7 +30223,7 @@
         "hire_date": "2025/08/18",
         "regular_date": "2025/12/01",
         "enter_date": "2026/06/23",
-        "cycle": 154,
+        "cycle": 155,
         "remark": null,
         "archive": "https://www.kdocs.cn/l/cm7CUlTVieVr"
       },
@@ -30208,7 +30234,7 @@
         "hire_date": "2025/03/20",
         "regular_date": "2025/05/01",
         "enter_date": "2026/06/20",
-        "cycle": 157,
+        "cycle": 158,
         "remark": null,
         "archive": "https://www.kdocs.cn/l/cgROiEQnkR3S"
       },
@@ -30219,7 +30245,7 @@
         "hire_date": "2026/11/05",
         "regular_date": "",
         "enter_date": "2026/05/21",
-        "cycle": 187,
+        "cycle": 188,
         "remark": null,
         "archive": "https://www.kdocs.cn/l/cqrWseQa1t4j"
       },
@@ -30230,7 +30256,7 @@
         "hire_date": "2025/06/24",
         "regular_date": "2025/08/01",
         "enter_date": "2026/07/02",
-        "cycle": 145,
+        "cycle": 146,
         "remark": null,
         "archive": "https://www.kdocs.cn/l/cdGgoBVxF4HC"
       },
@@ -30241,7 +30267,7 @@
         "hire_date": "2026/05/18",
         "regular_date": "2026/09/01",
         "enter_date": "2026/08/12",
-        "cycle": 104,
+        "cycle": 105,
         "remark": null,
         "archive": "https://www.kdocs.cn/l/ceLXlG3q9bvU"
       },
@@ -30252,7 +30278,7 @@
         "hire_date": "2026/06/12",
         "regular_date": "",
         "enter_date": "2026/08/14",
-        "cycle": 102,
+        "cycle": 103,
         "remark": null,
         "archive": "https://www.kdocs.cn/l/ch4lVv9QY1uL"
       },
@@ -30263,7 +30289,7 @@
         "hire_date": "2026/07/08",
         "regular_date": "2026/10/01",
         "enter_date": "2026/09/08",
-        "cycle": 77,
+        "cycle": 78,
         "remark": null,
         "archive": "https://www.kdocs.cn/l/cqzVsVjLuHCm"
       },
@@ -30274,7 +30300,7 @@
         "hire_date": "2026/04/27",
         "regular_date": "2026/09/01",
         "enter_date": "2026/08/13",
-        "cycle": 103,
+        "cycle": 104,
         "remark": null,
         "archive": "https://www.kdocs.cn/l/caUAS5rqUPh1"
       },
@@ -30285,7 +30311,7 @@
         "hire_date": "2026/05/29",
         "regular_date": "2026/09/01",
         "enter_date": "2026/08/15",
-        "cycle": 101,
+        "cycle": 102,
         "remark": null,
         "archive": "https://www.kdocs.cn/l/cr7O5hqxrOPc"
       },
@@ -30296,7 +30322,7 @@
         "hire_date": "2026/07/22",
         "regular_date": "",
         "enter_date": "2026/09/08",
-        "cycle": 77,
+        "cycle": 78,
         "remark": null,
         "archive": "https://www.kdocs.cn/l/cqL7W2SIJwxx"
       },
@@ -30307,7 +30333,7 @@
         "hire_date": "2026/03/02",
         "regular_date": "2026/06/01",
         "enter_date": "2026/09/08",
-        "cycle": 77,
+        "cycle": 78,
         "remark": null,
         "archive": "https://www.kdocs.cn/l/coRXn7eZIhJF"
       },
@@ -30318,7 +30344,7 @@
         "hire_date": "2026/07/30",
         "regular_date": "",
         "enter_date": "",
-        "cycle": 46350,
+        "cycle": 46351,
         "remark": null,
         "archive": "https://www.kdocs.cn/l/csMvB9BsST0Q"
       },
@@ -30329,7 +30355,7 @@
         "hire_date": "2026/07/15",
         "regular_date": "2026/10/01",
         "enter_date": "2026/11/07",
-        "cycle": 17,
+        "cycle": 18,
         "remark": null,
         "archive": "https://www.kdocs.cn/l/cr9Nm80hLXsw"
       },
@@ -30340,7 +30366,7 @@
         "hire_date": "2026/08/06",
         "regular_date": "",
         "enter_date": "2026/11/07",
-        "cycle": 17,
+        "cycle": 18,
         "remark": null,
         "archive": "https://www.kdocs.cn/l/cjzyWNkelhs7"
       },
@@ -30351,7 +30377,7 @@
         "hire_date": "2026/09/21",
         "regular_date": "",
         "enter_date": "2026/11/07",
-        "cycle": 17,
+        "cycle": 18,
         "remark": null,
         "archive": "https://www.kdocs.cn/l/cufP0K6km0os"
       },
@@ -30362,7 +30388,7 @@
         "hire_date": "2026/07/20",
         "regular_date": "2026/09/01",
         "enter_date": "2026/11/07",
-        "cycle": 17,
+        "cycle": 18,
         "remark": null,
         "archive": "https://www.kdocs.cn/l/ceOt7DBNA8ui"
       },
@@ -30373,7 +30399,7 @@
         "hire_date": "2026/08/28",
         "regular_date": "",
         "enter_date": "2026/11/07",
-        "cycle": 17,
+        "cycle": 18,
         "remark": null,
         "archive": "https://www.kdocs.cn/l/cdBuGJiRuvHe"
       }
@@ -60582,7 +60608,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": -1,
+        "days": 0,
         "time": "2026/11/24"
       },
       {
@@ -60600,7 +60626,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": -2,
+        "days": -1,
         "time": "2026/11/24"
       },
       {
@@ -60609,7 +60635,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 0,
+        "days": 1,
         "time": "2026/11/24"
       },
       {
@@ -60636,7 +60662,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": -1,
+        "days": 0,
         "time": "2026/11/24"
       },
       {
@@ -60645,7 +60671,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": -1,
+        "days": 0,
         "time": "2026/11/24"
       },
       {
@@ -60708,7 +60734,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 0,
+        "days": 1,
         "time": "2026/11/23"
       },
       {
@@ -60735,7 +60761,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 0,
+        "days": 1,
         "time": "2026/11/23"
       },
       {
@@ -60744,7 +60770,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 1,
+        "days": 2,
         "time": "2026/11/23"
       },
       {
@@ -60753,7 +60779,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 0,
+        "days": 1,
         "time": "2026/11/23"
       },
       {
@@ -60771,7 +60797,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 1,
+        "days": 2,
         "time": "2026/11/23"
       },
       {
@@ -60780,7 +60806,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 0,
+        "days": 1,
         "time": "2026/11/23"
       },
       {
@@ -60798,7 +60824,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 0,
+        "days": 1,
         "time": "2026/11/23"
       },
       {
@@ -60807,7 +60833,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 1,
+        "days": 2,
         "time": "2026/11/23"
       },
       {
@@ -60816,7 +60842,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 0,
+        "days": 1,
         "time": "2026/11/23"
       },
       {
@@ -60834,7 +60860,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 2,
+        "days": 3,
         "time": "2026/11/21"
       },
       {
@@ -60879,7 +60905,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 2,
+        "days": 3,
         "time": "2026/11/21"
       },
       {
@@ -60888,7 +60914,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 2,
+        "days": 3,
         "time": "2026/11/21"
       },
       {
@@ -60897,7 +60923,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 2,
+        "days": 3,
         "time": "2026/11/21"
       },
       {
@@ -60942,7 +60968,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 2,
+        "days": 3,
         "time": "2026/11/20"
       },
       {
@@ -60951,7 +60977,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 1,
+        "days": 2,
         "time": "2026/11/20"
       },
       {
@@ -61050,7 +61076,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 2,
+        "days": 3,
         "time": "2026/11/19"
       },
       {
@@ -61068,7 +61094,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 5,
+        "days": 6,
         "time": "2026/11/19"
       },
       {
@@ -61077,7 +61103,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 5,
+        "days": 6,
         "time": "2026/11/19"
       },
       {
@@ -61104,7 +61130,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 0,
+        "days": 1,
         "time": "2026/11/19"
       },
       {
@@ -61131,7 +61157,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": -6,
+        "days": -5,
         "time": "2026/11/19"
       },
       {
@@ -61140,7 +61166,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 2,
+        "days": 3,
         "time": "2026/11/19"
       },
       {
@@ -61158,7 +61184,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 2,
+        "days": 3,
         "time": "2026/11/19"
       },
       {
@@ -61194,7 +61220,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 2,
+        "days": 3,
         "time": "2026/11/19"
       },
       {
@@ -61212,7 +61238,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 4,
+        "days": 5,
         "time": "2026/11/19"
       },
       {
@@ -61239,7 +61265,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 6,
+        "days": 7,
         "time": "2026/11/18"
       },
       {
@@ -61248,7 +61274,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 5,
+        "days": 6,
         "time": "2026/11/18"
       },
       {
@@ -61257,7 +61283,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 5,
+        "days": 6,
         "time": "2026/11/18"
       },
       {
@@ -61275,7 +61301,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 2,
+        "days": 3,
         "time": "2026/11/18"
       },
       {
@@ -61302,7 +61328,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 0,
+        "days": 1,
         "time": "2026/11/18"
       },
       {
@@ -61320,7 +61346,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 6,
+        "days": 7,
         "time": "2026/11/18"
       },
       {
@@ -61338,7 +61364,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 6,
+        "days": 7,
         "time": "2026/11/18"
       },
       {
@@ -61347,7 +61373,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 2,
+        "days": 3,
         "time": "2026/11/18"
       },
       {
@@ -61356,7 +61382,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 2,
+        "days": 3,
         "time": "2026/11/18"
       },
       {
@@ -61365,7 +61391,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 5,
+        "days": 6,
         "time": "2026/11/18"
       },
       {
@@ -61374,7 +61400,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 5,
+        "days": 6,
         "time": "2026/11/18"
       },
       {
@@ -61383,7 +61409,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 5,
+        "days": 6,
         "time": "2026/11/18"
       },
       {
@@ -61392,7 +61418,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 2,
+        "days": 3,
         "time": "2026/11/18"
       },
       {
@@ -61401,7 +61427,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 6,
+        "days": 7,
         "time": "2026/11/18"
       },
       {
@@ -61410,7 +61436,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 6,
+        "days": 7,
         "time": "2026/11/18"
       },
       {
@@ -61428,7 +61454,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 5,
+        "days": 6,
         "time": "2026/11/18"
       },
       {
@@ -61437,7 +61463,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 2,
+        "days": 3,
         "time": "2026/11/18"
       },
       {
@@ -61446,7 +61472,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 2,
+        "days": 3,
         "time": "2026/11/18"
       },
       {
@@ -61464,7 +61490,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 7,
+        "days": 8,
         "time": "2026/11/17"
       },
       {
@@ -61500,7 +61526,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 7,
+        "days": 8,
         "time": "2026/11/17"
       },
       {
@@ -61518,7 +61544,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 7,
+        "days": 8,
         "time": "2026/11/17"
       },
       {
@@ -61527,7 +61553,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 6,
+        "days": 7,
         "time": "2026/11/17"
       },
       {
@@ -61545,7 +61571,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 5,
+        "days": 6,
         "time": "2026/11/17"
       },
       {
@@ -61554,7 +61580,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 2,
+        "days": 3,
         "time": "2026/11/17"
       },
       {
@@ -61572,7 +61598,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 6,
+        "days": 7,
         "time": "2026/11/17"
       },
       {
@@ -61608,7 +61634,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 2,
+        "days": 3,
         "time": "2026/11/17"
       },
       {
@@ -61626,7 +61652,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 5,
+        "days": 6,
         "time": "2026/11/17"
       },
       {
@@ -61680,7 +61706,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 7,
+        "days": 8,
         "time": "2026/11/16"
       },
       {
@@ -61689,7 +61715,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 5,
+        "days": 6,
         "time": "2026/11/16"
       },
       {
@@ -61698,7 +61724,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 8,
+        "days": 9,
         "time": "2026/11/16"
       },
       {
@@ -61770,7 +61796,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 5,
+        "days": 6,
         "time": "2026/11/16"
       },
       {
@@ -61815,7 +61841,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "未接",
-        "days": 2,
+        "days": 3,
         "time": "2026/11/13"
       },
       {
@@ -61833,7 +61859,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 2,
+        "days": 3,
         "time": "2026/11/13"
       },
       {
@@ -61842,7 +61868,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 9,
+        "days": 10,
         "time": "2026/11/13"
       },
       {
@@ -61851,7 +61877,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 9,
+        "days": 10,
         "time": "2026/11/13"
       },
       {
@@ -61860,7 +61886,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 9,
+        "days": 10,
         "time": "2026/11/13"
       },
       {
@@ -61878,7 +61904,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 7,
+        "days": 8,
         "time": "2026/11/13"
       },
       {
@@ -61905,7 +61931,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 9,
+        "days": 10,
         "time": "2026/11/13"
       },
       {
@@ -61914,7 +61940,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 9,
+        "days": 10,
         "time": "2026/11/13"
       },
       {
@@ -62004,7 +62030,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 8,
+        "days": 9,
         "time": "2026/11/13"
       },
       {
@@ -62013,7 +62039,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 2,
+        "days": 3,
         "time": "2026/11/13"
       },
       {
@@ -62076,7 +62102,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "未接",
-        "days": 12,
+        "days": 13,
         "time": "2026/11/12"
       },
       {
@@ -62112,7 +62138,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 9,
+        "days": 10,
         "time": "2026/11/12"
       },
       {
@@ -62121,7 +62147,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 9,
+        "days": 10,
         "time": "2026/11/12"
       },
       {
@@ -62157,7 +62183,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 9,
+        "days": 10,
         "time": "2026/11/12"
       },
       {
@@ -62220,7 +62246,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 9,
+        "days": 10,
         "time": "2026/11/11"
       },
       {
@@ -62229,7 +62255,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 13,
+        "days": 14,
         "time": "2026/11/11"
       },
       {
@@ -62238,7 +62264,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 13,
+        "days": 14,
         "time": "2026/11/11"
       },
       {
@@ -62247,7 +62273,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 12,
+        "days": 13,
         "time": "2026/11/11"
       },
       {
@@ -62256,7 +62282,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 9,
+        "days": 10,
         "time": "2026/11/11"
       },
       {
@@ -62283,7 +62309,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 9,
+        "days": 10,
         "time": "2026/11/11"
       },
       {
@@ -62292,7 +62318,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 13,
+        "days": 14,
         "time": "2026/11/11"
       },
       {
@@ -62346,7 +62372,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 7,
+        "days": 8,
         "time": "2026/11/11"
       },
       {
@@ -62355,7 +62381,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 12,
+        "days": 13,
         "time": "2026/11/11"
       },
       {
@@ -62382,7 +62408,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 5,
+        "days": 6,
         "time": "2026/11/10"
       },
       {
@@ -62391,7 +62417,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 14,
+        "days": 15,
         "time": "2026/11/10"
       },
       {
@@ -62409,7 +62435,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 13,
+        "days": 14,
         "time": "2026/11/10"
       },
       {
@@ -62463,7 +62489,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 9,
+        "days": 10,
         "time": "2026/11/10"
       },
       {
@@ -62490,7 +62516,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 13,
+        "days": 14,
         "time": "2026/11/10"
       },
       {
@@ -62526,7 +62552,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 9,
+        "days": 10,
         "time": "2026/11/10"
       },
       {
@@ -62571,7 +62597,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 12,
+        "days": 13,
         "time": "2026/11/09"
       },
       {
@@ -62580,7 +62606,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 14,
+        "days": 15,
         "time": "2026/11/09"
       },
       {
@@ -62625,7 +62651,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 14,
+        "days": 15,
         "time": "2026/11/09"
       },
       {
@@ -62634,7 +62660,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 14,
+        "days": 15,
         "time": "2026/11/09"
       },
       {
@@ -62679,7 +62705,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 9,
+        "days": 10,
         "time": "2026/11/09"
       },
       {
@@ -62688,7 +62714,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 14,
+        "days": 15,
         "time": "2026/11/09"
       },
       {
@@ -62697,7 +62723,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 14,
+        "days": 15,
         "time": "2026/11/09"
       },
       {
@@ -62724,7 +62750,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 9,
+        "days": 10,
         "time": "2026/11/09"
       },
       {
@@ -62742,7 +62768,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 14,
+        "days": 15,
         "time": "2026/11/09"
       },
       {
@@ -62787,7 +62813,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 14,
+        "days": 15,
         "time": "2026/11/09"
       },
       {
@@ -62805,7 +62831,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 14,
+        "days": 15,
         "time": "2026/11/09"
       },
       {
@@ -62904,7 +62930,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 16,
+        "days": 17,
         "time": "2026/11/07"
       },
       {
@@ -62949,7 +62975,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 16,
+        "days": 17,
         "time": "2026/11/07"
       },
       {
@@ -62994,7 +63020,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 14,
+        "days": 15,
         "time": "2026/11/06"
       },
       {
@@ -63003,7 +63029,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 16,
+        "days": 17,
         "time": "2026/11/06"
       },
       {
@@ -63012,7 +63038,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 16,
+        "days": 17,
         "time": "2026/11/06"
       },
       {
@@ -63021,7 +63047,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 18,
+        "days": 19,
         "time": "2026/11/06"
       },
       {
@@ -63048,7 +63074,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 16,
+        "days": 17,
         "time": "2026/11/06"
       },
       {
@@ -63084,7 +63110,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 16,
+        "days": 17,
         "time": "2026/11/06"
       },
       {
@@ -63093,7 +63119,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 16,
+        "days": 17,
         "time": "2026/11/06"
       },
       {
@@ -63102,7 +63128,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 16,
+        "days": 17,
         "time": "2026/11/06"
       },
       {
@@ -63129,7 +63155,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 16,
+        "days": 17,
         "time": "2026/11/06"
       },
       {
@@ -63165,7 +63191,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 9,
+        "days": 10,
         "time": "2026/11/05"
       },
       {
@@ -63192,7 +63218,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 15,
+        "days": 16,
         "time": "2026/11/05"
       },
       {
@@ -63228,7 +63254,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 19,
+        "days": 20,
         "time": "2026/11/05"
       },
       {
@@ -63255,7 +63281,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 16,
+        "days": 17,
         "time": "2026/11/05"
       },
       {
@@ -63291,7 +63317,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 16,
+        "days": 17,
         "time": "2026/11/05"
       },
       {
@@ -63309,7 +63335,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 16,
+        "days": 17,
         "time": "2026/11/05"
       },
       {
@@ -63318,7 +63344,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 16,
+        "days": 17,
         "time": "2026/11/05"
       },
       {
@@ -63327,7 +63353,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 19,
+        "days": 20,
         "time": "2026/11/05"
       },
       {
@@ -63417,7 +63443,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 19,
+        "days": 20,
         "time": "2026/11/04"
       },
       {
@@ -63489,7 +63515,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 20,
+        "days": 21,
         "time": "2026/11/04"
       },
       {
@@ -63516,7 +63542,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 20,
+        "days": 21,
         "time": "2026/11/04"
       },
       {
@@ -63615,7 +63641,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 19,
+        "days": 20,
         "time": "2026/11/03"
       },
       {
@@ -63705,7 +63731,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 20,
+        "days": 21,
         "time": "2026/11/03"
       },
       {
@@ -63777,7 +63803,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 23,
+        "days": 24,
         "time": "2026/11/02"
       },
       {
@@ -63849,7 +63875,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 21,
+        "days": 22,
         "time": "2026/11/02"
       },
       {
@@ -63858,7 +63884,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 16,
+        "days": 17,
         "time": "2026/11/02"
       },
       {
@@ -63903,7 +63929,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 22,
+        "days": 23,
         "time": "2026/11/02"
       },
       {
@@ -63912,7 +63938,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 21,
+        "days": 22,
         "time": "2026/11/02"
       },
       {
@@ -63948,7 +63974,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 21,
+        "days": 22,
         "time": "2026/11/02"
       },
       {
@@ -63957,7 +63983,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 21,
+        "days": 22,
         "time": "2026/11/02"
       },
       {
@@ -63975,7 +64001,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 22,
+        "days": 23,
         "time": "2026/11/02"
       },
       {
@@ -64020,7 +64046,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 22,
+        "days": 23,
         "time": "2026/11/02"
       },
       {
@@ -64038,7 +64064,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 20,
+        "days": 21,
         "time": "2026/11/02"
       },
       {
@@ -64056,7 +64082,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 23,
+        "days": 24,
         "time": "2026/10/31"
       },
       {
@@ -64074,7 +64100,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 23,
+        "days": 24,
         "time": "2026/10/30"
       },
       {
@@ -64083,7 +64109,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 23,
+        "days": 24,
         "time": "2026/10/30"
       },
       {
@@ -64101,7 +64127,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 22,
+        "days": 23,
         "time": "2026/10/30"
       },
       {
@@ -64137,7 +64163,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 21,
+        "days": 22,
         "time": "2026/10/30"
       },
       {
@@ -64146,7 +64172,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 23,
+        "days": 24,
         "time": "2026/10/30"
       },
       {
@@ -64209,7 +64235,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 23,
+        "days": 24,
         "time": "2026/10/30"
       },
       {
@@ -64218,7 +64244,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 16,
+        "days": 17,
         "time": "2026/10/30"
       },
       {
@@ -64245,7 +64271,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 23,
+        "days": 24,
         "time": "2026/10/29"
       },
       {
@@ -64254,7 +64280,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 26,
+        "days": 27,
         "time": "2026/10/29"
       },
       {
@@ -64272,7 +64298,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 25,
+        "days": 26,
         "time": "2026/10/29"
       },
       {
@@ -64281,7 +64307,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 23,
+        "days": 24,
         "time": "2026/10/29"
       },
       {
@@ -64299,7 +64325,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 26,
+        "days": 27,
         "time": "2026/10/29"
       },
       {
@@ -64317,7 +64343,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 26,
+        "days": 27,
         "time": "2026/10/29"
       },
       {
@@ -64398,7 +64424,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 26,
+        "days": 27,
         "time": "2026/10/29"
       },
       {
@@ -64416,7 +64442,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 23,
+        "days": 24,
         "time": "2026/10/29"
       },
       {
@@ -64452,7 +64478,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 25,
+        "days": 26,
         "time": "2026/10/29"
       },
       {
@@ -64506,7 +64532,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 23,
+        "days": 24,
         "time": "2026/10/28"
       },
       {
@@ -64533,7 +64559,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 26,
+        "days": 27,
         "time": "2026/10/28"
       },
       {
@@ -64542,7 +64568,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 27,
+        "days": 28,
         "time": "2026/10/28"
       },
       {
@@ -64569,7 +64595,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 27,
+        "days": 28,
         "time": "2026/10/28"
       },
       {
@@ -64605,7 +64631,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 19,
+        "days": 20,
         "time": "2026/10/28"
       },
       {
@@ -64668,7 +64694,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 23,
+        "days": 24,
         "time": "2026/10/27"
       },
       {
@@ -64695,7 +64721,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 28,
+        "days": 29,
         "time": "2026/10/27"
       },
       {
@@ -64740,7 +64766,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 26,
+        "days": 27,
         "time": "2026/10/27"
       },
       {
@@ -64821,7 +64847,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 19,
+        "days": 20,
         "time": "2026/10/27"
       },
       {
@@ -64848,7 +64874,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 28,
+        "days": 29,
         "time": "2026/10/26"
       },
       {
@@ -64884,7 +64910,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 26,
+        "days": 27,
         "time": "2026/10/26"
       },
       {
@@ -64893,7 +64919,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 28,
+        "days": 29,
         "time": "2026/10/26"
       },
       {
@@ -64902,7 +64928,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 28,
+        "days": 29,
         "time": "2026/10/26"
       },
       {
@@ -64911,7 +64937,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 28,
+        "days": 29,
         "time": "2026/10/26"
       },
       {
@@ -64956,7 +64982,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 28,
+        "days": 29,
         "time": "2026/10/26"
       },
       {
@@ -65010,7 +65036,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 30,
+        "days": 31,
         "time": "2026/10/24"
       },
       {
@@ -65109,7 +65135,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 30,
+        "days": 31,
         "time": "2026/10/24"
       },
       {
@@ -65154,7 +65180,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 30,
+        "days": 31,
         "time": "2026/10/24"
       },
       {
@@ -65199,7 +65225,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 26,
+        "days": 27,
         "time": "2026/10/24"
       },
       {
@@ -65217,7 +65243,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 30,
+        "days": 31,
         "time": "2026/10/23"
       },
       {
@@ -65244,7 +65270,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 29,
+        "days": 30,
         "time": "2026/10/23"
       },
       {
@@ -65298,7 +65324,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 32,
+        "days": 33,
         "time": "2026/10/23"
       },
       {
@@ -65307,7 +65333,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 30,
+        "days": 31,
         "time": "2026/10/23"
       },
       {
@@ -65316,7 +65342,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 28,
+        "days": 29,
         "time": "2026/10/23"
       },
       {
@@ -65352,7 +65378,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 30,
+        "days": 31,
         "time": "2026/10/23"
       },
       {
@@ -65361,7 +65387,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 30,
+        "days": 31,
         "time": "2026/10/23"
       },
       {
@@ -65379,7 +65405,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 30,
+        "days": 31,
         "time": "2026/10/23"
       },
       {
@@ -65406,7 +65432,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 28,
+        "days": 29,
         "time": "2026/10/23"
       },
       {
@@ -65415,7 +65441,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 30,
+        "days": 31,
         "time": "2026/10/23"
       },
       {
@@ -65451,7 +65477,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 32,
+        "days": 33,
         "time": "2026/10/22"
       },
       {
@@ -65460,7 +65486,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 30,
+        "days": 31,
         "time": "2026/10/22"
       },
       {
@@ -65514,7 +65540,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 32,
+        "days": 33,
         "time": "2026/10/22"
       },
       {
@@ -65640,7 +65666,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 33,
+        "days": 34,
         "time": "2026/10/21"
       },
       {
@@ -65685,7 +65711,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 34,
+        "days": 35,
         "time": "2026/10/21"
       },
       {
@@ -65712,7 +65738,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 33,
+        "days": 34,
         "time": "2026/10/21"
       },
       {
@@ -65721,7 +65747,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 30,
+        "days": 31,
         "time": "2026/10/21"
       },
       {
@@ -65784,7 +65810,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 34,
+        "days": 35,
         "time": "2026/10/21"
       },
       {
@@ -65793,7 +65819,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 34,
+        "days": 35,
         "time": "2026/10/21"
       },
       {
@@ -65820,7 +65846,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 35,
+        "days": 36,
         "time": "2026/10/20"
       },
       {
@@ -65847,7 +65873,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 33,
+        "days": 34,
         "time": "2026/10/20"
       },
       {
@@ -65856,7 +65882,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 34,
+        "days": 35,
         "time": "2026/10/20"
       },
       {
@@ -65874,7 +65900,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 35,
+        "days": 36,
         "time": "2026/10/20"
       },
       {
@@ -65883,7 +65909,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 30,
+        "days": 31,
         "time": "2026/10/20"
       },
       {
@@ -65910,7 +65936,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 30,
+        "days": 31,
         "time": "2026/10/20"
       },
       {
@@ -65937,7 +65963,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 34,
+        "days": 35,
         "time": "2026/10/20"
       },
       {
@@ -65946,7 +65972,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 33,
+        "days": 34,
         "time": "2026/10/20"
       },
       {
@@ -65955,7 +65981,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 33,
+        "days": 34,
         "time": "2026/10/20"
       },
       {
@@ -65973,7 +65999,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 34,
+        "days": 35,
         "time": "2026/10/20"
       },
       {
@@ -65991,7 +66017,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 34,
+        "days": 35,
         "time": "2026/10/20"
       },
       {
@@ -66009,7 +66035,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 37,
+        "days": 38,
         "time": "2026/10/19"
       },
       {
@@ -66018,7 +66044,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 36,
+        "days": 37,
         "time": "2026/10/19"
       },
       {
@@ -66090,7 +66116,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 30,
+        "days": 31,
         "time": "2026/10/19"
       },
       {
@@ -66126,7 +66152,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 33,
+        "days": 34,
         "time": "2026/10/19"
       },
       {
@@ -66243,7 +66269,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 37,
+        "days": 38,
         "time": "2026/10/17"
       },
       {
@@ -66261,7 +66287,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 37,
+        "days": 38,
         "time": "2026/10/17"
       },
       {
@@ -66297,7 +66323,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 37,
+        "days": 38,
         "time": "2026/10/16"
       },
       {
@@ -66315,7 +66341,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 37,
+        "days": 38,
         "time": "2026/10/16"
       },
       {
@@ -66342,7 +66368,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 23,
+        "days": 24,
         "time": "2026/10/16"
       },
       {
@@ -66351,7 +66377,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 36,
+        "days": 37,
         "time": "2026/10/16"
       },
       {
@@ -66369,7 +66395,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 34,
+        "days": 35,
         "time": "2026/10/16"
       },
       {
@@ -66387,7 +66413,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 37,
+        "days": 38,
         "time": "2026/10/16"
       },
       {
@@ -66441,7 +66467,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 37,
+        "days": 38,
         "time": "2026/10/15"
       },
       {
@@ -66450,7 +66476,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 39,
+        "days": 40,
         "time": "2026/10/15"
       },
       {
@@ -66477,7 +66503,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 39,
+        "days": 40,
         "time": "2026/10/15"
       },
       {
@@ -66486,7 +66512,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 37,
+        "days": 38,
         "time": "2026/10/15"
       },
       {
@@ -66504,7 +66530,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 37,
+        "days": 38,
         "time": "2026/10/15"
       },
       {
@@ -66549,7 +66575,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 28,
+        "days": 29,
         "time": "2026/10/15"
       },
       {
@@ -66594,7 +66620,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 40,
+        "days": 41,
         "time": "2026/10/14"
       },
       {
@@ -66639,7 +66665,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 37,
+        "days": 38,
         "time": "2026/10/14"
       },
       {
@@ -66693,7 +66719,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 41,
+        "days": 42,
         "time": "2026/10/14"
       },
       {
@@ -66756,7 +66782,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 40,
+        "days": 41,
         "time": "2026/10/13"
       },
       {
@@ -66783,7 +66809,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 42,
+        "days": 43,
         "time": "2026/10/13"
       },
       {
@@ -66819,7 +66845,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 40,
+        "days": 41,
         "time": "2026/10/13"
       },
       {
@@ -66837,7 +66863,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 40,
+        "days": 41,
         "time": "2026/10/13"
       },
       {
@@ -66855,7 +66881,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 40,
+        "days": 41,
         "time": "2026/10/13"
       },
       {
@@ -66954,7 +66980,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 41,
+        "days": 42,
         "time": "2026/10/12"
       },
       {
@@ -66999,7 +67025,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 44,
+        "days": 45,
         "time": "2026/10/10"
       },
       {
@@ -67017,7 +67043,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 43,
+        "days": 44,
         "time": "2026/10/10"
       },
       {
@@ -67053,7 +67079,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 42,
+        "days": 43,
         "time": "2026/10/10"
       },
       {
@@ -67062,7 +67088,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 42,
+        "days": 43,
         "time": "2026/10/10"
       },
       {
@@ -67089,7 +67115,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 30,
+        "days": 31,
         "time": "2026/10/10"
       },
       {
@@ -67116,7 +67142,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 37,
+        "days": 38,
         "time": "2026/10/09"
       },
       {
@@ -67125,7 +67151,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 44,
+        "days": 45,
         "time": "2026/10/09"
       },
       {
@@ -67170,7 +67196,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 42,
+        "days": 43,
         "time": "2026/10/09"
       },
       {
@@ -67197,7 +67223,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 44,
+        "days": 45,
         "time": "2026/10/09"
       },
       {
@@ -67206,7 +67232,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 42,
+        "days": 43,
         "time": "2026/10/09"
       },
       {
@@ -67215,7 +67241,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 44,
+        "days": 45,
         "time": "2026/10/09"
       },
       {
@@ -67224,7 +67250,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 44,
+        "days": 45,
         "time": "2026/10/09"
       },
       {
@@ -67251,7 +67277,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 44,
+        "days": 45,
         "time": "2026/10/09"
       },
       {
@@ -67260,7 +67286,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 43,
+        "days": 44,
         "time": "2026/10/09"
       },
       {
@@ -67314,7 +67340,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 44,
+        "days": 45,
         "time": "2026/10/09"
       },
       {
@@ -67350,7 +67376,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 44,
+        "days": 45,
         "time": "2026/10/08"
       },
       {
@@ -67377,7 +67403,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 47,
+        "days": 48,
         "time": "2026/10/08"
       },
       {
@@ -67395,7 +67421,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 44,
+        "days": 45,
         "time": "2026/10/08"
       },
       {
@@ -67404,7 +67430,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 44,
+        "days": 45,
         "time": "2026/10/08"
       },
       {
@@ -67431,7 +67457,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 44,
+        "days": 45,
         "time": "2026/10/08"
       },
       {
@@ -67449,7 +67475,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 47,
+        "days": 48,
         "time": "2026/10/08"
       },
       {
@@ -67458,7 +67484,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 44,
+        "days": 45,
         "time": "2026/10/08"
       },
       {
@@ -67485,7 +67511,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 44,
+        "days": 45,
         "time": "2026/10/08"
       },
       {
@@ -67530,7 +67556,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 47,
+        "days": 48,
         "time": "2026/10/07"
       },
       {
@@ -67539,7 +67565,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 44,
+        "days": 45,
         "time": "2026/10/07"
       },
       {
@@ -67548,7 +67574,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 42,
+        "days": 43,
         "time": "2026/10/06"
       },
       {
@@ -67557,7 +67583,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 50,
+        "days": 51,
         "time": "2026/09/30"
       },
       {
@@ -67593,7 +67619,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 50,
+        "days": 51,
         "time": "2026/09/29"
       },
       {
@@ -67602,7 +67628,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 49,
+        "days": 50,
         "time": "2026/09/28"
       },
       {
@@ -67647,7 +67673,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 48,
+        "days": 49,
         "time": "2026/09/28"
       },
       {
@@ -67710,7 +67736,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 50,
+        "days": 51,
         "time": "2026/09/23"
       },
       {
@@ -67719,7 +67745,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 50,
+        "days": 51,
         "time": "2026/09/23"
       },
       {
@@ -67737,7 +67763,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 50,
+        "days": 51,
         "time": "2026/09/23"
       },
       {
@@ -67746,7 +67772,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 50,
+        "days": 51,
         "time": "2026/09/23"
       },
       {
@@ -67755,7 +67781,7 @@
         "chushi": "是",
         "fushi": "是",
         "offer": "已接",
-        "days": 50,
+        "days": 51,
         "time": "2026/09/23"
       },
       {
@@ -94367,16 +94393,16 @@
       {
         "sid": 218,
         "name": "百货每日总业绩",
-        "count": 238,
+        "count": 239,
         "note": "百货中心每日「总业绩」· 旧命名/覆盖较窄（30 列 vs 219 的 40 列，缺 YRKL途风300/德伦姆系列等）→ 仅作对照",
-        "range": "2026-04-01 ~ 2026-11-24"
+        "range": "2026-04-01 ~ 2026-11-25"
       },
       {
         "sid": 219,
         "name": "百货每日净业绩",
-        "count": 237,
+        "count": 238,
         "note": "百货中心每日「净业绩」★百货权威口径，可被产品列完全分解",
-        "range": "2026-04-01 ~ 2026-11-24"
+        "range": "2026-04-01 ~ 2026-11-25"
       },
       {
         "sid": 220,
@@ -101141,6 +101167,10 @@
           "p": {
             "YRKL人体工学椅": -994.9
           }
+        },
+        "2026-11-25": {
+          "net": 0.0,
+          "p": {}
         }
       },
       "gross_daily": {
@@ -101381,7 +101411,8 @@
         "2026-11-21": 56992.78,
         "2026-11-22": 66458.88,
         "2026-11-23": 41135.36,
-        "2026-11-24": -994.9
+        "2026-11-24": -994.9,
+        "2026-11-25": 0.0
       },
       "months": {
         "2026-04": {
@@ -101422,7 +101453,7 @@
         "2026-11": {
           "net": 2391498.93,
           "gross": 1514591.4700000004,
-          "days": 24
+          "days": 25
         }
       },
       "cols": [
@@ -105249,8 +105280,8 @@
     "src_counts": {
       "179": 34,
       "215": 144,
-      "218": 238,
-      "219": 237,
+      "218": 239,
+      "219": 238,
       "220": 36,
       "221": 36,
       "222": 72,
@@ -105452,8 +105483,8 @@
       {
         "id": 204,
         "name": "二部每日净业绩",
-        "expected": 297,
-        "local": 297,
+        "expected": 298,
+        "local": 298,
         "state": "正常",
         "file": "_daily_sheet204.json",
         "cat": "每日净业绩",
@@ -105462,8 +105493,8 @@
       {
         "id": 205,
         "name": "三部每日净业绩",
-        "expected": 293,
-        "local": 293,
+        "expected": 294,
+        "local": 294,
         "state": "正常",
         "file": "_daily_sheet205.json",
         "cat": "每日净业绩",
@@ -105472,8 +105503,8 @@
       {
         "id": 206,
         "name": "六部每日净业绩",
-        "expected": 297,
-        "local": 297,
+        "expected": 298,
+        "local": 298,
         "state": "正常",
         "file": "_daily_sheet206.json",
         "cat": "每日净业绩",
@@ -105492,8 +105523,8 @@
       {
         "id": 208,
         "name": "宠物净业绩汇总",
-        "expected": 291,
-        "local": 291,
+        "expected": 292,
+        "local": 292,
         "state": "正常",
         "file": "_daily_sheet208.json",
         "cat": "净业绩汇总",
@@ -105542,8 +105573,8 @@
       {
         "id": 218,
         "name": "百货每日总业绩",
-        "expected": 238,
-        "local": 238,
+        "expected": 239,
+        "local": 239,
         "state": "正常",
         "file": "_ex_218.json",
         "cat": "百货业绩",
@@ -105552,8 +105583,8 @@
       {
         "id": 219,
         "name": "百货每日净业绩",
-        "expected": 237,
-        "local": 237,
+        "expected": 238,
+        "local": 238,
         "state": "正常",
         "file": "_ex_219.json",
         "cat": "百货业绩",
@@ -105660,12 +105691,12 @@
         "fields": 25
       }
     ],
-    "time": "2026-11-24 23:12:36",
+    "time": "2026-11-25 09:23:40",
     "total": 40,
     "ok": 40,
     "bad": [],
     "bad_names": [],
-    "records_total": 22276,
+    "records_total": 22282,
     "by_cat": {
       "HR流程": 2,
       "产品人员": 2,
@@ -105685,22 +105716,22 @@
     },
     "full_pull": {
       "ok": true,
-      "last_at": "2026-11-24 23:14",
+      "last_at": "2026-11-25 09:24",
       "age_h": 0.0,
-      "today_count": 12,
+      "today_count": 1,
       "daily": {
-        "2026-11-17": 10,
         "2026-11-18": 10,
         "2026-11-19": 3,
         "2026-11-20": 5,
         "2026-11-21": 6,
         "2026-11-23": 9,
-        "2026-11-24": 12
+        "2026-11-24": 12,
+        "2026-11-25": 1
       },
-      "runs": 86,
+      "runs": 87,
       "fail_streak": 0,
       "gap_h": 8,
-      "note": "最近一次全量 2026-11-24 23:14（0.0 小时前）· 今日已完成 12 轮"
+      "note": "最近一次全量 2026-11-25 09:24（0.0 小时前）· 今日已完成 1 轮"
     }
   },
   "dingtalk_org": {
@@ -141785,7 +141816,7 @@
     "meta": {
       "source": "薪资分析表 https://www.kdocs.cn/l/cl2TM7jxNsuN",
       "net_source": "净业绩取《众辉-宠物各部门汇总》sheet13「各部门净业绩汇总」（陈总列=宠元气友组）",
-      "generated_at": "2026-11-24 23:14:51",
+      "generated_at": "2026-11-25 09:24:21",
       "scope": "仅部门级汇总；不含任何个人薪资明细",
       "show_from": "2026-05",
       "metric_note": {
@@ -144648,7 +144679,7 @@
     "meta": {
       "source": "《宠物种草经营计划表》https://www.kdocs.cn/l/cechWAfs4BoY",
       "source_sheets": "sheet9 部门一级科目 / sheet10 部门二级科目 / sheet7 偏差度",
-      "generated_at": "2026-11-24 23:14:51",
+      "generated_at": "2026-11-25 09:24:21",
       "scope": "仅部门级与科目级汇总；不含任何个人金额",
       "caliber_note": {
         "revenue": "财务确认的主营业务收入；与工作台「净业绩」同源但确认口径略严（实测 2026-10 各部门差 +0.9%~+6.3%），两者不可互相替换、不并入四源门禁",
@@ -145303,7 +145334,7 @@
     }
   },
   "profit_monthly": {
-    "generated_at": "2026-11-24 20:01:16",
+    "generated_at": "2026-11-25 09:24:23",
     "months": [
       "2026-02",
       "2026-03",
