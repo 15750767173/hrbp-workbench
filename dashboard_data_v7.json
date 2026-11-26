@@ -260,7 +260,7 @@
       }
     ],
     "data_through_day": 25,
-    "generated_at": "2026-11-26 15:36",
+    "generated_at": "2026-11-26 15:39",
     "expect_day": 25,
     "dept_last_day": {
       "一部": 25,
@@ -42808,8 +42808,8 @@
         "creator": null,
         "created": "2026/11/25",
         "deadline": "2026/11/26 12:30",
-        "done": "",
-        "progress": null,
+        "done": "11/26",
+        "progress": "已完成",
         "interviewee": null,
         "record": null
       },
@@ -42819,8 +42819,8 @@
         "creator": null,
         "created": "2026/11/25",
         "deadline": "2026/11/26 19:00",
-        "done": "",
-        "progress": null,
+        "done": "11/26",
+        "progress": "已完成",
         "interviewee": null,
         "record": null
       },
@@ -42830,8 +42830,8 @@
         "creator": null,
         "created": "2026/11/25",
         "deadline": "2026/11/26 19:00",
-        "done": "",
-        "progress": null,
+        "done": "11/26",
+        "progress": "已完成",
         "interviewee": null,
         "record": null
       },
@@ -61187,7 +61187,7 @@
         "dept1": "双启",
         "dept2": "业绩第一组",
         "dept3": null,
-        "status": "在职",
+        "status": "自离",
         "stage": "试岗",
         "hire_date": ""
       },
@@ -61227,7 +61227,7 @@
         "dept1": "双启",
         "dept2": "亿百万组",
         "dept3": null,
-        "status": "在职",
+        "status": "自离",
         "stage": "试岗",
         "hire_date": ""
       },
@@ -61255,6 +61255,15 @@
       },
       {
         "name": "李芳芳",
+        "post": "新媒体编辑",
+        "chushi": "是",
+        "fushi": "否",
+        "offer": "",
+        "days": "0",
+        "time": "2026/11/26"
+      },
+      {
+        "name": "赵梦鑫",
         "post": "新媒体编辑",
         "chushi": "是",
         "fushi": "否",
@@ -68434,15 +68443,6 @@
         "offer": "已接",
         "days": "52",
         "time": "2026/09/30"
-      },
-      {
-        "name": "常恒原",
-        "post": "售后客服",
-        "chushi": "是",
-        "fushi": "否",
-        "offer": "",
-        "days": "0",
-        "time": "2026/09/29"
       }
     ],
     "shigang_note": "来源：sheet153 招聘数据表派生（sheet3「面试+试岗」已从文档移除）",
@@ -69074,17 +69074,10 @@
           "stage": "试用期",
           "hire_date": "",
           "status": "在职"
-        },
-        {
-          "name": "刘世豪",
-          "nick": null,
-          "stage": "试岗",
-          "hire_date": "",
-          "status": "在职"
         }
       ],
       "counts": {
-        "试岗": 1,
+        "试岗": 0,
         "试用期": 10,
         "正式员工": 5,
         "其他": 0
@@ -70120,17 +70113,10 @@
           "stage": "试用期",
           "hire_date": "",
           "status": "在职"
-        },
-        {
-          "name": "杨廷慧",
-          "nick": null,
-          "stage": "试岗",
-          "hire_date": "",
-          "status": "在职"
         }
       ],
       "counts": {
-        "试岗": 1,
+        "试岗": 0,
         "试用期": 7,
         "正式员工": 1,
         "其他": 0
@@ -116841,8 +116827,8 @@
       "total": 1152,
       "by_zaizhi_status": {
         "优化": 312,
-        "自离": 474,
-        "在职": 366
+        "自离": 476,
+        "在职": 364
       },
       "by_yiji": {
         "绒光-Elite事业部": 339,
@@ -116865,7 +116851,7 @@
         "正式员工": 240,
         "试岗": 352
       },
-      "zaizhi_count": 366
+      "zaizhi_count": 364
     },
     "zhuanzheng": {
       "total": 179,
@@ -129042,7 +129028,7 @@
         "id": 153,
         "name": "招聘数据表",
         "expected": 5566,
-        "local": 5565,
+        "local": 5566,
         "state": "正常",
         "file": "_hr_ziliao153.json",
         "cat": "招聘",
@@ -129352,7 +129338,7 @@
         "id": 228,
         "name": "招聘数据表(2)",
         "expected": 5566,
-        "local": 5565,
+        "local": 5566,
         "state": "正常",
         "file": "_ex_228.json",
         "cat": "招聘",
@@ -129369,7 +129355,7 @@
         "fields": 25
       }
     ],
-    "time": "2026-11-26 15:36:05",
+    "time": "2026-11-26 15:38:30",
     "total": 40,
     "ok": 40,
     "bad": [],
@@ -129394,9 +129380,9 @@
     },
     "full_pull": {
       "ok": true,
-      "last_at": "2026-11-26 14:57:51",
-      "age_h": 0.6,
-      "today_count": 3,
+      "last_at": "2026-11-26 15:39",
+      "age_h": 0.0,
+      "today_count": 4,
       "daily": {
         "2026-11-19": 3,
         "2026-11-20": 5,
@@ -129404,12 +129390,12 @@
         "2026-11-23": 9,
         "2026-11-24": 12,
         "2026-11-25": 8,
-        "2026-11-26": 3
+        "2026-11-26": 4
       },
-      "runs": 99,
+      "runs": 100,
       "fail_streak": 0,
       "gap_h": 8,
-      "note": "最近一次全量 2026-11-26 14:57:51（0.6 小时前）· 今日已完成 3 轮"
+      "note": "最近一次全量 2026-11-26 15:39（0.0 小时前）· 今日已完成 4 轮"
     }
   },
   "dingtalk_org": {
@@ -148262,7 +148248,7 @@
         "post": "PR专员",
         "level": "P1-P3",
         "need": 1.0,
-        "interview": 8.0,
+        "interview": 9.0,
         "offer": 1.0,
         "arrive": 0.0,
         "status": "",
@@ -149999,7 +149985,7 @@
     "stat": {
       "total": 788,
       "need_total": 788.0,
-      "interview_total": 1899.0,
+      "interview_total": 1900.0,
       "offer_total": 779.0,
       "arrive_total": 573.0,
       "gap": 215.0,
@@ -150076,9 +150062,9 @@
   },
   "recruit_funnel": {
     "stat": {
-      "total": 5565,
+      "total": 5566,
       "by_source": {
-        "BOSS": 4934,
+        "BOSS": 4935,
         "(未填)": 380,
         "内推": 110,
         "海鸥": 60,
@@ -150091,7 +150077,7 @@
       "by_stage": {
         "其他/未推进": 1937,
         "到岗": 1328,
-        "过初试": 1133,
+        "过初试": 1134,
         "已发offer未到岗": 706,
         "过复试": 461
       },
@@ -150116,7 +150102,7 @@
         "2026年08月": 456,
         "2026年09月": 334,
         "2026年10月": 555,
-        "2026年11月": 549
+        "2026年11月": 550
       },
       "arrive_months": {
         "2025年04月": 39,
@@ -150152,7 +150138,7 @@
         "2025年8月": 29,
         "2025年9月": 16,
         "2026年10月": 88,
-        "2026年11月": 132,
+        "2026年11月": 133,
         "2026年1月": 21,
         "2026年2月": 8,
         "2026年3月": 48,
@@ -150823,7 +150809,7 @@
         "month": "0"
       }
     ],
-    "src": "招聘数据表（sheet228）共 5565 条候选人记录"
+    "src": "招聘数据表（sheet228）共 5566 条候选人记录"
   },
   "recruit_ledger": {
     "rows": [
@@ -165794,12 +165780,13 @@
   },
   "org_xcheck": {
     "dingtalk_count": 277,
-    "humingce_active_count": 366,
-    "both_count": 266,
-    "dingtalk_only_count": 11,
+    "humingce_active_count": 364,
+    "both_count": 264,
+    "dingtalk_only_count": 13,
     "humingce_only_count": 100,
     "dingtalk_only": [
       "六六",
+      "刘世豪",
       "包子",
       "吴琼",
       "夏志强",
@@ -165807,6 +165794,7 @@
       "尧婕",
       "张旭辉",
       "李军锋",
+      "杨廷慧",
       "樊红玉",
       "罗祥磊",
       "肉肉"
@@ -165953,11 +165941,6 @@
         "name": "冯蔺城",
         "dingtalk_top": "绒光_Elite事业部",
         "humingce_top": "绒光-Elite事业部"
-      },
-      {
-        "name": "刘世豪",
-        "dingtalk_top": "新星训练营",
-        "humingce_top": "双启"
       },
       {
         "name": "刘倩",
@@ -166210,9 +166193,14 @@
         "humingce_top": "绒光-Elite事业部"
       },
       {
-        "name": "杨廷慧",
-        "dingtalk_top": "新星训练营",
-        "humingce_top": "双启"
+        "name": "杨晨晨",
+        "dingtalk_top": "望辰_Crown事业部",
+        "humingce_top": "望辰-Crown事业部"
+      },
+      {
+        "name": "杨梦洁",
+        "dingtalk_top": "望辰_Crown事业部",
+        "humingce_top": "望辰-Crown事业部"
       }
     ],
     "dept_mismatch_count": 60,
@@ -166222,7 +166210,7 @@
     "meta": {
       "source": "薪资分析表 https://www.kdocs.cn/l/cl2TM7jxNsuN",
       "net_source": "净业绩取《众辉-宠物各部门汇总》sheet13「各部门净业绩汇总」（陈总列=宠元气友组）",
-      "generated_at": "2026-11-26 15:36:13",
+      "generated_at": "2026-11-26 15:39:01",
       "scope": "仅部门级汇总；不含任何个人薪资明细",
       "show_from": "2026-05",
       "metric_note": {
@@ -166335,7 +166323,7 @@
     "note": "八部无人效表数据、元启不并入合计，人效合计仅含 5 个部门"
   },
   "profit_monthly": {
-    "generated_at": "2026-11-26 15:36:27",
+    "generated_at": "2026-11-26 15:39:14",
     "months": [
       "2026-02",
       "2026-03",
@@ -167204,7 +167192,7 @@
     "meta": {
       "source": "《宠物种草经营计划表》https://www.kdocs.cn/l/cechWAfs4BoY",
       "source_sheets": "sheet9 部门一级科目 / sheet10 部门二级科目 / sheet7 偏差度",
-      "generated_at": "2026-11-26 15:36:13",
+      "generated_at": "2026-11-26 15:39:01",
       "scope": "仅部门级与科目级汇总；不含任何个人金额",
       "caliber_note": {
         "revenue": "财务确认的主营业务收入；与工作台「净业绩」同源但确认口径略严（实测 2026-10 各部门差 +0.9%~+6.3%），两者不可互相替换、不并入四源门禁",
