@@ -227,7 +227,7 @@ th,td{padding:5px 6px;}
 <div class="container" id="mainContent" style="display:none;">
 <div class="header">
 <h1>众辉宠物中心 · 个人经营工作台</h1>
-<div class="date">数据版本 v7.5 · 数据源：金山多维表（daily业绩+目标拆解+HRBP资料） · <span id="dataTime">最后更新：--</span><span id="buildStamp" style="margin-left:10px;color:#94a3b8;" title="页面内置数据快照时间">· 快照 2026-11-28 11:01</span> · <span id="dataCut" style="font-weight:600;"></span> · <span id="liveTag" style="color:#059669;font-weight:600;">● 自动跟随中</span></div>
+<div class="date">数据版本 v7.5 · 数据源：金山多维表（daily业绩+目标拆解+HRBP资料） · <span id="dataTime">最后更新：--</span><span id="buildStamp" style="margin-left:10px;color:#94a3b8;" title="页面内置数据快照时间">· 快照 2026-11-28 11:35</span> · <span id="dataCut" style="font-weight:600;"></span> · <span id="liveTag" style="color:#059669;font-weight:600;">● 自动跟随中</span></div>
 </div>
 <div class="range-bar">
 <label>统计区间：</label>
@@ -1640,7 +1640,7 @@ function renderToday(){
   for(let _d=new Date(todayStr.slice(0,7)+'-01T00:00:00'); fmtYMD(_d)<=todayStr; _d=new Date(_d.getTime()+86400000)) mDays.push(fmtYMD(_d));
   const mTotals=mDays.map(dt=>{let s=0;DEPTS.forEach(x=>s+=getDayTotal(x.name,dt));return s;});
   html+='<div class="section-title">本月每日业绩趋势（全公司 · 本月 '+mDays.length+' 天）</div>';
-  html+='<div class="mini-chart">'+renderLineChart(mDays.map((dt,i)=>({label:String(parseInt(dt.slice(8),10)),value:mTotals[i]})),'全公司 · 本月每日净业绩','#764ba2',{height:240,radius:2.8,dlSize:9,dlColor:'#5b2d86',dlEvery:3})+'</div>';
+  html+='<div class="mini-chart">'+renderLineChart(mDays.map((dt,i)=>({label:String(parseInt(dt.slice(8),10)),value:mTotals[i]})),'全公司 · 本月每日净业绩','#764ba2',{height:255,radius:2.8,dlSize:9,dlColor:'#5b2d86'})+'</div>';
 
   DEPTS.forEach(d=>{
     const name=d.name;
@@ -1671,7 +1671,7 @@ function renderToday(){
     //   ② 本周趋势 → 本月每日趋势（今日是周一，本周只有 1 天，图基本空白）。
     html+='<div style="margin-bottom:8px;">'+renderLineChart(last7T.map(x=>({label:x.label,value:x.value})),deptDisplayName(name)+' · 近七日每日净业绩','#764ba2',{height:200,radius:3.8,dlSize:10,dlColor:'#5b2d86',legend:'日净业绩'})+'</div>';
     html+=renderDayTable(last7T.map(x=>({label:x.label,value:x.value})),'近七日实际净业绩','近七日合计 '+fmtW(last7Sum)+' 万');
-    html+='<div style="margin:16px 0 20px;">'+renderLineChart(mDays.map(dt=>({label:String(parseInt(dt.slice(8),10)),value:getDayTotal(name,dt)})),deptDisplayName(name)+' · 本月每日净业绩（1 日–'+(todayStr.slice(8)|0)+' 日）','#0e9f6e',{height:230,radius:2.8,dlSize:9,dlColor:'#0b7a55',legend:'日净业绩',dlEvery:2})+'</div>';
+    html+='<div style="margin:16px 0 20px;">'+renderLineChart(mDays.map(dt=>({label:String(parseInt(dt.slice(8),10)),value:getDayTotal(name,dt)})),deptDisplayName(name)+' · 本月每日净业绩（1 日–'+(todayStr.slice(8)|0)+' 日）','#0e9f6e',{height:240,radius:2.8,dlSize:9,dlColor:'#0b7a55',legend:'日净业绩'})+'</div>';
   });
   return html;
 }
@@ -1771,7 +1771,7 @@ function renderLineChart(items,title,color,opts){
       }]},
       options:{
         responsive:true,maintainAspectRatio:false,
-        layout:{padding:{top:20,right:8}},
+        layout:{padding:{top:26,right:8}},
         plugins:{
           legend:{display:false},
           tooltip:{mode:'index',intersect:false,callbacks:{label:c=>'净业绩: '+c.parsed.y.toFixed(2)+' 万'}}
@@ -1786,28 +1786,61 @@ function renderLineChart(items,title,color,opts){
         id:'dl_'+cid,
         afterDatasetsDraw(chart){
           const ctx=chart.ctx;
-          const every=opts.dlEvery||1;      // 点多时稀疏标注，避免数值互相压叠
           const _arr=chart.data.datasets[0].data;
           const _maxV=Math.max.apply(null,_arr.filter(v=>v!=null&&v>0).concat([0]));
-          ctx.save();
           const meta=chart.getDatasetMeta(0);
-          meta.data.forEach((el,i)=>{
+          const pts=meta.data;
+          if(!pts||!pts.length)return;
+          ctx.save();
+          ctx.textAlign='center';
+          /* v7.89（2026-11-28 用户要求「每天的数据都标上去」）：原 dlEvery=3 只标 1/3 的点，
+             现改为逐点全标。为避免多点密集时数字互相压叠，先量最长数值宽度与相邻点最小间距，
+             自动落三档：all=全部单行 ／ zig=上下交错 ／ sparse=每 2 点一标（极端窄屏兜底）。*/
+          ctx.font='600 '+dlSize+'px "Microsoft YaHei",sans-serif';
+          let _maxW=0;
+          _arr.forEach(v=>{ if(v==null)return; _maxW=Math.max(_maxW,ctx.measureText(Math.abs(v).toFixed(2)).width); });
+          let _minGap=Infinity;
+          for(let i=1;i<pts.length;i++){ const g=pts[i].x-pts[i-1].x; if(g>0&&g<_minGap)_minGap=g; }
+          const _mode=(_minGap>=_maxW+2)?'all':((_minGap*2>=_maxW+2)?'zig':'sparse');
+          const _step=(_mode==='sparse')?2:1;
+          const _H=chart.canvas.clientHeight||chart.height;
+          pts.forEach((el,i)=>{
             const v=_arr[i];
-            if(v===undefined||v===null||v<=0)return;
-            // 稀疏间隔之外，峰顶与最后一天必须标（用户最关心的两个点）
+            if(v===undefined||v===null)return;
+            // 稀疏档下，峰顶与最后一天仍必须标（用户最关心的两个点）
             const _must=(v===_maxV)||(i===_arr.length-1);
-            if(every>1 && i%every!==0 && !_must)return;
+            if(_step>1 && i%_step!==0 && !_must)return;
+            const txt=v>0?v.toFixed(2):(v<0?v.toFixed(2):'—');   // 0 值当日标「—」，不与「业绩 0 元」混淆
+            const up=(_mode!=='zig')||(i%2===0);                       // 交错档：偶数点标上方、奇数点标下方
+            // 竖向防溢出：上方顶到画布边就改标下方，下方也放不下再回上方（低值点 + 交错档曾把数字画到画布外被裁）
+            let ty=up?el.y-9:el.y+14;
+            if(ty-dlSize<2) ty=el.y+14;
+            if(ty>_H-3) ty=el.y-9;
+            ty=Math.max(dlSize+2,Math.min(ty,_H-3));   // 兜底钳制：无论怎么翻都在画布内
             ctx.font='600 '+dlSize+'px "Microsoft YaHei",sans-serif';
-            ctx.fillStyle=opts.dlColor||hex;
-            ctx.textAlign='center';
-            ctx.fillText(v.toFixed(2),el.x,el.y-8);
+            // 首末点居中会顶出画布被裁（如 28 日「—」）→ 贴边时改左/右对齐
+            const _half=ctx.measureText(txt).width/2;
+            const _cw=chart.canvas.clientWidth||chart.width;
+            ctx.textAlign=(el.x-_half<2)?'left':((el.x+_half>_cw-2)?'right':'center');
+            ctx.lineWidth=3;ctx.strokeStyle='#ffffff';ctx.lineJoin='round';   // 白色描边，压在折线/网格上仍清晰
+            ctx.strokeText(txt,el.x,ty);
+            ctx.fillStyle=v>0?(opts.dlColor||hex):'#8f8fa3';   // 0 值日「—」用深灰：浅灰压在浅紫填充上看不清
+            ctx.fillText(txt,el.x,ty);
           });
           ctx.restore();
         }
       }]
     });
   },0);
-  return `<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;"><span style="font-weight:600;font-size:13px;">${esc(title)}</span><span style="font-size:11px;color:#999;">单位: 万元 · 每日净业绩</span></div><div style="position:relative;height:${opts.height||210}px;"><canvas id="${cid}"></canvas></div>`;
+  // 窄屏（手机 / 钉钉内置浏览器）兜底：容器放不下 28 个逐日数值时给画布一个最小宽度并允许横向滑动，
+  // 而不是把数字压成一片或降级成隔天标（用户要求「每天都标」）。PC 宽度足够时不生效、布局不变。
+  const _vw=(typeof window!=='undefined'&&window.innerWidth)?window.innerWidth:1440;
+  const _need=Math.round(items.length*26+64);
+  const _minW=(_vw<_need)?_need:0;
+  const _cvBox=_minW
+    ?`<div style="overflow-x:auto;-webkit-overflow-scrolling:touch;"><div style="position:relative;height:${opts.height||210}px;min-width:${_minW}px;"><canvas id="${cid}"></canvas></div></div>`
+    :`<div style="position:relative;height:${opts.height||210}px;"><canvas id="${cid}"></canvas></div>`;
+  return `<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;"><span style="font-weight:600;font-size:13px;">${esc(title)}</span><span style="font-size:11px;color:#999;">单位: 万元 · 每日净业绩</span></div>`+_cvBox;
 }
 
 /* 逐日实际净业绩明细表（横向，可滚动） */
